@@ -9,6 +9,7 @@ el plan quedan además por escrito en el repo (`docs/DECISIONES.md`).
 |---|---|---|
 | Buzón | Avisos, preguntas, bloqueos, entregas, propuestas de cambio | `coordinacion.mensajes` en Supabase |
 | Tablero de estado | Qué está haciendo cada sesión ahora | `coordinacion.estado_sesiones` |
+| Cursor de lectura | Último mensaje que procesó cada lector (revisiones automáticas) | `coordinacion.cursor_lectura` |
 | Decisiones | Lo aprobado que cambia el plan o un contrato | `docs/DECISIONES.md` (por PR) |
 | Contratos | Interfaces vigentes | `docs/CONTRATOS.md` (por PR) |
 
@@ -123,6 +124,20 @@ insert into coordinacion.mensajes (de, para, tipo, tarea, asunto, cuerpo, requie
 values ('claude-a', 'todos', 'propuesta_cambio', 'T-13',
         'Agregar filtro por privada en la página de EDA',
         'Qué cambia, por qué y a qué afecta (contratos, tareas, calificación).', true, 'andres');
+```
+
+**Cursor de lectura** (cada lector lleva su propio puntero; no usa `mensajes.estado`)
+
+```sql
+-- Mensajes nuevos para mí desde la última revisión
+select m.* from coordinacion.mensajes m
+where m.id > coalesce((select ultimo_id from coordinacion.cursor_lectura where lector = 'claude-a'), 0)
+  and m.de <> 'claude-a'
+order by m.id;
+
+-- Avanzar el cursor al último id procesado
+insert into coordinacion.cursor_lectura (lector, ultimo_id) values ('claude-a', 25)
+on conflict (lector) do update set ultimo_id = excluded.ultimo_id, actualizado_en = now();
 ```
 
 **Actualizar mi estado**
