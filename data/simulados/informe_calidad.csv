@@ -1,0 +1,16 @@
+Paso,Resultado
+Carga de tomas,"480 filas × 10 columnas, 0 celdas nulas"
+Carga de lecturas,"14486 filas × 8 columnas, 230 celdas nulas"
+Carga de recibos,"14400 filas × 14 columnas, 1989 celdas nulas"
+Carga de telemetria,"115200 filas × 4 columnas, 0 celdas nulas"
+Carga de quejas,"1400 filas × 7 columnas, 0 celdas nulas"
+Duplicados en lecturas,"86 filas repetidas por (toma, periodo), eliminadas"
+Lecturas que retroceden,"57 marcadas, no corregidas (posible cambio de medidor)"
+Medidores mudos,738 lecturas sin dato real; se marcan como no válidas en vez de contarlas como consumo cero
+Filas de lecturas,"14486 entraron, 14400 salieron"
+Atípicos por tarifa (IQR×3),"comercial: techo 124.0 m³, 3; domestico: techo 42.9 m³, 65; industrial: techo 318.3 m³, 0; publico: techo 121.7 m³, 3"
+Merge recibos × lecturas,"14400 recibos, 0 sin lectura asociada"
+Merge × padrón de tomas,480 tomas distintas
+Dataset final,14400 filas × 31 columnas (30 periodos)
+Quejas sin texto útil,"0 con menos de 10 caracteres, eliminadas"
+Categorías de queja,"9, todas con 20 ejemplos o más"

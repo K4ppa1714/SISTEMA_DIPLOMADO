@@ -1,0 +1,44 @@
+DATOS DEL PROYECTO FINAL — SIMULACION DECLARADA
+================================================
+
+NO SON EL PADRON REAL DE HUIMILPAN. Son datos generados por
+src/data/generar_datos.py con semilla fija (20260923), asi que se
+regeneran identicos con:
+
+    python src/data/generar_datos.py
+
+La ESTRUCTURA reproduce la del sistema en produccion (tarifas por tipo
+de ocupante, privadas, ciclo mensual de lectura y facturacion,
+catalogo de categorias de queja). Los VALORES son supuestos
+declarados en la cabecera del generador.
+
+ARCHIVOS CRUDOS (lo que entra al pipeline)
+------------------------------------------
+tomas.csv        480 tomas: privada, tarifa, domiciliacion
+lecturas.csv     14486 lecturas mensuales (trae suciedad a proposito:
+                 86 duplicados, 57 retrocesos de medidor, 115 nulos)
+recibos.csv      14400 recibos con fecha de emision, vencimiento y pago
+telemetria.csv   115200 horas de volumen para 40 tomas (bloques O y P)
+quejas.csv       1400 quejas con texto libre y categoria
+
+PROCESADOS (lo que sale del pipeline)
+-------------------------------------
+dataset_final.csv     14400 x 31 — una fila por (toma, periodo).
+                      Es la tabla de analisis. Empieza por aqui.
+quejas_limpias.csv    texto normalizado + categoria agrupada
+informe_calidad.csv   que hizo cada paso de limpieza
+
+COLUMNAS QUE NO DEBEN ENTRAR AL MODELO DE MORA
+----------------------------------------------
+Predecir el pago tardio usando estas seria fuga de datos, porque solo
+se conocen DESPUES de que el recibo se pago:
+
+    fecha_pago, dias_atraso, pagado, saldo_pendiente
+
+La variable objetivo es `pago_tardio`.
+
+ETIQUETAS DE VALIDACION (no son variables de entrada)
+-----------------------------------------------------
+`tiene_fuga` en lecturas.csv y telemetria.csv es la verdad conocida
+por ser simulacion. Sirve para MEDIR si el metodo de deteccion
+acierta, nunca para alimentarlo.

@@ -1,0 +1,1401 @@
+id_queja,id_toma,categoria,descripcion,canal,prioridad,fecha_reporte
+Q99E961BCFD,TB308B5DC7A,baja_presion,"Desde hace dos semanas el chorro sale débil, sobre todo en la mañana.",presencial,normal,2025-02-08 08:20:00
+QE52E9110A6,T6F621D315F,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,telefono,alta,2025-08-31 08:39:00
+QBF09B65136,T0F12629295,baja_presion,"El agua llega con muy poca presión, no sube al tinaco.",portal,normal,2026-04-18 18:30:00
+QA6255881F9,T25A59C1230,sin_agua,"No llega agua a mi domicilio desde hace dos semanas, los vecinos igual.",portal,baja,2024-03-15 21:57:00
+QEB4F69288D,T62DB418771,drenaje,El drenaje de Matamoros está desbordado y huele muy mal.,telefono,alta,2024-10-20 18:09:00
+QFA1EB603E1,TD81C7B0AC7,atencion,Mal trato del personal al preguntar por mi aclaración.,whatsapp,alta,2025-09-03 09:55:00
+QE084137CA0,TAB67F85714,fuga_toma,La llave de banqueta gotea sin parar desde hace dos semanas.,portal,baja,2026-06-22 03:51:00
+QBA3708D198,T37BA3005AD,sin_agua,"Sin abasto en toda la calle Matamoros, nadie tiene agua.",presencial,alta,2024-03-12 11:43:00
+Q8ACE649594,T486DC7662A,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,telefono,normal,2024-06-27 16:00:00
+QF2BFB8F2FC,T81EEF6FCD3,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,presencial,normal,2024-09-19 07:05:00
+QF9B18AC991,T328C38D103,facturacion,Pagué en línea y el recibo sigue apareciendo como pendiente.,whatsapp,alta,2024-12-20 05:29:00
+QCEB3D6ADFA,TF2D53B5266,fuga_toma,La llave de banqueta gotea sin parar desde la semana pasada.,telefono,normal,2026-06-20 23:37:00
+QDB972B0218,TC54C99BA73,atencion,Mal trato del personal al preguntar por mi aclaración.,portal,normal,2024-12-06 14:37:00
+Q498D1C99A7,TDA01857472,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",portal,baja,2025-02-05 18:12:00
+QFF1C989DF0,TD93E7F3525,fuga_toma,La llave de banqueta gotea sin parar desde hace tres días.,whatsapp,baja,2026-07-23 05:23:00
+Q0074844DFE,TE9E2B18053,fuga_calle,"Reporto fuga en la vialidad de 5 de Mayo, el agua corre hacia la esquina.",whatsapp,baja,2025-03-04 05:44:00
+Q887CD7661C,T8A0E42EA46,sin_agua,Llevamos hace tres días sin servicio de agua en la privada.,presencial,normal,2026-01-07 12:27:00
+Q5EA047BBA8,T0A0805FB46,fuga_calle,"Tiene desde el lunes brotando agua del pavimento en Reforma, ya se hizo un charco grande.",telefono,normal,2026-08-02 03:42:00
+QA76004D494,TE03815B898,sin_agua,Llevamos desde el lunes sin servicio de agua en la privada.,whatsapp,alta,2025-12-15 16:21:00
+Q42551A5BAE,TBBD0028CDB,fuga_calle,Fuga en la banqueta de Allende. El agua no para y huele mal.,telefono,normal,2026-05-18 22:14:00
+QD83162C95E,TDFD739AFF7,sin_agua,"No llega agua a mi domicilio desde la semana pasada, los vecinos igual.",telefono,urgente,2026-01-09 02:40:00
+Q1423CC43A4,TE4BF83F9A5,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",telefono,baja,2025-11-26 04:12:00
+Q23451F67FB,T7AE1E63696,sin_agua,"Sin abasto en toda la calle Matamoros, nadie tiene agua.",portal,baja,2025-06-22 04:32:00
+QC8D7886B56,TD10A6EDCA0,atencion,Mal trato del personal al preguntar por mi aclaración.,telefono,alta,2024-07-18 18:33:00
+Q1EC15A986F,T28A5C3A212,sin_agua,"Sin abasto en toda la calle Juárez, nadie tiene agua.",presencial,normal,2024-03-23 04:31:00
+Q46345D39C5,TF357DF2C85,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,whatsapp,normal,2026-04-26 17:10:00
+Q20CC789B41,T6EBEC2B9E3,fuga_toma,  La  llave  de banqueta gotea sin parar desde hace varios días.,telefono,baja,2025-12-28 21:40:00
+Q898A4C31F1,TEEB9050E6F,sin_agua,"NO LLEGA AGUA A MI DOMICILIO DESDE HACE TRES DÍAS, LOS VECINOS IGUAL.",portal,normal,2026-08-12 08:05:00
+Q9F35D0C474,T042B2178D1,sin_agua,Llevamos el fin de semana sin servicio de agua en la privada.,portal,normal,2025-02-22 23:16:00
+Q86B4929CCC,T5F78380FF1,sin_agua,"No llega agua a mi domicilio desde el fin de semana, los vecinos igual.",whatsapp,normal,2025-10-28 06:16:00
+QA3C12058BA,T9C284C6EDE,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",telefono,baja,2026-03-27 03:32:00
+Q031823BB69,T136877D852,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,telefono,normal,2024-12-07 06:30:00
+QBF6237F527,TE9E2B18053,calidad_agua,"Huele a cloro muy fuerte y sabe raro, no nos atrevemos a tomarla.",presencial,normal,2025-03-25 21:32:00
+QBFB700A89B,T7E561E41DF,medidor,EL MEDIDOR MARCA CONSUMOS ALTÍSIMOS Y SOMOS DOS PERSONAS.,whatsapp,normal,2026-02-16 18:41:00
+QA0DFEE9CD0,T83C53CBDE3,atencion,Fui a ventanilla y nadie me supo dar información de mi trámite.,telefono,normal,2026-04-08 23:42:00
+Q3379BD8635,T6DD01C39D7,fuga_calle,"Tiene ayer brotando agua del pavimento en Allende, ya se hizo un charco grande.",whatsapp,normal,2026-05-26 08:21:00
+Q9F1438F4A7,TE380DFCDD5,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,portal,alta,2024-09-12 00:40:00
+Q5DD1770C6A,T02BF3919B7,baja_presion,"Desde ayer el chorro sale débil, sobre todo en la mañana.",whatsapp,alta,2024-06-13 06:38:00
+Q23C64AD128,T37BA3005AD,sin_agua,"Sin abasto en toda la calle Independencia, nadie tiene agua.",telefono,baja,2025-09-10 04:35:00
+Q8C0AA33913,TB13246DF04,fuga_toma,CREO QUE TENGO UNA FUGA: CERRÉ TODO Y EL MEDIDOR SIGUE GIRANDO.,portal,baja,2024-01-13 14:44:00
+QBC9CFA1DB5,TD4AA44C620,sin_agua,"No llega agua a mi domicilio desde ayer, los vecinos igual.",telefono,normal,2025-07-24 02:26:00
+QE65F4C3E1F,T5F78380FF1,fuga_toma,La llave de banqueta gotea sin parar desde el fin de semana.,telefono,normal,2024-08-22 11:37:00
+QDB202F7E30,TC54C99BA73,fuga_toma,  Hay  humedad  y agua acumulada junto al medidor de mi casa.,whatsapp,baja,2025-01-13 02:36:00
+Q47B6D56DD8,TC36C8FB548,calidad_agua,El agua sale turbia y con tierra desde hace dos semanas.,telefono,normal,2025-07-02 23:26:00
+Q2464BE7F41,T0EAA0EDBAF,drenaje,Hay aguas negras saliendo de la coladera de la esquina.,telefono,normal,2025-05-09 02:10:00
+Q5923C6257B,T45A3829C6C,drenaje,Se regresa el agua del drenaje hacia mi patio desde desde el lunes.,presencial,normal,2024-01-18 02:40:00
+Q943938C923,TFAE2AFD636,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,whatsapp,baja,2025-01-20 06:05:00
+Q348AA02820,TD81C7B0AC7,facturacion,MI RECIBO LLEGÓ CON UN COBRO MUCHO MÁS ALTO DE LO NORMAL.,portal,normal,2025-11-16 22:27:00
+Q4702363409,T132EB7CE2B,sin_agua,LLEVAMOS HACE VARIOS DÍAS SIN SERVICIO DE AGUA EN LA PRIVADA.,telefono,baja,2025-02-13 01:59:00
+Q462A97E3CF,TBE3328794F,sin_agua,"Sin abasto en toda la calle Reforma, nadie tiene agua.",whatsapp,urgente,2026-07-15 12:31:00
+Q4FEA727249,T603C6A7DDF,calidad_agua,"El agua trae sedimento, se ve el fondo del vaso sucio.",portal,alta,2026-06-18 08:23:00
+Q134D96AD29,TAD0E244201,atencion,Mal trato del personal al preguntar por mi aclaración.,telefono,normal,2024-08-30 20:56:00
+Q27121B0080,T716C530DED,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,portal,normal,2024-12-08 02:28:00
+Q01CEA379E1,T7AE1E63696,fuga_calle,"Hay agua saliendo en la calle Zaragoza desde la semana pasada, se está tirando toda.",presencial,normal,2025-03-30 04:04:00
+QC50538724D,T5C22EC11B8,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,telefono,alta,2024-06-11 04:34:00
+Q7099950B81,TCF1A6CDF80,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,telefono,normal,2024-08-01 06:09:00
+Q75CF3A17DD,T5740214D00,fuga_toma,La llave de banqueta gotea sin parar desde el fin de semana.,presencial,baja,2026-05-15 18:28:00
+QD632A1BA93,T8D847ABAD5,sin_agua,"Sin abasto en toda la calle Allende, nadie tiene agua.",telefono,normal,2025-08-16 21:26:00
+QB90D88B3C0,T0F2B41D96D,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,portal,alta,2026-08-21 16:45:00
+Q71F1097C83,T260F6D657D,calidad_agua,"Huele a cloro muy fuerte y sabe raro, no nos atrevemos a tomarla.",telefono,alta,2026-01-29 02:14:00
+Q79F699B7AF,T3AF0CA5142,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,presencial,normal,2024-11-13 15:35:00
+QDAE2DF3F78,T5BEF82BC17,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",presencial,baja,2024-06-07 17:21:00
+QC6F712F25B,TBBD0028CDB,drenaje,El drenaje de Allende está desbordado y huele muy mal.,whatsapp,normal,2025-02-02 06:52:00
+Q5151267C92,T2A7B7C0706,facturacion,Mi recibo llegó con un cobro mucho más alto de lo normal.,telefono,normal,2025-04-17 12:50:00
+Q55C2202E3B,TDCBC842E3A,fuga_calle,Fuga en la banqueta de 5 de Mayo. El agua no para y huele mal.,portal,normal,2024-02-25 23:21:00
+Q0BFFD49515,TCDF5CCF9D1,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,telefono,alta,2024-06-11 12:53:00
+QA974AC3CE1,T5446AB5D4F,sin_agua,"Sin abasto en toda la calle Guerrero, nadie tiene agua.",telefono,alta,2024-02-19 04:38:00
+QE73628BC3A,T0FA07C2AE6,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,presencial,normal,2025-01-12 21:27:00
+Q800C6D6B40,T5740214D00,facturacion,Mi recibo llegó con un cobro mucho más alto de lo normal.,whatsapp,alta,2024-05-07 10:09:00
+Q16E0AC8995,TE4BF83F9A5,calidad_agua,"Huele a cloro muy fuerte y sabe raro, no nos atrevemos a tomarla.",telefono,normal,2026-06-02 09:10:00
+QBB8DE14CCA,T39FECD2D40,calidad_agua,"El agua trae sedimento, se ve el fondo del vaso sucio.",portal,baja,2025-10-04 06:40:00
+Q353EBBE4F1,T824A68B378,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,telefono,normal,2025-07-11 17:35:00
+Q53BE1216D9,T575100FEE6,fuga_calle,Fuga en la banqueta de Morelos. El agua no para y huele mal.,telefono,normal,2025-08-10 15:51:00
+Q1F377C7AAD,T17B01CE93D,fuga_toma,LA LLAVE DE BANQUETA GOTEA SIN PARAR DESDE HACE TRES DÍAS.,telefono,urgente,2025-02-15 18:33:00
+Q062237E275,TCE4F3C1854,baja_presion,"EL AGUA LLEGA CON MUY POCA PRESIÓN, NO SUBE AL TINACO.",portal,baja,2024-07-09 20:48:00
+Q4C5A8BA2DE,TE8DF4BFC62,fuga_calle,"Reporto fuga en la vialidad de Guerrero, el agua corre hacia la esquina.",telefono,normal,2025-04-05 08:41:00
+QBCD78D71DA,T626DE7D352,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,presencial,alta,2024-06-13 20:10:00
+Q019715E6A7,T8C8BD1D187,medidor,El medidor marca consumos altísimos y somos dos personas.,portal,normal,2024-11-11 00:39:00
+QEBB260487B,T75445AB825,facturacion,Pagué en línea y el recibo sigue apareciendo como pendiente.,portal,urgente,2025-08-11 09:34:00
+Q45A3307B33,T28A5C3A212,fuga_calle,"Tiene hace dos semanas brotando agua del pavimento en Zaragoza, ya se hizo un charco grande.",telefono,alta,2025-10-05 21:45:00
+QBCFA5ED552,T02BF3919B7,fuga_toma,CREO QUE TENGO UNA FUGA: CERRÉ TODO Y EL MEDIDOR SIGUE GIRANDO.,presencial,normal,2026-02-06 01:49:00
+Q1B33C4AF47,TEC586A8374,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,portal,normal,2024-01-10 20:08:00
+Q7300B988F4,T3AF0CA5142,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,telefono,baja,2025-07-23 14:13:00
+QA54453B63F,T2631941D4D,drenaje,El drenaje de Juárez está desbordado y huele muy mal.,whatsapp,normal,2025-01-04 13:56:00
+QBE9EBCD4AC,TCF1A6CDF80,facturacion,PAGUÉ EN LÍNEA Y EL RECIBO SIGUE APARECIENDO COMO PENDIENTE.,whatsapp,normal,2025-01-05 13:19:00
+Q57BADD590D,T761C9E26E6,fuga_toma,La llave de banqueta gotea sin parar desde el fin de semana.,telefono,baja,2024-08-10 18:49:00
+Q55CB6BACD1,T1753290875,facturacion,Pagué en línea y el recibo sigue apareciendo como pendiente.,whatsapp,baja,2024-10-15 05:56:00
+QF196F91D3D,T48829C6681,fuga_calle,Fuga en la banqueta de Reforma. El agua no para y huele mal.,presencial,alta,2025-04-07 03:38:00
+QD26E6ED8B2,T9BABD62590,sin_agua,"SIN ABASTO EN TODA LA CALLE 5 DE MAYO, NADIE TIENE AGUA.",telefono,urgente,2025-11-14 06:13:00
+Q0222CBDE57,T6EE7490E19,fuga_calle,"  Tiene  la  semana pasada brotando agua del pavimento en Morelos, ya se hizo un charco grande.",telefono,alta,2026-07-20 04:42:00
+QD0B6FC9539,T132EB7CE2B,baja_presion,"El agua llega con muy poca presión, no sube al tinaco.",whatsapp,normal,2024-09-18 05:36:00
+Q138A7F49D0,T7A263D97A8,medidor,El medidor no marca nada aunque sí tengamos agua.,presencial,normal,2025-02-22 13:01:00
+Q261FDBBD7C,T136877D852,baja_presion,"Desde la semana pasada el chorro sale débil, sobre todo en la mañana.",whatsapp,normal,2025-12-03 16:25:00
+QDD1A2B6719,T5740214D00,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,whatsapp,normal,2024-03-26 07:06:00
+Q1DCE2AFE9B,T6453265506,medidor,"Se llevaron el medidor de mi toma, ya no está en la caja.",telefono,alta,2024-11-21 02:58:00
+Q9463BAE3B9,T711A4FB3DC,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,telefono,alta,2024-06-19 16:50:00
+QD6337B0781,TE7328B9E12,fuga_toma,ME SALE AGUA POR LA TOMA DE MI DOMICILIO AUNQUE TENGA TODO CERRADO.,portal,normal,2025-06-03 12:32:00
+Q63B1A53320,TCF1A6CDF80,sin_agua,"No llega agua a mi domicilio desde hace tres días, los vecinos igual.",portal,baja,2024-06-10 00:19:00
+QBE242D28B2,TA7CD008CD2,fuga_calle,"Hay agua saliendo en la calle Matamoros desde el fin de semana, se está tirando toda.",telefono,normal,2026-05-29 03:12:00
+QCF3DF1390A,TF9F158A927,fuga_calle,"Reporto fuga en la vialidad de Independencia, el agua corre hacia la esquina.",telefono,normal,2024-09-22 05:46:00
+Q2A7882E8D0,T0CE7987E4B,calidad_agua,  El  agua  sale turbia y con tierra desde desde el lunes.,whatsapp,normal,2025-02-05 15:12:00
+Q9A807FE57C,T7E561E41DF,sin_agua,"Sin abasto en toda la calle 5 de Mayo, nadie tiene agua.",portal,baja,2024-12-12 10:48:00
+Q4F8B66F7BB,T7C1EBC3C4C,medidor,El medidor marca consumos altísimos y somos dos personas.,presencial,alta,2024-02-21 11:06:00
+Q053574FF9A,TC44518846F,sin_agua,  Tercer  día  sin agua. Necesitamos saber cuándo se restablece.,presencial,alta,2024-06-04 23:52:00
+Q6827C75B81,TDC0B728E72,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",telefono,baja,2024-05-22 18:49:00
+Q50D0BE58A7,T575100FEE6,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,presencial,alta,2024-08-05 09:52:00
+Q35D54EE0C2,T6BE1C12D07,drenaje,El drenaje de Zaragoza está desbordado y huele muy mal.,telefono,normal,2026-07-20 19:18:00
+QB90A5746D6,T84CC232045,facturacion,Mi recibo llegó con un cobro mucho más alto de lo normal.,telefono,normal,2026-01-09 20:31:00
+Q7A3FDD387F,T85C4B9E9BD,facturacion,"  El  recibo  trae un consumo que no corresponde, somos pocos en casa.",whatsapp,normal,2025-05-17 18:16:00
+Q1B2600FA9F,T132EB7CE2B,baja_presion,"El agua llega con muy poca presión, no sube al tinaco.",telefono,normal,2026-08-29 00:41:00
+Q60B58FF098,TC9C584B8EF,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,telefono,baja,2024-09-17 06:31:00
+QB47E83D07B,T48E474E620,drenaje,"Registro de alcantarillado tapado en Independencia, escurre a la calle.",whatsapp,alta,2026-03-11 03:36:00
+QD6C10EAD39,T83C53CBDE3,calidad_agua,"Huele a cloro muy fuerte y sabe raro, no nos atrevemos a tomarla.",portal,baja,2024-04-15 05:44:00
+Q2BC8C67001,TFB5558315C,fuga_calle,"Reporto fuga en la vialidad de Independencia, el agua corre hacia la esquina.",presencial,normal,2026-03-18 06:13:00
+Q58D33DA46C,T44C452513D,fuga_calle,Fuga en la banqueta de 5 de Mayo. El agua no para y huele mal.,telefono,normal,2025-10-09 12:04:00
+Q92E216091D,T812E69DF24,fuga_toma,La llave de banqueta gotea sin parar desde ayer.,whatsapp,normal,2026-05-24 17:23:00
+Q25A57B73C0,T7436A106AE,drenaje,El drenaje de Guerrero está desbordado y huele muy mal.,telefono,baja,2025-04-10 16:15:00
+QBA0D97CFC8,TE13FCEC631,fuga_toma,LA LLAVE DE BANQUETA GOTEA SIN PARAR DESDE HACE TRES DÍAS.,presencial,urgente,2025-07-26 16:15:00
+QABD224384F,T78A401EEAD,medidor,"Mi medidor está roto, el cristal quebrado y no se lee.",telefono,normal,2024-08-31 14:49:00
+QF7BC918C3F,T603C6A7DDF,fuga_calle,"HAY AGUA SALIENDO EN LA CALLE MATAMOROS DESDE AYER, SE ESTÁ TIRANDO TODA.",telefono,normal,2026-02-22 11:52:00
+QB1CF49F389,T980F08905D,sin_agua,Llevamos la semana pasada sin servicio de agua en la privada.,portal,normal,2024-08-30 18:22:00
+Q6EC773F2EC,T013C0F8B57,facturacion,Pagué en línea y el recibo sigue apareciendo como pendiente.,presencial,normal,2024-02-06 07:23:00
+Q9BEE8DAAA4,T0380D1AD85,fuga_calle,FUGA EN LA BANQUETA DE HIDALGO. EL AGUA NO PARA Y HUELE MAL.,portal,normal,2024-08-15 23:56:00
+QA758B6D180,T02BF3919B7,baja_presion,"  No  alcanza  presión para el calentador, el agua llega sin fuerza.",presencial,alta,2024-02-09 05:52:00
+QE8F3458E60,T6EBEC2B9E3,fuga_toma,La llave de banqueta gotea sin parar desde la semana pasada.,portal,alta,2024-01-03 00:28:00
+QCE2511DA5D,T623FDA0FEC,fuga_toma,  Creo  que  tengo una fuga: cerré todo y el medidor sigue girando.,telefono,normal,2026-02-10 21:14:00
+Q9111B35821,TA2A12750E0,fuga_calle,Fuga en la banqueta de Hidalgo. El agua no para y huele mal.,whatsapp,normal,2026-04-29 18:51:00
+Q9D8F2CABA3,T7E561E41DF,sin_agua,"No llega agua a mi domicilio desde la semana pasada, los vecinos igual.",presencial,baja,2024-07-05 00:20:00
+Q7F9BAB3D88,T10E8B50E63,baja_presion,"NO ALCANZA PRESIÓN PARA EL CALENTADOR, EL AGUA LLEGA SIN FUERZA.",telefono,urgente,2026-05-19 03:31:00
+Q62E5D58307,T363192FB18,drenaje,Se regresa el agua del drenaje hacia mi patio desde hace varios días.,whatsapp,normal,2025-04-03 17:29:00
+Q98203CA3DC,TD10A6EDCA0,fuga_calle,"Reporto fuga en la vialidad de Hidalgo, el agua corre hacia la esquina.",portal,normal,2026-06-20 09:17:00
+QA6FF40E08D,T9F3D4A99A8,sin_agua,"No llega agua a mi domicilio desde hace tres días, los vecinos igual.",portal,alta,2024-01-09 23:46:00
+QA6A0205C59,T48829C6681,sin_agua,"No llega agua a mi domicilio desde el fin de semana, los vecinos igual.",portal,normal,2025-03-16 03:28:00
+QB62C2AE524,T5C22EC11B8,fuga_toma,  Hay  humedad  y agua acumulada junto al medidor de mi casa.,whatsapp,normal,2024-08-13 04:14:00
+QA1EBAAD1FD,TA60FF3309B,calidad_agua,El agua sale turbia y con tierra desde hace tres días.,whatsapp,alta,2025-03-18 06:37:00
+Q8A462BC4DC,TEF3ACC364D,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,telefono,normal,2026-03-22 10:52:00
+Q726198A4B4,TF7E0F3ADFA,sin_agua,"Sin abasto en toda la calle Independencia, nadie tiene agua.",whatsapp,normal,2026-04-28 06:31:00
+Q816D6C2EF0,TE3814F5946,fuga_toma,La llave de banqueta gotea sin parar desde hace tres días.,telefono,urgente,2025-07-31 09:49:00
+Q094B9F4DE5,T6EBEC2B9E3,sin_agua,LLEVAMOS HACE TRES DÍAS SIN SERVICIO DE AGUA EN LA PRIVADA.,telefono,normal,2026-05-23 05:37:00
+Q233E4C6E6D,TFF833858D4,sin_agua,  Tercer  día  sin agua. Necesitamos saber cuándo se restablece.,portal,normal,2025-09-10 02:23:00
+QE9E51B70B0,TB5DCDB3D2B,baja_presion,"Baja presión en Morelos, apenas llena una cubeta en diez minutos.",portal,alta,2025-02-23 12:50:00
+Q122FE61758,TF4940B0970,fuga_toma,La llave de banqueta gotea sin parar desde la semana pasada.,telefono,normal,2026-02-12 08:55:00
+QF49462923F,T92ED6C6BBC,facturacion,Pagué en línea y el recibo sigue apareciendo como pendiente.,portal,alta,2026-04-05 06:39:00
+Q2CEAC1F67C,TCF1A6CDF80,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,telefono,normal,2025-01-11 16:02:00
+QD5A7ECEC2C,T350C7F0CAD,fuga_calle,"REPORTO FUGA EN LA VIALIDAD DE MATAMOROS, EL AGUA CORRE HACIA LA ESQUINA.",whatsapp,normal,2025-11-30 12:18:00
+Q9A31C08F32,TB8E4E6CA4C,medidor,"Mi medidor está roto, el cristal quebrado y no se lee.",portal,normal,2025-10-24 03:57:00
+Q45419F7298,T1383BC162C,baja_presion,"Desde hace varios días el chorro sale débil, sobre todo en la mañana.",whatsapp,normal,2025-04-18 00:03:00
+Q1B04CE552B,T294140BCEC,drenaje,  El  drenaje  de 5 de Mayo está desbordado y huele muy mal.,portal,normal,2025-01-03 13:41:00
+Q164FFE34DA,TF07D19AE17,fuga_calle,"Tiene la semana pasada brotando agua del pavimento en Reforma, ya se hizo un charco grande.",presencial,normal,2026-04-09 15:46:00
+Q80CE11614B,TE1CE4D9E5A,fuga_toma,La llave de banqueta gotea sin parar desde hace varios días.,whatsapp,normal,2024-04-25 20:24:00
+Q05AD3EF3A9,TCCA2F0E6D1,medidor,El medidor no marca nada aunque sí tengamos agua.,telefono,baja,2025-11-06 17:01:00
+QD81A55F1E4,T4CA807AAAE,medidor,"Mi medidor está roto, el cristal quebrado y no se lee.",telefono,normal,2026-04-22 00:25:00
+Q7688DAFDB6,T416D725964,baja_presion,"El agua llega con muy poca presión, no sube al tinaco.",telefono,normal,2024-06-19 09:23:00
+Q7036A27497,T011F73020E,sin_agua,TERCER DÍA SIN AGUA. NECESITAMOS SABER CUÁNDO SE RESTABLECE.,telefono,normal,2024-09-10 03:47:00
+QAEB1D3D8BF,T0EAA0EDBAF,baja_presion,"EL AGUA LLEGA CON MUY POCA PRESIÓN, NO SUBE AL TINACO.",portal,alta,2025-05-12 02:40:00
+QCC72E78990,T97A5E4F98E,drenaje,Se regresa el agua del drenaje hacia mi patio desde la semana pasada.,presencial,baja,2024-11-28 15:25:00
+QF928F1E9FD,T76D2631BBE,sin_agua,Llevamos desde el lunes sin servicio de agua en la privada.,whatsapp,alta,2025-06-01 19:43:00
+QF6603CB0C9,T593C7D2F36,fuga_calle,"Hay agua saliendo en la calle 5 de Mayo desde la semana pasada, se está tirando toda.",portal,normal,2024-09-10 14:26:00
+QFA2ECA1847,T2C69DDD554,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,whatsapp,alta,2024-01-29 17:18:00
+Q9963A299A1,TE33F90B286,fuga_calle,"Hay agua saliendo en la calle Juárez desde desde el lunes, se está tirando toda.",telefono,alta,2024-12-25 10:48:00
+QC5D9BB9087,TE08ACE6D71,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",telefono,normal,2025-04-10 01:00:00
+QBB74667CB8,TE1CE4D9E5A,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,portal,alta,2026-04-09 02:46:00
+QBC88EC738B,T294140BCEC,drenaje,"Registro de alcantarillado tapado en Zaragoza, escurre a la calle.",portal,normal,2025-10-01 07:46:00
+Q978CA9FD87,TE13531501B,medidor,"SE LLEVARON EL MEDIDOR DE MI TOMA, YA NO ESTÁ EN LA CAJA.",telefono,normal,2025-03-30 18:53:00
+Q34529E7981,TD93E7F3525,fuga_calle,"Tiene la semana pasada brotando agua del pavimento en Guerrero, ya se hizo un charco grande.",telefono,normal,2026-08-20 21:55:00
+Q763E6C8A24,TF5AB4BC37D,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,portal,alta,2025-02-28 22:17:00
+Q46D5DBEDBF,T0E572DDC2C,baja_presion,"Baja presión en Juárez, apenas llena una cubeta en diez minutos.",telefono,normal,2024-11-13 07:39:00
+Q669B3D0513,TC9C59FD3C0,fuga_calle,"Hay agua saliendo en la calle Juárez desde desde el lunes, se está tirando toda.",portal,baja,2024-08-23 13:09:00
+Q94381401CB,TF252236170,medidor,"Mi medidor está roto, el cristal quebrado y no se lee.",presencial,baja,2025-12-27 10:57:00
+Q5FA8DA01A9,TCA03B52F53,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",telefono,baja,2025-01-04 12:17:00
+Q28B5DCB49D,T013C0F8B57,fuga_calle,"Reporto fuga en la vialidad de Reforma, el agua corre hacia la esquina.",whatsapp,baja,2025-07-27 17:27:00
+QFC43473C06,T5D1D63651A,fuga_calle,"Tiene la semana pasada brotando agua del pavimento en Zaragoza, ya se hizo un charco grande.",portal,normal,2026-01-12 23:09:00
+QC13295CEB7,TCE4FA87780,fuga_calle,"Reporto fuga en la vialidad de Reforma, el agua corre hacia la esquina.",portal,normal,2025-05-31 16:49:00
+Q8AC7F04EF5,T27CD292019,baja_presion,"El agua llega con muy poca presión, no sube al tinaco.",telefono,normal,2025-12-11 05:15:00
+QEBB370BB3A,TDB77C6E5BA,medidor,El medidor no marca nada aunque sí tengamos agua.,portal,normal,2026-07-02 23:09:00
+QCF4214981F,TE17C7596F7,fuga_calle,"Reporto fuga en la vialidad de Morelos, el agua corre hacia la esquina.",telefono,baja,2024-12-31 22:50:00
+QBBFA68BAD6,T592EE5AE5A,fuga_calle,"Tiene ayer brotando agua del pavimento en Juárez, ya se hizo un charco grande.",whatsapp,normal,2025-12-02 05:34:00
+Q49E37F3915,T593C7D2F36,fuga_calle,"Reporto fuga en la vialidad de Reforma, el agua corre hacia la esquina.",portal,normal,2025-09-26 16:57:00
+QDAB6E45120,TEF3ACC364D,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,portal,alta,2026-02-06 19:43:00
+QB9D8E7D642,TC71E645A97,fuga_calle,"Tiene hace tres días brotando agua del pavimento en Guerrero, ya se hizo un charco grande.",whatsapp,normal,2026-02-12 05:54:00
+Q3092B2A2CF,T9C80DA594D,sin_agua,LLEVAMOS DESDE EL LUNES SIN SERVICIO DE AGUA EN LA PRIVADA.,telefono,normal,2025-03-12 11:28:00
+Q6253446B45,T49C247A691,drenaje,Se regresa el agua del drenaje hacia mi patio desde el fin de semana.,whatsapp,baja,2026-01-18 16:10:00
+QA9B1957143,T0185184B59,sin_agua,Llevamos hace varios días sin servicio de agua en la privada.,presencial,alta,2026-04-03 03:00:00
+Q07D1C9E198,T6F621D315F,calidad_agua,Sale amarillenta y mancha la ropa al lavar.,portal,alta,2025-12-06 04:58:00
+Q7C7A92F035,T451A03E5F4,sin_agua,"No llega agua a mi domicilio desde la semana pasada, los vecinos igual.",whatsapp,alta,2024-08-15 00:21:00
+Q540B036B03,T26D49D2B10,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,presencial,normal,2025-01-02 16:47:00
+Q035B82D561,T3B6195226D,fuga_calle,"REPORTO FUGA EN LA VIALIDAD DE 5 DE MAYO, EL AGUA CORRE HACIA LA ESQUINA.",telefono,normal,2026-06-30 04:22:00
+QEC2DD84FAA,T771EC6B537,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,portal,normal,2024-08-21 08:58:00
+Q6F8A0FC91E,T5D52776F44,fuga_calle,"Tiene hace tres días brotando agua del pavimento en Morelos, ya se hizo un charco grande.",portal,baja,2024-04-15 13:10:00
+Q460D88E8FC,T2FE3E18EED,sin_agua,Llevamos ayer sin servicio de agua en la privada.,telefono,alta,2025-09-12 07:05:00
+Q68246D3F93,T2B4ECE5F7A,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,whatsapp,alta,2024-07-04 18:16:00
+Q52356C90B9,T3C23C0A42C,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",presencial,baja,2024-10-16 11:34:00
+QAAE9869D92,T6F6C091F32,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",telefono,normal,2025-07-21 13:49:00
+QD745CCFE83,T3DBD424B8F,drenaje,Se regresa el agua del drenaje hacia mi patio desde hace dos semanas.,whatsapp,alta,2025-10-15 14:39:00
+Q8711686ABE,T500E1E73A5,drenaje,Se regresa el agua del drenaje hacia mi patio desde hace varios días.,whatsapp,urgente,2024-12-06 13:44:00
+Q5C7E77AE85,TC71E645A97,calidad_agua,Sale amarillenta y mancha la ropa al lavar.,whatsapp,alta,2026-04-11 12:22:00
+Q35C4468108,T80D9A080BE,baja_presion,"  El  agua  llega con muy poca presión, no sube al tinaco.",telefono,alta,2025-05-04 13:26:00
+QFB831CDD22,T6B61D786E8,medidor,"SE LLEVARON EL MEDIDOR DE MI TOMA, YA NO ESTÁ EN LA CAJA.",whatsapp,baja,2024-06-18 12:32:00
+Q150549273C,TDEF092A4C5,sin_agua,"No llega agua a mi domicilio desde hace dos semanas, los vecinos igual.",presencial,alta,2025-07-29 19:32:00
+QABEC3DFF02,T518D652731,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,presencial,alta,2026-04-13 04:50:00
+Q61BBE75D52,T680C591820,facturacion,MI RECIBO LLEGÓ CON UN COBRO MUCHO MÁS ALTO DE LO NORMAL.,presencial,normal,2025-11-15 16:17:00
+Q4C4907DC1E,T30E453AB34,atencion,Fui a ventanilla y nadie me supo dar información de mi trámite.,telefono,normal,2024-05-17 14:00:00
+QF8CF628F0F,T63AE43B763,fuga_toma,La llave de banqueta gotea sin parar desde la semana pasada.,presencial,alta,2026-09-04 11:00:00
+QE4112E1E0F,T99F86EAA03,calidad_agua,"Huele a cloro muy fuerte y sabe raro, no nos atrevemos a tomarla.",presencial,normal,2024-08-13 10:55:00
+Q541130C170,T85C4B9E9BD,fuga_calle,Fuga en la banqueta de Allende. El agua no para y huele mal.,telefono,alta,2025-06-30 21:46:00
+Q521397FE3D,T06E1B5C91E,calidad_agua,"Huele a cloro muy fuerte y sabe raro, no nos atrevemos a tomarla.",whatsapp,alta,2025-09-03 21:25:00
+Q056E52CF97,T62DB418771,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,portal,normal,2024-01-21 00:39:00
+Q394C1C9A48,T9AEC04CEE6,fuga_calle,"Hay agua saliendo en la calle Morelos desde desde el lunes, se está tirando toda.",telefono,normal,2024-09-25 15:12:00
+Q2812609E4A,T9EDB41553F,atencion,Reporté hace ayer y todavía no viene nadie a revisar.,portal,alta,2026-07-13 23:30:00
+Q95FDDA763F,T02BF3919B7,fuga_calle,Fuga en la banqueta de Allende. El agua no para y huele mal.,telefono,baja,2025-08-19 20:58:00
+Q038692CCB8,TBBD0028CDB,medidor,El medidor marca consumos altísimos y somos dos personas.,whatsapp,normal,2026-03-09 17:09:00
+QFE9A2BCA7A,TF1BF705581,calidad_agua,"Huele a cloro muy fuerte y sabe raro, no nos atrevemos a tomarla.",presencial,normal,2024-12-14 09:05:00
+QE2BF423E4F,T8A0E42EA46,sin_agua,"Sin abasto en toda la calle Morelos, nadie tiene agua.",whatsapp,baja,2024-11-19 10:32:00
+Q2EFEF7586D,TB1A6FA6009,drenaje,"Registro de alcantarillado tapado en Morelos, escurre a la calle.",whatsapp,baja,2025-02-12 09:41:00
+QE468301B71,T2558B25F4A,drenaje,"Registro de alcantarillado tapado en Morelos, escurre a la calle.",telefono,normal,2024-06-18 05:30:00
+Q4A1FF1F652,TC54C99BA73,medidor,"Se llevaron el medidor de mi toma, ya no está en la caja.",whatsapp,normal,2025-11-26 04:24:00
+Q0FBF17A164,T6B4C3EB33E,sin_agua,"No llega agua a mi domicilio desde hace tres días, los vecinos igual.",telefono,normal,2025-11-02 00:19:00
+QBFC786287F,T7DC59256DC,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,whatsapp,normal,2025-04-27 04:35:00
+QF31BA685CF,T5C22EC11B8,drenaje,Hay aguas negras saliendo de la coladera de la esquina.,telefono,baja,2026-01-25 12:23:00
+Q83C7408F9A,T63AE43B763,fuga_toma,LA LLAVE DE BANQUETA GOTEA SIN PARAR DESDE HACE DOS SEMANAS.,presencial,urgente,2024-05-18 06:43:00
+Q01514AAEAD,T136877D852,baja_presion,"Baja presión en Reforma, apenas llena una cubeta en diez minutos.",whatsapp,normal,2024-04-16 11:42:00
+Q02D8992DCC,T1D1C3809AD,atencion,Fui a ventanilla y nadie me supo dar información de mi trámite.,portal,normal,2026-06-12 18:31:00
+Q84A6F59CBD,T980F08905D,baja_presion,"No alcanza presión para el calentador, el agua llega sin fuerza.",whatsapp,baja,2025-08-10 02:09:00
+Q7E2B3B9680,T519E11C12F,drenaje,"Registro de alcantarillado tapado en Zaragoza, escurre a la calle.",portal,baja,2025-05-10 20:52:00
+QB58D45A7CE,TE5AE06739E,baja_presion,"DESDE LA SEMANA PASADA EL CHORRO SALE DÉBIL, SOBRE TODO EN LA MAÑANA.",portal,normal,2024-02-11 07:23:00
+QEFE3AD95F3,T6B4FC6C7C6,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",telefono,normal,2024-06-27 12:50:00
+QF201918485,TE8DF4BFC62,fuga_calle,"TIENE AYER BROTANDO AGUA DEL PAVIMENTO EN ZARAGOZA, YA SE HIZO UN CHARCO GRANDE.",whatsapp,alta,2024-05-18 19:40:00
+Q53EB5300CA,TD93E7F3525,fuga_calle,"Reporto fuga en la vialidad de Independencia, el agua corre hacia la esquina.",presencial,alta,2026-05-05 20:05:00
+Q0698D5A21F,T0197678D11,sin_agua,"No llega agua a mi domicilio desde hace dos semanas, los vecinos igual.",telefono,normal,2025-07-01 15:27:00
+Q644F0885B9,T79AD100612,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",whatsapp,alta,2024-05-05 18:39:00
+Q384E162400,T488907BADA,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,whatsapp,baja,2025-05-27 02:34:00
+QEA8539CA7D,T6DD01C39D7,fuga_calle,"Reporto fuga en la vialidad de Reforma, el agua corre hacia la esquina.",telefono,normal,2025-08-24 07:00:00
+QEE923EB19B,T6DD4962896,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,telefono,alta,2025-02-16 06:16:00
+Q966F0B5843,T75AE25B236,baja_presion,"No alcanza presión para el calentador, el agua llega sin fuerza.",whatsapp,normal,2025-06-29 20:06:00
+Q73867D9D39,TBD7AFAA9AB,fuga_toma,ME SALE AGUA POR LA TOMA DE MI DOMICILIO AUNQUE TENGA TODO CERRADO.,telefono,normal,2026-08-10 04:25:00
+Q42ED42AEDB,TA6D3C701E5,calidad_agua,Sale amarillenta y mancha la ropa al lavar.,portal,alta,2025-10-03 05:51:00
+Q130A8F543D,T5C97BD73CE,baja_presion,"Baja presión en Morelos, apenas llena una cubeta en diez minutos.",portal,normal,2025-10-05 03:08:00
+Q44BFA2F218,T997FF51E88,sin_agua,"No llega agua a mi domicilio desde hace dos semanas, los vecinos igual.",portal,normal,2024-01-10 15:33:00
+Q2274BC5275,T7833B36159,drenaje,"Registro de alcantarillado tapado en Allende, escurre a la calle.",presencial,alta,2026-01-13 23:23:00
+Q7814B44EEF,T5EDC8CD764,baja_presion,"El agua llega con muy poca presión, no sube al tinaco.",presencial,baja,2025-08-04 22:28:00
+Q2A6E546A16,T6BE1C12D07,drenaje,Se regresa el agua del drenaje hacia mi patio desde hace dos semanas.,telefono,baja,2025-02-24 14:19:00
+Q6A4026E7E6,TC5E02C2AE1,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,portal,normal,2026-06-07 20:00:00
+Q04601EED24,TAE21909B09,fuga_calle,"  Hay  agua  saliendo en la calle Morelos desde la semana pasada, se está tirando toda.",telefono,normal,2025-01-03 14:01:00
+Q2DBC865969,TB460453C4D,facturacion,MI RECIBO LLEGÓ CON UN COBRO MUCHO MÁS ALTO DE LO NORMAL.,whatsapp,normal,2024-02-08 12:51:00
+Q17F18B0D1E,T3763EE0258,medidor,El medidor marca consumos altísimos y somos dos personas.,whatsapp,normal,2026-03-26 14:09:00
+QC7BF78EC2A,T71623730B1,fuga_calle,"Hay agua saliendo en la calle Independencia desde hace dos semanas, se está tirando toda.",presencial,normal,2026-06-11 10:48:00
+QB3EC50E6DD,TCF1A6CDF80,sin_agua,"Sin abasto en toda la calle Juárez, nadie tiene agua.",telefono,normal,2025-09-29 06:57:00
+Q1CC99B2095,TCE4F3C1854,facturacion,Mi recibo llegó con un cobro mucho más alto de lo normal.,whatsapp,baja,2026-04-09 00:30:00
+Q5FDAB47678,T623FDA0FEC,baja_presion,"No alcanza presión para el calentador, el agua llega sin fuerza.",telefono,urgente,2025-11-10 04:07:00
+QADAAEC854B,T26D49D2B10,fuga_calle,"TIENE HACE DOS SEMANAS BROTANDO AGUA DEL PAVIMENTO EN HIDALGO, YA SE HIZO UN CHARCO GRANDE.",whatsapp,normal,2025-03-25 20:37:00
+Q2AE04C10D1,T79348D1D8C,fuga_calle,"Tiene desde el lunes brotando agua del pavimento en Morelos, ya se hizo un charco grande.",portal,urgente,2025-11-16 02:00:00
+QD75103E455,TE380DFCDD5,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,whatsapp,normal,2025-04-18 17:07:00
+Q446261A982,TB2420A8657,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,telefono,alta,2024-01-01 06:36:00
+Q7B3C95413F,T31A37C291B,medidor,  El  medidor  no marca nada aunque sí tengamos agua.,presencial,normal,2025-03-17 00:55:00
+Q216D125F4D,T00048F12E2,sin_agua,"Sin abasto en toda la calle Matamoros, nadie tiene agua.",whatsapp,baja,2025-02-26 18:23:00
+Q9359B82AAA,T2F89E8ED6F,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,whatsapp,normal,2025-04-10 10:13:00
+Q1947E01A19,T06E1B5C91E,sin_agua,"  Sin  abasto  en toda la calle Zaragoza, nadie tiene agua.",whatsapp,urgente,2024-08-23 21:28:00
+QD37BB0ED50,T0197678D11,drenaje,EL DRENAJE DE HIDALGO ESTÁ DESBORDADO Y HUELE MUY MAL.,portal,normal,2025-07-29 17:36:00
+QA1E6DD2571,T0A7DFC3903,baja_presion,"  No  alcanza  presión para el calentador, el agua llega sin fuerza.",portal,alta,2026-01-12 07:42:00
+Q058E04C000,T011F73020E,medidor,El medidor marca consumos altísimos y somos dos personas.,portal,baja,2026-04-06 14:19:00
+QC4A91853AD,TFAE2AFD636,sin_agua,"No llega agua a mi domicilio desde hace dos semanas, los vecinos igual.",portal,urgente,2024-09-24 03:21:00
+Q1801E3BC29,T930BCF26DA,sin_agua,"No llega agua a mi domicilio desde desde el lunes, los vecinos igual.",telefono,normal,2025-10-03 12:09:00
+QCD56832591,T6B76BCDCC8,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,portal,baja,2025-01-24 21:25:00
+Q0B4AA95096,T592EE5AE5A,medidor,"Se llevaron el medidor de mi toma, ya no está en la caja.",whatsapp,alta,2026-03-20 17:20:00
+Q45E74758A0,T0FA07C2AE6,atencion,Mal trato del personal al preguntar por mi aclaración.,presencial,baja,2024-07-29 04:18:00
+Q6AE7CAADC1,T39FECD2D40,medidor,EL MEDIDOR MARCA CONSUMOS ALTÍSIMOS Y SOMOS DOS PERSONAS.,portal,normal,2024-03-10 00:59:00
+Q71647C2D6D,T47A88C447A,sin_agua,"  Sin  abasto  en toda la calle Morelos, nadie tiene agua.",portal,normal,2024-03-24 09:17:00
+QEF7F1BDC70,TBF5EF4019A,drenaje,Se regresa el agua del drenaje hacia mi patio desde ayer.,portal,normal,2025-10-03 02:03:00
+Q4244BE5AC0,T80599540B9,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,telefono,normal,2025-04-09 18:49:00
+Q3725466421,T78A401EEAD,fuga_toma,  Hay  humedad  y agua acumulada junto al medidor de mi casa.,whatsapp,alta,2025-03-30 18:13:00
+QE1A638D410,T0E8259349E,calidad_agua,"  Huele  a  cloro muy fuerte y sabe raro, no nos atrevemos a tomarla.",whatsapp,normal,2024-02-20 13:38:00
+Q1C955144D5,T929701588B,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,presencial,alta,2026-02-24 04:58:00
+Q0BF30E567B,TE3F34F661C,fuga_calle,FUGA EN LA BANQUETA DE REFORMA. EL AGUA NO PARA Y HUELE MAL.,telefono,normal,2024-07-06 23:21:00
+Q5871EA54CD,T10E8B50E63,calidad_agua,SALE AMARILLENTA Y MANCHA LA ROPA AL LAVAR.,telefono,baja,2025-11-05 03:14:00
+QEAB36EC111,T1D1C3809AD,baja_presion,"El agua llega con muy poca presión, no sube al tinaco.",whatsapp,alta,2024-11-06 00:01:00
+QCCF5ED599E,T93AE74FC8C,fuga_calle,"Reporto fuga en la vialidad de Juárez, el agua corre hacia la esquina.",portal,alta,2024-09-17 11:54:00
+Q7588F358DE,T00048F12E2,atencion,Llamé varias veces y no contestan el teléfono de atención.,portal,normal,2025-12-24 04:54:00
+Q2EDB4B12EC,TF357DF2C85,atencion,Llamé varias veces y no contestan el teléfono de atención.,whatsapp,baja,2024-03-16 11:17:00
+Q7E118010E9,T7149DBE7E7,medidor,"MI MEDIDOR ESTÁ ROTO, EL CRISTAL QUEBRADO Y NO SE LEE.",presencial,normal,2025-12-11 19:54:00
+Q497D8002AC,T62F138B69F,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,telefono,alta,2024-06-04 01:17:00
+Q4DC375A370,T824A68B378,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,telefono,alta,2025-04-13 05:41:00
+Q04635C0C09,T930BCF26DA,fuga_toma,  Creo  que  tengo una fuga: cerré todo y el medidor sigue girando.,portal,alta,2025-11-02 18:42:00
+Q2953A93E8B,TC9C584B8EF,atencion,Llamé varias veces y no contestan el teléfono de atención.,whatsapp,normal,2025-04-10 02:29:00
+QFB43748680,TAE21909B09,fuga_toma,CREO QUE TENGO UNA FUGA: CERRÉ TODO Y EL MEDIDOR SIGUE GIRANDO.,portal,baja,2025-06-18 00:13:00
+QF9C000532E,T31A37C291B,fuga_calle,Fuga en la banqueta de Independencia. El agua no para y huele mal.,telefono,normal,2026-02-01 14:42:00
+Q1358C88370,T31A37C291B,fuga_toma,La llave de banqueta gotea sin parar desde ayer.,presencial,normal,2026-07-30 16:44:00
+Q0896CFA48E,T7149DBE7E7,fuga_calle,"TIENE LA SEMANA PASADA BROTANDO AGUA DEL PAVIMENTO EN HIDALGO, YA SE HIZO UN CHARCO GRANDE.",whatsapp,baja,2024-06-13 21:39:00
+Q8DAD50B16D,T7861C2062B,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,portal,normal,2024-06-27 08:47:00
+QE654BC3438,T1540962193,sin_agua,"No llega agua a mi domicilio desde hace tres días, los vecinos igual.",telefono,normal,2024-12-23 21:20:00
+QD91AD1B1C2,T79348D1D8C,atencion,Reporté hace hace varios días y todavía no viene nadie a revisar.,whatsapp,alta,2025-08-09 17:57:00
+Q54EEB166A1,TB95EB354D9,fuga_toma,LA LLAVE DE BANQUETA GOTEA SIN PARAR DESDE HACE DOS SEMANAS.,telefono,alta,2026-04-16 04:45:00
+QB1945682A4,T827DB403EF,atencion,Mal trato del personal al preguntar por mi aclaración.,portal,baja,2026-04-03 10:53:00
+QF061B25ADF,T77D8F1F07B,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,whatsapp,normal,2025-09-17 21:23:00
+QFCE382078F,T580C1D0E5A,calidad_agua,"  El  agua  trae sedimento, se ve el fondo del vaso sucio.",whatsapp,normal,2026-05-30 01:39:00
+Q5EE377B0F6,T132EB7CE2B,baja_presion,"El agua llega con muy poca presión, no sube al tinaco.",presencial,normal,2025-12-12 02:13:00
+QB66765788C,TB13246DF04,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,telefono,normal,2024-10-09 09:29:00
+Q94904FBE98,T486DC7662A,baja_presion,"Baja presión en Guerrero, apenas llena una cubeta en diez minutos.",portal,urgente,2025-01-20 10:05:00
+Q02345728F4,T451A03E5F4,fuga_calle,"Tiene hace tres días brotando agua del pavimento en Zaragoza, ya se hizo un charco grande.",portal,alta,2026-03-07 07:04:00
+Q78F318DA7B,T5DA6DABC22,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,portal,baja,2026-07-11 13:46:00
+QBF4BF31B0D,T2A78E596A5,fuga_calle,"Tiene ayer brotando agua del pavimento en Hidalgo, ya se hizo un charco grande.",telefono,baja,2024-03-18 23:48:00
+Q097F1D04B1,TC97F0C81C8,fuga_toma,HAY HUMEDAD Y AGUA ACUMULADA JUNTO AL MEDIDOR DE MI CASA.,portal,normal,2024-08-08 09:39:00
+Q3BE556A22A,T042B2178D1,fuga_toma,La llave de banqueta gotea sin parar desde ayer.,presencial,urgente,2025-12-22 20:42:00
+Q6197CB7845,T80599540B9,drenaje,SE REGRESA EL AGUA DEL DRENAJE HACIA MI PATIO DESDE LA SEMANA PASADA.,whatsapp,urgente,2024-03-31 01:52:00
+Q83E821D629,T9EDB41553F,drenaje,El drenaje de Independencia está desbordado y huele muy mal.,portal,baja,2026-01-24 06:57:00
+QE2F152EA00,T124789ED12,sin_agua,  Tercer  día  sin agua. Necesitamos saber cuándo se restablece.,telefono,normal,2024-08-13 01:37:00
+Q38BBA8BB84,T93AE74FC8C,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,whatsapp,normal,2025-01-19 05:52:00
+QDBA7F6CA68,T0E3944E1C7,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,whatsapp,normal,2024-10-14 05:50:00
+Q8F68569499,TA60FF3309B,calidad_agua,Sale amarillenta y mancha la ropa al lavar.,telefono,normal,2025-11-29 00:49:00
+Q945FBB42A5,T2FC1A9FEB9,drenaje,El drenaje de Matamoros está desbordado y huele muy mal.,telefono,normal,2026-07-26 00:52:00
+QE0DD94DB8E,T997FF51E88,drenaje,"Registro de alcantarillado tapado en Guerrero, escurre a la calle.",portal,baja,2024-01-06 00:56:00
+Q42579D9B16,TCCA2F0E6D1,atencion,Reporté hace hace tres días y todavía no viene nadie a revisar.,whatsapp,alta,2025-01-17 02:44:00
+Q3B1BB19CB0,TDCBC842E3A,fuga_calle,"Reporto fuga en la vialidad de Independencia, el agua corre hacia la esquina.",telefono,baja,2024-12-04 11:48:00
+QA237482E82,T5B2FD74A85,drenaje,  El  drenaje  de Guerrero está desbordado y huele muy mal.,whatsapp,normal,2025-02-28 11:22:00
+QEDC082DD63,T29274E7656,medidor,El medidor no marca nada aunque sí tengamos agua.,portal,normal,2024-02-24 00:29:00
+Q793192E130,TDFD739AFF7,baja_presion,"Baja presión en Guerrero, apenas llena una cubeta en diez minutos.",presencial,baja,2026-07-06 08:24:00
+Q38975D2975,T262047037E,fuga_calle,"Reporto fuga en la vialidad de Guerrero, el agua corre hacia la esquina.",portal,normal,2025-09-30 23:02:00
+QC2A2A374BD,T680C591820,drenaje,Hay aguas negras saliendo de la coladera de la esquina.,whatsapp,normal,2026-02-13 08:56:00
+QB1DC62791F,T2A7B7C0706,facturacion,Pagué en línea y el recibo sigue apareciendo como pendiente.,whatsapp,normal,2026-03-09 19:49:00
+Q17D3AA738F,TC653350390,fuga_calle,"Hay agua saliendo en la calle Juárez desde el fin de semana, se está tirando toda.",whatsapp,normal,2026-02-27 11:40:00
+QF3B58A7C41,TEB9B6A4FBC,fuga_calle,"  Tiene  hace  tres días brotando agua del pavimento en Independencia, ya se hizo un charco grande.",whatsapp,normal,2024-01-31 01:49:00
+QA7EBC80201,T5D52776F44,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,whatsapp,normal,2026-03-07 23:08:00
+Q8954E1A1C2,T592EE5AE5A,fuga_toma,La llave de banqueta gotea sin parar desde hace tres días.,presencial,normal,2024-08-17 14:58:00
+Q430DDCFD2A,T6191B8FD69,fuga_toma,La llave de banqueta gotea sin parar desde hace tres días.,portal,urgente,2026-07-22 22:44:00
+Q748E81BE25,T593C7D2F36,fuga_calle,"Hay agua saliendo en la calle Allende desde hace dos semanas, se está tirando toda.",presencial,baja,2025-08-09 01:23:00
+Q9BF329D9B5,TAD0E244201,facturacion,"  El  recibo  trae un consumo que no corresponde, somos pocos en casa.",presencial,normal,2026-03-13 09:15:00
+Q32A2999482,T01F422D988,fuga_calle,"Tiene ayer brotando agua del pavimento en Zaragoza, ya se hizo un charco grande.",telefono,normal,2025-02-02 21:21:00
+QBCBD960A78,TD950C1321E,drenaje,Se regresa el agua del drenaje hacia mi patio desde la semana pasada.,telefono,urgente,2025-09-13 23:41:00
+QC91A676F94,T7DC59256DC,facturacion,ME ESTÁN COBRANDO UN PERIODO QUE YA HABÍA PAGADO EN VENTANILLA.,presencial,alta,2024-07-21 04:36:00
+QC4FE2CE77A,TE5572E3B77,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,portal,normal,2026-03-05 21:39:00
+QB66D4D41AF,T132EB7CE2B,fuga_calle,"HAY AGUA SALIENDO EN LA CALLE INDEPENDENCIA DESDE EL FIN DE SEMANA, SE ESTÁ TIRANDO TODA.",portal,normal,2025-01-04 10:11:00
+Q59F702DE63,TAA4A146A6F,calidad_agua,"HUELE A CLORO MUY FUERTE Y SABE RARO, NO NOS ATREVEMOS A TOMARLA.",whatsapp,normal,2026-01-17 06:03:00
+Q2771A02E37,TE6221DA147,facturacion,Mi recibo llegó con un cobro mucho más alto de lo normal.,whatsapp,normal,2025-12-11 05:15:00
+Q83E583E533,T7220DB253B,sin_agua,"No llega agua a mi domicilio desde la semana pasada, los vecinos igual.",portal,alta,2026-06-24 08:34:00
+QD60457C49D,TA6D3C701E5,fuga_calle,"Tiene ayer brotando agua del pavimento en Hidalgo, ya se hizo un charco grande.",portal,baja,2026-02-08 20:35:00
+QF975E09033,T9C80DA594D,fuga_calle,Fuga en la banqueta de Independencia. El agua no para y huele mal.,telefono,normal,2024-12-02 19:44:00
+QE2F034219E,T516D296A99,baja_presion,"No alcanza presión para el calentador, el agua llega sin fuerza.",whatsapp,alta,2025-11-20 23:55:00
+Q36F7D6E5B1,T771EC6B537,fuga_calle,Fuga en la banqueta de Matamoros. El agua no para y huele mal.,portal,normal,2026-08-05 06:58:00
+Q59BA368B90,T997FF51E88,facturacion,Mi recibo llegó con un cobro mucho más alto de lo normal.,portal,normal,2024-07-19 23:29:00
+QD3708FCEC2,TCC371206BC,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,telefono,normal,2025-05-12 20:19:00
+QD7B18B76F3,T02BF3919B7,sin_agua,"No llega agua a mi domicilio desde el fin de semana, los vecinos igual.",portal,normal,2026-09-01 11:31:00
+QBB9FC4D74C,T75D0C6EEF9,calidad_agua,Sale amarillenta y mancha la ropa al lavar.,presencial,normal,2024-10-02 15:35:00
+Q9AFFBEBBCB,T38FC29870C,sin_agua,"No llega agua a mi domicilio desde hace varios días, los vecinos igual.",presencial,alta,2024-09-21 22:57:00
+QC40F8BD412,T0197678D11,sin_agua,Llevamos ayer sin servicio de agua en la privada.,presencial,normal,2025-07-11 11:55:00
+Q72EA115A94,T79348D1D8C,calidad_agua,El agua sale turbia y con tierra desde hace dos semanas.,portal,urgente,2026-07-18 06:02:00
+Q421BB6D4A0,T9B1CF87E17,calidad_agua,"EL AGUA TRAE SEDIMENTO, SE VE EL FONDO DEL VASO SUCIO.",telefono,baja,2026-08-03 17:26:00
+Q84F4B50AB0,T9B1CF87E17,calidad_agua,"Huele a cloro muy fuerte y sabe raro, no nos atrevemos a tomarla.",whatsapp,urgente,2024-05-18 22:06:00
+Q3612685951,TCDF5CCF9D1,sin_agua,"No llega agua a mi domicilio desde hace dos semanas, los vecinos igual.",presencial,normal,2025-08-16 15:21:00
+QC9D2D635DA,TF1BF705581,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,telefono,alta,2026-06-30 03:27:00
+QFFBF128696,T88E01EE6A9,medidor,El medidor marca consumos altísimos y somos dos personas.,telefono,urgente,2024-01-20 12:13:00
+QA79AD8B87B,TD81C7B0AC7,fuga_calle,"Tiene hace varios días brotando agua del pavimento en Matamoros, ya se hizo un charco grande.",telefono,alta,2024-04-24 13:11:00
+QCE6646F8C3,TB3006B8F03,medidor,"Se llevaron el medidor de mi toma, ya no está en la caja.",presencial,normal,2025-05-23 05:31:00
+Q446AD294B6,T26862D1A4A,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,telefono,urgente,2025-09-10 00:43:00
+Q2132F64425,T79F7CA1313,facturacion,MI RECIBO LLEGÓ CON UN COBRO MUCHO MÁS ALTO DE LO NORMAL.,portal,baja,2025-12-26 08:41:00
+QD79832F6F2,T761C9E26E6,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,telefono,normal,2025-08-21 15:25:00
+Q8CB9AF88FA,TBA965CD37E,sin_agua,Llevamos hace tres días sin servicio de agua en la privada.,telefono,alta,2024-06-29 23:32:00
+Q999CB7D768,T9B926E1A60,drenaje,HAY AGUAS NEGRAS SALIENDO DE LA COLADERA DE LA ESQUINA.,presencial,alta,2025-04-02 10:22:00
+Q5834FE8912,T0E572DDC2C,atencion,Mal trato del personal al preguntar por mi aclaración.,presencial,alta,2025-02-15 04:07:00
+Q6BFB8F8F0A,T136877D852,fuga_calle,Fuga en la banqueta de Independencia. El agua no para y huele mal.,portal,normal,2024-04-07 17:26:00
+QE58073195C,T9AEC04CEE6,drenaje,Se regresa el agua del drenaje hacia mi patio desde la semana pasada.,presencial,normal,2026-07-27 07:47:00
+Q55879F7424,TEAD9E81003,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",presencial,alta,2026-01-27 12:35:00
+Q65549E9FC3,T7AE1E63696,sin_agua,"No llega agua a mi domicilio desde el fin de semana, los vecinos igual.",telefono,urgente,2024-12-27 06:17:00
+QBF8FD02474,T017F5CC857,sin_agua,Llevamos desde el lunes sin servicio de agua en la privada.,portal,alta,2026-07-13 22:19:00
+Q50E2313543,T0E7497BE87,baja_presion,"Desde hace tres días el chorro sale débil, sobre todo en la mañana.",portal,urgente,2024-05-11 06:31:00
+Q86F01E668B,T25A59C1230,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,telefono,alta,2026-05-01 20:02:00
+Q0BF1F74C02,T1D1F227112,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,portal,normal,2024-03-31 01:45:00
+QAA1FE8B177,TB308B5DC7A,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,telefono,normal,2024-03-24 10:28:00
+Q1D5AC39B55,T9B2220E701,atencion,Mal trato del personal al preguntar por mi aclaración.,presencial,alta,2025-09-18 11:38:00
+QB28B8FDBD0,TC5E02C2AE1,drenaje,El drenaje de Morelos está desbordado y huele muy mal.,portal,alta,2026-02-01 06:58:00
+QC5B19B7FBD,T6F6C091F32,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,telefono,urgente,2026-04-23 07:29:00
+QC937D47153,T626DE7D352,fuga_calle,Fuga en la banqueta de Matamoros. El agua no para y huele mal.,telefono,normal,2025-12-17 22:56:00
+QC41BADAD86,T580C1D0E5A,facturacion,Mi recibo llegó con un cobro mucho más alto de lo normal.,telefono,alta,2025-12-18 16:08:00
+QA06F5EF8FC,T148BA00559,fuga_calle,"Tiene la semana pasada brotando agua del pavimento en Reforma, ya se hizo un charco grande.",portal,normal,2025-08-15 02:07:00
+Q649A26908F,T9B926E1A60,drenaje,Hay aguas negras saliendo de la coladera de la esquina.,portal,normal,2025-03-21 23:57:00
+QE021837766,T3763EE0258,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,telefono,normal,2026-02-17 13:16:00
+Q72675E03C8,T353F39960E,fuga_calle,Fuga en la banqueta de Reforma. El agua no para y huele mal.,whatsapp,normal,2026-09-04 13:28:00
+QB31F3E1E91,TDB1931905E,fuga_calle,"Reporto fuga en la vialidad de 5 de Mayo, el agua corre hacia la esquina.",telefono,normal,2025-12-15 04:19:00
+Q3B5400FD1B,TCFB896C903,medidor,El medidor marca consumos altísimos y somos dos personas.,whatsapp,alta,2024-01-10 15:10:00
+Q84BB882FF3,TEDB2598366,facturacion,Pagué en línea y el recibo sigue apareciendo como pendiente.,telefono,normal,2025-09-17 12:47:00
+QEEEA6711BE,TD5960FA89C,drenaje,Se regresa el agua del drenaje hacia mi patio desde el fin de semana.,telefono,normal,2025-03-31 12:27:00
+QBD66363540,TFB5558315C,calidad_agua,Sale amarillenta y mancha la ropa al lavar.,portal,baja,2025-04-18 19:40:00
+QB7D7B62C7D,T518D652731,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",portal,normal,2025-04-19 09:53:00
+Q02151778A7,T49C247A691,fuga_calle,"Tiene hace varios días brotando agua del pavimento en Guerrero, ya se hizo un charco grande.",portal,normal,2025-01-15 07:15:00
+QB28A8DB27B,T65187CE62C,atencion,Reporté hace hace dos semanas y todavía no viene nadie a revisar.,portal,normal,2024-04-10 11:38:00
+Q71F959C62F,T79348D1D8C,calidad_agua,Sale amarillenta y mancha la ropa al lavar.,telefono,alta,2025-09-05 16:03:00
+QD993816404,TC1EBE75CAC,fuga_calle,Fuga en la banqueta de Reforma. El agua no para y huele mal.,whatsapp,normal,2024-01-02 11:36:00
+Q6D92F8296F,TC653350390,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,portal,normal,2025-02-07 01:10:00
+Q9F5F2F19BB,T0380D1AD85,fuga_calle,"REPORTO FUGA EN LA VIALIDAD DE MATAMOROS, EL AGUA CORRE HACIA LA ESQUINA.",telefono,baja,2026-05-31 13:31:00
+QBEC5E8AFBE,TF2D53B5266,baja_presion,"No alcanza presión para el calentador, el agua llega sin fuerza.",telefono,normal,2024-02-10 12:14:00
+Q4E80818113,T2A78E596A5,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,portal,normal,2026-09-05 22:36:00
+Q1235EE6C80,T8F2163E1AC,calidad_agua,"El agua trae sedimento, se ve el fondo del vaso sucio.",portal,alta,2024-09-19 12:42:00
+Q0C048692C1,T45A3829C6C,fuga_toma,La llave de banqueta gotea sin parar desde hace varios días.,portal,normal,2024-08-03 08:23:00
+Q05492B3537,T0ABCC73F5F,drenaje,"Registro de alcantarillado tapado en Matamoros, escurre a la calle.",whatsapp,normal,2024-02-11 13:14:00
+Q2045D8767E,T9F3D4A99A8,drenaje,"Registro de alcantarillado tapado en Matamoros, escurre a la calle.",telefono,normal,2026-04-29 12:43:00
+Q683D056A2F,TA6D3C701E5,fuga_calle,FUGA EN LA BANQUETA DE MORELOS. EL AGUA NO PARA Y HUELE MAL.,telefono,baja,2025-09-12 21:02:00
+QBBE7FB5AC7,TE33F90B286,facturacion,  Me  están  cobrando un periodo que ya había pagado en ventanilla.,telefono,alta,2025-01-05 07:48:00
+Q660939462D,T08D24C843D,drenaje,"Registro de alcantarillado tapado en Morelos, escurre a la calle.",telefono,urgente,2024-05-29 21:03:00
+Q01F6A264A3,T7861C2062B,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",telefono,normal,2024-01-24 02:16:00
+Q826C938C69,T575100FEE6,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,telefono,urgente,2026-07-10 19:42:00
+QFB902A0AE1,T5D0DA4A5A3,facturacion,Mi recibo llegó con un cobro mucho más alto de lo normal.,whatsapp,alta,2026-07-27 09:20:00
+QC9544BEF3C,TD6D0D046B5,baja_presion,"No alcanza presión para el calentador, el agua llega sin fuerza.",whatsapp,normal,2025-08-17 02:13:00
+QC3D2B44C5B,T47A88C447A,fuga_toma,LA LLAVE DE BANQUETA GOTEA SIN PARAR DESDE DESDE EL LUNES.,portal,normal,2026-07-27 12:58:00
+Q5F32BB7B38,T680C591820,fuga_calle,"Hay agua saliendo en la calle Matamoros desde hace varios días, se está tirando toda.",whatsapp,urgente,2025-09-30 00:27:00
+Q297464F922,T66B24DDB8C,sin_agua,"Sin abasto en toda la calle 5 de Mayo, nadie tiene agua.",telefono,baja,2024-08-17 12:52:00
+QBDEEE8CC3E,T07AC5856A4,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",portal,alta,2026-04-15 04:02:00
+Q7EB18A80A8,TCBAFB86C54,drenaje,El drenaje de Guerrero está desbordado y huele muy mal.,portal,normal,2024-11-05 18:53:00
+Q721845FDE9,TEAD9E81003,fuga_calle,"Tiene hace varios días brotando agua del pavimento en 5 de Mayo, ya se hizo un charco grande.",telefono,alta,2025-01-17 15:45:00
+Q79B2AFA83E,T328C38D103,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,telefono,normal,2026-03-04 20:54:00
+QF653E99F04,T3A8AE15DE9,fuga_toma,La llave de banqueta gotea sin parar desde ayer.,telefono,alta,2024-01-18 11:37:00
+QC4222FE0C4,T3C23C0A42C,sin_agua,"Sin abasto en toda la calle Juárez, nadie tiene agua.",telefono,normal,2026-08-13 14:16:00
+Q42BD70A96C,TE13FCEC631,baja_presion,"  No  alcanza  presión para el calentador, el agua llega sin fuerza.",whatsapp,normal,2025-05-09 06:43:00
+Q19DBF5EE8C,T8CFD079CB6,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,whatsapp,normal,2026-01-22 14:51:00
+Q9BB9A878A2,T4C0FAA9237,atencion,Llamé varias veces y no contestan el teléfono de atención.,presencial,normal,2024-08-17 07:48:00
+Q406E96AAC6,T5D1D63651A,drenaje,"Registro de alcantarillado tapado en Allende, escurre a la calle.",telefono,urgente,2025-10-27 23:08:00
+QF03B42DD50,TE62F9D24A2,baja_presion,"El agua llega con muy poca presión, no sube al tinaco.",portal,baja,2026-02-19 17:53:00
+QB4E8FB7258,T5F78380FF1,fuga_calle,Fuga en la banqueta de Matamoros. El agua no para y huele mal.,telefono,urgente,2024-07-23 11:03:00
+QDFF1218C27,T516D296A99,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,portal,normal,2026-02-27 07:49:00
+Q20C5CF5539,TB3006B8F03,sin_agua,LLEVAMOS LA SEMANA PASADA SIN SERVICIO DE AGUA EN LA PRIVADA.,presencial,alta,2025-08-25 10:21:00
+Q523FBAF8F8,T680C591820,facturacion,Mi recibo llegó con un cobro mucho más alto de lo normal.,presencial,alta,2025-12-05 19:47:00
+Q542C0E4D96,T71623730B1,medidor,"Se llevaron el medidor de mi toma, ya no está en la caja.",telefono,alta,2025-11-16 08:04:00
+Q5B16A9690D,T0B952300A6,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",portal,baja,2024-03-05 14:31:00
+QB5160D6C60,T0A7DFC3903,fuga_calle,"Tiene la semana pasada brotando agua del pavimento en Independencia, ya se hizo un charco grande.",portal,normal,2025-02-13 00:49:00
+Q3960486740,T959B664297,drenaje,Hay aguas negras saliendo de la coladera de la esquina.,presencial,normal,2024-06-06 18:35:00
+QA27BD284A2,T0185184B59,sin_agua,  Tercer  día  sin agua. Necesitamos saber cuándo se restablece.,presencial,normal,2024-01-05 01:07:00
+Q1FED0ABA21,T353F39960E,baja_presion,"Baja presión en Allende, apenas llena una cubeta en diez minutos.",presencial,alta,2026-02-01 23:22:00
+Q559245B66B,T011F73020E,sin_agua,"  Sin  abasto  en toda la calle Hidalgo, nadie tiene agua.",presencial,normal,2026-07-07 15:58:00
+QEFBA0BF59F,TDC0B728E72,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,whatsapp,normal,2026-03-12 07:09:00
+Q1180B37709,T5BEF82BC17,drenaje,Se regresa el agua del drenaje hacia mi patio desde desde el lunes.,whatsapp,baja,2025-08-29 06:27:00
+QD7B0D3DAB5,TB1246EBDB6,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,portal,normal,2024-02-05 00:32:00
+Q7BC528B21E,T741A1119FA,fuga_calle,"Hay agua saliendo en la calle Guerrero desde ayer, se está tirando toda.",whatsapp,normal,2025-02-16 11:48:00
+QEDCB7F8BA2,T08D24C843D,calidad_agua,Sale amarillenta y mancha la ropa al lavar.,portal,normal,2025-09-13 09:21:00
+Q893A19EC05,T97A5E4F98E,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,whatsapp,baja,2025-04-24 17:25:00
+QC6FB1780B6,T5AB667FA59,sin_agua,"No llega agua a mi domicilio desde desde el lunes, los vecinos igual.",portal,urgente,2026-03-17 18:40:00
+QFB4F42341F,T7BF732B1D4,sin_agua,Llevamos hace varios días sin servicio de agua en la privada.,portal,alta,2024-12-28 01:03:00
+Q0C1D578507,T57E5EAB9B8,atencion,Mal trato del personal al preguntar por mi aclaración.,portal,normal,2024-03-09 17:28:00
+Q892B93EE27,T4B2228F178,calidad_agua,"Huele a cloro muy fuerte y sabe raro, no nos atrevemos a tomarla.",presencial,normal,2025-09-16 23:02:00
+Q9E76AC86C6,T6492EC951E,sin_agua,Llevamos hace varios días sin servicio de agua en la privada.,telefono,normal,2024-07-19 10:57:00
+Q38C0C556ED,TAE21909B09,drenaje,Hay aguas negras saliendo de la coladera de la esquina.,telefono,normal,2025-04-12 10:22:00
+QA856425451,TCB96D14BFD,facturacion,Mi recibo llegó con un cobro mucho más alto de lo normal.,telefono,alta,2025-06-03 06:22:00
+QFC5CC9AEA9,TE7D390D6E1,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,portal,urgente,2024-08-11 06:12:00
+QE934F47FCD,T771EC6B537,calidad_agua,Sale amarillenta y mancha la ropa al lavar.,presencial,alta,2024-04-10 01:14:00
+QF4D6C23842,T0E572DDC2C,facturacion,Mi recibo llegó con un cobro mucho más alto de lo normal.,telefono,baja,2025-02-27 18:46:00
+Q5BDEB11121,TF62BDC6E96,baja_presion,"No alcanza presión para el calentador, el agua llega sin fuerza.",portal,normal,2024-01-23 01:37:00
+Q6838AC6DB9,T6F621D315F,medidor,El medidor no marca nada aunque sí tengamos agua.,portal,baja,2024-06-18 17:09:00
+Q38CBC2EBC4,TC71E645A97,medidor,"Se llevaron el medidor de mi toma, ya no está en la caja.",portal,baja,2025-05-07 07:10:00
+Q26376A8E31,T62F138B69F,fuga_calle,"HAY AGUA SALIENDO EN LA CALLE REFORMA DESDE HACE VARIOS DÍAS, SE ESTÁ TIRANDO TODA.",portal,baja,2026-03-17 11:54:00
+Q604602BEE7,T3DBD424B8F,sin_agua,Llevamos desde el lunes sin servicio de agua en la privada.,whatsapp,alta,2024-04-17 18:50:00
+QE7AC5FB8D8,T75445AB825,sin_agua,LLEVAMOS HACE VARIOS DÍAS SIN SERVICIO DE AGUA EN LA PRIVADA.,portal,normal,2025-01-24 10:52:00
+QE91C236881,TD93E7F3525,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,portal,alta,2024-02-13 13:09:00
+QE0C18FD5E1,TAB633F4546,drenaje,Se regresa el agua del drenaje hacia mi patio desde la semana pasada.,portal,normal,2026-07-24 22:52:00
+QF2456F005D,T92ED6C6BBC,atencion,Reporté hace ayer y todavía no viene nadie a revisar.,portal,normal,2025-12-31 08:48:00
+Q142E461E93,TDFD5EF1E2B,sin_agua,"No llega agua a mi domicilio desde hace varios días, los vecinos igual.",telefono,normal,2026-05-23 04:14:00
+QA4B20677A6,T16385BC409,fuga_toma,La llave de banqueta gotea sin parar desde hace tres días.,telefono,urgente,2026-02-08 16:03:00
+Q597BB04AE3,TA49FD77129,calidad_agua,"HUELE A CLORO MUY FUERTE Y SABE RARO, NO NOS ATREVEMOS A TOMARLA.",telefono,baja,2026-07-07 17:29:00
+Q424D1E6108,T5DA6DABC22,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,whatsapp,alta,2026-01-28 15:18:00
+QEB02962481,T0B952300A6,fuga_calle,  Fuga  en  la banqueta de 5 de Mayo. El agua no para y huele mal.,telefono,normal,2024-02-16 09:01:00
+QDB4A189EDF,TBD7AFAA9AB,fuga_toma,La llave de banqueta gotea sin parar desde desde el lunes.,telefono,urgente,2026-09-03 14:04:00
+QF0E8A72961,T525C93E294,medidor,"Se llevaron el medidor de mi toma, ya no está en la caja.",portal,alta,2024-01-07 19:54:00
+QC9249FD877,TE62F9D24A2,sin_agua,Llevamos hace tres días sin servicio de agua en la privada.,telefono,normal,2026-03-03 17:49:00
+Q3FF857F8EE,TCDF5CCF9D1,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,whatsapp,normal,2025-12-12 13:56:00
+QCA4BD45875,T06E1B5C91E,fuga_toma,La llave de banqueta gotea sin parar desde hace varios días.,telefono,normal,2025-09-13 12:03:00
+QF27EBCA40F,T6A0C9518A5,sin_agua,Llevamos el fin de semana sin servicio de agua en la privada.,portal,baja,2026-07-27 11:07:00
+Q28EFAD5C1A,T7E1F631507,baja_presion,"NO ALCANZA PRESIÓN PARA EL CALENTADOR, EL AGUA LLEGA SIN FUERZA.",telefono,urgente,2025-04-08 18:54:00
+QF04318387C,T9A87FD75BB,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,presencial,normal,2026-06-15 18:48:00
+QBFE9066276,TA3D7EB0EB6,drenaje,"Registro de alcantarillado tapado en Zaragoza, escurre a la calle.",portal,normal,2025-08-09 07:40:00
+Q331DA58222,TE1AA9E77A7,fuga_calle,"  Reporto  fuga  en la vialidad de Allende, el agua corre hacia la esquina.",telefono,baja,2025-10-04 12:37:00
+QA0B68F7AC1,T4CA807AAAE,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,telefono,urgente,2026-06-28 02:59:00
+Q5A433E4C5D,T71623730B1,medidor,EL MEDIDOR MARCA CONSUMOS ALTÍSIMOS Y SOMOS DOS PERSONAS.,telefono,baja,2024-03-04 10:00:00
+QB9555BD9D4,T62F138B69F,sin_agua,  Tercer  día  sin agua. Necesitamos saber cuándo se restablece.,portal,normal,2025-04-24 13:42:00
+QD1E3C5A4D9,T0AF0DD2FE5,sin_agua,TERCER DÍA SIN AGUA. NECESITAMOS SABER CUÁNDO SE RESTABLECE.,telefono,alta,2025-02-12 19:38:00
+Q786A0C6207,TD4AA44C620,fuga_calle,"Tiene hace dos semanas brotando agua del pavimento en Reforma, ya se hizo un charco grande.",whatsapp,normal,2024-02-08 12:00:00
+Q579DD7D164,T824A68B378,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,portal,alta,2024-04-23 22:33:00
+Q981D033D3E,T75AE25B236,baja_presion,"Desde la semana pasada el chorro sale débil, sobre todo en la mañana.",telefono,baja,2024-05-11 17:43:00
+Q9BEAF389AC,T353F39960E,sin_agua,"Sin abasto en toda la calle Allende, nadie tiene agua.",telefono,normal,2025-12-18 18:12:00
+Q1349E36876,T38F3AD60D6,facturacion,ME ESTÁN COBRANDO UN PERIODO QUE YA HABÍA PAGADO EN VENTANILLA.,portal,baja,2024-07-06 10:16:00
+QDB3CB041DD,TDEF092A4C5,fuga_calle,  Fuga  en  la banqueta de Reforma. El agua no para y huele mal.,presencial,alta,2024-07-03 12:53:00
+QFF1CE3CD2C,TE8DF4BFC62,sin_agua,"Sin abasto en toda la calle Guerrero, nadie tiene agua.",portal,normal,2024-05-23 23:00:00
+Q796C95C397,TD79C86593F,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,telefono,normal,2025-08-09 22:26:00
+Q97538BA396,TED624C9B29,sin_agua,Llevamos ayer sin servicio de agua en la privada.,whatsapp,normal,2026-05-17 17:25:00
+Q710B7B2ECC,T4FB688BCF2,drenaje,El drenaje de Hidalgo está desbordado y huele muy mal.,telefono,alta,2025-05-16 22:11:00
+Q6686F5DD82,TD950C1321E,sin_agua,"  Sin  abasto  en toda la calle Juárez, nadie tiene agua.",presencial,alta,2025-05-11 19:31:00
+QAF3D143F62,T77D8F1F07B,atencion,Fui a ventanilla y nadie me supo dar información de mi trámite.,telefono,alta,2024-08-24 16:52:00
+Q844DF61D32,TB28F8F08F4,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,portal,baja,2025-04-05 05:34:00
+Q8E0BCFAD18,T5D0DA4A5A3,fuga_calle,"Reporto fuga en la vialidad de Allende, el agua corre hacia la esquina.",telefono,normal,2024-12-17 18:23:00
+Q3AD9C3FCD6,TB5ABA37301,calidad_agua,"Huele a cloro muy fuerte y sabe raro, no nos atrevemos a tomarla.",portal,urgente,2026-04-10 06:18:00
+QE1EA9A5735,TB5DCDB3D2B,calidad_agua,"El agua trae sedimento, se ve el fondo del vaso sucio.",telefono,alta,2024-01-09 08:34:00
+QBEB7A5755E,T0CE7987E4B,calidad_agua,EL AGUA SALE TURBIA Y CON TIERRA DESDE HACE DOS SEMANAS.,telefono,normal,2025-06-30 13:27:00
+QF72B228150,T5AB667FA59,fuga_calle,"Hay agua saliendo en la calle Reforma desde hace dos semanas, se está tirando toda.",presencial,urgente,2024-03-19 03:22:00
+Q1FB16C8D44,TF46C85CB55,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,portal,alta,2026-08-13 00:22:00
+Q0DE6FE110E,TDA01857472,fuga_calle,"Hay agua saliendo en la calle Reforma desde desde el lunes, se está tirando toda.",whatsapp,normal,2024-07-14 00:27:00
+Q5D056B0557,T8237A9AE83,medidor,"Mi medidor está roto, el cristal quebrado y no se lee.",portal,normal,2024-04-23 23:28:00
+Q7AB9776D12,T44E572D176,fuga_calle,"  Hay  agua  saliendo en la calle Independencia desde hace tres días, se está tirando toda.",whatsapp,baja,2025-07-28 20:59:00
+Q4FEF08F454,TA60FF3309B,calidad_agua,Sale amarillenta y mancha la ropa al lavar.,whatsapp,alta,2025-09-09 17:42:00
+Q28A9E8CA9A,TE5AE06739E,baja_presion,"BAJA PRESIÓN EN INDEPENDENCIA, APENAS LLENA UNA CUBETA EN DIEZ MINUTOS.",portal,normal,2026-01-10 21:44:00
+Q2C8F041955,TC97F0C81C8,fuga_calle,"Tiene hace tres días brotando agua del pavimento en Zaragoza, ya se hizo un charco grande.",portal,baja,2026-06-28 01:18:00
+Q21E9E3AD5A,TE6221DA147,baja_presion,"  Baja  presión  en Matamoros, apenas llena una cubeta en diez minutos.",whatsapp,urgente,2024-05-17 01:40:00
+QD4370EA741,TACFC1D584E,fuga_calle,"Hay agua saliendo en la calle 5 de Mayo desde hace varios días, se está tirando toda.",whatsapp,alta,2024-12-09 23:36:00
+QACEEFB71F0,T8C8BD1D187,drenaje,"Registro de alcantarillado tapado en Guerrero, escurre a la calle.",whatsapp,alta,2025-05-28 18:59:00
+Q7CD1F14A0B,TAA4A146A6F,calidad_agua,"  Huele  a  cloro muy fuerte y sabe raro, no nos atrevemos a tomarla.",telefono,normal,2024-12-30 17:28:00
+Q95587B6470,T827DB403EF,fuga_calle,"Tiene la semana pasada brotando agua del pavimento en Independencia, ya se hizo un charco grande.",portal,normal,2025-05-19 07:26:00
+Q2D3728A797,T7833B36159,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,whatsapp,urgente,2024-06-15 01:11:00
+Q1FB43EA375,T81E3CAC404,fuga_calle,"Hay agua saliendo en la calle Morelos desde hace tres días, se está tirando toda.",portal,baja,2024-02-22 11:51:00
+Q23555B873B,TC5E02C2AE1,calidad_agua,El agua sale turbia y con tierra desde el fin de semana.,presencial,normal,2026-07-15 14:35:00
+QA2D94286C6,TD79C86593F,sin_agua,Llevamos la semana pasada sin servicio de agua en la privada.,portal,normal,2025-08-11 15:30:00
+Q3EAD3A66CB,T5EDC8CD764,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,portal,normal,2026-06-07 20:16:00
+Q263BCBC34A,TA3D7EB0EB6,fuga_calle,Fuga en la banqueta de Allende. El agua no para y huele mal.,presencial,normal,2024-02-01 23:44:00
+Q957AAD8569,T500E1E73A5,fuga_calle,Fuga en la banqueta de 5 de Mayo. El agua no para y huele mal.,telefono,baja,2025-05-02 05:39:00
+Q982E22B07F,T1629374829,fuga_toma,La llave de banqueta gotea sin parar desde hace dos semanas.,telefono,alta,2024-06-26 10:24:00
+QE449760E99,T0E868A3F47,calidad_agua,El agua sale turbia y con tierra desde la semana pasada.,whatsapp,urgente,2026-03-23 08:15:00
+Q2873C451A0,T6B0F45148F,drenaje,Hay aguas negras saliendo de la coladera de la esquina.,presencial,normal,2024-05-04 18:10:00
+Q67D98A3567,T1677509027,sin_agua,Llevamos hace dos semanas sin servicio de agua en la privada.,portal,normal,2025-11-22 14:59:00
+Q7A0075AA87,T4CA807AAAE,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,presencial,normal,2024-01-26 04:49:00
+Q76E2A3BCA4,T9B658694D7,medidor,El medidor no marca nada aunque sí tengamos agua.,telefono,normal,2026-04-01 19:20:00
+Q16988B47DA,T716C530DED,sin_agua,Llevamos la semana pasada sin servicio de agua en la privada.,telefono,normal,2026-07-26 00:21:00
+Q7DF72EB261,T4C0FAA9237,calidad_agua,El agua sale turbia y con tierra desde la semana pasada.,telefono,normal,2026-03-29 06:58:00
+QF2E731B84C,TB1A6FA6009,sin_agua,"Sin abasto en toda la calle Morelos, nadie tiene agua.",portal,normal,2025-09-03 23:00:00
+QC06A937336,T98621FD0F2,baja_presion,"El agua llega con muy poca presión, no sube al tinaco.",whatsapp,normal,2025-04-09 22:10:00
+Q39A3C69326,TE9E2B18053,sin_agua,Llevamos la semana pasada sin servicio de agua en la privada.,telefono,normal,2025-10-26 23:12:00
+Q12087A8C8F,T3290CE40ED,medidor,"Se llevaron el medidor de mi toma, ya no está en la caja.",telefono,baja,2025-12-29 10:07:00
+Q7F891C6C8C,T660F58D22C,baja_presion,"Baja presión en Juárez, apenas llena una cubeta en diez minutos.",telefono,urgente,2025-01-15 10:39:00
+QAA5E0FA3EE,TF07D19AE17,baja_presion,"  Desde  desde  el lunes el chorro sale débil, sobre todo en la mañana.",telefono,normal,2026-06-15 15:48:00
+Q955332743B,T488907BADA,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,telefono,normal,2024-01-05 15:06:00
+QD1540DD0CD,TEA687BEEC8,fuga_toma,La llave de banqueta gotea sin parar desde hace dos semanas.,portal,urgente,2024-08-30 03:42:00
+Q3611148B50,T0E3944E1C7,facturacion,  Pagué  en  línea y el recibo sigue apareciendo como pendiente.,telefono,normal,2025-12-05 02:38:00
+Q1B4F3A89A9,T593C7D2F36,sin_agua,"No llega agua a mi domicilio desde ayer, los vecinos igual.",portal,alta,2024-02-02 01:35:00
+QC054BA70F6,T04048D53A3,fuga_calle,"Hay agua saliendo en la calle 5 de Mayo desde hace varios días, se está tirando toda.",whatsapp,normal,2024-11-27 12:05:00
+QEB1E5478EB,T43D369AD4F,atencion,Fui a ventanilla y nadie me supo dar información de mi trámite.,whatsapp,alta,2024-08-04 06:13:00
+QFFBB96D045,T3B2D063348,atencion,REPORTÉ HACE HACE DOS SEMANAS Y TODAVÍA NO VIENE NADIE A REVISAR.,telefono,baja,2025-06-25 02:11:00
+Q79128DA23D,T886651EB56,sin_agua,"Sin abasto en toda la calle 5 de Mayo, nadie tiene agua.",telefono,normal,2024-09-20 03:58:00
+QD81BAE125A,TE5572E3B77,fuga_calle,"Hay agua saliendo en la calle Juárez desde la semana pasada, se está tirando toda.",portal,urgente,2026-07-10 00:41:00
+Q80354C8CA2,T8A0E42EA46,calidad_agua,Sale amarillenta y mancha la ropa al lavar.,whatsapp,alta,2025-07-27 15:52:00
+Q11FB0A94E0,TEB9B6A4FBC,medidor,El medidor no marca nada aunque sí tengamos agua.,telefono,alta,2025-06-21 10:49:00
+Q3D8C644215,TC653350390,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",whatsapp,alta,2025-07-28 02:36:00
+Q06C8C4604D,T005A9CE174,baja_presion,"El agua llega con muy poca presión, no sube al tinaco.",presencial,alta,2024-02-22 10:57:00
+Q31745E4761,T75D0C6EEF9,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,portal,baja,2026-08-11 16:14:00
+Q8343245180,T1E40F3A239,medidor,El medidor no marca nada aunque sí tengamos agua.,presencial,normal,2025-05-10 17:14:00
+Q4143D1BAD8,TE03815B898,sin_agua,"No llega agua a mi domicilio desde hace dos semanas, los vecinos igual.",portal,normal,2025-11-22 09:01:00
+Q78F6A43211,TFAE2AFD636,atencion,Fui a ventanilla y nadie me supo dar información de mi trámite.,whatsapp,alta,2026-07-01 20:48:00
+Q30314B4DCB,TE7328B9E12,baja_presion,"No alcanza presión para el calentador, el agua llega sin fuerza.",telefono,normal,2026-08-24 19:34:00
+Q83EDA073D9,TF5AB4BC37D,fuga_calle,"Hay agua saliendo en la calle Matamoros desde hace dos semanas, se está tirando toda.",portal,baja,2024-04-01 01:06:00
+Q9461E1BA82,T3C23C0A42C,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",telefono,normal,2026-06-04 22:47:00
+Q26841C8E28,TEEB9050E6F,medidor,"Mi medidor está roto, el cristal quebrado y no se lee.",presencial,normal,2025-08-31 00:02:00
+Q66A3D72FE5,TEA6C60108F,fuga_calle,"Hay agua saliendo en la calle Guerrero desde el fin de semana, se está tirando toda.",portal,baja,2024-08-30 18:01:00
+QEF62D40608,T328C38D103,drenaje,Hay aguas negras saliendo de la coladera de la esquina.,telefono,normal,2024-08-10 00:47:00
+QE0F324FF27,TFF833858D4,drenaje,Se regresa el agua del drenaje hacia mi patio desde el fin de semana.,telefono,normal,2025-06-01 21:07:00
+QFE4CD4A978,T726E26C014,calidad_agua,Sale amarillenta y mancha la ropa al lavar.,whatsapp,baja,2024-12-18 20:33:00
+Q748EAF3C7F,T93AE74FC8C,fuga_calle,Fuga en la banqueta de Independencia. El agua no para y huele mal.,telefono,alta,2025-07-05 02:29:00
+Q7C62E2B771,T0380D1AD85,fuga_calle,"Hay agua saliendo en la calle Independencia desde la semana pasada, se está tirando toda.",portal,baja,2026-08-07 07:20:00
+Q30E6B4CF49,T1677509027,fuga_calle,"Tiene ayer brotando agua del pavimento en Matamoros, ya se hizo un charco grande.",presencial,baja,2025-10-18 02:15:00
+Q6AD682A99C,TEAD9E81003,fuga_toma,ME SALE AGUA POR LA TOMA DE MI DOMICILIO AUNQUE TENGA TODO CERRADO.,portal,baja,2024-01-05 03:02:00
+Q6D6A5B20DA,T6B0703F297,fuga_toma,  Hay  humedad  y agua acumulada junto al medidor de mi casa.,telefono,alta,2025-03-02 01:59:00
+QBE6F870970,T0F4A3A74ED,facturacion,  Mi  recibo  llegó con un cobro mucho más alto de lo normal.,telefono,urgente,2026-06-08 15:31:00
+Q0DD31AB895,T011F73020E,baja_presion,"Baja presión en Zaragoza, apenas llena una cubeta en diez minutos.",whatsapp,normal,2025-02-13 03:54:00
+Q1882015952,T41D9DAD65E,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,whatsapp,alta,2024-12-29 05:16:00
+QAA95499558,T8989E9F3E0,atencion,Reporté hace el fin de semana y todavía no viene nadie a revisar.,telefono,baja,2025-03-12 23:06:00
+Q082BF600C0,TAA4A146A6F,calidad_agua,"El agua trae sedimento, se ve el fondo del vaso sucio.",whatsapp,alta,2025-01-13 21:36:00
+Q61C5FD6AAF,T7CEE29F570,sin_agua,Llevamos desde el lunes sin servicio de agua en la privada.,telefono,alta,2025-12-03 15:25:00
+Q448F1299A7,T64DF103F27,facturacion,Pagué en línea y el recibo sigue apareciendo como pendiente.,telefono,alta,2025-08-25 01:23:00
+Q10FDE4C7B6,T292B036CC6,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,portal,baja,2024-04-09 20:36:00
+QCFCEB0E3F2,TF5AB4BC37D,fuga_calle,"Hay agua saliendo en la calle Independencia desde la semana pasada, se está tirando toda.",portal,normal,2025-04-25 08:45:00
+QE8ABFF458A,TF62BDC6E96,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,presencial,normal,2025-04-30 18:36:00
+QA7E04BBB2C,T5D35014BC6,fuga_calle,"Tiene ayer brotando agua del pavimento en Zaragoza, ya se hizo un charco grande.",portal,baja,2025-01-05 05:54:00
+Q00C9FB8273,TC2B54F643A,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,portal,urgente,2024-05-19 18:31:00
+Q3FB82EC6DF,TE380DFCDD5,atencion,Fui a ventanilla y nadie me supo dar información de mi trámite.,telefono,alta,2025-05-28 10:12:00
+Q2E83089473,TDC0B728E72,facturacion,  Mi  recibo  llegó con un cobro mucho más alto de lo normal.,telefono,normal,2025-04-14 05:26:00
+QC9E7B7D231,TD5960FA89C,fuga_calle,"Hay agua saliendo en la calle Zaragoza desde desde el lunes, se está tirando toda.",presencial,normal,2025-11-18 13:08:00
+Q6C814114FF,T0197678D11,facturacion,Pagué en línea y el recibo sigue apareciendo como pendiente.,whatsapp,alta,2026-06-17 21:25:00
+QA58367226D,TB8E4E6CA4C,fuga_calle,"Hay agua saliendo en la calle Independencia desde el fin de semana, se está tirando toda.",portal,normal,2025-08-25 00:46:00
+Q2B3CAB47AD,T575100FEE6,baja_presion,"Baja presión en 5 de Mayo, apenas llena una cubeta en diez minutos.",presencial,normal,2025-07-19 08:40:00
+QD88B236243,T1629374829,baja_presion,"Desde el fin de semana el chorro sale débil, sobre todo en la mañana.",telefono,urgente,2024-08-28 19:39:00
+Q05D018F701,TF7BDB30AC3,facturacion,Mi recibo llegó con un cobro mucho más alto de lo normal.,telefono,normal,2024-11-26 14:36:00
+QEE02459D19,T04048D53A3,fuga_toma,La llave de banqueta gotea sin parar desde ayer.,telefono,normal,2025-05-14 05:15:00
+QECEC96D7F6,T46E626FB09,calidad_agua,"Huele a cloro muy fuerte y sabe raro, no nos atrevemos a tomarla.",presencial,baja,2025-05-01 22:35:00
+Q2381DAEB02,T10E8B50E63,baja_presion,"No alcanza presión para el calentador, el agua llega sin fuerza.",presencial,baja,2025-08-04 15:19:00
+QCB1FAF6C0C,T0E868A3F47,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,whatsapp,normal,2025-04-24 10:57:00
+QE0B99EC7D8,T5D52776F44,baja_presion,"BAJA PRESIÓN EN 5 DE MAYO, APENAS LLENA UNA CUBETA EN DIEZ MINUTOS.",portal,alta,2026-01-22 08:39:00
+Q2077DD3C75,T2F89E8ED6F,sin_agua,"No llega agua a mi domicilio desde el fin de semana, los vecinos igual.",presencial,alta,2025-01-19 12:06:00
+Q048DE00174,T575100FEE6,baja_presion,"No alcanza presión para el calentador, el agua llega sin fuerza.",portal,alta,2025-03-06 14:10:00
+Q7B4A554276,TC1FE3D7E79,medidor,"MI MEDIDOR ESTÁ ROTO, EL CRISTAL QUEBRADO Y NO SE LEE.",whatsapp,normal,2025-03-09 02:55:00
+QB0F791C558,TA3D7EB0EB6,baja_presion,"DESDE DESDE EL LUNES EL CHORRO SALE DÉBIL, SOBRE TODO EN LA MAÑANA.",portal,alta,2026-03-30 03:59:00
+Q719230BB5A,T1E40F3A239,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,whatsapp,baja,2025-01-29 20:02:00
+Q5D1C9E8253,TB3006B8F03,atencion,Mal trato del personal al preguntar por mi aclaración.,portal,normal,2024-05-19 07:35:00
+Q55EFC2221C,TBA965CD37E,facturacion,Mi recibo llegó con un cobro mucho más alto de lo normal.,portal,urgente,2026-04-22 19:18:00
+Q74860E0579,T6F621D315F,calidad_agua,"El agua trae sedimento, se ve el fondo del vaso sucio.",portal,normal,2024-03-29 07:45:00
+Q71F92BD118,TFD4476DD46,calidad_agua,Sale amarillenta y mancha la ropa al lavar.,whatsapp,normal,2025-08-04 22:49:00
+QF92E9E74DF,T26D49D2B10,facturacion,Pagué en línea y el recibo sigue apareciendo como pendiente.,telefono,baja,2024-02-12 08:00:00
+Q7298E7568E,T451A03E5F4,fuga_toma,La llave de banqueta gotea sin parar desde el fin de semana.,telefono,alta,2024-06-21 15:23:00
+Q2328097C1A,T629B85F6AE,fuga_calle,Fuga en la banqueta de Zaragoza. El agua no para y huele mal.,telefono,normal,2026-08-30 22:34:00
+Q5790F98669,TEF123948C4,baja_presion,"  Desde  hace  tres días el chorro sale débil, sobre todo en la mañana.",presencial,baja,2025-07-24 00:58:00
+Q7CFFFD7A6A,TAD0E244201,calidad_agua,"El agua trae sedimento, se ve el fondo del vaso sucio.",whatsapp,normal,2025-05-26 05:34:00
+Q3DE003EB59,TCA03B52F53,baja_presion,"No alcanza presión para el calentador, el agua llega sin fuerza.",telefono,alta,2025-01-29 23:27:00
+Q868C1D5057,T3104E606FB,facturacion,Mi recibo llegó con un cobro mucho más alto de lo normal.,telefono,urgente,2025-03-12 18:51:00
+Q35EE44E355,T6FEE2A0A85,baja_presion,"El agua llega con muy poca presión, no sube al tinaco.",telefono,normal,2024-09-07 11:18:00
+QFBC764360B,T0A7DFC3903,calidad_agua,El agua sale turbia y con tierra desde hace varios días.,telefono,urgente,2025-03-02 17:19:00
+QCD98BE330D,TEF123948C4,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,telefono,normal,2025-01-26 16:53:00
+QC12EFF73F8,TDEF092A4C5,fuga_calle,  Fuga  en  la banqueta de Independencia. El agua no para y huele mal.,whatsapp,normal,2026-06-26 11:31:00
+QA7B57459A0,T525C93E294,fuga_calle,"Reporto fuga en la vialidad de Guerrero, el agua corre hacia la esquina.",portal,normal,2024-07-08 07:09:00
+QDF426E3965,TDCBC842E3A,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,presencial,normal,2024-12-30 05:24:00
+QAC6BB9A6C5,T30CED3EF6B,atencion,Mal trato del personal al preguntar por mi aclaración.,whatsapp,normal,2025-10-12 17:07:00
+QAFEE858426,T5FC1C50126,baja_presion,"Baja presión en Hidalgo, apenas llena una cubeta en diez minutos.",telefono,urgente,2025-01-15 17:29:00
+Q4C5189CD2E,T41D9DAD65E,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,telefono,normal,2025-06-28 11:04:00
+Q7B71723D05,TE5AE06739E,sin_agua,"Sin abasto en toda la calle Juárez, nadie tiene agua.",portal,normal,2025-04-16 01:27:00
+Q4EB02CA2E7,T1540962193,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,telefono,normal,2024-09-30 07:51:00
+QA29E9F259F,TAAC46C752C,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,whatsapp,normal,2026-03-21 19:12:00
+QF0FF147CB7,T716C530DED,atencion,Fui a ventanilla y nadie me supo dar información de mi trámite.,portal,normal,2025-10-14 14:31:00
+Q56F4B0A03E,T6F621D315F,facturacion,Mi recibo llegó con un cobro mucho más alto de lo normal.,telefono,normal,2026-02-07 05:07:00
+QE1298D2FD9,T39FECD2D40,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,portal,normal,2026-06-06 01:09:00
+Q2B642E18EC,T4C0FAA9237,baja_presion,"Baja presión en Independencia, apenas llena una cubeta en diez minutos.",whatsapp,normal,2025-06-28 20:33:00
+QEA92BBA5F0,T599538981A,sin_agua,"Sin abasto en toda la calle Juárez, nadie tiene agua.",telefono,normal,2025-08-02 23:26:00
+Q2B1696CEB5,T5F78380FF1,calidad_agua,"El agua trae sedimento, se ve el fondo del vaso sucio.",portal,normal,2024-01-01 01:22:00
+Q84DF05544A,TBBD0028CDB,sin_agua,"Sin abasto en toda la calle Independencia, nadie tiene agua.",telefono,normal,2025-11-10 03:07:00
+Q2F45771C1B,T1A234D637E,calidad_agua,"Huele a cloro muy fuerte y sabe raro, no nos atrevemos a tomarla.",presencial,normal,2024-09-26 14:27:00
+QCA9F6270C1,TDE3B85E449,fuga_toma,La llave de banqueta gotea sin parar desde hace tres días.,telefono,normal,2024-07-06 17:21:00
+Q5520FBC289,T97A5E4F98E,baja_presion,"El agua llega con muy poca presión, no sube al tinaco.",portal,alta,2026-01-10 09:31:00
+QD991D0CDA6,TE23D5A574A,fuga_calle,Fuga en la banqueta de Allende. El agua no para y huele mal.,telefono,baja,2024-09-11 10:01:00
+Q183C23E913,T1A234D637E,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,portal,normal,2025-12-29 07:27:00
+Q5C96A58155,TF357DF2C85,fuga_calle,"Tiene hace dos semanas brotando agua del pavimento en 5 de Mayo, ya se hizo un charco grande.",whatsapp,normal,2024-06-22 23:19:00
+QCFD67A8722,T5A52BDFD5B,medidor,El medidor marca consumos altísimos y somos dos personas.,portal,normal,2025-12-17 19:33:00
+Q200029734B,T2A78E596A5,atencion,REPORTÉ HACE HACE DOS SEMANAS Y TODAVÍA NO VIENE NADIE A REVISAR.,telefono,alta,2025-04-13 03:11:00
+Q90C74FCB68,T4B2228F178,calidad_agua,"Huele a cloro muy fuerte y sabe raro, no nos atrevemos a tomarla.",presencial,normal,2024-02-19 20:55:00
+Q33F129C541,T328C38D103,baja_presion,"BAJA PRESIÓN EN 5 DE MAYO, APENAS LLENA UNA CUBETA EN DIEZ MINUTOS.",whatsapp,normal,2025-09-26 10:00:00
+QAEF854562E,TDE3B85E449,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,portal,normal,2024-08-26 06:58:00
+QF44AE8C7D0,TF8CD7DEDDA,calidad_agua,"Huele a cloro muy fuerte y sabe raro, no nos atrevemos a tomarla.",portal,normal,2024-10-27 19:06:00
+Q3446B4C0BF,TFAE2AFD636,fuga_calle,Fuga en la banqueta de 5 de Mayo. El agua no para y huele mal.,presencial,baja,2025-01-09 18:41:00
+Q5D2CA7178C,T0A7DFC3903,fuga_calle,"Tiene la semana pasada brotando agua del pavimento en Reforma, ya se hizo un charco grande.",telefono,normal,2026-02-19 15:00:00
+Q2DB9DCC98D,TE8DF4BFC62,sin_agua,"No llega agua a mi domicilio desde hace tres días, los vecinos igual.",telefono,alta,2024-01-15 13:33:00
+Q81DCBF55C8,T0C38B9638D,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,portal,baja,2025-04-20 02:14:00
+QE794C27E3B,TD6051C60DD,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,whatsapp,normal,2026-05-21 00:05:00
+QE7E8F91A8F,T1383BC162C,sin_agua,"Sin abasto en toda la calle Allende, nadie tiene agua.",whatsapp,baja,2026-02-15 00:49:00
+Q96D8B2077E,T08C84C6180,drenaje,Se regresa el agua del drenaje hacia mi patio desde el fin de semana.,whatsapp,normal,2025-08-30 20:40:00
+Q004AC3EA58,T124789ED12,drenaje,El drenaje de Independencia está desbordado y huele muy mal.,presencial,normal,2026-03-21 15:24:00
+Q32BA7EA30B,T7220DB253B,facturacion,MI RECIBO LLEGÓ CON UN COBRO MUCHO MÁS ALTO DE LO NORMAL.,telefono,baja,2025-09-23 03:45:00
+Q89F48AA111,T0E868A3F47,drenaje,Se regresa el agua del drenaje hacia mi patio desde hace dos semanas.,telefono,baja,2026-07-22 14:58:00
+QDDF1EF4313,TC44518846F,atencion,REPORTÉ HACE DESDE EL LUNES Y TODAVÍA NO VIENE NADIE A REVISAR.,whatsapp,baja,2024-08-01 09:47:00
+Q69DF247EEE,T6372E1147F,fuga_calle,"HAY AGUA SALIENDO EN LA CALLE ALLENDE DESDE HACE DOS SEMANAS, SE ESTÁ TIRANDO TODA.",telefono,normal,2025-05-18 00:32:00
+Q0FD04FC480,T6453265506,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,telefono,baja,2025-01-08 09:45:00
+QDB2FD83F60,T005A9CE174,medidor,"Mi medidor está roto, el cristal quebrado y no se lee.",whatsapp,baja,2025-06-20 17:22:00
+QDE20DB6BC3,T4CA807AAAE,calidad_agua,"El agua trae sedimento, se ve el fondo del vaso sucio.",presencial,normal,2024-08-19 19:49:00
+Q3C0CCD72FB,T62A907AFA1,baja_presion,"Baja presión en Morelos, apenas llena una cubeta en diez minutos.",presencial,normal,2025-02-07 00:30:00
+Q41C74FBCB4,T7B44E5C01C,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,whatsapp,normal,2025-02-02 01:56:00
+Q2CFB0EB297,TD718599337,medidor,EL MEDIDOR MARCA CONSUMOS ALTÍSIMOS Y SOMOS DOS PERSONAS.,telefono,normal,2024-06-25 10:25:00
+QE522222235,TFF833858D4,facturacion,Mi recibo llegó con un cobro mucho más alto de lo normal.,portal,normal,2026-06-25 15:24:00
+Q932EAE6BAB,T9B658694D7,fuga_calle,"  Hay  agua  saliendo en la calle 5 de Mayo desde el fin de semana, se está tirando toda.",portal,normal,2024-05-05 05:50:00
+Q8B1522AE6B,TD81C7B0AC7,baja_presion,"No alcanza presión para el calentador, el agua llega sin fuerza.",telefono,baja,2024-06-27 06:49:00
+Q9CB93B68DB,TCDF5CCF9D1,baja_presion,"No alcanza presión para el calentador, el agua llega sin fuerza.",telefono,normal,2026-05-03 06:13:00
+Q869BC1C9A5,T005A9CE174,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,whatsapp,alta,2025-04-22 03:59:00
+QF343ECB3D9,T005A9CE174,drenaje,"Registro de alcantarillado tapado en Independencia, escurre a la calle.",telefono,normal,2025-08-28 10:04:00
+Q4F27805C0E,T16385BC409,fuga_calle,"Reporto fuga en la vialidad de 5 de Mayo, el agua corre hacia la esquina.",telefono,normal,2024-03-03 21:33:00
+Q25D4A2C69E,T593C7D2F36,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,portal,alta,2026-08-08 18:45:00
+QCCB73C155B,T6B76BCDCC8,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,portal,alta,2026-06-09 08:53:00
+QB47B1CF618,T1D1C3809AD,atencion,Llamé varias veces y no contestan el teléfono de atención.,portal,alta,2025-07-31 07:43:00
+Q5910890E69,T54630B6404,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,portal,normal,2025-07-08 03:15:00
+Q49250AEC47,TB1AE49FA20,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,telefono,normal,2025-08-13 03:59:00
+Q37C9C49848,TCC371206BC,baja_presion,"Desde hace varios días el chorro sale débil, sobre todo en la mañana.",telefono,normal,2025-10-01 00:41:00
+Q4633097EEE,T87B30A11CA,medidor,"Mi medidor está roto, el cristal quebrado y no se lee.",whatsapp,alta,2025-12-01 19:04:00
+QAD16C8BEFB,T599538981A,calidad_agua,Sale amarillenta y mancha la ropa al lavar.,telefono,baja,2025-06-02 18:40:00
+Q3265226A7C,T013C0F8B57,atencion,Llamé varias veces y no contestan el teléfono de atención.,telefono,urgente,2025-05-11 18:25:00
+Q0B9D625127,TE8DF4BFC62,fuga_calle,FUGA EN LA BANQUETA DE INDEPENDENCIA. EL AGUA NO PARA Y HUELE MAL.,portal,baja,2024-09-04 18:59:00
+Q2F445E4C05,T57E5EAB9B8,sin_agua,"No llega agua a mi domicilio desde hace tres días, los vecinos igual.",portal,baja,2026-04-14 15:18:00
+Q2D1A198B40,T62A907AFA1,facturacion,MI RECIBO LLEGÓ CON UN COBRO MUCHO MÁS ALTO DE LO NORMAL.,telefono,normal,2025-08-21 21:56:00
+Q164E497830,T5C97BD73CE,fuga_calle,"Tiene hace tres días brotando agua del pavimento en Guerrero, ya se hizo un charco grande.",whatsapp,baja,2025-04-25 17:01:00
+Q863CF1D16E,T0E3944E1C7,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,telefono,urgente,2025-02-03 02:49:00
+Q7829828D7E,T188F8436EB,calidad_agua,"HUELE A CLORO MUY FUERTE Y SABE RARO, NO NOS ATREVEMOS A TOMARLA.",presencial,alta,2024-06-26 08:16:00
+Q65C4E45BA2,TB308B5DC7A,facturacion,PAGUÉ EN LÍNEA Y EL RECIBO SIGUE APARECIENDO COMO PENDIENTE.,portal,urgente,2024-06-21 14:49:00
+QEC785583E6,TBA7727A83B,fuga_calle,"  Hay  agua  saliendo en la calle 5 de Mayo desde hace tres días, se está tirando toda.",telefono,alta,2025-05-15 06:12:00
+Q5285DFECA9,T592985E849,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",portal,baja,2025-12-10 21:40:00
+Q10B6C19A88,T997FBB56CB,calidad_agua,"Huele a cloro muy fuerte y sabe raro, no nos atrevemos a tomarla.",presencial,alta,2025-12-13 03:39:00
+Q68D8884C46,T01F422D988,medidor,"Mi medidor está roto, el cristal quebrado y no se lee.",presencial,alta,2026-07-17 08:47:00
+Q26976D3CCF,T0F2B41D96D,calidad_agua,El agua sale turbia y con tierra desde desde el lunes.,telefono,alta,2024-11-25 00:26:00
+Q95D3A8D1DF,T3B6195226D,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,telefono,normal,2025-08-20 10:03:00
+Q6001DEF66F,T37BA3005AD,drenaje,El drenaje de Zaragoza está desbordado y huele muy mal.,telefono,normal,2026-02-07 03:17:00
+Q1BDABD6B1D,TCED7759D69,medidor,El medidor no marca nada aunque sí tengamos agua.,telefono,normal,2026-07-09 19:46:00
+QE3D107011A,TCA03B52F53,drenaje,El drenaje de Morelos está desbordado y huele muy mal.,whatsapp,alta,2024-04-02 15:54:00
+QBAAB307B44,T6A6F416B64,medidor,El medidor marca consumos altísimos y somos dos personas.,portal,baja,2025-08-11 23:44:00
+QE15C296943,T5F78380FF1,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,telefono,normal,2025-03-24 10:23:00
+Q10BCC54510,T1D1F227112,fuga_calle,Fuga en la banqueta de Hidalgo. El agua no para y huele mal.,telefono,normal,2026-08-12 11:37:00
+Q2A09767816,TBBD0028CDB,drenaje,EL DRENAJE DE MORELOS ESTÁ DESBORDADO Y HUELE MUY MAL.,portal,normal,2025-09-23 23:35:00
+QA38A959B89,T58E4665FE8,calidad_agua,"El agua trae sedimento, se ve el fondo del vaso sucio.",portal,normal,2025-09-01 08:07:00
+Q67C319016E,T711A4FB3DC,sin_agua,"NO LLEGA AGUA A MI DOMICILIO DESDE AYER, LOS VECINOS IGUAL.",whatsapp,alta,2026-02-27 02:35:00
+Q374F8C4584,TFAE2AFD636,fuga_calle,  Fuga  en  la banqueta de Allende. El agua no para y huele mal.,whatsapp,normal,2025-12-20 20:24:00
+QC6612FF0D4,TCDF5CCF9D1,calidad_agua,El agua sale turbia y con tierra desde el fin de semana.,presencial,normal,2025-09-04 12:26:00
+Q8EB1B2866A,T63245D9338,fuga_calle,"Hay agua saliendo en la calle Guerrero desde hace tres días, se está tirando toda.",portal,alta,2025-11-03 12:54:00
+Q3B850D36F3,T9AEC04CEE6,sin_agua,"No llega agua a mi domicilio desde ayer, los vecinos igual.",whatsapp,alta,2026-03-21 22:05:00
+QD34690E51E,TCFB896C903,sin_agua,"Sin abasto en toda la calle Hidalgo, nadie tiene agua.",presencial,normal,2026-06-06 20:10:00
+Q40A50639CF,T5B2FD74A85,calidad_agua,El agua sale turbia y con tierra desde hace varios días.,telefono,alta,2025-10-09 15:47:00
+QADC99612D8,T9B1CF87E17,baja_presion,"Baja presión en Independencia, apenas llena una cubeta en diez minutos.",presencial,alta,2025-07-26 20:26:00
+Q2F770DE2BC,T0380D1AD85,facturacion,Mi recibo llegó con un cobro mucho más alto de lo normal.,presencial,normal,2024-12-31 12:56:00
+Q64810FCE72,T0C38B9638D,fuga_toma,La llave de banqueta gotea sin parar desde ayer.,telefono,normal,2025-09-30 02:12:00
+QBCDF3E6050,T4D34DCD6FE,fuga_calle,Fuga en la banqueta de Guerrero. El agua no para y huele mal.,presencial,normal,2026-02-26 03:35:00
+Q775757006C,T62F138B69F,fuga_calle,"Hay agua saliendo en la calle Hidalgo desde hace varios días, se está tirando toda.",telefono,normal,2025-03-15 15:04:00
+Q1C7A17C5E4,TF07D19AE17,medidor,El medidor no marca nada aunque sí tengamos agua.,portal,normal,2025-05-18 12:42:00
+Q237CDD2D01,TE7328B9E12,calidad_agua,El agua sale turbia y con tierra desde hace varios días.,whatsapp,baja,2026-08-01 20:30:00
+Q49211FE1D1,TB1A6FA6009,fuga_toma,La llave de banqueta gotea sin parar desde desde el lunes.,telefono,normal,2024-06-27 23:38:00
+Q562FCC4A07,T4C0FAA9237,sin_agua,"NO LLEGA AGUA A MI DOMICILIO DESDE AYER, LOS VECINOS IGUAL.",telefono,normal,2025-04-11 09:11:00
+Q552694E2D7,TF8CD7DEDDA,calidad_agua,SALE AMARILLENTA Y MANCHA LA ROPA AL LAVAR.,telefono,baja,2025-09-03 17:01:00
+Q7B448F791E,TAB633F4546,sin_agua,"No llega agua a mi domicilio desde hace varios días, los vecinos igual.",telefono,normal,2025-08-03 20:36:00
+Q18823FDCFB,TAB633F4546,calidad_agua,"Huele a cloro muy fuerte y sabe raro, no nos atrevemos a tomarla.",presencial,baja,2024-04-10 11:53:00
+QE5E35C6409,T6FEE2A0A85,fuga_calle,Fuga en la banqueta de Reforma. El agua no para y huele mal.,presencial,alta,2026-02-27 21:05:00
+Q33B43AC25D,TC653350390,drenaje,HAY AGUAS NEGRAS SALIENDO DE LA COLADERA DE LA ESQUINA.,presencial,alta,2024-05-31 05:19:00
+Q9A0A99E568,T63245D9338,fuga_calle,"Reporto fuga en la vialidad de Reforma, el agua corre hacia la esquina.",portal,baja,2026-05-15 16:06:00
+Q1D26C7384E,T124789ED12,drenaje,"Registro de alcantarillado tapado en Independencia, escurre a la calle.",presencial,normal,2025-10-11 15:24:00
+Q60147CF348,TC97F0C81C8,baja_presion,"Desde la semana pasada el chorro sale débil, sobre todo en la mañana.",presencial,baja,2025-12-07 03:35:00
+Q7ED3B16472,TD6051C60DD,atencion,Fui a ventanilla y nadie me supo dar información de mi trámite.,whatsapp,normal,2024-07-30 16:13:00
+QAEF6F5D6CA,T5B2FD74A85,fuga_calle,"Tiene hace tres días brotando agua del pavimento en Reforma, ya se hizo un charco grande.",whatsapp,normal,2025-02-14 06:17:00
+Q23A57E40BC,T46D0D9FE06,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,telefono,alta,2024-08-17 23:47:00
+Q159E4BF5F4,TF6199DECCB,calidad_agua,"Huele a cloro muy fuerte y sabe raro, no nos atrevemos a tomarla.",telefono,normal,2025-04-09 14:05:00
+Q0A8FDF50DE,T2A7B7C0706,fuga_calle,"Hay agua saliendo en la calle Allende desde la semana pasada, se está tirando toda.",portal,alta,2025-10-16 03:21:00
+QE7ECD8E543,T4B2228F178,calidad_agua,"El agua trae sedimento, se ve el fondo del vaso sucio.",portal,normal,2024-06-17 04:08:00
+Q33EB3F9EF0,T3AF0CA5142,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",telefono,alta,2026-04-10 14:10:00
+Q1569852E49,T0185184B59,fuga_calle,"Reporto fuga en la vialidad de Morelos, el agua corre hacia la esquina.",portal,alta,2024-11-03 15:49:00
+Q56AA8CCE92,TEAED0D702E,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",portal,normal,2025-02-26 16:32:00
+Q70ADDA6C66,T61903D0C08,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,whatsapp,alta,2025-03-21 06:35:00
+QE5214D3D37,TA54FDBC969,fuga_calle,"Tiene hace tres días brotando agua del pavimento en Independencia, ya se hizo un charco grande.",portal,alta,2024-12-01 21:59:00
+Q47148F6154,TE13FCEC631,sin_agua,"Sin abasto en toda la calle Guerrero, nadie tiene agua.",telefono,alta,2025-05-28 18:25:00
+QA0565F47DF,T9BABD62590,fuga_calle,Fuga en la banqueta de Allende. El agua no para y huele mal.,portal,baja,2025-05-03 00:57:00
+QC1BF8974EC,TB28F8F08F4,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,portal,normal,2025-11-19 15:00:00
+QFDAF98DD26,T592985E849,drenaje,Se regresa el agua del drenaje hacia mi patio desde el fin de semana.,telefono,alta,2026-08-27 04:37:00
+QEDBCBB503A,T62A907AFA1,baja_presion,"Desde la semana pasada el chorro sale débil, sobre todo en la mañana.",portal,alta,2024-04-20 06:52:00
+Q179369FC02,T5C22EC11B8,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,presencial,baja,2025-06-01 20:55:00
+QEF777E695A,T7B44E5C01C,fuga_calle,"Hay agua saliendo en la calle Matamoros desde hace varios días, se está tirando toda.",whatsapp,alta,2024-04-05 23:42:00
+QB3EDDA2C81,T0070991C4A,fuga_calle,"Hay agua saliendo en la calle 5 de Mayo desde desde el lunes, se está tirando toda.",whatsapp,baja,2026-03-12 19:53:00
+Q566EC380C5,T98621FD0F2,fuga_calle,"Reporto fuga en la vialidad de Morelos, el agua corre hacia la esquina.",portal,alta,2026-08-03 09:15:00
+QFDAFD57B7A,T518D652731,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,portal,normal,2026-01-01 04:08:00
+QF7C34D5682,T78A401EEAD,medidor,"Se llevaron el medidor de mi toma, ya no está en la caja.",telefono,normal,2025-04-08 06:19:00
+Q8906F0A1E6,TCFB896C903,fuga_toma,La llave de banqueta gotea sin parar desde desde el lunes.,presencial,normal,2025-01-20 16:19:00
+Q0316FC50B2,T6B76BCDCC8,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,presencial,baja,2025-09-13 05:44:00
+QF4B6C24987,T148BA00559,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,portal,normal,2024-12-02 16:39:00
+Q0C386427DF,T0197678D11,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,telefono,baja,2024-03-13 11:18:00
+Q6B0DE1D261,T4EBE5132B6,fuga_calle,"REPORTO FUGA EN LA VIALIDAD DE 5 DE MAYO, EL AGUA CORRE HACIA LA ESQUINA.",presencial,normal,2026-02-12 09:28:00
+QC8168A127D,TE8DF4BFC62,facturacion,Pagué en línea y el recibo sigue apareciendo como pendiente.,presencial,normal,2024-09-07 20:07:00
+Q6FF2BFDC8B,T16385BC409,sin_agua,"No llega agua a mi domicilio desde hace varios días, los vecinos igual.",presencial,normal,2025-04-15 20:36:00
+QD6C2385B60,T5DA6DABC22,baja_presion,"El agua llega con muy poca presión, no sube al tinaco.",presencial,normal,2025-03-19 19:23:00
+QD1C9866B1A,T488907BADA,fuga_toma,La llave de banqueta gotea sin parar desde hace dos semanas.,portal,baja,2024-02-26 20:05:00
+Q8145F495A6,T42EAACA5A6,atencion,Reporté hace hace tres días y todavía no viene nadie a revisar.,portal,normal,2025-09-12 19:00:00
+Q3C353264FD,T136877D852,sin_agua,"NO LLEGA AGUA A MI DOMICILIO DESDE LA SEMANA PASADA, LOS VECINOS IGUAL.",telefono,urgente,2026-08-06 14:09:00
+Q8A9EC8A3DE,T1629374829,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,whatsapp,normal,2024-10-07 08:34:00
+Q7552B23122,T75D0C6EEF9,drenaje,El drenaje de Zaragoza está desbordado y huele muy mal.,telefono,alta,2024-12-27 12:03:00
+Q9CB8FB9CF9,T5D0DA4A5A3,calidad_agua,"El agua trae sedimento, se ve el fondo del vaso sucio.",telefono,normal,2026-06-25 21:26:00
+Q84F014063B,T929701588B,sin_agua,"Sin abasto en toda la calle Guerrero, nadie tiene agua.",telefono,normal,2024-11-08 09:10:00
+Q7DD2A85133,T03D524AC98,fuga_toma,ME SALE AGUA POR LA TOMA DE MI DOMICILIO AUNQUE TENGA TODO CERRADO.,telefono,normal,2026-05-04 13:26:00
+QB4BD959EE9,TDCBC842E3A,fuga_calle,"Tiene la semana pasada brotando agua del pavimento en 5 de Mayo, ya se hizo un charco grande.",portal,normal,2024-11-28 00:12:00
+Q2735FFC7F8,TEAD9E81003,fuga_toma,CREO QUE TENGO UNA FUGA: CERRÉ TODO Y EL MEDIDOR SIGUE GIRANDO.,whatsapp,normal,2025-03-25 01:55:00
+QCFA094654B,T363192FB18,baja_presion,"Desde ayer el chorro sale débil, sobre todo en la mañana.",portal,normal,2025-12-19 09:23:00
+Q6D3FD36415,TDFD739AFF7,drenaje,Se regresa el agua del drenaje hacia mi patio desde ayer.,portal,normal,2024-10-10 01:16:00
+Q713DBFE75A,T26D49D2B10,fuga_toma,La llave de banqueta gotea sin parar desde desde el lunes.,presencial,normal,2024-10-15 06:00:00
+Q9C3D0643B8,TA7CD008CD2,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,telefono,normal,2025-11-22 05:13:00
+Q203CF32514,T9BF23AC92B,atencion,Mal trato del personal al preguntar por mi aclaración.,presencial,normal,2026-08-19 02:15:00
+QD8523385DC,T39FECD2D40,atencion,  Fui  a  ventanilla y nadie me supo dar información de mi trámite.,telefono,alta,2024-01-27 02:58:00
+Q8CB303B756,TC5E02C2AE1,calidad_agua,Sale amarillenta y mancha la ropa al lavar.,telefono,normal,2024-08-07 00:08:00
+QC46ED4B7E6,T393F331539,atencion,Reporté hace el fin de semana y todavía no viene nadie a revisar.,telefono,normal,2024-09-24 16:00:00
+QB884CCF4F0,T6DD4962896,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,whatsapp,normal,2025-02-18 12:39:00
+Q67B1FFC90F,T4D40D256FE,fuga_calle,Fuga en la banqueta de Matamoros. El agua no para y huele mal.,portal,alta,2025-06-22 05:42:00
+QC161541C4B,TEAED0D702E,medidor,El medidor marca consumos altísimos y somos dos personas.,portal,normal,2024-04-22 04:34:00
+Q8ADA921B6F,T75D0C6EEF9,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",whatsapp,alta,2025-06-29 04:27:00
+Q17AD294E5A,T926427EC22,facturacion,Pagué en línea y el recibo sigue apareciendo como pendiente.,portal,alta,2025-07-29 16:17:00
+Q46C070248F,T44E572D176,baja_presion,"BAJA PRESIÓN EN ALLENDE, APENAS LLENA UNA CUBETA EN DIEZ MINUTOS.",whatsapp,normal,2024-09-08 06:02:00
+Q8C12AEF327,T2FB8838715,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,whatsapp,alta,2024-09-06 04:06:00
+QF84F6345DE,T680C591820,fuga_calle,Fuga en la banqueta de Guerrero. El agua no para y huele mal.,portal,baja,2026-08-09 16:29:00
+QBD2C03F8BA,TE1CE4D9E5A,sin_agua,"  Sin  abasto  en toda la calle Matamoros, nadie tiene agua.",presencial,baja,2024-10-09 18:55:00
+Q18C10B3FB2,T580C1D0E5A,fuga_calle,"Reporto fuga en la vialidad de Guerrero, el agua corre hacia la esquina.",presencial,alta,2026-06-02 19:52:00
+Q3FD757256F,T81E3CAC404,drenaje,Se regresa el agua del drenaje hacia mi patio desde hace varios días.,presencial,normal,2025-07-12 17:39:00
+QE7749B8FB8,T95A557D58C,baja_presion,"El agua llega con muy poca presión, no sube al tinaco.",telefono,baja,2026-06-20 12:55:00
+Q121C54A2CB,TF9F158A927,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",portal,normal,2026-07-18 16:21:00
+QF7E85E206A,T2F89E8ED6F,drenaje,Se regresa el agua del drenaje hacia mi patio desde desde el lunes.,whatsapp,alta,2025-08-22 04:26:00
+QB36209D8F5,T363192FB18,medidor,El medidor marca consumos altísimos y somos dos personas.,whatsapp,baja,2025-12-26 21:02:00
+Q74378188D3,TF5AB4BC37D,medidor,"  Mi  medidor  está roto, el cristal quebrado y no se lee.",portal,normal,2026-08-22 18:47:00
+Q11F7B25481,T3DB8E8C91B,sin_agua,"No llega agua a mi domicilio desde hace varios días, los vecinos igual.",telefono,normal,2024-12-30 02:28:00
+Q5629329CBF,TC2B54F643A,calidad_agua,"Huele a cloro muy fuerte y sabe raro, no nos atrevemos a tomarla.",whatsapp,alta,2025-05-17 02:50:00
+QF9E333AA0B,T771EC6B537,fuga_toma,  Hay  humedad  y agua acumulada junto al medidor de mi casa.,presencial,normal,2025-01-03 18:00:00
+QB49ED302FE,T595C48877B,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,portal,alta,2026-05-27 06:46:00
+QB5F564D80C,TAB67F85714,drenaje,Se regresa el agua del drenaje hacia mi patio desde el fin de semana.,telefono,normal,2024-04-08 11:13:00
+Q50A95F7F34,T5825BB17FC,facturacion,Pagué en línea y el recibo sigue apareciendo como pendiente.,telefono,normal,2024-10-30 08:58:00
+QE42BCBC277,TAD97E4B580,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,presencial,normal,2024-10-20 19:36:00
+Q55455B1A40,T6230F0F81A,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,telefono,normal,2024-03-30 13:14:00
+Q2C094774B5,T6492EC951E,calidad_agua,El agua sale turbia y con tierra desde la semana pasada.,telefono,normal,2024-12-29 02:00:00
+Q64A1244597,T0FA07C2AE6,fuga_calle,"Tiene el fin de semana brotando agua del pavimento en Morelos, ya se hizo un charco grande.",portal,normal,2024-06-26 11:15:00
+Q92A9608864,TE5AE06739E,baja_presion,"Baja presión en Guerrero, apenas llena una cubeta en diez minutos.",presencial,normal,2024-11-25 22:06:00
+Q194410770D,T6A6F416B64,baja_presion,"No alcanza presión para el calentador, el agua llega sin fuerza.",presencial,normal,2026-06-14 00:51:00
+Q8F971BED25,T660F58D22C,fuga_calle,"Reporto fuga en la vialidad de Zaragoza, el agua corre hacia la esquina.",whatsapp,alta,2024-03-24 04:17:00
+Q35E33FC98E,TF2D53B5266,sin_agua,Llevamos hace dos semanas sin servicio de agua en la privada.,presencial,baja,2024-07-16 05:23:00
+Q266A964FE1,T203C71CAC2,atencion,Reporté hace hace tres días y todavía no viene nadie a revisar.,portal,normal,2024-09-28 21:37:00
+Q6C69AA4FE7,T3C23C0A42C,fuga_toma,La llave de banqueta gotea sin parar desde hace varios días.,whatsapp,normal,2025-08-05 03:50:00
+QB0D6AA5320,T0A7DFC3903,baja_presion,"El agua llega con muy poca presión, no sube al tinaco.",whatsapp,baja,2025-05-28 11:12:00
+Q5C7254B36B,TE13FCEC631,drenaje,El drenaje de Morelos está desbordado y huele muy mal.,whatsapp,alta,2025-01-27 15:35:00
+QCD3E900927,T0A0805FB46,fuga_calle,"Reporto fuga en la vialidad de Allende, el agua corre hacia la esquina.",whatsapp,urgente,2026-05-18 23:50:00
+Q767BE18D3E,T66B24DDB8C,sin_agua,"Sin abasto en toda la calle Reforma, nadie tiene agua.",telefono,normal,2026-08-26 14:21:00
+Q51E434EEE5,T0201C8273D,baja_presion,"Desde desde el lunes el chorro sale débil, sobre todo en la mañana.",telefono,normal,2026-06-06 19:53:00
+Q6A65BEEAEC,T580C1D0E5A,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,portal,baja,2024-03-23 18:49:00
+Q37998916FE,T5C97BD73CE,fuga_calle,"Hay agua saliendo en la calle Guerrero desde hace tres días, se está tirando toda.",presencial,alta,2026-02-15 06:41:00
+Q045FF04578,T31A37C291B,baja_presion,"No alcanza presión para el calentador, el agua llega sin fuerza.",telefono,urgente,2024-04-08 05:02:00
+Q2D2B683029,T1E40F3A239,atencion,Llamé varias veces y no contestan el teléfono de atención.,whatsapp,baja,2024-10-14 00:12:00
+Q9B617A78A8,TEDB2598366,fuga_calle,"Reporto fuga en la vialidad de Independencia, el agua corre hacia la esquina.",whatsapp,normal,2026-04-09 11:47:00
+Q0F91C25C8A,TC5E185C6E8,calidad_agua,"El agua trae sedimento, se ve el fondo del vaso sucio.",telefono,alta,2025-04-19 06:41:00
+Q122813B484,T5825BB17FC,fuga_calle,Fuga en la banqueta de Guerrero. El agua no para y huele mal.,telefono,normal,2025-03-02 14:05:00
+Q3D870B09A4,T9C5C1B51E6,sin_agua,"Sin abasto en toda la calle Hidalgo, nadie tiene agua.",portal,normal,2024-09-09 18:02:00
+Q02D706EE7F,T99F86EAA03,sin_agua,Llevamos desde el lunes sin servicio de agua en la privada.,portal,normal,2025-11-10 10:59:00
+Q04C57556CA,TE9E2B18053,baja_presion,"Baja presión en Independencia, apenas llena una cubeta en diez minutos.",whatsapp,normal,2024-05-08 05:55:00
+Q36B50C8037,T997FBB56CB,atencion,REPORTÉ HACE HACE DOS SEMANAS Y TODAVÍA NO VIENE NADIE A REVISAR.,telefono,normal,2025-10-24 02:13:00
+QBF1F5838B2,T2FB8838715,calidad_agua,"El agua trae sedimento, se ve el fondo del vaso sucio.",telefono,alta,2026-05-18 04:26:00
+QAE85D031BF,T0E8259349E,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,telefono,normal,2024-07-20 17:03:00
+QC8682C389F,TBF5EF4019A,baja_presion,"Desde el fin de semana el chorro sale débil, sobre todo en la mañana.",presencial,normal,2025-08-17 17:18:00
+QB8D2E96841,T0A7DFC3903,calidad_agua,"El agua trae sedimento, se ve el fondo del vaso sucio.",whatsapp,alta,2024-09-25 19:30:00
+QD92244EC7A,T3104E606FB,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,presencial,alta,2025-01-18 17:25:00
+Q41557572A1,T5446AB5D4F,calidad_agua,  El  agua  sale turbia y con tierra desde el fin de semana.,presencial,normal,2026-02-21 13:23:00
+QE3D977BD88,T6BE1C12D07,atencion,  Llamé  varias  veces y no contestan el teléfono de atención.,whatsapp,normal,2025-06-07 14:05:00
+Q7DD4B79631,TF6199DECCB,fuga_calle,"Tiene la semana pasada brotando agua del pavimento en 5 de Mayo, ya se hizo un charco grande.",portal,normal,2025-10-24 01:13:00
+Q0555685151,T62A907AFA1,sin_agua,Llevamos ayer sin servicio de agua en la privada.,telefono,baja,2026-05-01 22:46:00
+QB62596939E,T629B85F6AE,drenaje,Hay aguas negras saliendo de la coladera de la esquina.,whatsapp,normal,2024-08-08 09:24:00
+QEACF822C0E,TF9F158A927,fuga_toma,  Creo  que  tengo una fuga: cerré todo y el medidor sigue girando.,portal,normal,2024-04-28 08:51:00
+Q9A5E17B19A,TEAD9E81003,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,presencial,alta,2025-06-01 07:49:00
+Q58B4193CAF,TD93E7F3525,medidor,"Se llevaron el medidor de mi toma, ya no está en la caja.",telefono,normal,2024-09-29 14:59:00
+QD74A823C35,T5C22EC11B8,calidad_agua,"Huele a cloro muy fuerte y sabe raro, no nos atrevemos a tomarla.",portal,normal,2024-07-06 20:53:00
+QC375078215,TC653350390,atencion,Mal trato del personal al preguntar por mi aclaración.,portal,alta,2026-04-07 20:31:00
+Q3ADFC0C24A,T92ED6C6BBC,facturacion,Mi recibo llegó con un cobro mucho más alto de lo normal.,presencial,normal,2024-09-16 04:20:00
+QA8A5A575DA,TE9E2B18053,sin_agua,"No llega agua a mi domicilio desde hace varios días, los vecinos igual.",whatsapp,urgente,2025-01-19 01:05:00
+Q08068C5C4E,TBFDD3649BD,baja_presion,"No alcanza presión para el calentador, el agua llega sin fuerza.",portal,normal,2024-06-06 05:25:00
+Q908DFD01E9,TEA687BEEC8,sin_agua,TERCER DÍA SIN AGUA. NECESITAMOS SABER CUÁNDO SE RESTABLECE.,telefono,urgente,2024-05-10 12:00:00
+Q9AD23CC3D2,TF357DF2C85,fuga_calle,"Hay agua saliendo en la calle Matamoros desde hace tres días, se está tirando toda.",portal,normal,2024-06-12 13:05:00
+Q46E5ADD449,TA014F1FF15,baja_presion,"El agua llega con muy poca presión, no sube al tinaco.",presencial,normal,2025-04-28 08:32:00
+Q7B2F1143BB,T6A6F416B64,fuga_calle,"Hay agua saliendo en la calle 5 de Mayo desde la semana pasada, se está tirando toda.",telefono,normal,2025-07-15 23:48:00
+Q4596EBDFAE,T188F8436EB,drenaje,"  Registro  de  alcantarillado tapado en Morelos, escurre a la calle.",whatsapp,normal,2026-02-12 12:45:00
+Q3DC1329657,T7DC59256DC,sin_agua,"No llega agua a mi domicilio desde hace tres días, los vecinos igual.",telefono,normal,2024-04-23 12:10:00
+Q9E56E4DBEA,T0F4A3A74ED,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,whatsapp,normal,2024-11-26 21:04:00
+QB8723D13FA,T8AB7B992DC,sin_agua,"  Sin  abasto  en toda la calle Hidalgo, nadie tiene agua.",telefono,normal,2026-05-30 05:51:00
+Q6FDF5EA312,T1D1C3809AD,fuga_calle,Fuga en la banqueta de Reforma. El agua no para y huele mal.,portal,alta,2026-07-11 19:52:00
+QB666DF1A45,T8237A9AE83,atencion,Mal trato del personal al preguntar por mi aclaración.,presencial,baja,2026-07-30 21:40:00
+QF645346B1E,TC44518846F,atencion,Fui a ventanilla y nadie me supo dar información de mi trámite.,telefono,alta,2026-01-14 07:38:00
+Q05A9D2585E,T9F72B39B89,baja_presion,"  Desde  hace  dos semanas el chorro sale débil, sobre todo en la mañana.",whatsapp,alta,2026-03-03 05:14:00
+QB0E4E3EE5D,T0E868A3F47,atencion,Llamé varias veces y no contestan el teléfono de atención.,telefono,normal,2024-03-06 07:01:00
+Q34B8A6BEB1,T61903D0C08,medidor,"  Se  llevaron  el medidor de mi toma, ya no está en la caja.",presencial,normal,2024-01-31 23:25:00
+Q72B1FD4AFC,T0A0805FB46,baja_presion,"No alcanza presión para el calentador, el agua llega sin fuerza.",portal,alta,2024-07-09 12:18:00
+Q1A0BDFCC21,TAB633F4546,drenaje,El drenaje de Reforma está desbordado y huele muy mal.,portal,normal,2025-02-04 16:48:00
+Q030F491FD5,TCCA2F0E6D1,fuga_calle,FUGA EN LA BANQUETA DE MORELOS. EL AGUA NO PARA Y HUELE MAL.,portal,normal,2025-02-27 15:58:00
+Q9EC8CEBF3D,TCE4FA87780,calidad_agua,"Huele a cloro muy fuerte y sabe raro, no nos atrevemos a tomarla.",presencial,alta,2024-11-25 22:57:00
+QCC7B143BE7,T6DD01C39D7,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",telefono,alta,2026-05-26 10:10:00
+Q82B2708544,T4D40D256FE,baja_presion,"Desde hace varios días el chorro sale débil, sobre todo en la mañana.",portal,normal,2025-12-22 20:35:00
+Q2D5A2D121A,TAE4991C39A,fuga_toma,La llave de banqueta gotea sin parar desde desde el lunes.,presencial,normal,2025-02-28 03:37:00
+Q3D9BD5C989,TDE3B85E449,medidor,"Se llevaron el medidor de mi toma, ya no está en la caja.",whatsapp,normal,2024-12-12 15:25:00
+Q812255A23C,T1A8F7C05C9,fuga_calle,  Fuga  en  la banqueta de Hidalgo. El agua no para y huele mal.,portal,normal,2024-02-14 09:08:00
+Q9489947E63,TA54FDBC969,fuga_calle,"Hay agua saliendo en la calle Zaragoza desde hace dos semanas, se está tirando toda.",portal,alta,2024-07-30 20:52:00
+Q6F1990528B,T6191B8FD69,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,telefono,normal,2026-05-22 22:42:00
+QBA150288A5,TF94B3B4CEA,fuga_toma,La llave de banqueta gotea sin parar desde hace varios días.,portal,alta,2024-08-02 06:35:00
+QF3D394CEED,T3A8AE15DE9,fuga_toma,  La  llave  de banqueta gotea sin parar desde desde el lunes.,telefono,alta,2025-05-20 11:02:00
+QE310B83AC7,T9F3D4A99A8,sin_agua,"No llega agua a mi domicilio desde ayer, los vecinos igual.",portal,normal,2025-12-27 14:54:00
+QFF86493B69,TD93E7F3525,facturacion,Pagué en línea y el recibo sigue apareciendo como pendiente.,telefono,baja,2026-07-24 11:59:00
+QD086F92397,T7562476AEF,sin_agua,"  Sin  abasto  en toda la calle Juárez, nadie tiene agua.",whatsapp,urgente,2024-04-11 07:05:00
+QF439EB89FC,T6FEE2A0A85,baja_presion,"Baja presión en Reforma, apenas llena una cubeta en diez minutos.",presencial,alta,2024-06-08 15:54:00
+QCA0C8D0A8E,T7092CB932F,fuga_toma,  Me  sale  agua por la toma de mi domicilio aunque tenga todo cerrado.,telefono,baja,2024-10-18 10:06:00
+QEB4CF0549B,TFF800A383C,sin_agua,"  No  llega  agua a mi domicilio desde el fin de semana, los vecinos igual.",whatsapp,normal,2024-05-19 10:31:00
+QF53F474C31,T7833B36159,drenaje,Hay aguas negras saliendo de la coladera de la esquina.,whatsapp,normal,2026-08-21 07:28:00
+Q45A82DF3C3,T4C0FAA9237,atencion,Llamé varias veces y no contestan el teléfono de atención.,whatsapp,normal,2025-11-10 21:13:00
+QCB9BA416F8,T95A557D58C,facturacion,Pagué en línea y el recibo sigue apareciendo como pendiente.,portal,urgente,2025-07-16 16:55:00
+QBB222085B3,TF07D19AE17,atencion,LLAMÉ VARIAS VECES Y NO CONTESTAN EL TELÉFONO DE ATENCIÓN.,presencial,normal,2026-08-20 20:31:00
+Q334021EC90,T75D0C6EEF9,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,telefono,normal,2024-09-13 14:08:00
+Q264C358821,TE6221DA147,drenaje,Hay aguas negras saliendo de la coladera de la esquina.,presencial,alta,2025-03-21 15:43:00
+Q9C50ABE295,TF94B3B4CEA,facturacion,Pagué en línea y el recibo sigue apareciendo como pendiente.,portal,alta,2026-07-14 12:10:00
+Q89C8E6E81C,T66B24DDB8C,drenaje,"Registro de alcantarillado tapado en Matamoros, escurre a la calle.",whatsapp,normal,2024-06-10 08:31:00
+QA8E9BB3D4A,TF6199DECCB,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,whatsapp,normal,2026-01-28 08:18:00
+Q276E4FCA9E,TEF123948C4,sin_agua,"No llega agua a mi domicilio desde desde el lunes, los vecinos igual.",telefono,normal,2026-04-13 04:26:00
+QDF0720CED2,T962D5133B5,sin_agua,"No llega agua a mi domicilio desde el fin de semana, los vecinos igual.",telefono,normal,2025-12-03 09:11:00
+Q7FC62F91BC,T9F72B39B89,drenaje,"Registro de alcantarillado tapado en 5 de Mayo, escurre a la calle.",telefono,normal,2026-01-17 20:49:00
+Q97DD3344CF,T260F6D657D,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,telefono,normal,2025-07-08 19:21:00
+Q1B8E47CAD3,T575100FEE6,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,whatsapp,baja,2025-05-24 15:16:00
+Q4743DA9855,T9B1CF87E17,sin_agua,"No llega agua a mi domicilio desde hace tres días, los vecinos igual.",whatsapp,urgente,2025-09-12 10:17:00
+Q65898479CB,TDCBC842E3A,fuga_calle,"TIENE AYER BROTANDO AGUA DEL PAVIMENTO EN INDEPENDENCIA, YA SE HIZO UN CHARCO GRANDE.",presencial,baja,2024-04-19 00:09:00
+Q78DA28C264,T97A5E4F98E,drenaje,"Registro de alcantarillado tapado en Morelos, escurre a la calle.",whatsapp,normal,2025-12-07 07:26:00
+QC8E16BE26D,T5D35014BC6,atencion,Mal trato del personal al preguntar por mi aclaración.,telefono,normal,2025-09-20 02:56:00
+QE598F6E4EE,T997FBB56CB,fuga_toma,La llave de banqueta gotea sin parar desde hace varios días.,telefono,normal,2025-05-23 11:15:00
+Q3E7237259E,T93AE74FC8C,baja_presion,"Baja presión en Independencia, apenas llena una cubeta en diez minutos.",telefono,alta,2026-05-17 02:41:00
+QCB9F51682A,TB5ABA37301,sin_agua,"  No  llega  agua a mi domicilio desde la semana pasada, los vecinos igual.",presencial,baja,2026-01-16 14:00:00
+Q97FCC5953D,TAD0E244201,sin_agua,"Sin abasto en toda la calle Allende, nadie tiene agua.",whatsapp,alta,2025-03-20 00:34:00
+QCCD10A04CC,T9E698DAD97,baja_presion,"No alcanza presión para el calentador, el agua llega sin fuerza.",telefono,normal,2025-05-30 06:14:00
+QBEF55738E0,T0E868A3F47,drenaje,El drenaje de Matamoros está desbordado y huele muy mal.,whatsapp,normal,2025-05-03 14:47:00
+QE04FF6EE0B,TB5ABA37301,sin_agua,"No llega agua a mi domicilio desde la semana pasada, los vecinos igual.",presencial,urgente,2025-11-11 00:44:00
+QA16DEA3BD8,TE33F90B286,medidor,El medidor marca consumos altísimos y somos dos personas.,telefono,alta,2024-03-25 03:49:00
+Q19C58DCE26,T9B1CF87E17,sin_agua,Llevamos la semana pasada sin servicio de agua en la privada.,telefono,normal,2024-03-07 16:25:00
+Q995E213C6B,TF8038E3438,drenaje,"REGISTRO DE ALCANTARILLADO TAPADO EN REFORMA, ESCURRE A LA CALLE.",presencial,normal,2026-07-26 23:32:00
+QE6BB780DAC,T39FECD2D40,sin_agua,Llevamos el fin de semana sin servicio de agua en la privada.,portal,alta,2024-09-27 01:55:00
+QC335BDB80B,T4F696F6C0E,sin_agua,"Sin abasto en toda la calle Juárez, nadie tiene agua.",whatsapp,alta,2026-08-05 20:51:00
+Q68D4EB7546,TDCBC842E3A,atencion,Reporté hace desde el lunes y todavía no viene nadie a revisar.,portal,normal,2025-12-22 02:56:00
+Q67BE4663AD,T4B2228F178,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,presencial,baja,2025-08-19 05:56:00
+QB9A53DB2D3,TF46C85CB55,baja_presion,"Desde hace varios días el chorro sale débil, sobre todo en la mañana.",portal,normal,2024-06-06 18:02:00
+QCB2CA9B916,T1629374829,sin_agua,Llevamos la semana pasada sin servicio de agua en la privada.,portal,alta,2025-10-05 03:12:00
+QE55F830211,TC9C584B8EF,fuga_toma,La llave de banqueta gotea sin parar desde ayer.,presencial,alta,2025-06-13 23:04:00
+Q0FBE1EAF61,T2A7B7C0706,medidor,"Mi medidor está roto, el cristal quebrado y no se lee.",presencial,alta,2025-02-20 03:46:00
+Q8DD586B659,TDFD739AFF7,sin_agua,"Sin abasto en toda la calle Hidalgo, nadie tiene agua.",telefono,alta,2024-07-14 08:42:00
+QEF31BAE97F,T99F86EAA03,drenaje,HAY AGUAS NEGRAS SALIENDO DE LA COLADERA DE LA ESQUINA.,presencial,alta,2024-02-07 18:22:00
+Q04C193487C,T0CE7987E4B,sin_agua,LLEVAMOS HACE VARIOS DÍAS SIN SERVICIO DE AGUA EN LA PRIVADA.,telefono,normal,2026-03-07 11:20:00
+Q7185D6E676,TA3D7EB0EB6,facturacion,Pagué en línea y el recibo sigue apareciendo como pendiente.,portal,alta,2024-12-25 16:38:00
+Q8F11458D09,TF0590D064A,sin_agua,Llevamos hace tres días sin servicio de agua en la privada.,whatsapp,alta,2024-08-01 15:51:00
+Q6972FD40BF,T9B658694D7,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,whatsapp,alta,2025-10-21 07:27:00
+QF13FE394A9,T136877D852,atencion,Fui a ventanilla y nadie me supo dar información de mi trámite.,telefono,alta,2024-10-05 03:02:00
+Q135EF28882,T416D725964,baja_presion,"Baja presión en Reforma, apenas llena una cubeta en diez minutos.",presencial,normal,2024-11-27 13:57:00
+QBDAA959C2B,T711A4FB3DC,drenaje,"  Registro  de  alcantarillado tapado en Independencia, escurre a la calle.",whatsapp,normal,2024-12-13 20:23:00
+QB5CD071E8A,T6B61D786E8,baja_presion,"No alcanza presión para el calentador, el agua llega sin fuerza.",portal,alta,2024-03-14 19:12:00
+QA432BA1E47,TC653350390,drenaje,  El  drenaje  de Zaragoza está desbordado y huele muy mal.,telefono,normal,2025-09-30 15:08:00
+QF67C0A44EE,TB2B631F6DE,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,presencial,normal,2025-02-07 09:15:00
+Q39CF5F6FB6,T9C181CA6B2,fuga_calle,"Tiene ayer brotando agua del pavimento en Zaragoza, ya se hizo un charco grande.",telefono,alta,2026-03-13 13:22:00
+QE7B157423D,T29274E7656,fuga_calle,"Hay agua saliendo en la calle Independencia desde hace varios días, se está tirando toda.",telefono,normal,2026-01-11 23:39:00
+QBC72D8BC80,T38F3AD60D6,calidad_agua,"El agua trae sedimento, se ve el fondo del vaso sucio.",whatsapp,normal,2024-04-20 17:15:00
+Q273C582DAD,T262047037E,calidad_agua,  El  agua  sale turbia y con tierra desde hace tres días.,portal,alta,2025-05-29 11:58:00
+Q136C305BC8,T3DCE54CBCD,calidad_agua,"El agua trae sedimento, se ve el fondo del vaso sucio.",portal,normal,2025-01-24 01:54:00
+Q1D269C2475,T3A8AE15DE9,drenaje,SE REGRESA EL AGUA DEL DRENAJE HACIA MI PATIO DESDE LA SEMANA PASADA.,presencial,normal,2025-03-28 17:03:00
+Q49880D7874,T005A9CE174,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,whatsapp,normal,2025-09-23 05:49:00
+QC2ADD7AF33,TBA7727A83B,fuga_toma,La llave de banqueta gotea sin parar desde el fin de semana.,portal,normal,2026-01-26 20:28:00
+QB66EBA4981,TCDF5CCF9D1,fuga_calle,"Tiene la semana pasada brotando agua del pavimento en Matamoros, ya se hizo un charco grande.",whatsapp,normal,2025-01-21 18:47:00
+QDD31086F40,TB1AE49FA20,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,telefono,baja,2025-09-12 10:14:00
+Q03C7D6B7A5,T26D49D2B10,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,telefono,baja,2025-05-12 21:30:00
+Q884BF66191,T08D24C843D,drenaje,Hay aguas negras saliendo de la coladera de la esquina.,presencial,baja,2024-10-06 10:02:00
+QC29F7FB9F2,T716C530DED,fuga_calle,"Hay agua saliendo en la calle 5 de Mayo desde el fin de semana, se está tirando toda.",whatsapp,baja,2024-11-07 16:30:00
+Q48ED8781C5,T7AE1E63696,sin_agua,"Sin abasto en toda la calle Reforma, nadie tiene agua.",telefono,urgente,2025-09-01 16:00:00
+Q1DAF9E0F4A,TB95EB354D9,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,whatsapp,urgente,2024-03-11 16:23:00
+Q8BAA2B85C8,T595C48877B,drenaje,Se regresa el agua del drenaje hacia mi patio desde hace tres días.,portal,urgente,2025-01-10 13:22:00
+Q709F54271F,TB5ABA37301,sin_agua,"No llega agua a mi domicilio desde ayer, los vecinos igual.",telefono,normal,2024-04-09 10:29:00
+Q82B391B463,TD93E7F3525,fuga_calle,"Reporto fuga en la vialidad de Hidalgo, el agua corre hacia la esquina.",presencial,normal,2025-10-31 02:27:00
+Q80AFA18A78,T79348D1D8C,sin_agua,Llevamos la semana pasada sin servicio de agua en la privada.,whatsapp,normal,2025-11-04 21:51:00
+QEBA22D9EF7,T54630B6404,calidad_agua,  Sale  amarillenta  y mancha la ropa al lavar.,telefono,alta,2024-01-13 10:03:00
+Q3218D35E18,T0D1C506545,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,whatsapp,alta,2025-10-12 10:58:00
+Q20BFD7FA52,TB28F8F08F4,calidad_agua,"El agua trae sedimento, se ve el fondo del vaso sucio.",telefono,normal,2026-04-01 05:52:00
+QD2D37EB1F7,TE6221DA147,drenaje,Hay aguas negras saliendo de la coladera de la esquina.,portal,normal,2024-10-24 17:42:00
+Q1A27629931,T711A4FB3DC,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,portal,baja,2024-01-06 02:11:00
+Q9FDD94EE19,TC54C99BA73,baja_presion,"NO ALCANZA PRESIÓN PARA EL CALENTADOR, EL AGUA LLEGA SIN FUERZA.",portal,normal,2025-07-16 12:05:00
+QE193A22EB2,T79F8E1FAE8,baja_presion,"No alcanza presión para el calentador, el agua llega sin fuerza.",portal,baja,2025-01-08 00:22:00
+Q7C3C4E26FE,T4F696F6C0E,facturacion,Pagué en línea y el recibo sigue apareciendo como pendiente.,whatsapp,alta,2025-04-02 23:06:00
+Q49A6919635,T005A9CE174,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,telefono,urgente,2024-11-28 12:37:00
+QFD49E2F12E,TE59C7E0558,fuga_calle,Fuga en la banqueta de 5 de Mayo. El agua no para y huele mal.,whatsapp,alta,2026-08-13 22:50:00
+Q503531F542,T30CED3EF6B,baja_presion,"Baja presión en Zaragoza, apenas llena una cubeta en diez minutos.",portal,normal,2026-06-24 11:55:00
+QAD6D782BE0,T8EF8382AF5,baja_presion,"Desde el fin de semana el chorro sale débil, sobre todo en la mañana.",portal,normal,2025-08-22 00:39:00
+QE455810220,T2FB8838715,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,portal,normal,2026-01-06 09:50:00
+Q0E34BEF2ED,T9C181CA6B2,fuga_calle,"Reporto fuga en la vialidad de Matamoros, el agua corre hacia la esquina.",portal,alta,2024-05-17 07:25:00
+QA570536FD6,T0201C8273D,medidor,"Se llevaron el medidor de mi toma, ya no está en la caja.",portal,normal,2026-06-04 23:47:00
+QA54CBFF3D9,TB28F8F08F4,atencion,Fui a ventanilla y nadie me supo dar información de mi trámite.,whatsapp,normal,2024-02-09 20:40:00
+QCCB1234E62,TC54C99BA73,medidor,"MI MEDIDOR ESTÁ ROTO, EL CRISTAL QUEBRADO Y NO SE LEE.",telefono,alta,2025-12-04 00:49:00
+Q7C655B80CC,T6B4C3EB33E,calidad_agua,"Huele a cloro muy fuerte y sabe raro, no nos atrevemos a tomarla.",portal,baja,2024-06-07 19:58:00
+QAC67486148,TE3F34F661C,drenaje,Se regresa el agua del drenaje hacia mi patio desde hace dos semanas.,telefono,normal,2024-05-21 14:09:00
+Q6F6F2FED92,TE4BF83F9A5,fuga_calle,Fuga en la banqueta de Allende. El agua no para y huele mal.,whatsapp,urgente,2024-08-28 00:41:00
+QB0F55E458B,T266175A7E1,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,portal,normal,2026-05-14 16:38:00
+Q71F5CC16CC,T6B4FC6C7C6,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,portal,alta,2024-09-24 13:27:00
+QC96CA2DC1B,TCC371206BC,baja_presion,"  No  alcanza  presión para el calentador, el agua llega sin fuerza.",telefono,alta,2026-06-21 10:35:00
+Q1E816D564D,TD718599337,sin_agua,Llevamos ayer sin servicio de agua en la privada.,telefono,normal,2025-11-30 23:02:00
+Q86298CA794,T959B664297,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,telefono,normal,2024-03-27 03:52:00
+Q4360EDFFDD,TF9F158A927,atencion,FUI A VENTANILLA Y NADIE ME SUPO DAR INFORMACIÓN DE MI TRÁMITE.,telefono,baja,2024-10-27 13:05:00
+QE3406F9EC9,T63245D9338,fuga_toma,La llave de banqueta gotea sin parar desde ayer.,portal,baja,2026-07-21 16:30:00
+QC1CEEF9CBE,TB5DCDB3D2B,baja_presion,"No alcanza presión para el calentador, el agua llega sin fuerza.",whatsapp,normal,2026-07-22 16:13:00
+Q9C1D621735,TE380DFCDD5,calidad_agua,Sale amarillenta y mancha la ropa al lavar.,telefono,urgente,2025-04-20 20:23:00
+Q62C2542D72,T7E1F631507,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,presencial,normal,2024-01-12 02:05:00
+Q9D7D01481A,T416D725964,medidor,EL MEDIDOR NO MARCA NADA AUNQUE SÍ TENGAMOS AGUA.,telefono,urgente,2024-03-22 12:03:00
+Q2563BEEC27,T66B24DDB8C,sin_agua,  Llevamos  hace  tres días sin servicio de agua en la privada.,whatsapp,normal,2026-03-02 03:16:00
+Q427B7753FC,T042B2178D1,baja_presion,"No alcanza presión para el calentador, el agua llega sin fuerza.",telefono,alta,2025-11-16 19:32:00
+Q06CE0526E3,TACFC1D584E,fuga_toma,La llave de banqueta gotea sin parar desde hace dos semanas.,presencial,baja,2026-06-19 05:48:00
+QA2CDC1381A,T31A37C291B,sin_agua,Llevamos desde el lunes sin servicio de agua en la privada.,presencial,alta,2024-10-13 13:10:00
+Q634BE0087A,T6B0703F297,facturacion,Pagué en línea y el recibo sigue apareciendo como pendiente.,portal,normal,2025-09-11 22:03:00
+Q8F347E7B07,TAAC46C752C,fuga_toma,La llave de banqueta gotea sin parar desde ayer.,portal,baja,2024-10-11 08:12:00
+Q7CD6FA3FD4,TD4AA44C620,baja_presion,"BAJA PRESIÓN EN HIDALGO, APENAS LLENA UNA CUBETA EN DIEZ MINUTOS.",portal,normal,2025-05-06 23:02:00
+Q2CBAF6434E,T8A79BCF725,sin_agua,"No llega agua a mi domicilio desde hace varios días, los vecinos igual.",telefono,normal,2024-01-30 06:33:00
+Q82621C7E0F,T771EC6B537,calidad_agua,"Huele a cloro muy fuerte y sabe raro, no nos atrevemos a tomarla.",telefono,normal,2026-05-05 20:24:00
+QBAFC0E131C,TB2B631F6DE,facturacion,Mi recibo llegó con un cobro mucho más alto de lo normal.,telefono,normal,2024-01-08 00:31:00
+Q219914243B,TB6793708AF,fuga_calle,"Reporto fuga en la vialidad de Allende, el agua corre hacia la esquina.",portal,normal,2024-10-22 19:15:00
+Q94631ED6B3,T0E572DDC2C,baja_presion,"Desde hace tres días el chorro sale débil, sobre todo en la mañana.",telefono,normal,2025-02-24 10:21:00
+Q708A265E58,TEEB9050E6F,medidor,El medidor marca consumos altísimos y somos dos personas.,presencial,normal,2024-03-14 21:05:00
+Q965B9ED580,TE7C4074532,fuga_calle,"  Hay  agua  saliendo en la calle Matamoros desde desde el lunes, se está tirando toda.",whatsapp,normal,2026-06-23 17:19:00
+Q13FEBA13A8,T17B01CE93D,baja_presion,"NO ALCANZA PRESIÓN PARA EL CALENTADOR, EL AGUA LLEGA SIN FUERZA.",portal,baja,2024-10-20 23:14:00
+Q43C1E866EA,T77D8F1F07B,sin_agua,"No llega agua a mi domicilio desde la semana pasada, los vecinos igual.",portal,baja,2026-05-14 10:31:00
+QB444A71364,T393F331539,baja_presion,"Desde la semana pasada el chorro sale débil, sobre todo en la mañana.",telefono,alta,2024-04-21 04:10:00
+QE69C14D9DC,TCB96D14BFD,medidor,El medidor marca consumos altísimos y somos dos personas.,telefono,alta,2026-04-08 03:04:00
+QFF42E429C9,T93AE74FC8C,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,whatsapp,alta,2025-10-04 11:35:00
+QD66300C1B5,TFF833858D4,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,telefono,normal,2025-12-19 21:13:00
+QE79E2745F7,TE3F34F661C,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,portal,normal,2024-09-06 02:00:00
+Q354C09DD17,T005A9CE174,drenaje,Se regresa el agua del drenaje hacia mi patio desde hace dos semanas.,portal,normal,2025-06-14 18:54:00
+Q49B0192A79,TA2A12750E0,atencion,Reporté hace la semana pasada y todavía no viene nadie a revisar.,telefono,normal,2025-12-13 16:28:00
+Q9980D03778,TE17C7596F7,baja_presion,"Baja presión en Zaragoza, apenas llena una cubeta en diez minutos.",whatsapp,alta,2026-08-31 20:13:00
+QF4C8394393,TFB5558315C,calidad_agua,El agua sale turbia y con tierra desde hace tres días.,portal,alta,2025-05-09 11:50:00
+Q82CB34BC8D,T79348D1D8C,baja_presion,"El agua llega con muy poca presión, no sube al tinaco.",telefono,normal,2024-05-20 05:10:00
+QA3650FA03B,T5D0DA4A5A3,medidor,El medidor no marca nada aunque sí tengamos agua.,portal,alta,2024-05-10 04:26:00
+QDADCAAF558,T5EDC8CD764,fuga_calle,"Hay agua saliendo en la calle Matamoros desde hace tres días, se está tirando toda.",telefono,normal,2026-02-21 22:18:00
+QE7D48055D0,T703E749B16,baja_presion,"No alcanza presión para el calentador, el agua llega sin fuerza.",whatsapp,normal,2024-07-30 17:23:00
+QEAFE830EEE,T0D1C506545,sin_agua,Llevamos ayer sin servicio de agua en la privada.,whatsapp,normal,2025-02-25 00:55:00
+Q4963B41327,T5D35014BC6,medidor,El medidor no marca nada aunque sí tengamos agua.,telefono,normal,2024-08-27 04:52:00
+Q32C77DC537,TAA4A146A6F,baja_presion,"No alcanza presión para el calentador, el agua llega sin fuerza.",portal,urgente,2024-02-12 09:40:00
+QB7C00225FD,TDA01857472,facturacion,Pagué en línea y el recibo sigue apareciendo como pendiente.,portal,alta,2025-03-02 19:52:00
+Q367EAF8916,TEA6C60108F,baja_presion,"Desde ayer el chorro sale débil, sobre todo en la mañana.",portal,normal,2024-08-02 16:28:00
+Q14F456B457,TE9E2B18053,atencion,Mal trato del personal al preguntar por mi aclaración.,whatsapp,alta,2025-10-01 09:47:00
+Q7291A19D39,T29274E7656,medidor,"Se llevaron el medidor de mi toma, ya no está en la caja.",portal,normal,2026-04-05 09:27:00
+Q7CAD4B8535,T6BE1C12D07,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",whatsapp,baja,2024-02-04 14:25:00
+Q804E7A4304,T16385BC409,fuga_calle,"Reporto fuga en la vialidad de Hidalgo, el agua corre hacia la esquina.",telefono,normal,2026-01-12 03:23:00
+QEE5FE92255,T0F2B41D96D,sin_agua,"Sin abasto en toda la calle Guerrero, nadie tiene agua.",presencial,alta,2024-07-03 04:15:00
+Q7C9527A709,TBBD0028CDB,atencion,Fui a ventanilla y nadie me supo dar información de mi trámite.,whatsapp,normal,2024-01-26 14:55:00
+QFE7765322C,T7AE1E63696,calidad_agua,Sale amarillenta y mancha la ropa al lavar.,portal,baja,2024-09-17 17:53:00
+Q3E2B8FF826,T45A3829C6C,facturacion,"EL RECIBO TRAE UN CONSUMO QUE NO CORRESPONDE, SOMOS POCOS EN CASA.",portal,normal,2026-02-13 16:25:00
+QB3D284DBF6,T5AB667FA59,calidad_agua,"El agua trae sedimento, se ve el fondo del vaso sucio.",portal,normal,2025-04-13 02:21:00
+QB7CA99E77C,T2B4ECE5F7A,facturacion,ME ESTÁN COBRANDO UN PERIODO QUE YA HABÍA PAGADO EN VENTANILLA.,whatsapp,urgente,2025-10-16 00:54:00
+Q2060179716,TCF1A6CDF80,drenaje,Hay aguas negras saliendo de la coladera de la esquina.,whatsapp,alta,2025-12-07 02:24:00
+QA0DC55D1E4,T31A37C291B,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",telefono,baja,2024-04-03 08:07:00
+QE017F6643C,T124789ED12,fuga_toma,La llave de banqueta gotea sin parar desde hace varios días.,portal,normal,2026-02-05 00:23:00
+Q9BA6FEF726,T5F78380FF1,fuga_calle,"Tiene hace tres días brotando agua del pavimento en Allende, ya se hizo un charco grande.",whatsapp,normal,2024-01-11 13:10:00
+Q3CA070B92F,T516D296A99,calidad_agua,Sale amarillenta y mancha la ropa al lavar.,whatsapp,alta,2026-05-11 00:58:00
+QA44E32AAEC,TCFB896C903,facturacion,"EL RECIBO TRAE UN CONSUMO QUE NO CORRESPONDE, SOMOS POCOS EN CASA.",telefono,urgente,2026-04-06 12:11:00
+QB4D7D2EA9B,TD718599337,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,portal,baja,2025-12-29 17:01:00
+Q0F9CB900BF,TD4AA44C620,sin_agua,LLEVAMOS AYER SIN SERVICIO DE AGUA EN LA PRIVADA.,telefono,normal,2026-02-02 09:04:00
+Q0972C4F341,T50EA3E30B0,baja_presion,"El agua llega con muy poca presión, no sube al tinaco.",portal,normal,2026-06-13 16:36:00
+Q2CC13594AB,T741A1119FA,baja_presion,"DESDE HACE DOS SEMANAS EL CHORRO SALE DÉBIL, SOBRE TODO EN LA MAÑANA.",telefono,alta,2024-03-30 19:54:00
+QFA7BEE5C12,T7E561E41DF,drenaje,El drenaje de Juárez está desbordado y huele muy mal.,portal,alta,2025-11-23 02:51:00
+QD93282942B,T54630B6404,sin_agua,"No llega agua a mi domicilio desde el fin de semana, los vecinos igual.",telefono,alta,2025-07-29 08:30:00
+QEB389EC188,T44C452513D,calidad_agua,El agua sale turbia y con tierra desde hace varios días.,presencial,baja,2026-02-22 02:05:00
+QD5DBA2B639,T716C530DED,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,whatsapp,normal,2026-04-27 13:53:00
+Q35AF172FFD,T5AEAFABEEB,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,portal,baja,2025-07-06 01:35:00
+Q9E69AC833F,TBA7727A83B,medidor,El medidor no marca nada aunque sí tengamos agua.,telefono,urgente,2025-03-19 13:38:00
+QABA26A3EC9,TE7D390D6E1,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,telefono,alta,2025-05-22 16:13:00
+Q024E6CF2A0,T4D40D256FE,baja_presion,"No alcanza presión para el calentador, el agua llega sin fuerza.",portal,normal,2024-12-15 10:32:00
+QD5A0D69548,T2631941D4D,drenaje,Se regresa el agua del drenaje hacia mi patio desde ayer.,telefono,baja,2025-12-01 09:28:00
+Q5660B5D2FA,T06E1B5C91E,drenaje,Se regresa el agua del drenaje hacia mi patio desde hace varios días.,portal,normal,2024-03-02 18:16:00
+Q9292BC9F85,TE7D390D6E1,baja_presion,"Desde la semana pasada el chorro sale débil, sobre todo en la mañana.",presencial,alta,2026-03-25 23:53:00
+Q2BFF030A30,T0A7DFC3903,fuga_toma,  La  llave  de banqueta gotea sin parar desde hace tres días.,presencial,urgente,2025-04-04 12:38:00
+Q24D611527C,T266175A7E1,fuga_toma,  Hay  humedad  y agua acumulada junto al medidor de mi casa.,portal,urgente,2026-07-10 11:02:00
+QE18FAD8A89,T9F3D4A99A8,calidad_agua,Sale amarillenta y mancha la ropa al lavar.,whatsapp,baja,2024-06-08 07:21:00
+QF2983C8CC4,T9C80DA594D,sin_agua,"Sin abasto en toda la calle Matamoros, nadie tiene agua.",telefono,alta,2024-04-01 04:32:00
+Q99B4E88E85,T7C1EBC3C4C,sin_agua,"Sin abasto en toda la calle Reforma, nadie tiene agua.",telefono,normal,2024-11-26 01:41:00
+Q05C7BAE6AC,T599538981A,atencion,Fui a ventanilla y nadie me supo dar información de mi trámite.,portal,normal,2025-04-02 18:25:00
+QFE4CF59ED9,T741A1119FA,medidor,El medidor marca consumos altísimos y somos dos personas.,presencial,normal,2025-12-22 05:19:00
+QBDD6C575C0,TB1AE49FA20,medidor,"Se llevaron el medidor de mi toma, ya no está en la caja.",telefono,normal,2025-05-16 02:21:00
+QD417140B1E,T1753290875,baja_presion,"Desde hace dos semanas el chorro sale débil, sobre todo en la mañana.",portal,normal,2024-09-03 05:21:00
+QB534CDE594,T80599540B9,facturacion,Pagué en línea y el recibo sigue apareciendo como pendiente.,telefono,normal,2024-04-28 17:03:00
+QB13CC116B3,TCCA2F0E6D1,fuga_calle,"Reporto fuga en la vialidad de Matamoros, el agua corre hacia la esquina.",telefono,urgente,2024-01-03 22:35:00
+QC76B4E8935,T5C97BD73CE,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,presencial,normal,2024-03-29 18:24:00
+Q502DA6C772,T929701588B,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,telefono,alta,2024-04-11 18:24:00
+Q98EF6C344F,T051D6304AA,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",telefono,alta,2025-04-15 15:43:00
+QB6933DE529,TF62BDC6E96,medidor,"Se llevaron el medidor de mi toma, ya no está en la caja.",whatsapp,urgente,2025-12-10 05:59:00
+QAFF31BAF1E,T2631941D4D,facturacion,Mi recibo llegó con un cobro mucho más alto de lo normal.,telefono,normal,2026-01-09 06:30:00
+Q0926BD894D,TB1A6FA6009,atencion,Mal trato del personal al preguntar por mi aclaración.,portal,normal,2026-02-19 14:27:00
+Q94A564877C,T99F86EAA03,atencion,Fui a ventanilla y nadie me supo dar información de mi trámite.,portal,alta,2025-05-04 14:19:00
+Q5E5DB380BA,T7CEE29F570,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,portal,normal,2025-05-12 11:32:00
+Q253751D813,T328C38D103,calidad_agua,"El agua trae sedimento, se ve el fondo del vaso sucio.",telefono,normal,2025-03-05 05:18:00
+Q6A378396DB,TEA687BEEC8,fuga_calle,"Hay agua saliendo en la calle Morelos desde hace varios días, se está tirando toda.",telefono,normal,2026-06-04 01:37:00
+Q26EEAB013E,TFF833858D4,calidad_agua,Sale amarillenta y mancha la ropa al lavar.,telefono,alta,2025-08-05 15:31:00
+QAB31561B49,T980F08905D,fuga_calle,"Tiene el fin de semana brotando agua del pavimento en Reforma, ya se hizo un charco grande.",telefono,baja,2024-01-05 23:08:00
+Q7DF864ECCE,T0C38B9638D,baja_presion,"No alcanza presión para el calentador, el agua llega sin fuerza.",presencial,alta,2024-06-03 07:46:00
+Q7391951D96,T9B2220E701,sin_agua,"No llega agua a mi domicilio desde hace varios días, los vecinos igual.",telefono,normal,2026-08-04 01:49:00
+Q0788338C11,TD10A6EDCA0,baja_presion,"  Desde  desde  el lunes el chorro sale débil, sobre todo en la mañana.",portal,alta,2025-10-11 11:49:00
+QE32236C5C5,TCE4F3C1854,facturacion,  Pagué  en  línea y el recibo sigue apareciendo como pendiente.,whatsapp,normal,2024-03-24 20:24:00
+QFBD515C3DA,TB1AE49FA20,calidad_agua,"Huele a cloro muy fuerte y sabe raro, no nos atrevemos a tomarla.",whatsapp,normal,2026-01-31 02:25:00
+Q6E32DDF9E9,T95A557D58C,drenaje,El drenaje de Zaragoza está desbordado y huele muy mal.,whatsapp,normal,2025-02-09 13:16:00
+QAE2D1B344F,T680C591820,medidor,El medidor marca consumos altísimos y somos dos personas.,portal,baja,2026-06-21 21:57:00
+Q54A23148D9,TCDF5CCF9D1,facturacion,  Pagué  en  línea y el recibo sigue apareciendo como pendiente.,portal,normal,2025-09-20 19:33:00
+Q50C4832A37,TA87CD37475,baja_presion,"Baja presión en Allende, apenas llena una cubeta en diez minutos.",presencial,baja,2025-02-12 16:26:00
+Q079277E7CD,T0E868A3F47,fuga_toma,  Me  sale  agua por la toma de mi domicilio aunque tenga todo cerrado.,telefono,baja,2025-11-28 21:50:00
+QEC61D2BCC8,T9A87FD75BB,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,whatsapp,normal,2025-07-11 10:24:00
+Q132002E2E5,TB13246DF04,drenaje,Hay aguas negras saliendo de la coladera de la esquina.,whatsapp,normal,2025-10-08 03:00:00
+Q9AB86CBCDF,T416D725964,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",telefono,urgente,2025-10-09 17:19:00
+Q5D4DAF1D3C,T294140BCEC,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,telefono,baja,2024-03-24 21:33:00
+Q345436B9AA,T599538981A,sin_agua,Llevamos hace dos semanas sin servicio de agua en la privada.,portal,baja,2024-05-28 07:42:00
+Q8D0426FAC0,T7220DB253B,sin_agua,"No llega agua a mi domicilio desde ayer, los vecinos igual.",portal,normal,2025-09-13 03:17:00
+QAEBC70FBFA,T0F4A3A74ED,fuga_toma,  Hay  humedad  y agua acumulada junto al medidor de mi casa.,telefono,alta,2025-06-14 01:10:00
+Q9E668A9E51,T929701588B,facturacion,Pagué en línea y el recibo sigue apareciendo como pendiente.,whatsapp,normal,2025-09-26 22:02:00
+QA0FBD5B1D3,T5A52BDFD5B,sin_agua,Llevamos el fin de semana sin servicio de agua en la privada.,presencial,baja,2024-06-10 05:14:00
+QA6313A479E,T0C38B9638D,baja_presion,"  Desde  ayer  el chorro sale débil, sobre todo en la mañana.",whatsapp,normal,2026-01-05 14:49:00
+Q88135C8CC3,T75AE25B236,calidad_agua,"  El  agua  trae sedimento, se ve el fondo del vaso sucio.",telefono,urgente,2024-07-14 17:11:00
+Q14FD5A6352,T87B30A11CA,facturacion,Mi recibo llegó con un cobro mucho más alto de lo normal.,whatsapp,normal,2024-07-27 16:28:00
+QCC1136B4D5,T0F12629295,calidad_agua,"El agua trae sedimento, se ve el fondo del vaso sucio.",portal,normal,2024-02-16 09:22:00
+Q217A355394,TDA01857472,sin_agua,Llevamos ayer sin servicio de agua en la privada.,telefono,normal,2026-07-21 18:51:00
+QBD3F3CA8BF,T46D0D9FE06,atencion,Reporté hace hace dos semanas y todavía no viene nadie a revisar.,telefono,baja,2026-04-09 02:50:00
+Q31AC5CA7D3,TC85BCF4679,sin_agua,LLEVAMOS EL FIN DE SEMANA SIN SERVICIO DE AGUA EN LA PRIVADA.,portal,alta,2024-09-11 18:01:00
+Q2BACB1DBE7,T30E453AB34,fuga_calle,Fuga en la banqueta de Juárez. El agua no para y huele mal.,portal,alta,2025-03-12 23:14:00
+Q646091679E,TC2B54F643A,atencion,FUI A VENTANILLA Y NADIE ME SUPO DAR INFORMACIÓN DE MI TRÁMITE.,portal,normal,2024-04-07 18:27:00
+QB1B608670A,TA60FF3309B,facturacion,Pagué en línea y el recibo sigue apareciendo como pendiente.,portal,baja,2024-08-02 17:18:00
+Q21EEB86070,T0CE7987E4B,fuga_toma,La llave de banqueta gotea sin parar desde hace dos semanas.,portal,normal,2024-10-14 15:41:00
+QBEAD463FD2,TCBAFB86C54,fuga_calle,"  Tiene  la  semana pasada brotando agua del pavimento en Morelos, ya se hizo un charco grande.",portal,normal,2026-08-10 10:55:00
+QFAE436F504,T997FF51E88,sin_agua,Llevamos hace tres días sin servicio de agua en la privada.,telefono,baja,2025-02-07 20:53:00
+QF75D742B3C,T0197678D11,fuga_toma,La llave de banqueta gotea sin parar desde hace dos semanas.,telefono,baja,2025-06-01 00:20:00
+QE011520930,T0C38B9638D,drenaje,Hay aguas negras saliendo de la coladera de la esquina.,portal,normal,2026-04-24 13:34:00
+QE3C75C3736,T6D36EEA27E,baja_presion,"BAJA PRESIÓN EN REFORMA, APENAS LLENA UNA CUBETA EN DIEZ MINUTOS.",telefono,baja,2024-07-17 12:23:00
+QD09EAF3366,TA87CD37475,baja_presion,"El agua llega con muy poca presión, no sube al tinaco.",presencial,normal,2024-12-24 23:32:00
+Q7F9BB288B4,T54630B6404,medidor,El medidor no marca nada aunque sí tengamos agua.,whatsapp,urgente,2026-06-14 08:55:00
+Q9297CB9844,T3763EE0258,facturacion,Mi recibo llegó con un cobro mucho más alto de lo normal.,portal,alta,2026-02-01 09:13:00
+QD776C52B2A,T7861C2062B,facturacion,  Pagué  en  línea y el recibo sigue apareciendo como pendiente.,whatsapp,alta,2024-07-10 03:02:00
+QFE34D69CB6,T6230F0F81A,drenaje,El drenaje de Juárez está desbordado y huele muy mal.,whatsapp,normal,2025-08-21 20:57:00
+Q0C2524B0AC,TDFD739AFF7,calidad_agua,SALE AMARILLENTA Y MANCHA LA ROPA AL LAVAR.,whatsapp,normal,2026-01-14 13:35:00
+Q593C8EA138,TCF1A6CDF80,fuga_calle,"Reporto fuga en la vialidad de Morelos, el agua corre hacia la esquina.",portal,alta,2025-04-07 03:12:00
+Q3DA62B8225,T0380D1AD85,medidor,"Mi medidor está roto, el cristal quebrado y no se lee.",whatsapp,normal,2024-02-26 22:38:00
+QB0B336DC68,T66B24DDB8C,medidor,"Mi medidor está roto, el cristal quebrado y no se lee.",whatsapp,normal,2026-03-13 23:56:00
+Q715E07B9F2,T45A3829C6C,fuga_calle,"Hay agua saliendo en la calle Independencia desde hace varios días, se está tirando toda.",presencial,normal,2025-10-11 02:29:00
+QC8A1C2A209,T6A0C9518A5,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,telefono,alta,2024-10-21 04:03:00
+QF2AA1728AD,TED624C9B29,drenaje,Se regresa el agua del drenaje hacia mi patio desde el fin de semana.,portal,normal,2025-08-30 11:30:00
+Q4CD51ECBB1,TB1AE49FA20,calidad_agua,SALE AMARILLENTA Y MANCHA LA ROPA AL LAVAR.,telefono,alta,2026-07-08 11:32:00
+Q44611B12B1,T6F6C091F32,fuga_calle,  Fuga  en  la banqueta de Morelos. El agua no para y huele mal.,portal,alta,2026-04-27 23:30:00
+QDD833CA20A,T99F86EAA03,fuga_toma,La llave de banqueta gotea sin parar desde desde el lunes.,whatsapp,normal,2025-07-16 23:54:00
+Q4E6A95422F,TEF123948C4,facturacion,Mi recibo llegó con un cobro mucho más alto de lo normal.,telefono,normal,2025-04-19 20:07:00
+Q406152E4B5,T305BACE840,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,whatsapp,normal,2025-09-29 20:05:00
+QA235BB9926,T6DD01C39D7,drenaje,Hay aguas negras saliendo de la coladera de la esquina.,whatsapp,alta,2024-02-24 08:53:00
+Q6B829618EC,T7436A106AE,baja_presion,"NO ALCANZA PRESIÓN PARA EL CALENTADOR, EL AGUA LLEGA SIN FUERZA.",telefono,baja,2026-05-16 13:46:00
+QA529C0DAAA,T0201C8273D,fuga_calle,"Reporto fuga en la vialidad de Zaragoza, el agua corre hacia la esquina.",presencial,normal,2024-01-14 11:02:00
+Q50F0FEA449,TB95EB354D9,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,telefono,normal,2026-04-13 10:27:00
+Q5C3D1DC0B3,T78A401EEAD,calidad_agua,Sale amarillenta y mancha la ropa al lavar.,whatsapp,normal,2026-05-19 16:26:00
+Q443BE78C06,TA60FF3309B,medidor,"Mi medidor está roto, el cristal quebrado y no se lee.",portal,normal,2024-05-05 06:22:00
+QD35F553DF0,T6F6C091F32,atencion,Mal trato del personal al preguntar por mi aclaración.,portal,normal,2025-04-07 16:34:00
+Q9E196B74C6,T5740214D00,fuga_calle,"Tiene hace varios días brotando agua del pavimento en Reforma, ya se hizo un charco grande.",whatsapp,normal,2026-08-17 10:52:00
+Q9AD5F0D33C,TEB9B6A4FBC,sin_agua,"SIN ABASTO EN TODA LA CALLE JUÁREZ, NADIE TIENE AGUA.",telefono,normal,2025-04-20 10:13:00
+Q361C3064F1,TA60FF3309B,baja_presion,"El agua llega con muy poca presión, no sube al tinaco.",presencial,baja,2024-05-29 07:47:00
+QC28797E8F2,T328C38D103,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,telefono,alta,2026-04-18 20:13:00
+Q3C6D5EFC79,T61903D0C08,baja_presion,"Desde hace tres días el chorro sale débil, sobre todo en la mañana.",presencial,urgente,2026-06-25 03:13:00
+Q5CC2B52028,T31A37C291B,sin_agua,"Sin abasto en toda la calle Guerrero, nadie tiene agua.",portal,alta,2024-07-02 12:23:00
+QDBBAC287C0,T5D52776F44,fuga_calle,"Reporto fuga en la vialidad de Independencia, el agua corre hacia la esquina.",whatsapp,normal,2025-02-06 07:21:00
+Q02F2183275,T4FD73F8DF8,fuga_calle,"Tiene desde el lunes brotando agua del pavimento en Zaragoza, ya se hizo un charco grande.",portal,normal,2025-06-22 03:07:00
+QF497DC6810,TE08ACE6D71,sin_agua,"No llega agua a mi domicilio desde hace tres días, los vecinos igual.",portal,alta,2026-07-29 17:24:00
+QD498A09878,TA7CD008CD2,fuga_calle,Fuga en la banqueta de Juárez. El agua no para y huele mal.,telefono,normal,2024-09-25 06:29:00
+Q82FC7B4CBB,T305BACE840,drenaje,El drenaje de 5 de Mayo está desbordado y huele muy mal.,telefono,baja,2024-07-02 15:00:00
+Q3EB9378554,T80599540B9,facturacion,Mi recibo llegó con un cobro mucho más alto de lo normal.,telefono,normal,2024-02-11 09:25:00
+QFD467D0028,T45E4DAC832,calidad_agua,"Huele a cloro muy fuerte y sabe raro, no nos atrevemos a tomarla.",portal,normal,2026-04-27 02:42:00
+Q58B10FC32E,TCED7759D69,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,portal,alta,2024-04-01 09:05:00
+QC61645C229,T6EBEC2B9E3,fuga_toma,La llave de banqueta gotea sin parar desde hace tres días.,presencial,normal,2024-05-23 15:59:00
+QE3DCF85A83,T1A8F7C05C9,drenaje,Se regresa el agua del drenaje hacia mi patio desde el fin de semana.,telefono,normal,2024-02-15 17:08:00
+Q72809A0423,TC36C8FB548,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,telefono,baja,2026-02-14 10:36:00
+Q3172676635,TC11C4F89B7,sin_agua,"No llega agua a mi domicilio desde desde el lunes, los vecinos igual.",portal,alta,2024-06-04 23:55:00
+Q1D7ADCE4DF,T0FA07C2AE6,fuga_calle,"Reporto fuga en la vialidad de Reforma, el agua corre hacia la esquina.",whatsapp,normal,2024-09-15 19:19:00
+Q758A1DA2CF,T3B6195226D,fuga_toma,LA LLAVE DE BANQUETA GOTEA SIN PARAR DESDE DESDE EL LUNES.,presencial,normal,2025-04-11 06:24:00
+QEFA2E965BA,TB1246EBDB6,drenaje,"Registro de alcantarillado tapado en Independencia, escurre a la calle.",whatsapp,normal,2024-07-27 05:30:00
+Q5B5D727F7B,TD10A6EDCA0,baja_presion,"Desde la semana pasada el chorro sale débil, sobre todo en la mañana.",telefono,alta,2024-05-20 21:26:00
+Q1D616420CE,TE13FCEC631,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,whatsapp,baja,2024-01-24 21:19:00
+QB0F366AC88,TBA7727A83B,fuga_toma,La llave de banqueta gotea sin parar desde ayer.,portal,normal,2024-05-09 06:02:00
+QE012309CD9,T132EB7CE2B,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,telefono,normal,2025-05-24 22:55:00
+QDFC4A2125B,T48829C6681,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,telefono,alta,2024-08-30 07:18:00
+Q739A30129B,TF5AB4BC37D,drenaje,Se regresa el agua del drenaje hacia mi patio desde hace dos semanas.,portal,normal,2026-04-14 02:54:00
+Q1221FDDEC6,TE59C7E0558,fuga_toma,  Hay  humedad  y agua acumulada junto al medidor de mi casa.,whatsapp,baja,2026-06-16 12:43:00
+Q37F4C2A26C,T7149DBE7E7,sin_agua,"Sin abasto en toda la calle Reforma, nadie tiene agua.",portal,baja,2024-12-19 18:34:00
+Q8031C25BBF,T0A7DFC3903,baja_presion,"No alcanza presión para el calentador, el agua llega sin fuerza.",telefono,alta,2025-11-09 17:24:00
+Q12CF2E0A0A,T8A79BCF725,fuga_toma,La llave de banqueta gotea sin parar desde el fin de semana.,portal,alta,2024-08-27 22:08:00
+Q24EAD05067,TDB1931905E,baja_presion,"Baja presión en Zaragoza, apenas llena una cubeta en diez minutos.",telefono,alta,2024-09-16 05:48:00
+Q613F926391,TE9E2B18053,drenaje,Se regresa el agua del drenaje hacia mi patio desde desde el lunes.,telefono,normal,2026-04-17 03:40:00
+Q4AD31D343E,T99F86EAA03,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,telefono,alta,2024-06-27 04:52:00
+Q3949D95BE3,TCE4FA87780,baja_presion,"Baja presión en Independencia, apenas llena una cubeta en diez minutos.",portal,normal,2025-05-03 07:50:00
+QD5AEDFBB99,T88E01EE6A9,baja_presion,"Desde hace tres días el chorro sale débil, sobre todo en la mañana.",portal,baja,2025-10-25 03:34:00
+QA57E55FEE3,T0F2B41D96D,baja_presion,"Baja presión en Zaragoza, apenas llena una cubeta en diez minutos.",portal,normal,2025-12-19 08:43:00
+Q59D49CE797,TB28F8F08F4,sin_agua,"NO LLEGA AGUA A MI DOMICILIO DESDE LA SEMANA PASADA, LOS VECINOS IGUAL.",portal,alta,2024-10-01 16:04:00
+QEC0B2B3462,T0197678D11,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,portal,normal,2025-09-28 20:10:00
+Q23B3B13414,T629B85F6AE,medidor,El medidor no marca nada aunque sí tengamos agua.,telefono,normal,2026-06-17 07:23:00
+QEBF83835F0,TB1A6FA6009,facturacion,Pagué en línea y el recibo sigue apareciendo como pendiente.,presencial,normal,2024-09-08 21:40:00
+Q859F6C1B95,TC5E02C2AE1,calidad_agua,Sale amarillenta y mancha la ropa al lavar.,whatsapp,baja,2026-03-05 15:36:00
+QD5776178B1,T4FD73F8DF8,calidad_agua,El agua sale turbia y con tierra desde el fin de semana.,presencial,urgente,2026-06-20 04:31:00
+QDB5420C87B,TCC371206BC,calidad_agua,El agua sale turbia y con tierra desde ayer.,telefono,alta,2025-08-25 15:37:00
+QD054F7C7B1,TF5AB4BC37D,fuga_toma,La llave de banqueta gotea sin parar desde hace varios días.,portal,normal,2024-08-23 04:39:00
+QF9800C705A,T2D884BEE59,sin_agua,"Sin abasto en toda la calle Hidalgo, nadie tiene agua.",whatsapp,normal,2024-09-12 07:51:00
+QAFE2D21B68,TEB9B6A4FBC,baja_presion,"El agua llega con muy poca presión, no sube al tinaco.",whatsapp,normal,2025-01-08 10:47:00
+Q57E942A10D,TE9E2B18053,baja_presion,"No alcanza presión para el calentador, el agua llega sin fuerza.",telefono,normal,2025-12-09 12:06:00
+QBB79DED7BC,T629B85F6AE,facturacion,Mi recibo llegó con un cobro mucho más alto de lo normal.,presencial,normal,2025-06-09 15:32:00
+QB01AA1255C,T4D40D256FE,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,whatsapp,alta,2024-07-22 02:26:00
+Q79C30722F8,TE6221DA147,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,whatsapp,normal,2026-05-04 10:27:00
+QC51EB6D954,T7436A106AE,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,portal,alta,2025-11-23 03:55:00
+QD96123DFE3,T9BF23AC92B,fuga_calle,"Reporto fuga en la vialidad de Hidalgo, el agua corre hacia la esquina.",portal,normal,2026-05-10 08:36:00
+QAC6B07BCB7,T61903D0C08,facturacion,Pagué en línea y el recibo sigue apareciendo como pendiente.,presencial,normal,2025-07-12 05:07:00
+Q1E3DA794D5,T626DE7D352,calidad_agua,"El agua trae sedimento, se ve el fondo del vaso sucio.",portal,normal,2024-06-06 16:57:00
+Q4301EF1F4D,T75D0C6EEF9,facturacion,Pagué en línea y el recibo sigue apareciendo como pendiente.,whatsapp,alta,2024-03-27 23:08:00
+Q924FBDD942,TAB633F4546,medidor,El medidor no marca nada aunque sí tengamos agua.,whatsapp,baja,2025-04-28 19:59:00
+Q667AF0E26F,T1629374829,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,telefono,normal,2025-12-22 03:22:00
+QC6F651E4F9,TF07D19AE17,fuga_calle,"Hay agua saliendo en la calle Juárez desde el fin de semana, se está tirando toda.",telefono,baja,2025-09-09 01:35:00
+QF4D88305E2,TAB67F85714,fuga_toma,La llave de banqueta gotea sin parar desde hace tres días.,telefono,urgente,2025-10-31 01:47:00
+Q4FD5F31598,TBF5EF4019A,facturacion,Mi recibo llegó con un cobro mucho más alto de lo normal.,whatsapp,normal,2026-06-29 18:54:00
+Q7AA6C114B7,T305BACE840,fuga_toma,La llave de banqueta gotea sin parar desde ayer.,portal,baja,2024-07-02 23:33:00
+Q7BBCBD74DD,TB2420A8657,sin_agua,LLEVAMOS DESDE EL LUNES SIN SERVICIO DE AGUA EN LA PRIVADA.,presencial,urgente,2025-07-07 17:40:00
+QC9625048D5,TBA7727A83B,fuga_toma,La llave de banqueta gotea sin parar desde ayer.,telefono,alta,2025-02-01 01:24:00
+Q1B0D27F9AD,T28A5C3A212,sin_agua,"No llega agua a mi domicilio desde desde el lunes, los vecinos igual.",telefono,normal,2024-08-15 15:24:00
+QC1E2BAD07F,T0F2B41D96D,drenaje,Hay aguas negras saliendo de la coladera de la esquina.,telefono,normal,2025-04-21 15:41:00
+Q18B73C90EB,TCE2F3968A5,atencion,Mal trato del personal al preguntar por mi aclaración.,whatsapp,normal,2025-10-26 03:38:00
+Q7FE70615DB,T3DB8E8C91B,facturacion,Mi recibo llegó con un cobro mucho más alto de lo normal.,whatsapp,normal,2024-05-16 10:30:00
+Q410B16DF6A,TC97F0C81C8,calidad_agua,"El agua trae sedimento, se ve el fondo del vaso sucio.",presencial,urgente,2025-09-23 12:14:00
+Q891A8E4C0C,T124789ED12,fuga_calle,Fuga en la banqueta de Zaragoza. El agua no para y huele mal.,portal,normal,2026-04-23 23:17:00
+Q0B6A017B5F,T28A5C3A212,calidad_agua,"Huele a cloro muy fuerte y sabe raro, no nos atrevemos a tomarla.",presencial,alta,2025-09-09 18:02:00
+QF7A9A25F39,TB1A6FA6009,drenaje,El drenaje de Juárez está desbordado y huele muy mal.,whatsapp,normal,2024-01-04 03:33:00
+QA2E2B92558,T980F08905D,sin_agua,Llevamos el fin de semana sin servicio de agua en la privada.,portal,normal,2025-09-09 10:32:00
+Q5BEE79C251,T62F138B69F,fuga_calle,"Hay agua saliendo en la calle Morelos desde ayer, se está tirando toda.",telefono,alta,2024-10-26 18:05:00
+Q6C6FFB84D5,T02BF3919B7,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,telefono,normal,2024-12-11 17:56:00
+Q30644AA3AA,TCCA2F0E6D1,medidor,El medidor no marca nada aunque sí tengamos agua.,whatsapp,alta,2026-08-31 16:55:00
+QF5A3709698,TB6793708AF,fuga_calle,"Hay agua saliendo en la calle Zaragoza desde hace dos semanas, se está tirando toda.",portal,normal,2025-05-03 18:32:00
+QBF6374BE2E,T5F78380FF1,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,telefono,normal,2024-09-06 16:00:00
+Q16F50A8295,T2A7B7C0706,fuga_toma,La llave de banqueta gotea sin parar desde el fin de semana.,portal,alta,2025-05-03 14:06:00
+QA302E3D3A2,TA014F1FF15,baja_presion,"El agua llega con muy poca presión, no sube al tinaco.",telefono,normal,2026-05-26 11:22:00
+Q141CE604B6,T90FCBE8560,facturacion,  Pagué  en  línea y el recibo sigue apareciendo como pendiente.,portal,baja,2024-09-29 12:20:00
+Q78A9C47E3F,TCCA2F0E6D1,medidor,El medidor marca consumos altísimos y somos dos personas.,telefono,normal,2024-08-18 15:40:00
+QDF48012B18,T6269371CAA,baja_presion,"  Baja  presión  en Independencia, apenas llena una cubeta en diez minutos.",portal,normal,2025-01-08 10:21:00
+Q8308EC537B,T4B2228F178,sin_agua,Llevamos el fin de semana sin servicio de agua en la privada.,presencial,normal,2024-11-17 08:01:00
+Q09B0363CC0,TE03815B898,fuga_calle,"Hay agua saliendo en la calle 5 de Mayo desde ayer, se está tirando toda.",telefono,alta,2024-07-19 08:50:00
+QF08309A5F0,T37BA3005AD,medidor,"Mi medidor está roto, el cristal quebrado y no se lee.",portal,alta,2026-02-14 13:20:00
+QACA2DB6F98,T03F3726F54,calidad_agua,Sale amarillenta y mancha la ropa al lavar.,presencial,normal,2024-09-12 23:26:00
+QC6FBE9B9A4,T595C48877B,sin_agua,"No llega agua a mi domicilio desde hace tres días, los vecinos igual.",portal,normal,2026-06-14 01:21:00
+QB4425E2019,TF94B3B4CEA,drenaje,"Registro de alcantarillado tapado en Reforma, escurre a la calle.",telefono,normal,2024-12-06 10:41:00
+QEBE9C3783D,TAD1B3ECAF6,drenaje,Se regresa el agua del drenaje hacia mi patio desde ayer.,whatsapp,baja,2025-02-22 02:13:00
+Q3D816506F4,TD4AA44C620,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,portal,alta,2025-12-23 10:50:00
+Q2E6C34C81A,TFD4476DD46,baja_presion,"No alcanza presión para el calentador, el agua llega sin fuerza.",portal,baja,2026-03-24 18:56:00
+Q89693EDA0D,T7AE1E63696,sin_agua,Llevamos desde el lunes sin servicio de agua en la privada.,whatsapp,normal,2024-08-12 17:37:00
+Q1FC4271E5F,TB1A6FA6009,fuga_toma,  Me  sale  agua por la toma de mi domicilio aunque tenga todo cerrado.,presencial,normal,2026-02-11 20:10:00
+Q0D3C9ECAD8,TD4AA44C620,calidad_agua,EL AGUA SALE TURBIA Y CON TIERRA DESDE EL FIN DE SEMANA.,telefono,baja,2026-01-31 21:59:00
+Q9EDB824842,TAD97E4B580,sin_agua,Llevamos hace tres días sin servicio de agua en la privada.,presencial,urgente,2026-03-31 00:49:00
+Q47E1131B55,T599538981A,calidad_agua,El agua sale turbia y con tierra desde hace tres días.,telefono,normal,2026-05-01 07:27:00
+Q27DFD7F42F,T962D5133B5,fuga_calle,  Fuga  en  la banqueta de Morelos. El agua no para y huele mal.,telefono,alta,2026-05-19 10:44:00
+Q282EA4C2EE,TC653350390,drenaje,  Hay  aguas  negras saliendo de la coladera de la esquina.,presencial,alta,2024-12-30 15:22:00
+Q36E466E17E,TE9E2B18053,baja_presion,"Desde ayer el chorro sale débil, sobre todo en la mañana.",whatsapp,alta,2024-02-16 00:55:00
+QA8147672CF,TB1246EBDB6,sin_agua,Llevamos desde el lunes sin servicio de agua en la privada.,presencial,baja,2024-07-09 16:03:00
+Q971672391A,T350C7F0CAD,fuga_calle,"Reporto fuga en la vialidad de Matamoros, el agua corre hacia la esquina.",portal,alta,2026-03-21 22:35:00
+QF148F836FB,T46E626FB09,medidor,El medidor marca consumos altísimos y somos dos personas.,presencial,urgente,2024-02-28 01:13:00
+QA39944045C,TE62F9D24A2,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,presencial,normal,2025-01-03 21:53:00
+Q0C5DDCE2FA,T623FDA0FEC,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,portal,alta,2026-04-28 09:40:00
+Q054F404FE4,T79AD100612,fuga_calle,"REPORTO FUGA EN LA VIALIDAD DE MORELOS, EL AGUA CORRE HACIA LA ESQUINA.",portal,normal,2025-11-18 01:22:00
+Q26E15DB693,TFAE2AFD636,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,telefono,normal,2025-11-20 20:29:00
+QB8D421D721,T0D1C506545,facturacion,ME ESTÁN COBRANDO UN PERIODO QUE YA HABÍA PAGADO EN VENTANILLA.,telefono,baja,2024-07-07 21:16:00
+Q731149640B,T7092CB932F,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,portal,normal,2026-08-08 03:25:00
+QB238851E73,T47801013F9,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,portal,normal,2026-04-06 19:05:00
+Q6A34E9C416,T9B926E1A60,fuga_toma,HAY HUMEDAD Y AGUA ACUMULADA JUNTO AL MEDIDOR DE MI CASA.,telefono,normal,2026-03-22 19:30:00
+QA286F00074,TC11C4F89B7,drenaje,Se regresa el agua del drenaje hacia mi patio desde desde el lunes.,portal,normal,2026-02-27 04:38:00
+QDCC0BA07C1,T945DF5CC73,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,telefono,normal,2026-01-04 20:28:00
+QDF1D8B82E8,T6EE7490E19,sin_agua,"Sin abasto en toda la calle Allende, nadie tiene agua.",telefono,normal,2024-06-25 15:36:00
+QE55B4D6862,TBA965CD37E,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,telefono,normal,2025-10-08 16:22:00
+QE919AF5456,T350C7F0CAD,calidad_agua,"Huele a cloro muy fuerte y sabe raro, no nos atrevemos a tomarla.",portal,baja,2025-01-23 17:58:00
+Q0FA7ED6EF8,T1540962193,sin_agua,"Sin abasto en toda la calle Guerrero, nadie tiene agua.",portal,baja,2025-11-01 17:39:00
+QEE2CC1CAB6,TE1AA9E77A7,sin_agua,"No llega agua a mi domicilio desde el fin de semana, los vecinos igual.",telefono,normal,2025-02-12 13:24:00
+Q077ECC6FF3,T45E4DAC832,calidad_agua,"Huele a cloro muy fuerte y sabe raro, no nos atrevemos a tomarla.",presencial,baja,2025-06-21 11:33:00
+QD85530B78A,T6191B8FD69,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,portal,alta,2024-03-16 07:59:00
+Q9E9D81B8C8,T711A4FB3DC,calidad_agua,"El agua trae sedimento, se ve el fondo del vaso sucio.",portal,normal,2024-03-24 21:57:00
+Q21CBA825FB,TB1246EBDB6,atencion,Llamé varias veces y no contestan el teléfono de atención.,portal,normal,2025-06-05 23:13:00
+Q60E7A27DC7,T71B2CE98BC,medidor,El medidor marca consumos altísimos y somos dos personas.,whatsapp,urgente,2026-03-03 12:00:00
+QDCC4009634,T518FD2CD05,fuga_calle,"Reporto fuga en la vialidad de Morelos, el agua corre hacia la esquina.",telefono,urgente,2024-09-06 22:18:00
+QB48B07A8B3,TC85BCF4679,medidor,"  Se  llevaron  el medidor de mi toma, ya no está en la caja.",portal,baja,2024-06-30 19:16:00
+QE0B81BF81B,TE380DFCDD5,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,telefono,normal,2025-04-01 23:15:00
+QE801BD19FF,T16385BC409,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,portal,alta,2024-02-28 23:40:00
+QD39A06B82B,TB308B5DC7A,drenaje,Hay aguas negras saliendo de la coladera de la esquina.,telefono,normal,2025-01-17 06:34:00
+Q94A66F28CD,T45E4DAC832,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,portal,alta,2024-02-28 05:53:00
+QA02449F410,T2A7B7C0706,sin_agua,"No llega agua a mi domicilio desde hace dos semanas, los vecinos igual.",presencial,normal,2024-10-27 21:03:00
+Q3B8A3FCF73,T6B4FC6C7C6,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,portal,baja,2025-12-10 00:46:00
+Q4AE46C4E09,T0B952300A6,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",telefono,alta,2024-03-29 14:03:00
+Q305002B0DC,T575100FEE6,sin_agua,  Tercer  día  sin agua. Necesitamos saber cuándo se restablece.,portal,normal,2025-03-29 11:01:00
+Q46AD1DE5E8,TB2B631F6DE,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,whatsapp,baja,2025-01-10 08:50:00
+QE33B34110C,T9BABD62590,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,telefono,normal,2024-06-28 03:15:00
+QB89D77B43D,T6191B8FD69,facturacion,"  El  recibo  trae un consumo que no corresponde, somos pocos en casa.",telefono,normal,2025-11-05 09:07:00
+QF15C5FB67C,T005A9CE174,calidad_agua,"El agua trae sedimento, se ve el fondo del vaso sucio.",whatsapp,normal,2026-02-02 06:44:00
+Q5426FB5293,TEA687BEEC8,sin_agua,"No llega agua a mi domicilio desde hace dos semanas, los vecinos igual.",portal,urgente,2024-01-25 18:42:00
+Q1674348CD2,T500E1E73A5,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,telefono,alta,2025-12-18 08:29:00
+Q5F20D41DF0,TD93E7F3525,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,presencial,alta,2024-12-08 15:15:00
+Q76889464AC,T6D36EEA27E,atencion,Llamé varias veces y no contestan el teléfono de atención.,whatsapp,urgente,2025-06-07 02:28:00
+Q573AEDB7DE,T7E47E27FFB,fuga_toma,CREO QUE TENGO UNA FUGA: CERRÉ TODO Y EL MEDIDOR SIGUE GIRANDO.,whatsapp,baja,2025-06-02 12:10:00
+Q257BD4094E,T8F2163E1AC,fuga_toma,La llave de banqueta gotea sin parar desde hace varios días.,portal,normal,2025-11-09 04:58:00
+Q43C85BAF41,TBBD0028CDB,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,presencial,normal,2025-10-29 12:23:00
+QBF34F92858,T9C80DA594D,sin_agua,"Sin abasto en toda la calle Hidalgo, nadie tiene agua.",telefono,alta,2024-04-22 09:13:00
+QFB1750E655,T7092CB932F,baja_presion,"No alcanza presión para el calentador, el agua llega sin fuerza.",presencial,normal,2024-07-18 19:24:00
+Q885D97E1B3,T6FCD9FC327,sin_agua,Llevamos el fin de semana sin servicio de agua en la privada.,telefono,baja,2024-12-17 05:39:00
+Q412798EE34,T592EE5AE5A,medidor,"Se llevaron el medidor de mi toma, ya no está en la caja.",portal,alta,2025-05-14 04:30:00
+Q9C05276728,T28A5C3A212,atencion,Fui a ventanilla y nadie me supo dar información de mi trámite.,whatsapp,normal,2025-06-07 05:36:00
+Q955357DF05,T0FA07C2AE6,atencion,LLAMÉ VARIAS VECES Y NO CONTESTAN EL TELÉFONO DE ATENCIÓN.,whatsapp,normal,2024-01-22 02:31:00
+Q0130771C6E,TD81C7B0AC7,drenaje,Se regresa el agua del drenaje hacia mi patio desde el fin de semana.,portal,alta,2026-03-09 11:10:00
+QE8B4C97895,TDEF092A4C5,drenaje,Hay aguas negras saliendo de la coladera de la esquina.,portal,normal,2026-05-19 23:10:00
+QC4BFB3BF6B,T6D36EEA27E,atencion,Fui a ventanilla y nadie me supo dar información de mi trámite.,whatsapp,normal,2024-01-29 22:55:00
+Q11AE25E49D,TEA687BEEC8,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",telefono,alta,2024-02-24 01:49:00
+Q856FEECC87,T9C181CA6B2,sin_agua,"No llega agua a mi domicilio desde el fin de semana, los vecinos igual.",whatsapp,normal,2026-03-14 21:11:00
+QFE2B5D80F3,T0201C8273D,baja_presion,"BAJA PRESIÓN EN GUERRERO, APENAS LLENA UNA CUBETA EN DIEZ MINUTOS.",whatsapp,baja,2025-07-26 09:14:00
+Q22F90ECC08,T62F138B69F,calidad_agua,El agua sale turbia y con tierra desde ayer.,portal,normal,2024-08-10 14:37:00
+QB89F3587EC,TC54C99BA73,drenaje,Hay aguas negras saliendo de la coladera de la esquina.,portal,alta,2026-05-03 05:50:00
+QFC92B4DAB9,T0197678D11,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",portal,normal,2026-02-19 01:28:00
+Q6D92459E85,T0FA07C2AE6,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,whatsapp,normal,2025-06-12 23:26:00
+QF7B097DFE6,T08D24C843D,sin_agua,"No llega agua a mi domicilio desde hace varios días, los vecinos igual.",telefono,baja,2024-07-05 11:32:00
+Q805C613C27,TCFB896C903,calidad_agua,"El agua trae sedimento, se ve el fondo del vaso sucio.",portal,normal,2025-01-26 06:12:00
+QA7C53B584E,T89289351AD,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",presencial,baja,2024-07-31 17:10:00
+Q84E0573CEF,T6FCD9FC327,fuga_calle,"Tiene el fin de semana brotando agua del pavimento en Guerrero, ya se hizo un charco grande.",telefono,normal,2025-10-16 14:40:00
+QDE85FBC451,TC11C4F89B7,calidad_agua,El agua sale turbia y con tierra desde desde el lunes.,portal,urgente,2025-01-22 09:01:00
+QB370AED596,T30CED3EF6B,drenaje,Hay aguas negras saliendo de la coladera de la esquina.,portal,baja,2024-04-21 20:17:00
+QEB677501C7,T54630B6404,sin_agua,"NO LLEGA AGUA A MI DOMICILIO DESDE HACE DOS SEMANAS, LOS VECINOS IGUAL.",whatsapp,normal,2024-08-29 08:35:00
+Q7E8EF466D7,TED624C9B29,atencion,Fui a ventanilla y nadie me supo dar información de mi trámite.,whatsapp,normal,2024-10-22 21:49:00
+Q7BE906BEC5,TCDF5CCF9D1,fuga_calle,"Reporto fuga en la vialidad de Matamoros, el agua corre hacia la esquina.",portal,normal,2025-01-31 12:39:00
+Q9A9718C8A7,T0197678D11,fuga_calle,Fuga en la banqueta de Juárez. El agua no para y huele mal.,telefono,normal,2026-03-22 18:20:00
+Q707665761E,T4D40D256FE,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,telefono,normal,2026-05-20 06:40:00
+QE3360CBFB0,TED624C9B29,atencion,  Reporté  hace  ayer y todavía no viene nadie a revisar.,telefono,normal,2025-01-22 08:20:00
+Q7AC7AD08FA,T01F422D988,medidor,El medidor no marca nada aunque sí tengamos agua.,telefono,alta,2026-04-11 22:48:00
+Q2FFF3B4AE6,T14A35B501D,calidad_agua,"El agua trae sedimento, se ve el fondo del vaso sucio.",telefono,alta,2026-05-06 18:21:00
+QC833815A74,T886651EB56,fuga_calle,"REPORTO FUGA EN LA VIALIDAD DE ZARAGOZA, EL AGUA CORRE HACIA LA ESQUINA.",whatsapp,normal,2024-01-11 22:10:00
+Q5E50C036E7,T6DD4962896,baja_presion,"No alcanza presión para el calentador, el agua llega sin fuerza.",presencial,baja,2025-11-21 18:42:00
+Q6F11BA498F,T63245D9338,fuga_calle,"Tiene hace varios días brotando agua del pavimento en Reforma, ya se hizo un charco grande.",telefono,normal,2026-05-01 01:38:00
+QD3D41B66EF,T92ED6C6BBC,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,telefono,alta,2024-03-04 01:20:00
+Q28E6063986,T5EDC8CD764,sin_agua,"Sin abasto en toda la calle Independencia, nadie tiene agua.",telefono,normal,2024-03-07 00:54:00
+Q1F7DFB1117,TE13FCEC631,fuga_calle,"Hay agua saliendo en la calle Morelos desde la semana pasada, se está tirando toda.",telefono,alta,2025-07-24 17:20:00
+Q8AD3BB04A2,TC1EBE75CAC,sin_agua,LLEVAMOS HACE VARIOS DÍAS SIN SERVICIO DE AGUA EN LA PRIVADA.,whatsapp,normal,2025-07-14 12:40:00
+Q9453EAAEB1,T5D1D63651A,drenaje,Se regresa el agua del drenaje hacia mi patio desde hace varios días.,portal,alta,2024-04-18 08:25:00
+Q7D376B8A39,TCF1A6CDF80,fuga_toma,HAY HUMEDAD Y AGUA ACUMULADA JUNTO AL MEDIDOR DE MI CASA.,telefono,normal,2025-10-09 19:50:00
+QE89371E74B,TB1AE49FA20,drenaje,"  Registro  de  alcantarillado tapado en Hidalgo, escurre a la calle.",presencial,normal,2025-08-16 11:52:00
+Q1205727142,TE23D5A574A,baja_presion,"El agua llega con muy poca presión, no sube al tinaco.",telefono,normal,2025-12-02 13:42:00
+Q8561F3EAEC,TBD7AFAA9AB,sin_agua,"No llega agua a mi domicilio desde hace varios días, los vecinos igual.",portal,normal,2024-10-31 05:04:00
+QB348432B9F,TEB9B6A4FBC,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,telefono,normal,2025-05-24 14:40:00
+QC54F6828E4,T44C452513D,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",portal,alta,2024-04-07 19:47:00
+Q594A249FE1,T1A234D637E,sin_agua,LLEVAMOS EL FIN DE SEMANA SIN SERVICIO DE AGUA EN LA PRIVADA.,presencial,normal,2024-06-13 11:56:00
+QA621AB7F37,T78A401EEAD,drenaje,El drenaje de 5 de Mayo está desbordado y huele muy mal.,telefono,alta,2026-06-29 06:51:00
+Q1F4DFF8E77,T9BABD62590,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,presencial,alta,2024-05-18 00:49:00
+QA27CB040C9,T48E474E620,calidad_agua,El agua sale turbia y con tierra desde ayer.,portal,normal,2026-08-23 23:17:00
+Q59CFF4B567,TA49FD77129,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",presencial,normal,2024-01-28 13:35:00
+Q707F4C6BE8,TCA03B52F53,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,portal,normal,2024-09-26 17:11:00
+Q9BCB7B019E,TAD97E4B580,sin_agua,Llevamos la semana pasada sin servicio de agua en la privada.,portal,normal,2026-02-18 00:32:00
+QDC2F5DEEFC,TC9C584B8EF,fuga_calle,"Reporto fuga en la vialidad de Morelos, el agua corre hacia la esquina.",telefono,normal,2026-04-07 19:52:00
+Q08500F945D,T0E7497BE87,medidor,"SE LLEVARON EL MEDIDOR DE MI TOMA, YA NO ESTÁ EN LA CAJA.",telefono,alta,2025-09-24 07:49:00
+QF04B8FF022,T63245D9338,atencion,Mal trato del personal al preguntar por mi aclaración.,telefono,urgente,2026-05-17 21:31:00
+Q83BFE58DAF,T14A35B501D,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,portal,baja,2024-08-18 17:13:00
+Q627E226FC3,T6B4FC6C7C6,medidor,El medidor no marca nada aunque sí tengamos agua.,presencial,normal,2024-10-11 07:22:00
+Q9D8A6F5A1D,TEA687BEEC8,sin_agua,"No llega agua a mi domicilio desde la semana pasada, los vecinos igual.",portal,alta,2024-05-01 08:28:00
+Q50EA2A5A16,T132EB7CE2B,fuga_calle,"TIENE HACE VARIOS DÍAS BROTANDO AGUA DEL PAVIMENTO EN REFORMA, YA SE HIZO UN CHARCO GRANDE.",portal,urgente,2024-03-11 20:30:00
+QDDF0441E45,TACA1F6575E,fuga_toma,  Creo  que  tengo una fuga: cerré todo y el medidor sigue girando.,whatsapp,urgente,2024-07-09 20:23:00
+Q42255A0BB3,T8917AF33E8,baja_presion,"Baja presión en 5 de Mayo, apenas llena una cubeta en diez minutos.",whatsapp,normal,2025-08-28 09:44:00
+Q978DD01B2A,T8917AF33E8,drenaje,Hay aguas negras saliendo de la coladera de la esquina.,telefono,alta,2025-10-31 01:43:00
+Q00352CEDF7,TE74495FCDD,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,telefono,normal,2024-05-01 07:44:00
+QA1F244B867,TE74495FCDD,baja_presion,"EL AGUA LLEGA CON MUY POCA PRESIÓN, NO SUBE AL TINACO.",whatsapp,baja,2024-02-06 06:30:00
+Q0A430C550E,TC5E185C6E8,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,presencial,alta,2025-10-09 16:18:00
+Q631CFBE714,TFAE2AFD636,fuga_toma,La llave de banqueta gotea sin parar desde la semana pasada.,portal,normal,2024-10-03 12:54:00
+Q7EB67DF794,TF8038E3438,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,presencial,normal,2025-12-06 23:01:00
+Q1A30918EE3,T3763EE0258,sin_agua,Llevamos hace varios días sin servicio de agua en la privada.,telefono,alta,2024-01-04 03:44:00
+Q76EA99DA8A,T3C6A8E589D,fuga_calle,Fuga en la banqueta de Independencia. El agua no para y huele mal.,portal,urgente,2024-03-20 02:01:00
+QFA05BF38FE,TD6D7800440,fuga_toma,  La  llave  de banqueta gotea sin parar desde la semana pasada.,whatsapp,normal,2025-03-08 20:54:00
+QEBC01583EB,TBE3328794F,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,telefono,alta,2024-09-22 10:42:00
+QE0AFEA496F,T8A79BCF725,fuga_calle,"Tiene el fin de semana brotando agua del pavimento en Independencia, ya se hizo un charco grande.",whatsapp,normal,2025-02-11 16:20:00
+Q1BC5424597,T25A59C1230,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,whatsapp,urgente,2024-02-24 20:37:00
+Q1F4218EAB6,T43D369AD4F,fuga_calle,"Hay agua saliendo en la calle 5 de Mayo desde hace varios días, se está tirando toda.",whatsapp,alta,2025-12-15 14:10:00
+QF920DF5ACA,TEEB9050E6F,facturacion,Pagué en línea y el recibo sigue apareciendo como pendiente.,whatsapp,normal,2025-12-06 22:32:00
+Q94A4447DDF,T6191B8FD69,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,portal,normal,2024-08-18 01:49:00
+Q49A25545C5,T5B2FD74A85,fuga_toma,  Creo  que  tengo una fuga: cerré todo y el medidor sigue girando.,portal,urgente,2024-06-23 18:55:00
+Q8A3FAA8CE0,T2A78E596A5,sin_agua,"No llega agua a mi domicilio desde el fin de semana, los vecinos igual.",telefono,normal,2024-02-24 09:02:00
+Q64368710CE,T0FA07C2AE6,fuga_calle,Fuga en la banqueta de 5 de Mayo. El agua no para y huele mal.,telefono,normal,2026-04-19 01:02:00
+Q46432B08D5,TDE3B85E449,drenaje,Hay aguas negras saliendo de la coladera de la esquina.,telefono,normal,2026-06-08 21:18:00
+Q355DB4E3DB,T65187CE62C,atencion,Fui a ventanilla y nadie me supo dar información de mi trámite.,whatsapp,normal,2025-02-28 01:11:00
+Q7E9963FF7C,TB5E2F0D295,sin_agua,Tercer día sin agua. Necesitamos saber cuándo se restablece.,whatsapp,baja,2026-05-09 10:03:00
+Q775B1E533D,TA7CD008CD2,fuga_toma,Hay humedad y agua acumulada junto al medidor de mi casa.,portal,alta,2024-11-02 10:06:00
+QAF858D1EC1,TF0590D064A,drenaje,"Registro de alcantarillado tapado en Hidalgo, escurre a la calle.",whatsapp,normal,2024-10-10 10:40:00
+QCCBF1EBD82,TE3814F5946,fuga_calle,Fuga en la banqueta de Guerrero. El agua no para y huele mal.,portal,normal,2026-05-02 12:24:00
+Q1916A95336,T518FD2CD05,fuga_calle,"TIENE LA SEMANA PASADA BROTANDO AGUA DEL PAVIMENTO EN GUERRERO, YA SE HIZO UN CHARCO GRANDE.",telefono,alta,2025-11-03 21:58:00
+Q3572C8E771,T89289351AD,sin_agua,"NO LLEGA AGUA A MI DOMICILIO DESDE EL FIN DE SEMANA, LOS VECINOS IGUAL.",whatsapp,alta,2024-03-12 00:51:00
+Q307D88985C,T5FC1C50126,fuga_calle,"Tiene el fin de semana brotando agua del pavimento en Juárez, ya se hizo un charco grande.",portal,alta,2025-04-20 04:42:00
+Q1780AD03E7,T623FDA0FEC,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,portal,baja,2024-02-16 23:32:00
+QDF3C88489A,TAD0E244201,baja_presion,"BAJA PRESIÓN EN MORELOS, APENAS LLENA UNA CUBETA EN DIEZ MINUTOS.",whatsapp,normal,2025-10-14 01:36:00
+Q3A842C88DB,T0ABCC73F5F,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,telefono,normal,2024-12-29 11:28:00
+QB2FD645C10,T17B01CE93D,sin_agua,Llevamos el fin de semana sin servicio de agua en la privada.,portal,alta,2025-10-28 04:36:00
+QADA1FCE5DA,T2B4ECE5F7A,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,whatsapp,baja,2025-08-16 13:05:00
+Q28971712EE,TAE4991C39A,facturacion,Pagué en línea y el recibo sigue apareciendo como pendiente.,whatsapp,normal,2026-03-01 16:29:00
+Q441148CCD8,T08D24C843D,sin_agua,"Sin abasto en toda la calle Juárez, nadie tiene agua.",whatsapp,normal,2024-11-16 15:56:00
+Q54CFAB0E9F,T013C0F8B57,facturacion,"  El  recibo  trae un consumo que no corresponde, somos pocos en casa.",whatsapp,normal,2024-09-14 19:22:00
+Q246C9AD81E,T49C247A691,drenaje,"  Registro  de  alcantarillado tapado en 5 de Mayo, escurre a la calle.",telefono,alta,2024-03-24 10:31:00
+Q5225EE6386,T962D5133B5,fuga_toma,La llave de banqueta gotea sin parar desde hace tres días.,portal,alta,2025-12-29 12:33:00
+QD22AE2114F,T592985E849,calidad_agua,"El agua trae sedimento, se ve el fondo del vaso sucio.",portal,normal,2025-10-12 18:14:00
+QBD02320297,T77D8F1F07B,fuga_calle,"Tiene desde el lunes brotando agua del pavimento en 5 de Mayo, ya se hizo un charco grande.",telefono,alta,2024-04-24 09:54:00
+Q950B3A6395,TE03815B898,sin_agua,"No llega agua a mi domicilio desde desde el lunes, los vecinos igual.",whatsapp,normal,2024-02-18 07:44:00
+Q7017E6A631,T1A234D637E,facturacion,Mi recibo llegó con un cobro mucho más alto de lo normal.,presencial,normal,2026-03-26 06:29:00
+Q0678B5F90B,T945DF5CC73,fuga_toma,La llave de banqueta gotea sin parar desde hace dos semanas.,presencial,baja,2026-08-30 18:09:00
+Q76968F6B24,T64DF103F27,medidor,"Mi medidor está roto, el cristal quebrado y no se lee.",whatsapp,normal,2025-08-25 04:26:00
+Q775D40A272,T260F6D657D,fuga_calle,Fuga en la banqueta de Reforma. El agua no para y huele mal.,telefono,alta,2026-08-02 08:24:00
+QDB49509A72,T85072A41C6,calidad_agua,"Huele a cloro muy fuerte y sabe raro, no nos atrevemos a tomarla.",portal,urgente,2025-03-16 05:55:00
+Q79B936EC21,T0A7DFC3903,calidad_agua,"El agua trae sedimento, se ve el fondo del vaso sucio.",portal,alta,2026-04-08 09:08:00
+Q4DF6D98E41,TF0590D064A,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,telefono,alta,2025-05-10 04:43:00
+Q1FB9EE8B50,T148BA00559,sin_agua,"Sin abasto en toda la calle Juárez, nadie tiene agua.",telefono,baja,2025-09-16 02:11:00
+Q69BE138F83,TD6D7800440,fuga_toma,La llave de banqueta gotea sin parar desde el fin de semana.,telefono,alta,2024-10-19 04:08:00
+Q7DBA007A7B,T2269F4C04A,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",telefono,normal,2026-07-13 20:26:00
+QB60A70D160,T6230F0F81A,fuga_calle,"Reporto fuga en la vialidad de Guerrero, el agua corre hacia la esquina.",whatsapp,alta,2024-07-11 15:49:00
+Q4A48C7D35A,TC1FE3D7E79,baja_presion,"DESDE HACE TRES DÍAS EL CHORRO SALE DÉBIL, SOBRE TODO EN LA MAÑANA.",portal,normal,2026-07-09 14:04:00
+QEEE9CB9B9D,T0F12629295,calidad_agua,El agua sale turbia y con tierra desde el fin de semana.,telefono,alta,2026-05-26 07:18:00
+QE3EDA8C714,T4D40D256FE,atencion,Llamé varias veces y no contestan el teléfono de atención.,telefono,alta,2024-03-29 07:46:00
+Q7257C6DDE4,T292B036CC6,sin_agua,"No llega agua a mi domicilio desde hace tres días, los vecinos igual.",whatsapp,normal,2024-02-09 18:53:00
+Q9FE95FFE65,TA6D3C701E5,sin_agua,"Sin abasto en toda la calle Hidalgo, nadie tiene agua.",telefono,urgente,2024-06-23 08:10:00
+Q829C17AC68,TB1AE49FA20,fuga_calle,"Reporto fuga en la vialidad de Hidalgo, el agua corre hacia la esquina.",whatsapp,urgente,2025-03-25 00:44:00
+Q8CCEB9BCA3,T6B4C3EB33E,sin_agua,Llevamos desde el lunes sin servicio de agua en la privada.,telefono,alta,2025-09-10 03:47:00
+Q213D8BCACB,T0E868A3F47,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,telefono,normal,2024-02-27 23:24:00
+Q0D96A873C1,T771EC6B537,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,whatsapp,baja,2024-05-20 10:40:00
+QB1E8D94261,T305BACE840,drenaje,"Registro de alcantarillado tapado en Guerrero, escurre a la calle.",whatsapp,normal,2026-03-24 04:06:00
+QAA69126853,T85C4B9E9BD,fuga_toma,  Creo  que  tengo una fuga: cerré todo y el medidor sigue girando.,portal,normal,2024-01-16 13:20:00
+Q5A1793DC73,T75445AB825,baja_presion,"Baja presión en Matamoros, apenas llena una cubeta en diez minutos.",telefono,normal,2026-07-07 23:19:00
+Q736DA033BB,TB1AE49FA20,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,telefono,urgente,2026-06-14 06:59:00
+Q0FD423AAAD,TE1CE4D9E5A,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,telefono,normal,2026-03-23 23:25:00
+Q7B39E34461,T5BEF82BC17,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,telefono,urgente,2026-01-31 10:06:00
+Q7CCA5C0EF1,TACA1F6575E,sin_agua,"Sin abasto en toda la calle Matamoros, nadie tiene agua.",telefono,normal,2025-11-12 03:30:00
+Q54DAFEFC1F,T021E4A2B45,baja_presion,"No alcanza presión para el calentador, el agua llega sin fuerza.",telefono,normal,2024-12-25 10:59:00
+QB7F7C1D077,T30E453AB34,drenaje,El drenaje de Hidalgo está desbordado y huele muy mal.,presencial,normal,2025-08-13 17:31:00
+Q8983A96F3E,TFD4476DD46,drenaje,El drenaje de Reforma está desbordado y huele muy mal.,whatsapp,normal,2024-12-22 12:28:00
+Q1166AD8E28,T7436A106AE,baja_presion,"Desde la semana pasada el chorro sale débil, sobre todo en la mañana.",portal,normal,2025-03-17 22:36:00
+Q0DB25CAC02,TACA1F6575E,medidor,EL MEDIDOR MARCA CONSUMOS ALTÍSIMOS Y SOMOS DOS PERSONAS.,whatsapp,baja,2026-05-22 03:41:00
+Q87C4B6954D,T1629374829,medidor,El medidor no marca nada aunque sí tengamos agua.,telefono,alta,2024-12-05 15:28:00
+Q4449A7C77F,T3C23C0A42C,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,presencial,normal,2024-07-26 15:10:00
+QD0F5FD73B3,TA60FF3309B,baja_presion,"Desde hace tres días el chorro sale débil, sobre todo en la mañana.",whatsapp,alta,2025-01-11 07:59:00
+Q0F6C020263,T0EAA0EDBAF,sin_agua,"No llega agua a mi domicilio desde ayer, los vecinos igual.",whatsapp,normal,2024-09-10 08:59:00
+Q4C698C4A00,TB8E4E6CA4C,medidor,"Se llevaron el medidor de mi toma, ya no está en la caja.",portal,normal,2024-01-25 00:27:00
+QAE1A6616BB,TF252236170,fuga_calle,"TIENE EL FIN DE SEMANA BROTANDO AGUA DEL PAVIMENTO EN ALLENDE, YA SE HIZO UN CHARCO GRANDE.",telefono,normal,2026-06-28 11:59:00
+QFD50AE9215,TB3006B8F03,medidor,"  Se  llevaron  el medidor de mi toma, ya no está en la caja.",presencial,alta,2025-04-03 02:56:00
+QE4EDC9E1FD,T8917AF33E8,baja_presion,"BAJA PRESIÓN EN REFORMA, APENAS LLENA UNA CUBETA EN DIEZ MINUTOS.",whatsapp,normal,2024-09-25 21:02:00
+QF96F576D5A,T580C1D0E5A,facturacion,Me están cobrando un periodo que ya había pagado en ventanilla.,telefono,normal,2025-12-23 14:49:00
+QE91315D919,TD8B8E83F9D,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,whatsapp,alta,2024-02-11 03:42:00
+Q37F03A6A4F,TE62F9D24A2,calidad_agua,Sale amarillenta y mancha la ropa al lavar.,portal,normal,2025-04-09 10:31:00
+QC3684EE2E4,T0CE7987E4B,medidor,"SE LLEVARON EL MEDIDOR DE MI TOMA, YA NO ESTÁ EN LA CAJA.",whatsapp,normal,2024-12-10 10:11:00
+Q1335770183,TE13531501B,fuga_toma,LA LLAVE DE BANQUETA GOTEA SIN PARAR DESDE DESDE EL LUNES.,telefono,normal,2025-09-02 14:51:00
+Q23A20F76BF,T8C8BD1D187,drenaje,El drenaje de Juárez está desbordado y huele muy mal.,portal,urgente,2026-05-05 23:20:00
+Q67519BDB4D,T75445AB825,medidor,"MI MEDIDOR ESTÁ ROTO, EL CRISTAL QUEBRADO Y NO SE LEE.",whatsapp,normal,2025-04-03 20:48:00
+QA78FA9D352,TE9E2B18053,sin_agua,Llevamos hace dos semanas sin servicio de agua en la privada.,telefono,normal,2025-04-06 05:28:00
+Q5BF51E106C,T9B658694D7,calidad_agua,El agua sale turbia y con tierra desde desde el lunes.,telefono,baja,2026-04-04 04:02:00
+Q922CEAFF31,T4A69C0BA6F,fuga_toma,Me sale agua por la toma de mi domicilio aunque tenga todo cerrado.,whatsapp,alta,2024-03-17 05:42:00
+Q7E9AD452AE,T021E4A2B45,facturacion,"El recibo trae un consumo que no corresponde, somos pocos en casa.",telefono,baja,2025-09-23 13:18:00
+Q76D25AB32D,T50EA3E30B0,fuga_toma,Creo que tengo una fuga: cerré todo y el medidor sigue girando.,portal,normal,2026-01-11 15:29:00
+Q2FA5619B19,T305BACE840,sin_agua,"No llega agua a mi domicilio desde hace varios días, los vecinos igual.",portal,normal,2024-10-17 04:46:00
+Q1468772D1D,TF0590D064A,medidor,"SE LLEVARON EL MEDIDOR DE MI TOMA, YA NO ESTÁ EN LA CAJA.",portal,baja,2025-05-20 08:48:00
+QD0D3BD46DB,T3C23C0A42C,fuga_calle,"Tiene el fin de semana brotando agua del pavimento en Independencia, ya se hizo un charco grande.",whatsapp,normal,2025-04-22 23:48:00
+Q9E537BCD11,TDB1931905E,baja_presion,"El agua llega con muy poca presión, no sube al tinaco.",telefono,normal,2026-02-22 14:22:00
+Q424EFBE3A2,TFF833858D4,medidor,"Se llevaron el medidor de mi toma, ya no está en la caja.",portal,baja,2025-03-17 07:21:00
+Q262B5BF418,TB308B5DC7A,facturacion,"EL RECIBO TRAE UN CONSUMO QUE NO CORRESPONDE, SOMOS POCOS EN CASA.",portal,normal,2026-05-12 20:13:00
+Q366B161521,T9AEC04CEE6,calidad_agua,"Huele a cloro muy fuerte y sabe raro, no nos atrevemos a tomarla.",portal,normal,2024-11-02 00:19:00
+QED3350917D,T3DCE54CBCD,facturacion,  Me  están  cobrando un periodo que ya había pagado en ventanilla.,whatsapp,alta,2025-07-29 16:33:00
+QCAA475D042,T30CED3EF6B,atencion,MAL TRATO DEL PERSONAL AL PREGUNTAR POR MI ACLARACIÓN.,telefono,normal,2024-07-15 11:11:00
+Q64172AC472,T6E1A658692,sin_agua,"  No  llega  agua a mi domicilio desde hace tres días, los vecinos igual.",portal,normal,2026-08-12 20:46:00
+Q095BDC6454,TC9C584B8EF,baja_presion,"Baja presión en Zaragoza, apenas llena una cubeta en diez minutos.",presencial,normal,2025-12-21 13:26:00

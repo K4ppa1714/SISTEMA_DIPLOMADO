@@ -1,0 +1,6 @@
+# Dependencias de las funciones Python de Vercel (api/). DEBE ser ligero:
+# nada de pandas, scikit-learn, torch ni scipy (CLAUDE.md, regla 8). Dueño: Claude-A.
+fastapi>=0.110
+pydantic>=2.6
+supabase>=2.4
+httpx>=0.27

@@ -1,0 +1,6 @@
+# Vercel solo necesita app/, api/, requirements.txt y la configuración de Next.js
+pipeline/
+data/
+docs/
+supabase/
+*.ipynb
