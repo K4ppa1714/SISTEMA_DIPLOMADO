@@ -151,24 +151,28 @@ por consulta. Cada paso se registra en `agente.log`.
 
 ---
 
-## 5. Reglas de tarifa (`api/_lib/tarifas.py`) — dueño: Claude-E
+## 5. Reglas de tarifa (`api/_lib/tarifas.py`) — dueño: Claude-E — CONGELADA (T-03)
 
 Portadas de `recibo/models/recibo.py` y `recibo/models/tarifa.py` de
-Operaguas; validadas con pruebas contra recibos reales exportados.
+Operaguas. Tarifario CEA 2026-T2 y 2026-T3 en `api/_lib/tarifas_cea.csv`
+(1,320 filas: 11 tipos × 60 m³ × 2 periodos). Pruebas en
+`pipeline/tests/test_tarifas.py`.
 
 ```python
 def calcular_importe(tipo_tarifa: str, consumo_m3: float,
                      alcantarillado: bool, saneamiento: bool,
-                     periodo: str = "2026-T3") -> dict: ...
+                     periodo: str = "2026-T3") -> dict:
+    # → {periodo, tipo_tarifa, consumo_facturado, agua, alcantarillado,
+    #    saneamiento, subtotal, iva, total}
 ```
 
 - Consumo facturado = consumo redondeado al entero (medio hacia arriba).
-- Importe de agua = tabla CEA por `tipo_tarifa` y m³ del periodo.
-- \+10 % del importe de agua si hay alcantarillado; +12 % si hay saneamiento.
-- IVA solo para tarifas no domésticas (la tasa se confirma en T-03).
-- Función pura: sin red y sin dependencias pesadas.
-
----
+- Importe de agua = tabla CEA por `tipo_tarifa` y m³ del periodo; si excede la tabla (59 m³), se usa el último.
+- Subtotal = agua × (1 + 0.10 si alcantarillado + 0.12 si saneamiento), redondeado a 2 decimales.
+- IVA 16 % sobre el subtotal solo en tarifas no domésticas.
+- Tipos válidos: `beneficencia`, `comercial`, `domestico_alto`, `domestico_apoyo`, `domestico_economico`, `domestico_medio`, `domestico_rural`, `industrial`, `pecuaria`, `publico_concesionado`, `publico_oficial`.
+- Errores: `ValueError` con mensaje claro si el tipo no existe o el consumo es negativo.
+- Función pura: sin red y sin dependencias fuera de la biblioteca estándar.
 
 ## 6. Artefactos del pipeline
 
