@@ -12,6 +12,7 @@ Uso (genera y luego ejecuta con salidas visibles):
 from __future__ import annotations
 
 import json
+import sys
 from pathlib import Path
 
 AQUI = Path(__file__).parent
@@ -121,8 +122,50 @@ for r in salida:
         code("""for r in salida:
     print(f"- {r['payload']['titulo']}: {r['payload']['conclusion']}")"""),
     ],
+    "03_series_fourier_wavelets.ipynb": [
+        md("""# 03 · Series de tiempo, Fourier y wavelets (T-06, bloques D, O y P)
+
+**Dónde:** `pipeline/src/signals/temporal.py`. **Por qué:** entender la dinámica del consumo y detectar fugas en la
+telemetría horaria. **Cómo:** descomposición y predicción de la serie mensual, media móvil, autocorrelación y cambio
+de régimen; FFT con conversión frecuencia → periodo y reconstrucción filtrada; DWT/SWT db4 con energía por nivel y
+detección de fugas contra la regla de flujo nocturno. **Con qué datos:** consumo mensual de recibos y telemetría
+horaria de 40 tomas; `tiene_fuga` solo para evaluar."""),
+        code(PREAMBULO),
+        code("""from pipeline.src.signals.temporal import ejecutar
+r = ejecutar()
+for modulo in ("series", "fourier", "wavelets"):
+    for x in r[modulo]:
+        dibujar(x["payload"])"""),
+        md("## Conclusiones"),
+        code("""for modulo in ("series", "fourier", "wavelets"):
+    for x in r[modulo]:
+        print(f"- {x['payload']['titulo']}: {x['payload']['conclusion']}")"""),
+    ],
+    "06_segmentos_dl.ipynb": [
+        md("""# 06 · Segmentación (K-means + PCA) y red neuronal (T-08, bloques G e I)
+
+**Dónde:** `pipeline/src/ml/segmentos.py` y `pipeline/src/deep_learning/mlp.py`. **Por qué:** agrupar tomas con
+comportamiento parecido para priorizar acciones, y probar si una red neuronal mejora al mejor modelo clásico.
+**Cómo:** K elegido por silhouette y PCA de 2 componentes; MLP en PyTorch (64-32, dropout, parada temprana) contra
+Gradient Boosting con la misma separación temporal de T-07. **Con qué datos:** variables por toma y por recibo de T-04/T-07."""),
+        code(PREAMBULO),
+        code("""from pipeline.src.ml import segmentos
+seg_res, seg = segmentos.ejecutar()
+for x in seg_res:
+    dibujar(x["payload"])"""),
+        code("""from pipeline.src.deep_learning import mlp
+dl = mlp.ejecutar()
+for x in dl:
+    dibujar(x["payload"])"""),
+        md("## Conclusiones"),
+        code("""for x in seg_res + dl:
+    print(f"- {x['payload']['titulo']}: {x['payload']['conclusion']}")"""),
+    ],
 }
 
 if __name__ == "__main__":
+    # No sobrescribe notebooks ya ejecutados salvo con --forzar.
+    forzar = "--forzar" in sys.argv
     for nombre, celdas in NB.items():
-        guardar(nombre, celdas)
+        if forzar or not (AQUI / nombre).exists():
+            guardar(nombre, celdas)
