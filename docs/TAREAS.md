@@ -33,7 +33,7 @@ Responsables: **E** = Emilio · **A** = Andrés · **C-E** = Claude-E ·
 |---|---|---|---|---|---|---|
 | T-05 | EDA (distribuciones, segmentos, cartera, quejas) y estadística (H1 Kruskal-Wallis, H2 chi², IC 95 %, correlación) | B, C | C-E | T-04 | E | pendiente |
 | T-06 | Serie diaria, tendencia, estacionalidad, rolling, rezagos, cambio de régimen; FFT; DWT (db4) con energía por nivel y reconstrucción; anomalías vs. quejas | D, O, P | C-E | T-04 | E | pendiente |
-| T-11 | Migraciones `rag`/`agente`/`eval`; corpus, chunking, embeddings, pgvector; `/api/rag` con fuentes y respuesta sin evidencia | M | C-A | T-10, decisión LLM | A | pendiente |
+| T-11 | Migraciones `rag`/`agente`/`eval`; corpus, chunking, embeddings, pgvector; `/api/rag` con fuentes y respuesta sin evidencia | M | C-A | T-10, decisión LLM | A | en revisión (a/T-11-rag: migración 0005 sin aplicar, corpus, chunking, embeddings y lógica de /api/rag; falta llave, indexar y la ruta en api/index.py) |
 | T-12 | `/api/triage`: resumen, categoría y prioridad en JSON validado con Pydantic | L | C-A | T-10 | A | en revisión (a/T-12-triage: lógica y pruebas; falta cablear la ruta en api/index.py de T-10 y la llave del LLM) |
 | T-13 | Componente único que dibuja `payload`; páginas Inicio, Datos/EDA y Temporal/Espectral | B, UI | C-A | T-10 | A | pendiente |
 
