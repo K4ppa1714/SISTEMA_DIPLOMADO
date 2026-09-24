@@ -34,3 +34,7 @@ pipeline/artefactos/resultados/*.sql
 docs/reporte/reporte_tecnico.md
 docs/reporte/reporte_tecnico.html
 docs/reporte/figuras/
+
+# Next.js (generados)
+next-env.d.ts
+*.tsbuildinfo

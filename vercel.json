@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "functions": {
+    "api/index.py": {
+      "excludeFiles": "{node_modules/**,.next/**,app/**,public/**,pipeline/**,data/**,docs/**,supabase/**,**/__pycache__/**}"
+    }
+  }
+}
