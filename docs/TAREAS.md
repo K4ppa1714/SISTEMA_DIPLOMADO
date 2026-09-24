@@ -24,7 +24,7 @@ Responsables: **E** = Emilio · **A** = Andrés · **C-E** = Claude-E ·
 | T-02b | ~~Correr la exportación~~ — no aplica (Plan B) | — | A | — | — | cancelada |
 | T-03 | Tarifas CEA de los XML a CSV; `calcular_importe`; pruebas | Arquitectura, N | C-E | T-01 | E | en revisión (rama e/T-03-tarifas) |
 | T-04 | Pipeline sobre `data/simulados/`: revisar y extender el de Andrés, migración `raw`, carga a Supabase, reglas de censura y columnas prohibidas | A | C-E | T-01 | E (reglas de limpieza) | en revisión (rama e/T-04-pipeline) |
-| T-10 | Esqueleto Next.js + FastAPI con `/api/salud` desplegado en Vercel; comprobar tamaño de la función | Despliegue | C-A | T-01 | A | pendiente |
+| T-10 | Esqueleto Next.js + FastAPI con `/api/salud` desplegado en Vercel; comprobar tamaño de la función | Despliegue | C-A | T-01 | A | en revisión (a/T-10-esqueleto: Next.js 16 + FastAPI con /api/salud, errores en español, vercel.json; falta desplegar en la Vercel de Emilio y medir el tamaño de la función) |
 | — | ~~Decisión Plan A o B~~ — se adoptó Plan B (simulación declarada, propuesta #5) | | E, A | — | — | hecho |
 
 ## Fase 2 — Miércoles 23, 12:00–20:00
@@ -33,9 +33,9 @@ Responsables: **E** = Emilio · **A** = Andrés · **C-E** = Claude-E ·
 |---|---|---|---|---|---|---|
 | T-05 | EDA (distribuciones, segmentos, cartera, quejas) y estadística (H1 Kruskal-Wallis, H2 chi², IC 95 %, correlación) | B, C | C-E | T-04 | E | en revisión (rama e/T-05-eda-modelos; resultados v1 en analitica) |
 | T-06 | Serie diaria, tendencia, estacionalidad, rolling, rezagos, cambio de régimen; FFT; DWT (db4) con energía por nivel y reconstrucción; anomalías vs. quejas | D, O, P | C-A (reasignada: sesión de C-E sin tokens) | T-04 | E | en revisión (rama a/T-06-temporal) |
-| T-11 | Migraciones `rag`/`agente`/`eval`; corpus, chunking, embeddings, pgvector; `/api/rag` con fuentes y respuesta sin evidencia | M | C-A | T-10, decisión LLM | A | en revisión (a/T-11-rag: migración 0005 sin aplicar, corpus, chunking, embeddings y lógica de /api/rag; falta llave, indexar y la ruta en api/index.py) |
-| T-12 | `/api/triage`: resumen, categoría y prioridad en JSON validado con Pydantic | L | C-A | T-10 | A | en revisión (a/T-12-triage: lógica y pruebas; falta cablear la ruta en api/index.py de T-10 y la llave del LLM) |
-| T-13 | Componente único que dibuja `payload`; páginas Inicio, Datos/EDA y Temporal/Espectral | B, UI | C-A | T-10 | A | pendiente |
+| T-11 | Migraciones `rag`/`agente`/`eval`; corpus, chunking, embeddings, pgvector; `/api/rag` con fuentes y respuesta sin evidencia | M | C-A | T-10, decisión LLM | A | en revisión (lógica en main; ruta POST /api/rag cableada en a/T-10-esqueleto; falta migración 0005 aplicada, llave, indexar y exponer `rag`) |
+| T-12 | `/api/triage`: resumen, categoría y prioridad en JSON validado con Pydantic | L | C-A | T-10 | A | en revisión (lógica en main; ruta POST /api/triage cableada en a/T-10-esqueleto; falta la llave del LLM en Vercel) |
+| T-13 | Componente único que dibuja `payload`; páginas Inicio, Datos/EDA y Temporal/Espectral | B, UI | C-A | T-10 | A | en revisión (a/T-10-esqueleto: componente único Resultado.tsx + páginas Inicio, Datos/EDA y Temporal) |
 
 ## Fase 3 — Miércoles 23, 20:00–24:00 → versión 1 completa
 
@@ -54,7 +54,7 @@ Responsables: **E** = Emilio · **A** = Andrés · **C-E** = Claude-E ·
 |---|---|---|---|---|---|---|
 | T-09 | Análisis de errores, interpretación y profundidad de los bloques de C-E | F, G, I | C-E | T-07, T-08 | E | en revisión (rama e/T-09-16a; resultados v1 en analitica.ml) |
 | T-16 | Recall@k y MRR del RAG; Tool Selection Accuracy y éxito de tareas del agente (solo casos validados) | M, N | C-A | T-16a, T-16b | E, A | pendiente |
-| T-17 | Páginas Modelos (con prueba de predicción), Asistente IA (RAG, triage, agente con sus pasos) y Resultados | UI | C-A | T-13 | A | pendiente |
+| T-17 | Páginas Modelos (con prueba de predicción), Asistente IA (RAG, triage, agente con sus pasos) y Resultados | UI | C-A | T-13 | A | en curso (a/T-10-esqueleto: páginas Modelos, Quejas y Asistente con triage y RAG; falta consulta de predicción por toma y el agente) |
 
 ## Fase 5 — Jueves 24, 16:00–23:59
 
