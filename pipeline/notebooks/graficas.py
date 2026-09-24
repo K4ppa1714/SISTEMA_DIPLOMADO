@@ -8,7 +8,11 @@ import textwrap
 
 import matplotlib.pyplot as plt
 import pandas as pd
-from IPython.display import Markdown, display
+try:
+    from IPython.display import Markdown, display
+except ImportError:  # fuera de Jupyter (p. ej. al generar el reporte)
+    Markdown = str
+    display = print
 
 
 def tabla(payload: dict) -> pd.DataFrame:
