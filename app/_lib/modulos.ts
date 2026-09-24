@@ -47,6 +47,7 @@ export const PAGINAS = [
   { ruta: "/modelos", nombre: "Modelos" },
   { ruta: "/quejas", nombre: "Quejas" },
   { ruta: "/asistente", nombre: "Asistente IA" },
+  { ruta: "/resultados", nombre: "Resultados" },
 ] as const;
 
 export function modulosDe(pagina: string): Modulo[] {

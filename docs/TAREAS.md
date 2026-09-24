@@ -61,7 +61,7 @@ Responsables: **E** = Emilio · **A** = Andrés · **C-E** = Claude-E ·
 | ID | Tarea | Bloques | Resp. | Depende de | Valida | Estado |
 |---|---|---|---|---|---|---|
 | T-20 | Reporte técnico (24 secciones) y tabla de trazabilidad | Doc. | C-E | todas | E | pendiente |
-| T-21 | README de 18 puntos con sección "Uso de IA", diagrama de arquitectura, mensajes de error claros | Doc., Arq. | C-A | todas | A | pendiente |
+| T-21 | README de 18 puntos con sección "Uso de IA", diagrama de arquitectura, mensajes de error claros | Doc., Arq. | C-A | todas | A | en revisión (a/T-21-cierre: README de 18 puntos con diagrama mermaid, capturas de producción y "Uso de IA"; docs/arquitectura.md y docs/trazabilidad.md; página /resultados con glosario de métricas) |
 | T-19 | Prueba completa desde otra computadora e incógnito | Despliegue | A | T-17 | — | pendiente |
 | — | **23:59 congelar código, tag `v1.0`** | | E | T-19 | — | pendiente |
 
