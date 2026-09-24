@@ -5,49 +5,44 @@ FastAPI) que leen de un Supabase alimentado por un pipeline de Python que corre
 fuera de Vercel. Todo el cálculo de datos, ML e IA está en Python.
 
 ```mermaid
-flowchart LR
-    subgraph Fuente["Datos (simulación declarada, sin datos personales)"]
-        CSV["data/simulados/*.csv<br/>tomas · lecturas · recibos<br/>telemetría · quejas"]
+flowchart TB
+    USR(("Dirección y atención<br/>de Operaguas"))
+
+    subgraph Vercel["Vercel — una sola URL"]
+        direction LR
+        WEB["app/ Next.js 16<br/>páginas + componente único Resultado"]
+        API["api/index.py FastAPI<br/>/salud · /triage · /rag · /importe · /agente"]
+        WEB -- "/api/*" --> API
     end
 
-    subgraph Pipeline["pipeline/ — Python, fuera de Vercel"]
-        LIMP["limpieza y features<br/>(pandas)"]
-        ANA["EDA · estadística<br/>series · FFT · DWT"]
-        ML["ML supervisado · ensembles<br/>K-means + PCA · MLP (PyTorch)"]
-        NLP["NLP: TF-IDF + regresión logística<br/>embeddings"]
-        IDX["corpus RAG<br/>chunking + embeddings"]
-        EVAL["evaluadores<br/>L · M · N"]
+    subgraph Supa["Supabase (Postgres + pgvector, RLS)"]
+        direction LR
+        RAW[("raw<br/>datos cargados")]
+        ANAL[("analitica<br/>resultados_vigentes<br/>predicciones · segmentos")]
+        RAG[("rag<br/>fragmentos vector(768)")]
+        AG[("agente.log · eval")]
     end
 
-    subgraph Supa["Supabase (Postgres + pgvector)"]
-        RAW[("raw")]
-        ANAL[("analitica<br/>resultados_vigentes<br/>predicciones_pago<br/>segmentos · series · anomalias")]
-        RAG[("rag<br/>documentos · fragmentos<br/>vector(768)")]
-        AG[("agente.log")]
-        EV[("eval<br/>preguntas · casos")]
+    subgraph Pipeline["pipeline/ — Python fuera de Vercel"]
+        direction LR
+        CSV["data/simulados<br/>CSV sin datos personales"] --> LIMP["limpieza<br/>features"]
+        LIMP --> MOD["EDA · estadística · series<br/>FFT · DWT · ML · DL · NLP"]
+        CSV --> IDX["corpus RAG<br/>chunking"]
+        EVAL["evaluadores L · M · N"]
     end
 
-    subgraph Vercel["Vercel — una URL"]
-        WEB["app/ Next.js 16<br/>componente único Resultado"]
-        API["api/index.py FastAPI<br/>/salud /triage /rag<br/>/importe /agente"]
-    end
-
-    LLM["Gemini (LLM + embeddings)<br/>respaldo: Groq"]
-    USR(("Dirección y<br/>atención de Operaguas"))
-
-    CSV --> LIMP --> ANA & ML & NLP
-    LIMP --> RAW
-    ANA & ML & NLP --> ANAL
-    IDX --> RAG
-    EVAL --> ANAL
-    EV -.casos validados.-> EVAL
+    LLM["Gemini<br/>LLM + embeddings<br/>respaldo: Groq"]
 
     USR --> WEB
-    WEB -- "lectura anon (RLS)" --> ANAL
-    WEB -- "/api/*" --> API
-    API -- service_role --> RAW & ANAL & RAG & AG
+    WEB -- "lectura anon" --> ANAL
+    API -- "service_role" --> Supa
     API --> LLM
+    MOD -- "publica payloads" --> ANAL
+    LIMP -- "carga" --> RAW
+    IDX -- "indexa" --> RAG
     IDX --> LLM
+    EVAL -- "métricas" --> ANAL
+    EVAL -. "llama a /api/*" .-> API
 ```
 
 ## Por qué cada pieza

@@ -45,7 +45,9 @@ def cargar_resultados() -> dict[str, dict]:
             res[f"{f['modulo']}/{f['clave']}"] = f["payload"]
         print(f"{len(res)} resultados desde Supabase")
         return res
-    for ruta in sorted((RAIZ / "pipeline" / "artefactos" / "resultados").glob("*.json")):
+    rutas = sorted((RAIZ / "pipeline" / "artefactos" / "resultados").glob("*.json"))
+    rutas.append(RAIZ / "pipeline" / "artefactos" / "nlp_resultados.json")  # T-14 guarda aquí nlp y embeddings
+    for ruta in [r for r in rutas if r.exists()]:
         for f in json.loads(ruta.read_text(encoding="utf-8")):
             res[f"{f['modulo']}/{f['clave']}"] = f["payload"]
     print(f"{len(res)} resultados desde JSON locales (sin credenciales de Supabase)")
@@ -72,8 +74,19 @@ def figura(clave: str, payload: dict) -> str:
     FIGURAS.mkdir(exist_ok=True)
     nombre = clave.replace("/", "__") + ".png"
     plt.show = lambda: (plt.savefig(FIGURAS / nombre, dpi=130, bbox_inches="tight"), plt.close("all"))
-    graficas.dibujar(payload)
+    # En el reporte la conclusión va como pie de figura; dibujada dentro se encima con las etiquetas del eje.
+    original, graficas._conclusion = graficas._conclusion, lambda fig, p: None
+    try:
+        graficas.dibujar(payload)
+    finally:
+        graficas._conclusion = original
     return f"![{payload['titulo']}](figuras/{nombre})"
+
+
+def _trazabilidad() -> str:
+    """Tabla de docs/trazabilidad.md (bloque → código → notebook → resultado → página → métrica)."""
+    texto = (RAIZ / "docs" / "trazabilidad.md").read_text(encoding="utf-8")
+    return texto[texto.find("| Bloque"):].strip()
 
 
 def variables() -> dict[str, str]:
@@ -84,9 +97,9 @@ def variables() -> dict[str, str]:
     bloque = tareas[tareas.find("## Bloque → tarea"):]
     return {
         "url_app": URL_APP,
-        "diagrama": "Diagrama de arquitectura: ver `docs/arquitectura.md` y la sección 6 del README.",
+        "diagrama": "![Arquitectura](../capturas/arquitectura.png)\n\nFuente del diagrama: `docs/arquitectura.md` (mermaid).",
         "tabla_features": features,
-        "trazabilidad": bloque.split("\n", 1)[1] if bloque else "(ver docs/trazabilidad.md)",
+        "trazabilidad": _trazabilidad(),
         "pendiente_T08": "PENDIENTE: resultados de T-08 (Claude-A).",
         "pendiente_T12": "PENDIENTE: métricas del triage (formato válido %, acuerdo LLM/modelo) de T-16.",
         "pendiente_T11_T16": "PENDIENTE: índice RAG y Recall@k/MRR de T-16.",
@@ -109,7 +122,7 @@ def generar() -> Path:
             return f"⚠ PENDIENTE: `{ref}`"
         if tipo == "c":
             return p["conclusion"]
-        if tipo == "t":
+        if tipo == "t" or p.get("tipo") in ("tabla", "metrica", "texto"):  # sin gráfica: se muestra como tabla
             return f"**{p['titulo']}**\n\n{tabla_md(p.get('filas', []))}\n\n*{p['conclusion']}*"
         return f"{figura(ref, p)}\n\n*{p['conclusion']}*"
 
