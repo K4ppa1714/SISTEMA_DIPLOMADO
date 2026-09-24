@@ -51,7 +51,24 @@ def paso_t07() -> None:
     print(f"  ml: elegido {res['elegido']}; {len(pred)} predicciones por lotes")
 
 
-IMPLEMENTADOS = {"T-04": paso_t04, "T-05": paso_t05, "T-07": paso_t07}
+def paso_t06() -> None:
+    from pipeline.src.config import ARTEFACTOS
+    from pipeline.src.data.publicar import guardar, subir
+    from pipeline.src.signals.temporal import ejecutar, sql_tablas
+
+    r = ejecutar()
+    for modulo in ("series", "fourier", "wavelets"):
+        subir(guardar(modulo, r[modulo]))
+        for x in r[modulo]:
+            print(f"  {modulo}/{x['clave']}: {x['payload']['conclusion']}")
+    r["features"].to_csv(ARTEFACTOS / "features_senales.csv", index=False)
+    r["anomalias"].to_csv(ARTEFACTOS / "anomalias.csv", index=False)
+    (ARTEFACTOS / "resultados" / "series_anomalias.sql").write_text(
+        sql_tablas(r["series_largas"], r["anomalias"]), encoding="utf-8")
+    print(f"  anomalias: {len(r['anomalias'])} tomas con alarma; series: {len(r['series_largas'])} puntos")
+
+
+IMPLEMENTADOS = {"T-04": paso_t04, "T-05": paso_t05, "T-06": paso_t06, "T-07": paso_t07}
 
 
 def main() -> None:
