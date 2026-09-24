@@ -29,3 +29,8 @@ pipeline/artefactos/sql_raw/
 
 # Salidas SQL para cargar a mano (se regeneran)
 pipeline/artefactos/resultados/*.sql
+
+# Salidas del generador del reporte (se versiona solo el PDF final)
+docs/reporte/reporte_tecnico.md
+docs/reporte/reporte_tecnico.html
+docs/reporte/figuras/

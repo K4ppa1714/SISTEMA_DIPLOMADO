@@ -45,14 +45,14 @@ Responsables: **E** = Emilio · **A** = Andrés · **C-E** = Claude-E ·
 | T-08 | K-means (silhouette) + PCA; MLP en PyTorch comparado con Gradient Boosting | G, I | C-E | T-07 | E | pendiente |
 | T-14 | TF-IDF + regresión logística para la categoría de queja; embeddings para quejas similares; comparación precision@5 | J, K | C-A | T-04 | A | en revisión (a/T-14-nlp-quejas; Sentence-Transformers pendiente de correr con acceso a Hugging Face) |
 | T-15 | Agente: 5 herramientas, dispatcher con validación, registro en `agente.log`, límite de 5 pasos, tarea de varios pasos | N | C-A | T-03, T-07, T-11 | A | pendiente |
-| T-16a | Borrador de 30–50 preguntas de RAG con documento esperado | M | C-E borrador · **E valida** | T-11 | E | pendiente |
+| T-16a | Borrador de 30–50 preguntas de RAG con documento esperado | M | C-E borrador · **E valida** | T-11 | E | borrador listo (docs/eval/rag_preguntas_borrador.csv; falta validación de Emilio) |
 | T-16b | Borrador de 30–50 consultas del agente con herramientas esperadas | N | C-A borrador · **A valida** | T-15 | A | pendiente |
 
 ## Fase 4 — Jueves 24, 08:00–16:00
 
 | ID | Tarea | Bloques | Resp. | Depende de | Valida | Estado |
 |---|---|---|---|---|---|---|
-| T-09 | Análisis de errores, interpretación y profundidad de los bloques de C-E | F, G, I | C-E | T-07, T-08 | E | pendiente |
+| T-09 | Análisis de errores, interpretación y profundidad de los bloques de C-E | F, G, I | C-E | T-07, T-08 | E | en revisión (rama e/T-09-16a; resultados v1 en analitica.ml) |
 | T-16 | Recall@k y MRR del RAG; Tool Selection Accuracy y éxito de tareas del agente (solo casos validados) | M, N | C-A | T-16a, T-16b | E, A | pendiente |
 | T-17 | Páginas Modelos (con prueba de predicción), Asistente IA (RAG, triage, agente con sus pasos) y Resultados | UI | C-A | T-13 | A | pendiente |
 
