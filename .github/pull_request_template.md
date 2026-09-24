@@ -1,4 +1,3 @@
-<!-- Mover a .github/pull_request_template.md (lo hace Claude-A en su primer PR). -->
 ## T-xx: qué cambia para el usuario
 
 **Tarea:** T-xx · **Bloques de la rúbrica:** ...
