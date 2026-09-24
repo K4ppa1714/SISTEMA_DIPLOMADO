@@ -23,8 +23,9 @@ quejas más rápido. **Usuario:** dirección y área de atención de Operaguas.
 **Entrega: viernes 25 de septiembre de 2026.** Código congelado el jueves
 24 a las 23:59 (tag `v1.0`).
 
-**Repo:** `github.com/K4ppa1714/operaguas-analitica` (privado, cuenta de
-Emilio; Andrés es colaborador). **Vercel:** cuenta de Emilio. **Supabase:**
+**Repo:** `github.com/K4ppa1714/SISTEMA_DIPLOMADO` (público, cuenta de
+Emilio; Andrés es colaborador; D-10). La carpeta local sigue llamándose
+`operaguas-analitica`. **Vercel:** cuenta de Emilio. **Supabase:**
 proyecto `dxpcmmxlwlfbodncxhtz`, organización "Log-IA". **Datos:** simulación
 declarada en `data/simulados/` (ver `data/README.md`).
 

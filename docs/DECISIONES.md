@@ -7,6 +7,7 @@ reciente va primero.
 
 | # | Fecha | Decisión | Motivo | Aprobó |
 |---|---|---|---|---|
+| D-10 | 2026-09-23 | El repo en GitHub es `K4ppa1714/SISTEMA_DIPLOMADO`, público (reemplaza el nombre y la visibilidad de D-09). La carpeta local conserva el nombre `operaguas-analitica` | Es el repo que Emilio creó; público para que el evaluador lo revise sin invitación. No contiene llaves ni datos personales | Emilio |
 | D-09 | 2026-09-23 | Repo nuevo `operaguas-analitica` en la cuenta de GitHub de Emilio (K4ppa1714), privado, con Andrés como colaborador. El repo anterior `andresoperguas/proyecto-final-analisis-de-datos` se archiva; su código se porta por PR | Que el repo y Vercel estén en la misma cuenta para desplegar en automático | Emilio |
 | D-08 | 2026-09-23 | Vercel en la cuenta gratuita de Emilio. El repo nunca se conecta a la Vercel de Andrés. Se restablece D-04: Emilio hace los merge con "Create a merge commit" (no squash) | La cuenta de Vercel de Andrés es empresarial y genera cobros | Emilio |
 | D-07 | 2026-09-23 | ~~Repo y Vercel en la cuenta de Andrés~~ — reemplazada por D-08 y D-09 | — | — |
