@@ -26,3 +26,6 @@ Thumbs.db
 # Artefactos regenerables del pipeline (se reconstruyen con run_all.py)
 pipeline/artefactos/*.csv
 pipeline/artefactos/sql_raw/
+
+# Salidas SQL para cargar a mano (se regeneran)
+pipeline/artefactos/resultados/*.sql

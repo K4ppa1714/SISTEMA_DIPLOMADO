@@ -1,0 +1,300 @@
+[
+ {
+  "modulo": "ml",
+  "clave": "comparacion_modelos",
+  "version": "v1",
+  "payload": {
+   "tipo": "tabla",
+   "titulo": "Modelos de pago tardío — prueba temporal (2026-04 en adelante, n=1920)",
+   "filas": [
+    {
+     "modelo": "base_mayoritaria",
+     "cv_pr_auc": 0.2491,
+     "umbral": 0.5,
+     "pr_auc": 0.2479,
+     "roc_auc": 0.5,
+     "f1": 0.0,
+     "precision": 0.0,
+     "recall": 0.0,
+     "brier": 0.1865
+    },
+    {
+     "modelo": "base_regla_recibo_anterior",
+     "cv_pr_auc": null,
+     "umbral": 0.5,
+     "pr_auc": 0.3208,
+     "roc_auc": 0.6152,
+     "f1": 0.4214,
+     "precision": 0.4205,
+     "recall": 0.4223,
+     "brier": 0.2875
+    },
+    {
+     "modelo": "regresion_logistica",
+     "cv_pr_auc": 0.4482,
+     "umbral": 0.48,
+     "pr_auc": 0.4277,
+     "roc_auc": 0.7182,
+     "f1": 0.489,
+     "precision": 0.3835,
+     "recall": 0.6744,
+     "brier": 0.2082
+    },
+    {
+     "modelo": "random_forest",
+     "cv_pr_auc": 0.4434,
+     "umbral": 0.5,
+     "pr_auc": 0.4262,
+     "roc_auc": 0.7228,
+     "f1": 0.49,
+     "precision": 0.3875,
+     "recall": 0.666,
+     "brier": 0.206
+    },
+    {
+     "modelo": "gradient_boosting",
+     "cv_pr_auc": 0.4052,
+     "umbral": 0.36,
+     "pr_auc": 0.4355,
+     "roc_auc": 0.7241,
+     "f1": 0.4708,
+     "precision": 0.3149,
+     "recall": 0.9328,
+     "brier": 0.2165
+    },
+    {
+     "modelo": "ensamble_votacion",
+     "cv_pr_auc": 0.4424,
+     "umbral": 0.5,
+     "pr_auc": 0.4327,
+     "roc_auc": 0.7237,
+     "f1": 0.4937,
+     "precision": 0.3827,
+     "recall": 0.6954,
+     "brier": 0.2092
+    }
+   ],
+   "conclusion": "Elegido por PR-AUC en validación cruzada temporal: regresion_logistica (PR-AUC prueba 0.428, ROC-AUC 0.718, F1 0.489) contra la regla del recibo anterior (PR-AUC 0.321, F1 0.421). Tasa real de atraso en prueba: 24.8%.",
+   "fuente": "pipeline/src/ml/modelos.py · pipeline/notebooks/04_modelos.ipynb"
+  }
+ },
+ {
+  "modulo": "ml",
+  "clave": "comparacion_pr_auc",
+  "version": "v1",
+  "payload": {
+   "tipo": "barras",
+   "titulo": "PR-AUC en prueba por modelo",
+   "x": {
+    "etiqueta": "Modelo",
+    "valores": [
+     "base_mayoritaria",
+     "base_regla_recibo_anterior",
+     "regresion_logistica",
+     "random_forest",
+     "gradient_boosting",
+     "ensamble_votacion"
+    ]
+   },
+   "y": {
+    "etiqueta": "PR-AUC (prueba temporal)"
+   },
+   "series": [
+    {
+     "nombre": "PR-AUC",
+     "valores": [
+      0.2479,
+      0.3208,
+      0.4277,
+      0.4262,
+      0.4355,
+      0.4327
+     ]
+    }
+   ],
+   "conclusion": "La línea base mayoritaria marca el piso (PR-AUC = tasa de positivos); cualquier modelo útil debe superarla con claridad.",
+   "fuente": "pipeline/src/ml/modelos.py · pipeline/notebooks/04_modelos.ipynb"
+  }
+ },
+ {
+  "modulo": "ml",
+  "clave": "matriz_confusion",
+  "version": "v1",
+  "payload": {
+   "tipo": "tabla",
+   "titulo": "Matriz de confusión — regresion_logistica",
+   "filas": [
+    {
+     "real": "a tiempo",
+     "pred_a_tiempo": 928,
+     "pred_tarde": 516
+    },
+    {
+     "real": "tarde",
+     "pred_a_tiempo": 155,
+     "pred_tarde": 321
+    }
+   ],
+   "conclusion": "Detecta 321 de 476 recibos tardíos (67%) con 516 falsas alarmas; el umbral se fijó en validación cruzada para maximizar F1.",
+   "fuente": "pipeline/src/ml/modelos.py · pipeline/notebooks/04_modelos.ipynb"
+  }
+ },
+ {
+  "modulo": "ml",
+  "clave": "importancia_variables",
+  "version": "v1",
+  "payload": {
+   "tipo": "barras",
+   "titulo": "Importancia por permutación (PR-AUC) — regresion_logistica",
+   "x": {
+    "etiqueta": "Variable",
+    "valores": [
+     "tardios_ultimos_6",
+     "tasa_tardio_historica",
+     "domiciliado",
+     "tipo_tarifa",
+     "medidor_mudo",
+     "consumo_vs_promedio_6",
+     "recibos_con_historia",
+     "total_pagar",
+     "consumo_m3",
+     "antiguedad_meses"
+    ]
+   },
+   "y": {
+    "etiqueta": "Caída de PR-AUC al permutar"
+   },
+   "series": [
+    {
+     "nombre": "importancia",
+     "valores": [
+      0.0844351,
+      0.022722,
+      0.0109825,
+      0.00192967,
+      0.00156769,
+      0.000706473,
+      0.000573781,
+      0.000393809,
+      0.000393769,
+      2.42971e-05
+     ]
+    }
+   ],
+   "filas": [
+    {
+     "variable": "tardios_ultimos_6",
+     "justificacion": "tendencia reciente del hábito de pago"
+    },
+    {
+     "variable": "tasa_tardio_historica",
+     "justificacion": "hábito de pago de la toma con recibos anteriores ya vencidos"
+    },
+    {
+     "variable": "domiciliado",
+     "justificacion": "H2: la asociación con el atraso es significativa (V de Cramér ≈ 0.20)"
+    },
+    {
+     "variable": "tipo_tarifa",
+     "justificacion": "segmento de cliente; el EDA mostró tasas de atraso distintas por tarifa"
+    },
+    {
+     "variable": "medidor_mudo",
+     "justificacion": "un recibo estimado puede generar inconformidad y retraso"
+    },
+    {
+     "variable": "consumo_vs_promedio_6",
+     "justificacion": "un salto de consumo (fuga, error de lectura) puede generar un recibo inesperado"
+    },
+    {
+     "variable": "recibos_con_historia",
+     "justificacion": "cuánta historia respalda las dos variables anteriores"
+    },
+    {
+     "variable": "total_pagar",
+     "justificacion": "monto a pagar con tarifario CEA; montos altos pueden retrasar el pago"
+    },
+    {
+     "variable": "consumo_m3",
+     "justificacion": "consumo del periodo facturado"
+    },
+    {
+     "variable": "antiguedad_meses",
+     "justificacion": "tiempo como cliente al emitir el recibo"
+    }
+   ],
+   "conclusion": "Las variables que más aportan son tardios_ultimos_6, tasa_tardio_historica, domiciliado: el hábito de pago previo pesa más que el monto. Importancia no es causalidad.",
+   "fuente": "pipeline/src/ml/modelos.py · pipeline/notebooks/04_modelos.ipynb"
+  }
+ },
+ {
+  "modulo": "ml",
+  "clave": "errores_por_segmento",
+  "version": "v1",
+  "payload": {
+   "tipo": "tabla",
+   "titulo": "Desempeño por tipo de tarifa (prueba)",
+   "filas": [
+    {
+     "tipo_tarifa": "comercial",
+     "n": 224.0,
+     "tasa_real": 0.2902,
+     "recall": 0.7385,
+     "precision": 0.4174
+    },
+    {
+     "tipo_tarifa": "domestico",
+     "n": 1600.0,
+     "tasa_real": 0.2362,
+     "recall": 0.6561,
+     "precision": 0.3741
+    },
+    {
+     "tipo_tarifa": "industrial",
+     "n": 36.0,
+     "tasa_real": 0.4444,
+     "recall": 1.0,
+     "precision": 0.4444
+    },
+    {
+     "tipo_tarifa": "publico",
+     "n": 60.0,
+     "tasa_real": 0.2833,
+     "recall": 0.5294,
+     "precision": 0.3913
+    }
+   ],
+   "conclusion": "Los segmentos con pocos recibos (público, industrial) tienen métricas inestables; se analizan en T-09.",
+   "fuente": "pipeline/src/ml/modelos.py · pipeline/notebooks/04_modelos.ipynb"
+  }
+ },
+ {
+  "modulo": "ml",
+  "clave": "predicciones_resumen",
+  "version": "v1",
+  "payload": {
+   "tipo": "metrica",
+   "titulo": "Predicción por lotes de recibos aún no vencidos",
+   "filas": [
+    {
+     "indicador": "recibos predichos",
+     "valor": 960
+    },
+    {
+     "indicador": "periodos",
+     "valor": "2026-08, 2026-09"
+    },
+    {
+     "indicador": "marcados en riesgo",
+     "valor": 423
+    },
+    {
+     "indicador": "probabilidad media",
+     "valor": 0.4448
+    }
+   ],
+   "conclusion": "423 de 960 recibos por vencer quedan marcados en riesgo de pago tardío; la lista está en analitica.predicciones_pago.",
+   "fuente": "pipeline/src/ml/modelos.py · pipeline/notebooks/04_modelos.ipynb"
+  }
+ }
+]

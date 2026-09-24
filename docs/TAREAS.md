@@ -31,7 +31,7 @@ Responsables: **E** = Emilio · **A** = Andrés · **C-E** = Claude-E ·
 
 | ID | Tarea | Bloques | Resp. | Depende de | Valida | Estado |
 |---|---|---|---|---|---|---|
-| T-05 | EDA (distribuciones, segmentos, cartera, quejas) y estadística (H1 Kruskal-Wallis, H2 chi², IC 95 %, correlación) | B, C | C-E | T-04 | E | pendiente |
+| T-05 | EDA (distribuciones, segmentos, cartera, quejas) y estadística (H1 Kruskal-Wallis, H2 chi², IC 95 %, correlación) | B, C | C-E | T-04 | E | en revisión (rama e/T-05-eda-modelos; resultados v1 en analitica) |
 | T-06 | Serie diaria, tendencia, estacionalidad, rolling, rezagos, cambio de régimen; FFT; DWT (db4) con energía por nivel y reconstrucción; anomalías vs. quejas | D, O, P | C-E | T-04 | E | pendiente |
 | T-11 | Migraciones `rag`/`agente`/`eval`; corpus, chunking, embeddings, pgvector; `/api/rag` con fuentes y respuesta sin evidencia | M | C-A | T-10, decisión LLM | A | pendiente |
 | T-12 | `/api/triage`: resumen, categoría y prioridad en JSON validado con Pydantic | L | C-A | T-10 | A | pendiente |
@@ -41,7 +41,7 @@ Responsables: **E** = Emilio · **A** = Andrés · **C-E** = Claude-E ·
 
 | ID | Tarea | Bloques | Resp. | Depende de | Valida | Estado |
 |---|---|---|---|---|---|---|
-| T-07 | Features justificadas; baseline; regresión logística, Random Forest y Gradient Boosting en `Pipeline` + `TimeSeriesSplit`; predicción por lotes a Supabase | E, F, H | C-E | T-04 | E | pendiente |
+| T-07 | Features justificadas; baseline; regresión logística, Random Forest y Gradient Boosting en `Pipeline` + `TimeSeriesSplit`; predicción por lotes a Supabase | E, F, H | C-E | T-04 | E | en revisión (rama e/T-05-eda-modelos; resultados v1 en analitica) |
 | T-08 | K-means (silhouette) + PCA; MLP en PyTorch comparado con Gradient Boosting | G, I | C-E | T-07 | E | pendiente |
 | T-14 | TF-IDF + regresión logística para la categoría de queja; embeddings para quejas similares; comparación precision@5 | J, K | C-A | T-04 | A | pendiente |
 | T-15 | Agente: 5 herramientas, dispatcher con validación, registro en `agente.log`, límite de 5 pasos, tarea de varios pasos | N | C-A | T-03, T-07, T-11 | A | pendiente |

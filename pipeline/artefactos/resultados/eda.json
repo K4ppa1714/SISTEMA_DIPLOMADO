@@ -1,0 +1,822 @@
+[
+ {
+  "modulo": "eda",
+  "clave": "resumen_datos",
+  "version": "v1",
+  "payload": {
+   "tipo": "tabla",
+   "titulo": "Datos analizados (simulación declarada)",
+   "filas": [
+    {
+     "tabla": "tomas",
+     "filas": 480,
+     "descripcion": "tomas de la simulación (sin parámetros del generador)"
+    },
+    {
+     "tabla": "recibos",
+     "filas": 14400,
+     "descripcion": "periodos 2024-04 a 2026-09"
+    },
+    {
+     "tabla": "lecturas",
+     "filas": 14400,
+     "descripcion": "sin duplicados; nulas y retrocesos marcados"
+    },
+    {
+     "tabla": "telemetria",
+     "filas": 115200,
+     "descripcion": "lecturas horarias de 40 tomas"
+    },
+    {
+     "tabla": "quejas",
+     "filas": 1400,
+     "descripcion": "331 textos únicos"
+    }
+   ],
+   "conclusion": "480 tomas y 14,400 recibos mensuales; 13,440 recibos tienen etiqueta de pago a la fecha de corte.",
+   "fuente": "pipeline/src/preprocessing/eda.py · pipeline/notebooks/02_eda_estadistica.ipynb"
+  }
+ },
+ {
+  "modulo": "eda",
+  "clave": "consumo_por_tarifa",
+  "version": "v1",
+  "payload": {
+   "tipo": "caja",
+   "titulo": "Consumo mensual por tipo de tarifa",
+   "y": {
+    "etiqueta": "Consumo (m³/mes)"
+   },
+   "series": [
+    {
+     "nombre": "domestico",
+     "n": 12000,
+     "min": 0.0,
+     "q1": 10.3,
+     "mediana": 14.0,
+     "q3": 18.6,
+     "max": 31.0,
+     "atipicos": [
+      31.1,
+      31.2,
+      31.3,
+      31.4,
+      31.5,
+      31.7,
+      31.9,
+      32.0,
+      32.2,
+      32.3,
+      32.4,
+      32.5,
+      32.6,
+      32.9,
+      33.0,
+      33.1,
+      33.3,
+      33.5,
+      33.6,
+      33.8,
+      33.9,
+      34.2,
+      34.4,
+      34.7,
+      34.9,
+      35.4,
+      36.0,
+      36.4,
+      36.7,
+      37.1,
+      37.8,
+      38.0,
+      38.5,
+      39.0,
+      39.6,
+      40.6,
+      41.4,
+      42.3,
+      43.4,
+      44.4,
+      45.8,
+      48.4,
+      51.8,
+      53.6,
+      58.5,
+      60.0,
+      63.3,
+      65.5,
+      72.4,
+      83.8
+     ]
+    },
+    {
+     "nombre": "comercial",
+     "n": 1680,
+     "min": 0.0,
+     "q1": 24.1,
+     "mediana": 35.4,
+     "q3": 49.4,
+     "max": 86.8,
+     "atipicos": [
+      87.5,
+      88.5,
+      88.9,
+      89.1,
+      89.5,
+      90.1,
+      91.1,
+      92.4,
+      92.7,
+      95.3,
+      96.7,
+      100.7,
+      104.6,
+      105.1,
+      105.5,
+      110.7,
+      112.0,
+      124.5,
+      129.1,
+      134.7,
+      139.5
+     ]
+    },
+    {
+     "nombre": "publico",
+     "n": 450,
+     "min": 0.0,
+     "q1": 27.525,
+     "mediana": 39.15,
+     "q3": 51.075,
+     "max": 83.7,
+     "atipicos": [
+      89.3,
+      91.3,
+      91.5,
+      91.7,
+      93.3,
+      94.5,
+      97.3,
+      101.9,
+      103.7,
+      113.2,
+      113.6,
+      115.7,
+      116.7,
+      117.2,
+      125.2,
+      140.6,
+      143.6
+     ]
+    },
+    {
+     "nombre": "industrial",
+     "n": 270,
+     "min": 0.0,
+     "q1": 89.375,
+     "mediana": 119.5,
+     "q3": 149.05,
+     "max": 234.6,
+     "atipicos": [
+      242.7,
+      245.7,
+      246.6,
+      248.3,
+      255.4,
+      257.8,
+      280.9
+     ]
+    }
+   ],
+   "conclusion": "Mediana doméstica 14.0 m³ contra 119.5 m³ industrial: los segmentos se analizan por separado porque sus escalas no son comparables.",
+   "fuente": "pipeline/src/preprocessing/eda.py · pipeline/notebooks/02_eda_estadistica.ipynb"
+  }
+ },
+ {
+  "modulo": "eda",
+  "clave": "consumo_mensual",
+  "version": "v1",
+  "payload": {
+   "tipo": "linea",
+   "titulo": "Consumo promedio por toma y mes",
+   "x": {
+    "etiqueta": "Periodo",
+    "valores": [
+     "2024-04",
+     "2024-05",
+     "2024-06",
+     "2024-07",
+     "2024-08",
+     "2024-09",
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "y": {
+    "etiqueta": "Consumo promedio (m³/toma)"
+   },
+   "series": [
+    {
+     "nombre": "domestico",
+     "valores": [
+      16.0895,
+      17.2392,
+      15.5608,
+      13.642,
+      13.4953,
+      13.3285,
+      13.5083,
+      14.1613,
+      14.4192,
+      13.172,
+      13.5292,
+      14.8163,
+      16.129,
+      17.4725,
+      15.7055,
+      13.737,
+      13.492,
+      13.6803,
+      13.5375,
+      14.215,
+      14.8978,
+      13.5497,
+      13.7247,
+      15.3238,
+      16.241,
+      17.8347,
+      15.7918,
+      14.2393,
+      13.9718,
+      13.8358
+     ]
+    },
+    {
+     "nombre": "comercial",
+     "valores": [
+      40.3964,
+      39.5286,
+      44.0179,
+      36.4393,
+      33.9589,
+      32.7679,
+      32.9857,
+      35.5786,
+      34.6357,
+      33.0714,
+      33.8214,
+      39.6625,
+      41.1625,
+      42.4786,
+      40.8446,
+      33.5304,
+      33.1571,
+      32.4393,
+      36.4536,
+      33.0893,
+      38.5214,
+      33.35,
+      33.2946,
+      40.4964,
+      43.5071,
+      43.1536,
+      40.4643,
+      33.0125,
+      32.0946,
+      34.5607
+     ]
+    },
+    {
+     "nombre": "publico",
+     "valores": [
+      42.0267,
+      51.0333,
+      44.74,
+      37.9067,
+      38.4267,
+      27.8,
+      34.3467,
+      33.96,
+      39.08,
+      35.82,
+      34.0733,
+      46.82,
+      46.1867,
+      49.8733,
+      45.4933,
+      41.5333,
+      39.0533,
+      37.1533,
+      35.84,
+      39.6,
+      37.78,
+      38.7667,
+      37.3867,
+      48.6533,
+      43.18,
+      40.0067,
+      44.1267,
+      46.42,
+      45.04,
+      45.1267
+     ]
+    },
+    {
+     "nombre": "industrial",
+     "valores": [
+      87.2444,
+      148.956,
+      127.233,
+      102.256,
+      101.078,
+      111.422,
+      80.8111,
+      99.9667,
+      112.844,
+      110.522,
+      97.8778,
+      121.967,
+      121.567,
+      130.089,
+      117.533,
+      126.533,
+      112.233,
+      100.078,
+      132.7,
+      121.389,
+      141.767,
+      101.256,
+      122.067,
+      125.189,
+      142.4,
+      147.011,
+      116.311,
+      114.722,
+      104.5,
+      118.356
+     ]
+    }
+   ],
+   "conclusion": "El consumo doméstico promedio va de 13.2 a 17.8 m³ por toma (máximo en 2026-05, mínimo en 2025-01); la estacionalidad se analiza en T-06.",
+   "fuente": "pipeline/src/preprocessing/eda.py · pipeline/notebooks/02_eda_estadistica.ipynb"
+  }
+ },
+ {
+  "modulo": "eda",
+  "clave": "importe_domestico",
+  "version": "v1",
+  "payload": {
+   "tipo": "histograma",
+   "titulo": "Distribución del importe mensual doméstico (tarifario CEA)",
+   "x": {
+    "etiqueta": "Total a pagar (MXN)",
+    "valores": [
+     "226–445",
+     "445–665",
+     "665–884",
+     "884–1104",
+     "1104–1323",
+     "1323–1543",
+     "1543–1762",
+     "1762–1982",
+     "1982–2201",
+     "2201–2421",
+     "2421–2640",
+     "2640–2860",
+     "2860–3079",
+     "3079–3299",
+     "3299–3518",
+     "3518–3738",
+     "3738–3957",
+     "3957–4177",
+     "4177–4396",
+     "4396–4616"
+    ]
+   },
+   "y": {
+    "etiqueta": "Recibos"
+   },
+   "series": [
+    {
+     "nombre": "recibos",
+     "valores": [
+      1571,
+      4380,
+      4025,
+      1157,
+      375,
+      196,
+      87,
+      77,
+      27,
+      21,
+      11,
+      20,
+      5,
+      2,
+      3,
+      1,
+      4,
+      8,
+      5,
+      25
+     ]
+    }
+   ],
+   "conclusion": "Mediana 669 MXN; el 90 % de los recibos domésticos está por debajo de 991 MXN (asimetría a la derecha por la tarifa escalonada).",
+   "fuente": "pipeline/src/preprocessing/eda.py · pipeline/notebooks/02_eda_estadistica.ipynb"
+  }
+ },
+ {
+  "modulo": "eda",
+  "clave": "tardio_por_segmento",
+  "version": "v1",
+  "payload": {
+   "tipo": "barras",
+   "titulo": "Tasa de pago tardío por segmento",
+   "x": {
+    "etiqueta": "Segmento",
+    "valores": [
+     "tipo_tarifa=comercial",
+     "tipo_tarifa=domestico",
+     "tipo_tarifa=industrial",
+     "tipo_tarifa=publico",
+     "domiciliado=False",
+     "domiciliado=True",
+     "privada=El Mirador",
+     "privada=El Pedregal",
+     "privada=La Cañada",
+     "privada=La Noria",
+     "privada=Las Palmas",
+     "privada=Los Encinos",
+     "privada=Los Fresnos",
+     "privada=San Miguel",
+     "privada=Santa Teresa",
+     "privada=Sin privada",
+     "privada=Villa Serena"
+    ]
+   },
+   "y": {
+    "etiqueta": "Proporción de recibos pagados tarde"
+   },
+   "series": [
+    {
+     "nombre": "tasa",
+     "valores": [
+      0.2621,
+      0.2402,
+      0.5595,
+      0.2476,
+      0.289,
+      0.0604,
+      0.2123,
+      0.2806,
+      0.2406,
+      0.2071,
+      0.2747,
+      0.2869,
+      0.2553,
+      0.2214,
+      0.1369,
+      0.2398,
+      0.2654
+     ]
+    }
+   ],
+   "filas": [
+    {
+     "variable": "tipo_tarifa",
+     "valor": "comercial",
+     "tasa": 0.262117,
+     "n": 1568
+    },
+    {
+     "variable": "tipo_tarifa",
+     "valor": "domestico",
+     "tasa": 0.240179,
+     "n": 11200
+    },
+    {
+     "variable": "tipo_tarifa",
+     "valor": "industrial",
+     "tasa": 0.559524,
+     "n": 252
+    },
+    {
+     "variable": "tipo_tarifa",
+     "valor": "publico",
+     "tasa": 0.247619,
+     "n": 420
+    },
+    {
+     "variable": "domiciliado",
+     "valor": "False",
+     "tasa": 0.288961,
+     "n": 11088
+    },
+    {
+     "variable": "domiciliado",
+     "valor": "True",
+     "tasa": 0.0603741,
+     "n": 2352
+    },
+    {
+     "variable": "privada",
+     "valor": "El Mirador",
+     "tasa": 0.212302,
+     "n": 504
+    },
+    {
+     "variable": "privada",
+     "valor": "El Pedregal",
+     "tasa": 0.280612,
+     "n": 1176
+    },
+    {
+     "variable": "privada",
+     "valor": "La Cañada",
+     "tasa": 0.240602,
+     "n": 1596
+    },
+    {
+     "variable": "privada",
+     "valor": "La Noria",
+     "tasa": 0.207143,
+     "n": 280
+    },
+    {
+     "variable": "privada",
+     "valor": "Las Palmas",
+     "tasa": 0.274725,
+     "n": 364
+    },
+    {
+     "variable": "privada",
+     "valor": "Los Encinos",
+     "tasa": 0.286946,
+     "n": 812
+    },
+    {
+     "variable": "privada",
+     "valor": "Los Fresnos",
+     "tasa": 0.255252,
+     "n": 1904
+    },
+    {
+     "variable": "privada",
+     "valor": "San Miguel",
+     "tasa": 0.221429,
+     "n": 420
+    },
+    {
+     "variable": "privada",
+     "valor": "Santa Teresa",
+     "tasa": 0.136905,
+     "n": 168
+    },
+    {
+     "variable": "privada",
+     "valor": "Sin privada",
+     "tasa": 0.239765,
+     "n": 4592
+    },
+    {
+     "variable": "privada",
+     "valor": "Villa Serena",
+     "tasa": 0.265394,
+     "n": 1624
+    }
+   ],
+   "conclusion": "Domiciliados 6.0% contra no domiciliados 28.9%; la privada con más atraso es Los Encinos (28.7%, n=812). Se prueba en H2.",
+   "fuente": "pipeline/src/preprocessing/eda.py · pipeline/notebooks/02_eda_estadistica.ipynb"
+  }
+ },
+ {
+  "modulo": "eda",
+  "clave": "cartera_mensual",
+  "version": "v1",
+  "payload": {
+   "tipo": "linea",
+   "titulo": "Facturado y monto pagado tarde (o no pagado) por periodo",
+   "x": {
+    "etiqueta": "Periodo",
+    "valores": [
+     "2024-04",
+     "2024-05",
+     "2024-06",
+     "2024-07",
+     "2024-08",
+     "2024-09",
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07"
+    ]
+   },
+   "y": {
+    "etiqueta": "MXN"
+   },
+   "series": [
+    {
+     "nombre": "facturado",
+     "valores": [
+      675774.0,
+      735568.0,
+      721382.0,
+      616270.0,
+      604682.0,
+      587107.0,
+      569517.0,
+      627275.0,
+      627461.0,
+      588021.0,
+      594670.0,
+      685870.0,
+      697674.0,
+      740428.0,
+      687859.0,
+      612465.0,
+      606916.0,
+      590243.0,
+      622302.0,
+      618842.0,
+      666235.0,
+      605016.0,
+      608720.0,
+      700395.0,
+      724092.0,
+      749881.0,
+      693172.0,
+      628708.0
+     ]
+    },
+    {
+     "nombre": "pagado tarde o no pagado",
+     "valores": [
+      174763.0,
+      226901.0,
+      247819.0,
+      198667.0,
+      155886.0,
+      159221.0,
+      174514.0,
+      176584.0,
+      219582.0,
+      132330.0,
+      158368.0,
+      181143.0,
+      212583.0,
+      210555.0,
+      243450.0,
+      217774.0,
+      174325.0,
+      194271.0,
+      190623.0,
+      160465.0,
+      240950.0,
+      154211.0,
+      191587.0,
+      231000.0,
+      228445.0,
+      232163.0,
+      200314.0,
+      163409.0
+     ]
+    }
+   ],
+   "conclusion": "El 30.0% de lo facturado en recibos etiquetados se pagó tarde o no se pagó a la fecha de corte.",
+   "fuente": "pipeline/src/preprocessing/eda.py · pipeline/notebooks/02_eda_estadistica.ipynb"
+  }
+ },
+ {
+  "modulo": "eda",
+  "clave": "quejas_por_categoria",
+  "version": "v1",
+  "payload": {
+   "tipo": "barras",
+   "titulo": "Quejas por categoría",
+   "x": {
+    "etiqueta": "Categoría",
+    "valores": [
+     "sin_agua",
+     "fuga_toma",
+     "fuga_calle",
+     "facturacion",
+     "baja_presion",
+     "drenaje",
+     "calidad_agua",
+     "medidor",
+     "atencion"
+    ]
+   },
+   "y": {
+    "etiqueta": "Quejas"
+   },
+   "series": [
+    {
+     "nombre": "quejas",
+     "valores": [
+      243,
+      240,
+      206,
+      155,
+      145,
+      122,
+      122,
+      92,
+      75
+     ]
+    }
+   ],
+   "filas": [
+    {
+     "canal": "telefono",
+     "quejas": 474
+    },
+    {
+     "canal": "portal",
+     "quejas": 403
+    },
+    {
+     "canal": "whatsapp",
+     "quejas": 313
+    },
+    {
+     "canal": "presencial",
+     "quejas": 210
+    }
+   ],
+   "conclusion": "Las tres categorías principales (sin_agua, fuga_toma, fuga_calle) suman 49% de las quejas; el canal más usado es telefono (34%).",
+   "fuente": "pipeline/src/preprocessing/eda.py · pipeline/notebooks/02_eda_estadistica.ipynb"
+  }
+ },
+ {
+  "modulo": "eda",
+  "clave": "calidad_lecturas",
+  "version": "v1",
+  "payload": {
+   "tipo": "metrica",
+   "titulo": "Calidad de las lecturas de medidor",
+   "filas": [
+    {
+     "indicador": "lecturas nulas",
+     "valor": 114
+    },
+    {
+     "indicador": "retrocesos de medidor",
+     "valor": 57
+    },
+    {
+     "indicador": "medidores mudos",
+     "valor": 738
+    },
+    {
+     "indicador": "% inconsistentes",
+     "valor": 1.19
+    }
+   ],
+   "conclusion": "1.2% de las lecturas son inconsistentes; se marcan y no se imputan.",
+   "fuente": "pipeline/src/preprocessing/eda.py · pipeline/notebooks/02_eda_estadistica.ipynb"
+  }
+ }
+]

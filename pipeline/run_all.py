@@ -27,7 +27,31 @@ def paso_t04() -> None:
     print(informe.to_string(index=False))
 
 
-IMPLEMENTADOS = {"T-04": paso_t04}
+def paso_t05() -> None:
+    from pipeline.src.data.publicar import guardar, subir
+    from pipeline.src.preprocessing.eda import ejecutar
+
+    eda, est = ejecutar()
+    for modulo, res in (("eda", eda), ("estadistica", est)):
+        subir(guardar(modulo, res))
+        for r in res:
+            print(f"  {modulo}/{r['clave']}: {r['payload']['conclusion']}")
+
+
+def paso_t07() -> None:
+    from pipeline.src.config import ARTEFACTOS
+    from pipeline.src.data.publicar import guardar, subir
+    from pipeline.src.ml.modelos import ejecutar, payloads, sql_predicciones
+
+    res = ejecutar()
+    subir(guardar("ml", payloads(res)))
+    pred = res["predicciones"]
+    pred.to_csv(ARTEFACTOS / "predicciones_pago.csv", index=False)
+    (ARTEFACTOS / "resultados" / "predicciones_pago.sql").write_text(sql_predicciones(pred), encoding="utf-8")
+    print(f"  ml: elegido {res['elegido']}; {len(pred)} predicciones por lotes")
+
+
+IMPLEMENTADOS = {"T-04": paso_t04, "T-05": paso_t05, "T-07": paso_t07}
 
 
 def main() -> None:
