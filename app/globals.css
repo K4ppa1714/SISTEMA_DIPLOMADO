@@ -124,6 +124,7 @@ h1, h2, h3 { line-height: 1.25; }
 .serie .bigote, .serie .mediana { stroke-width: 1.5; }
 .serie .mediana { stroke-width: 3; }
 .serie .atipico { fill-opacity: 0.45; }
+.serie .punto-disp { fill-opacity: 0.55; }
 .c1 { --c: var(--c1); } .c2 { --c: var(--c2); } .c3 { --c: var(--c3); }
 .c4 { --c: var(--c4); } .c5 { --c: var(--c5); } .c6 { --c: var(--c6); }
 .serie .trazo, .serie .bigote, .serie .mediana, .serie .caja { stroke: var(--c); }

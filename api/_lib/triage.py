@@ -22,7 +22,7 @@ from pydantic import BaseModel, Field, ValidationError, field_validator
 
 from .clasificador_quejas import cargar_modelo
 from .llm import ErrorLLM
-from .prioridad import calcular_prioridad
+from .prioridad import calcular_prioridad, corregir_categoria
 
 LARGO_MIN, LARGO_MAX = 5, 2000
 LARGO_RESUMEN = 200
@@ -108,7 +108,8 @@ def triage(texto: str, cliente=None) -> tuple[SalidaTriage, dict]:
     t0 = time.perf_counter()
     entrada = EntradaTriage(texto=texto)  # ValidationError → la API responde 422 en español
     modelo = cargar_modelo()
-    categoria, proba, con_vocab = modelo.predecir(entrada.texto)
+    categoria_modelo, proba, con_vocab = modelo.predecir(entrada.texto)
+    categoria, regla = corregir_categoria(categoria_modelo, entrada.texto)
     seguro = ocultar_datos_personales(entrada.texto)
 
     resp, det_llm = _pedir_al_llm(cliente, seguro, modelo.clases)
@@ -124,6 +125,8 @@ def triage(texto: str, cliente=None) -> tuple[SalidaTriage, dict]:
     )
     detalle = {
         "modelo_version": modelo.version,
+        "categoria_modelo": categoria_modelo,
+        "regla_categoria": regla,
         "probabilidad_categoria": round(proba, 4),
         "texto_con_vocabulario": con_vocab,
         "categoria_llm": resp.categoria if resp else None,

@@ -34,7 +34,7 @@ Responsables: **E** = Emilio · **A** = Andrés · **C-E** = Claude-E ·
 | T-05 | EDA (distribuciones, segmentos, cartera, quejas) y estadística (H1 Kruskal-Wallis, H2 chi², IC 95 %, correlación) | B, C | C-E | T-04 | E | en revisión (rama e/T-05-eda-modelos; resultados v1 en analitica) |
 | T-06 | Serie diaria, tendencia, estacionalidad, rolling, rezagos, cambio de régimen; FFT; DWT (db4) con energía por nivel y reconstrucción; anomalías vs. quejas | D, O, P | C-A (reasignada: sesión de C-E sin tokens) | T-04 | E | en revisión (rama a/T-06-temporal) |
 | T-11 | Migraciones `rag`/`agente`/`eval`; corpus, chunking, embeddings, pgvector; `/api/rag` con fuentes y respuesta sin evidencia | M | C-A | T-10, decisión LLM | A | en revisión (lógica en main; ruta POST /api/rag cableada en a/T-10-esqueleto; falta migración 0005 aplicada, llave, indexar y exponer `rag`) |
-| T-12 | `/api/triage`: resumen, categoría y prioridad en JSON validado con Pydantic | L | C-A | T-10 | A | en revisión (lógica en main; ruta POST /api/triage cableada en a/T-10-esqueleto; falta la llave del LLM en Vercel) |
+| T-12 | `/api/triage`: resumen, categoría y prioridad en JSON validado con Pydantic | L | C-A | T-10 | A | en revisión (ruta en main; a/T-17-modelos-y-triage: reglas de corrección vía pública → fuga_calle y sin servicio → sin_agua, sin cambios sobre los 331 textos simulados; faltan métricas de L) |
 | T-13 | Componente único que dibuja `payload`; páginas Inicio, Datos/EDA y Temporal/Espectral | B, UI | C-A | T-10 | A | en revisión (a/T-10-esqueleto: componente único Resultado.tsx + páginas Inicio, Datos/EDA y Temporal) |
 
 ## Fase 3 — Miércoles 23, 20:00–24:00 → versión 1 completa

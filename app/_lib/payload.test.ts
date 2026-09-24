@@ -70,3 +70,10 @@ test("formato numérico en español de México", () => {
   assert.equal(formatear(true), "sí");
   assert.equal(formatear(0.004123), "0.00412");
 });
+
+test("dispersión con x propio por serie (clustering/pca_segmentos)", () => {
+  const v = validarPayload({ ...base, tipo: "dispersion", x: { etiqueta: "PC1" }, y: { etiqueta: "PC2" },
+    series: [{ nombre: "a", x: [0.1, 0.2], valores: [1, 2] }, { nombre: "b", x: [3], valores: [4] }] });
+  assert.ok(v.ok && v.payload.tipo === "dispersion" && v.payload.series[1].x[0] === 3);
+  assert.equal(validarPayload({ ...base, tipo: "dispersion", series: [{ nombre: "a", x: [1], valores: [1, 2] }] }).ok, false);
+});
