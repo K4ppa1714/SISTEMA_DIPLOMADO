@@ -1,0 +1,14 @@
+# Documentos externos del RAG
+
+Un `.md` por documento, con cabecera y separador `---`:
+
+```
+titulo: NOM-127-SSA1-2021 (extracto)
+tipo: norma            # tarifa | regla | norma | contrato | faq | datos
+fuente: Diario Oficial de la Federación
+url: https://...
+---
+texto del documento
+```
+
+Solo documentos reales y sin datos personales. Pendientes: NOM-127-SSA1-2021, contrato tipo y preguntas frecuentes del portal (Andrés).
