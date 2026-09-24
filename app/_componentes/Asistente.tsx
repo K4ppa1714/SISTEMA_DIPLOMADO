@@ -136,3 +136,72 @@ export function FormRag() {
     </form>
   );
 }
+
+interface Agente {
+  respuesta: string;
+  sesion: string;
+  pasos: { herramienta: string; argumentos: Record<string, unknown>; resultado: Record<string, unknown>; ms: number }[];
+}
+
+/** POST /api/agente: el agente elige herramientas (máx. 5 pasos) y muestra cada paso (T-15). */
+export function FormAgente() {
+  const [mensaje, setMensaje] = useState("");
+  const [enviando, setEnviando] = useState(false);
+  const [res, setRes] = useState<{ datos?: Agente; error?: string } | null>(null);
+
+  async function enviar(e: FormEvent) {
+    e.preventDefault();
+    setEnviando(true);
+    setRes(null);
+    const r = await llamarApi<Agente>("/api/agente", { method: "POST", body: JSON.stringify({ mensaje }) }, 60000);
+    setRes(r.ok ? { datos: r.datos } : { error: r.mensaje });
+    setEnviando(false);
+  }
+
+  return (
+    <form className="formulario" onSubmit={enviar}>
+      <label htmlFor="mensaje-agente">Consulta</label>
+      <input
+        id="mensaje-agente"
+        type="text"
+        maxLength={1000}
+        minLength={3}
+        required
+        value={mensaje}
+        onChange={(e) => setMensaje(e.target.value)}
+        placeholder="Ej.: ¿Cuánto debe la toma T95A557D58C y qué tan probable es que pague tarde?"
+      />
+      <p className="ayuda">
+        Herramientas: estado de cuenta, cálculo de importe, predicción de pago tardío, búsqueda en documentos y análisis de la serie.
+        Máximo 5 pasos; cada paso queda en la bitácora <code>agente.log</code>.
+      </p>
+      <button type="submit" disabled={enviando || mensaje.trim().length < 3}>
+        {enviando ? "Pensando…" : "Preguntar al agente"}
+      </button>
+      <div aria-live="polite">
+        {res?.error ? <p className="aviso aviso-error">{res.error}</p> : null}
+        {res?.datos ? (
+          <div className="respuesta-api">
+            <p>{res.datos.respuesta}</p>
+            {res.datos.pasos.length > 0 ? (
+              <ol className="pasos-agente">
+                {res.datos.pasos.map((p, i) => (
+                  <li key={i}>
+                    <details>
+                      <summary>
+                        <code>{p.herramienta}</code> ({p.ms} ms){"error" in p.resultado ? " · con error" : ""}
+                      </summary>
+                      <pre>{JSON.stringify({ argumentos: p.argumentos, resultado: p.resultado }, null, 2)}</pre>
+                    </details>
+                  </li>
+                ))}
+              </ol>
+            ) : (
+              <p className="ayuda">Respondió sin usar herramientas.</p>
+            )}
+          </div>
+        ) : null}
+      </div>
+    </form>
+  );
+}

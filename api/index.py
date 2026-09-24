@@ -8,6 +8,7 @@ Rutas:
 - POST /api/triage   → T-12 (api/_lib/triage.py)
 - POST /api/rag      → T-11 (api/_lib/rag.py)
 - GET  /api/importe  → T-03 (api/_lib/tarifas.py, dueño Claude-E)
+- POST /api/agente   → T-15 (api/_lib/agente/)
 
 Errores: siempre {"error": {"codigo", "mensaje"}} en español, con el HTTP adecuado.
 Éxito HTTP ≠ éxito de negocio: /api/triage responde 200 aunque el LLM falle, pero
@@ -33,6 +34,7 @@ from starlette.exceptions import HTTPException as StarletteHTTPException  # noqa
 
 from api._lib import dependencias  # noqa: E402
 from api._lib.errores import ErrorApi, cuerpo_error, mensaje_validacion  # noqa: E402
+from api._lib.agente.agente import EntradaAgente  # noqa: E402
 from api._lib.rag import EntradaRag  # noqa: E402
 from api._lib.salud import VERSION, revisar_salud  # noqa: E402
 from api._lib.triage import EntradaTriage  # noqa: E402
@@ -138,3 +140,29 @@ def api_importe(
     # Contrato §3: {consumo_facturado, agua, alcantarillado, saneamiento, iva, total}; se agregan periodo y subtotal.
     return {k: r[k] for k in ("periodo", "tipo_tarifa", "consumo_facturado", "agua", "alcantarillado",
                                "saneamiento", "subtotal", "iva", "total")}
+
+
+@app.post("/api/agente")
+def api_agente(entrada: EntradaAgente) -> dict:
+    from api._lib.agente.agente import ejecutar_agente, registrador_supabase
+    from api._lib.agente.herramientas import Contexto, DatosSupabase
+    from api._lib.rag import buscar_en_supabase, responder
+
+    supa = dependencias.cliente_supabase()
+    if supa is None:
+        raise ErrorApi(503, "supabase_no_configurado",
+                       "El agente no está disponible: faltan SUPABASE_URL y SUPABASE_SERVICE_ROLE_KEY en Vercel.")
+    llm, emb = dependencias.cliente_llm(), dependencias.cliente_embeddings()
+
+    def buscar_documentos(pregunta: str, k: int) -> dict:
+        if emb is None:
+            raise RuntimeError("embeddings no configurados")
+        salida, _ = responder(pregunta, k, emb, buscar_en_supabase(supa), llm)
+        return salida.model_dump()
+
+    ctx = Contexto(datos=DatosSupabase(supa), buscar_documentos=buscar_documentos if emb else None)
+    salida, detalle = ejecutar_agente(entrada.mensaje, entrada.sesion, llm, ctx, registrador_supabase(supa))
+    log.info("agente pasos=%s herramientas=%s invalidas=%s errores=%s limite=%s", len(salida.pasos),
+             detalle["herramientas_usadas"], detalle["decisiones_invalidas"], detalle["errores_herramienta"],
+             detalle["limite_alcanzado"])
+    return salida.model_dump(mode="json")

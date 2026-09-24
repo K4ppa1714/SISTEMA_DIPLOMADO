@@ -202,3 +202,5 @@ div.respuesta-api { display: block; }
   .grafica text, .grafica .etiqueta-cat, .grafica .titulo-eje { font-size: 16px; }
   .grafica .valor-barra { font-size: 14px; }
 }
+.pasos-agente { padding-left: 1.2em; }
+.pasos-agente pre { background: var(--superficie-2); border-radius: 6px; padding: 8px; font-size: 0.78rem; overflow-x: auto; max-height: 280px; }

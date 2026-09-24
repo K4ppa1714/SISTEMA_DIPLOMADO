@@ -10,7 +10,7 @@ la lógica vive en `_lib/` (Vercel no convierte en función lo que empieza con `
 | `POST /api/triage` | T-12; sin LLM responde igual, con `valido: false` |
 | `POST /api/rag` | T-11; `503 rag_no_configurado` hasta que existan llave, `EMBEDDINGS_MODEL`, la 0005 y el índice |
 | `GET /api/importe` | T-03 (`tarifas.py`) |
-| `POST /api/agente` | T-15, pendiente |
+| `POST /api/agente` | T-15; herramientas en `_lib/agente/herramientas.py`, máx. 5 pasos, bitácora `agente.log`; evaluación con `python -m pipeline.src.agents.evaluar --url <URL>` |
 | `GET /api/docs` | documentación OpenAPI generada por FastAPI |
 
 Errores: siempre `{"error": {"codigo", "mensaje"}}` en español; los detalles
