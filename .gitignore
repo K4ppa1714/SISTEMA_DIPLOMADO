@@ -22,3 +22,7 @@ out/
 # Sistema
 .DS_Store
 Thumbs.db
+
+# Artefactos regenerables del pipeline (se reconstruyen con run_all.py)
+pipeline/artefactos/*.csv
+pipeline/artefactos/sql_raw/

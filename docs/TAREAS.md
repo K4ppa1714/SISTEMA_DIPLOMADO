@@ -23,7 +23,7 @@ Responsables: **E** = Emilio · **A** = Andrés · **C-E** = Claude-E ·
 |---|---|---|---|---|---|---|
 | T-02b | ~~Correr la exportación~~ — no aplica (Plan B) | — | A | — | — | cancelada |
 | T-03 | Tarifas CEA de los XML a CSV; `calcular_importe`; pruebas | Arquitectura, N | C-E | T-01 | E | en revisión (rama e/T-03-tarifas) |
-| T-04 | Pipeline sobre `data/simulados/`: revisar y extender el de Andrés, migración `raw`, carga a Supabase, reglas de censura y columnas prohibidas | A | C-E | T-01 | E (reglas de limpieza) | pendiente |
+| T-04 | Pipeline sobre `data/simulados/`: revisar y extender el de Andrés, migración `raw`, carga a Supabase, reglas de censura y columnas prohibidas | A | C-E | T-01 | E (reglas de limpieza) | en revisión (rama e/T-04-pipeline) |
 | T-10 | Esqueleto Next.js + FastAPI con `/api/salud` desplegado en Vercel; comprobar tamaño de la función | Despliegue | C-A | T-01 | A | pendiente |
 | — | ~~Decisión Plan A o B~~ — se adoptó Plan B (simulación declarada, propuesta #5) | | E, A | — | — | hecho |
 
