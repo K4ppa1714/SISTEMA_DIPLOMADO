@@ -42,7 +42,7 @@ Responsables: **E** = Emilio · **A** = Andrés · **C-E** = Claude-E ·
 | ID | Tarea | Bloques | Resp. | Depende de | Valida | Estado |
 |---|---|---|---|---|---|---|
 | T-07 | Features justificadas; baseline; regresión logística, Random Forest y Gradient Boosting en `Pipeline` + `TimeSeriesSplit`; predicción por lotes a Supabase | E, F, H | C-E | T-04 | E | en revisión (rama e/T-05-eda-modelos; resultados v1 en analitica) |
-| T-08 | K-means (silhouette) + PCA; MLP en PyTorch comparado con Gradient Boosting | G, I | C-E | T-07 | E | pendiente |
+| T-08 | K-means (silhouette) + PCA; MLP en PyTorch comparado con Gradient Boosting | G, I | C-E | T-07 | E | en revisión (rama e/T-08-segmentos-dl; la ejecuta Codex con torch) |
 | T-14 | TF-IDF + regresión logística para la categoría de queja; embeddings para quejas similares; comparación precision@5 | J, K | C-A | T-04 | A | en revisión (a/T-14-nlp-quejas; Sentence-Transformers pendiente de correr con acceso a Hugging Face) |
 | T-15 | Agente: 5 herramientas, dispatcher con validación, registro en `agente.log`, límite de 5 pasos, tarea de varios pasos | N | C-A | T-03, T-07, T-11 | A | pendiente |
 | T-16a | Borrador de 30–50 preguntas de RAG con documento esperado | M | C-E borrador · **E valida** | T-11 | E | borrador listo (docs/eval/rag_preguntas_borrador.csv; falta validación de Emilio) |

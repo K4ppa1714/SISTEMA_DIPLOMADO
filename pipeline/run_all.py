@@ -69,7 +69,29 @@ def paso_t06() -> None:
     print(f"  anomalias: {len(r['anomalias'])} tomas con alarma; series: {len(r['series_largas'])} puntos")
 
 
-IMPLEMENTADOS = {"T-04": paso_t04, "T-05": paso_t05, "T-06": paso_t06, "T-07": paso_t07}
+def paso_t08() -> None:
+    from pipeline.src.config import ARTEFACTOS
+    from pipeline.src.data.publicar import guardar, subir
+    from pipeline.src.deep_learning import mlp
+    from pipeline.src.ml import segmentos
+
+    seg_res, seg = segmentos.ejecutar()
+    subir(guardar("clustering", seg_res))
+    seg.to_csv(ARTEFACTOS / "segmentos.csv", index=False)
+    cols = lambda c, q="'": ",".join(f"{q}{v}{q}" for v in seg[c])
+    (ARTEFACTOS / "resultados" / "segmentos.sql").write_text(
+        f"delete from analitica.segmentos where version = '{segmentos.VERSION}';\n"
+        "insert into analitica.segmentos (id_toma, segmento, nombre_segmento, pc1, pc2, version)\n"
+        f"select unnest(array[{cols('id_toma')}]), unnest(array[{cols('segmento', '')}]), "
+        f"unnest(array[{cols('nombre_segmento')}]), unnest(array[{','.join(f'{v:.4f}' for v in seg['pc1'])}]::float8[]), "
+        f"unnest(array[{','.join(f'{v:.4f}' for v in seg['pc2'])}]::float8[]), '{segmentos.VERSION}';", encoding="utf-8")
+    dl = mlp.ejecutar()
+    subir(guardar("dl", dl))
+    for r in seg_res + dl:
+        print(f"  {r['clave']}: {r['payload']['conclusion']}")
+
+
+IMPLEMENTADOS = {"T-04": paso_t04, "T-05": paso_t05, "T-06": paso_t06, "T-07": paso_t07, "T-08": paso_t08}
 
 
 def main() -> None:
