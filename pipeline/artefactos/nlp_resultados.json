@@ -1,0 +1,418 @@
+[
+  {
+    "modulo": "nlp",
+    "clave": "clasificacion_metricas",
+    "version": "v0",
+    "payload": {
+      "tipo": "tabla",
+      "titulo": "Clasificación de quejas por categoría: TF-IDF + regresión logística",
+      "filas": [
+        {
+          "Modelo": "TF-IDF + regresión logística",
+          "Evaluación": "prueba por texto único",
+          "n prueba": 83,
+          "Accuracy": 0.9639,
+          "F1 macro": 0.9259
+        },
+        {
+          "Modelo": "TF-IDF + regresión logística",
+          "Evaluación": "prueba por texto único, ponderada por quejas",
+          "n prueba": 363,
+          "Accuracy": 0.8375,
+          "F1 macro": 0.8382
+        },
+        {
+          "Modelo": "Línea base (clase más frecuente)",
+          "Evaluación": "prueba por texto único",
+          "n prueba": 83,
+          "Accuracy": 0.3614,
+          "F1 macro": 0.059
+        },
+        {
+          "Modelo": "TF-IDF + regresión logística",
+          "Evaluación": "división ingenua por fila (CON FUGA, no válida)",
+          "n prueba": 350,
+          "Accuracy": 1.0,
+          "F1 macro": 1.0
+        },
+        {
+          "Modelo": "TF-IDF + regresión logística",
+          "Evaluación": "validación cruzada 5 pliegues (solo entrenamiento)",
+          "n prueba": 248,
+          "Accuracy": null,
+          "F1 macro": 0.9782
+        }
+      ],
+      "conclusion": "Con división por texto único el modelo logra F1 macro 0.926 en 83 textos nunca vistos (línea base 0.059); ponderado por quejas reales baja a 0.838 porque los textos que falla se repiten mucho. La división ingenua por fila da 1.000 porque 90.0 % de sus textos de prueba ya estaban en entrenamiento: esa cifra es fuga y no se usa.",
+      "fuente": "pipeline/src/nlp (T-14) · pipeline/notebooks/07_nlp_quejas.ipynb · data/simulados/quejas.csv (simulación declarada)",
+      "parametros": {
+        "clf__C": 3.0,
+        "tfidf__ngram_range": [
+          1,
+          2
+        ],
+        "semilla": 42,
+        "cv_f1_macro_desv": 0.0306,
+        "textos_entrenamiento": 248,
+        "textos_prueba": 83
+      }
+    }
+  },
+  {
+    "modulo": "nlp",
+    "clave": "f1_por_categoria",
+    "version": "v0",
+    "payload": {
+      "tipo": "barras",
+      "titulo": "F1 por categoría de queja (prueba por texto único)",
+      "x": {
+        "etiqueta": "Categoría",
+        "valores": [
+          "atencion",
+          "baja_presion",
+          "calidad_agua",
+          "drenaje",
+          "facturacion",
+          "fuga_calle",
+          "fuga_toma",
+          "medidor",
+          "sin_agua"
+        ]
+      },
+      "y": {
+        "etiqueta": "F1 (0–1)"
+      },
+      "series": [
+        {
+          "nombre": "F1",
+          "valores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.6667,
+            0.6667,
+            1.0
+          ]
+        }
+      ],
+      "filas": [
+        {
+          "categoria": "atencion",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "textos_prueba": 4
+        },
+        {
+          "categoria": "baja_presion",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "textos_prueba": 10
+        },
+        {
+          "categoria": "calidad_agua",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "textos_prueba": 5
+        },
+        {
+          "categoria": "drenaje",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "textos_prueba": 10
+        },
+        {
+          "categoria": "facturacion",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "textos_prueba": 3
+        },
+        {
+          "categoria": "fuga_calle",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "textos_prueba": 30
+        },
+        {
+          "categoria": "fuga_toma",
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6667,
+          "textos_prueba": 6
+        },
+        {
+          "categoria": "medidor",
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6667,
+          "textos_prueba": 3
+        },
+        {
+          "categoria": "sin_agua",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "textos_prueba": 12
+        }
+      ],
+      "conclusion": "Las categorías más débiles son fuga_toma (F1 0.67, 6 textos de prueba) y medidor (F1 0.67, 3 textos de prueba). Con tan pocos textos de prueba por clase, cada error mueve mucho la cifra.",
+      "fuente": "pipeline/src/nlp (T-14) · pipeline/notebooks/07_nlp_quejas.ipynb · data/simulados/quejas.csv (simulación declarada)"
+    }
+  },
+  {
+    "modulo": "nlp",
+    "clave": "matriz_confusion",
+    "version": "v0",
+    "payload": {
+      "tipo": "tabla",
+      "titulo": "Matriz de confusión (filas = real, columnas = predicha)",
+      "filas": [
+        {
+          "real": "atencion",
+          "atencion": 4,
+          "baja_presion": 0,
+          "calidad_agua": 0,
+          "drenaje": 0,
+          "facturacion": 0,
+          "fuga_calle": 0,
+          "fuga_toma": 0,
+          "medidor": 0,
+          "sin_agua": 0
+        },
+        {
+          "real": "baja_presion",
+          "atencion": 0,
+          "baja_presion": 10,
+          "calidad_agua": 0,
+          "drenaje": 0,
+          "facturacion": 0,
+          "fuga_calle": 0,
+          "fuga_toma": 0,
+          "medidor": 0,
+          "sin_agua": 0
+        },
+        {
+          "real": "calidad_agua",
+          "atencion": 0,
+          "baja_presion": 0,
+          "calidad_agua": 5,
+          "drenaje": 0,
+          "facturacion": 0,
+          "fuga_calle": 0,
+          "fuga_toma": 0,
+          "medidor": 0,
+          "sin_agua": 0
+        },
+        {
+          "real": "drenaje",
+          "atencion": 0,
+          "baja_presion": 0,
+          "calidad_agua": 0,
+          "drenaje": 10,
+          "facturacion": 0,
+          "fuga_calle": 0,
+          "fuga_toma": 0,
+          "medidor": 0,
+          "sin_agua": 0
+        },
+        {
+          "real": "facturacion",
+          "atencion": 0,
+          "baja_presion": 0,
+          "calidad_agua": 0,
+          "drenaje": 0,
+          "facturacion": 3,
+          "fuga_calle": 0,
+          "fuga_toma": 0,
+          "medidor": 0,
+          "sin_agua": 0
+        },
+        {
+          "real": "fuga_calle",
+          "atencion": 0,
+          "baja_presion": 0,
+          "calidad_agua": 0,
+          "drenaje": 0,
+          "facturacion": 0,
+          "fuga_calle": 30,
+          "fuga_toma": 0,
+          "medidor": 0,
+          "sin_agua": 0
+        },
+        {
+          "real": "fuga_toma",
+          "atencion": 0,
+          "baja_presion": 0,
+          "calidad_agua": 0,
+          "drenaje": 0,
+          "facturacion": 0,
+          "fuga_calle": 0,
+          "fuga_toma": 3,
+          "medidor": 3,
+          "sin_agua": 0
+        },
+        {
+          "real": "medidor",
+          "atencion": 0,
+          "baja_presion": 0,
+          "calidad_agua": 0,
+          "drenaje": 0,
+          "facturacion": 0,
+          "fuga_calle": 0,
+          "fuga_toma": 0,
+          "medidor": 3,
+          "sin_agua": 0
+        },
+        {
+          "real": "sin_agua",
+          "atencion": 0,
+          "baja_presion": 0,
+          "calidad_agua": 0,
+          "drenaje": 0,
+          "facturacion": 0,
+          "fuga_calle": 0,
+          "fuga_toma": 0,
+          "medidor": 0,
+          "sin_agua": 12
+        }
+      ],
+      "conclusion": "Confusiones: 3 de fuga_toma → medidor.",
+      "fuente": "pipeline/src/nlp (T-14) · pipeline/notebooks/07_nlp_quejas.ipynb · data/simulados/quejas.csv (simulación declarada)"
+    }
+  },
+  {
+    "modulo": "nlp",
+    "clave": "palabras_clave",
+    "version": "v0",
+    "payload": {
+      "tipo": "tabla",
+      "titulo": "Términos que más empujan a cada categoría (coeficientes del modelo)",
+      "filas": [
+        {
+          "Categoría": "atencion",
+          "Términos": "nadie, todavia, revisar, reporte hace, todavia no"
+        },
+        {
+          "Categoría": "baja_presion",
+          "Términos": "presion, chorro, debil, chorro sale, sale debil"
+        },
+        {
+          "Categoría": "calidad_agua",
+          "Términos": "agua sale, tierra, turbia, sale turbia, turbia tierra"
+        },
+        {
+          "Categoría": "drenaje",
+          "Términos": "drenaje, desbordado huele, desbordado, muy mal, huele muy"
+        },
+        {
+          "Categoría": "facturacion",
+          "Términos": "recibo, cobrando, habia pagado, cobrando periodo, pagado"
+        },
+        {
+          "Categoría": "fuga_calle",
+          "Términos": "tirando toda, tirando, saliendo calle, agua saliendo, fuga"
+        },
+        {
+          "Categoría": "fuga_toma",
+          "Términos": "banqueta gotea, sin parar, gotea sin, gotea, llave"
+        },
+        {
+          "Categoría": "medidor",
+          "Términos": "medidor, marca, llevaron medidor, toma no, caja"
+        },
+        {
+          "Categoría": "sin_agua",
+          "Términos": "sin, abasto toda, toda calle, sin abasto, abasto"
+        }
+      ],
+      "conclusion": "Cada categoría se explica con términos propios de su tipo de problema (atencion: nadie; baja_presion: presion; calidad_agua: agua sale…), así que la decisión del modelo se puede revisar término por término.",
+      "fuente": "pipeline/src/nlp (T-14) · pipeline/notebooks/07_nlp_quejas.ipynb · data/simulados/quejas.csv (simulación declarada)"
+    }
+  },
+  {
+    "modulo": "nlp",
+    "clave": "prioridad_desde_texto",
+    "version": "v0",
+    "payload": {
+      "tipo": "tabla",
+      "titulo": "¿El texto de la queja determina su prioridad?",
+      "filas": [
+        {
+          "Indicador": "Textos únicos",
+          "Valor": 331
+        },
+        {
+          "Indicador": "Textos con más de una prioridad asignada",
+          "Valor": 155
+        },
+        {
+          "Indicador": "F1 macro TF-IDF + LR (CV agrupada por texto)",
+          "Valor": 0.1791
+        },
+        {
+          "Indicador": "F1 macro azar estratificado",
+          "Valor": 0.256
+        }
+      ],
+      "conclusion": "155 de 331 textos aparecen con prioridades distintas y el modelo de texto (F1 0.179) no supera al azar (0.256): en esta simulación la prioridad no se deduce del texto. El triage no debe presentar la prioridad como predicción del texto.",
+      "fuente": "pipeline/src/nlp (T-14) · pipeline/notebooks/07_nlp_quejas.ipynb · data/simulados/quejas.csv (simulación declarada)"
+    }
+  },
+  {
+    "modulo": "embeddings",
+    "clave": "similitud_precision5",
+    "version": "v0",
+    "payload": {
+      "tipo": "barras",
+      "titulo": "Búsqueda de quejas similares: precision@5 por representación",
+      "x": {
+        "etiqueta": "Representación",
+        "valores": [
+          "TF-IDF",
+          "LSA (SVD de TF-IDF, 100 dims)"
+        ]
+      },
+      "y": {
+        "etiqueta": "Precision@5 (0–1)"
+      },
+      "series": [
+        {
+          "nombre": "Precision@5",
+          "valores": [
+            0.894,
+            0.894
+          ]
+        }
+      ],
+      "filas": [
+        {
+          "representacion": "TF-IDF",
+          "dimension": 166,
+          "ejecutado": true,
+          "precision_at_5": 0.894
+        },
+        {
+          "representacion": "LSA (SVD de TF-IDF, 100 dims)",
+          "dimension": 100,
+          "ejecutado": true,
+          "precision_at_5": 0.894
+        },
+        {
+          "representacion": "Sentence-Transformers (paraphrase-multilingual-MiniLM-L12-v2)",
+          "ejecutado": false,
+          "motivo": "ModuleNotFoundError: No module named 'sentence_transformers'"
+        }
+      ],
+      "conclusion": "Precision@5 (vecinos de la misma categoría): TF-IDF 0.894; LSA (SVD de TF-IDF, 100 dims) 0.894. Sentence-Transformers queda pendiente de ejecutar en un entorno con acceso a Hugging Face; no se reporta cifra hasta correrlo.",
+      "fuente": "pipeline/src/nlp (T-14) · pipeline/notebooks/07_nlp_quejas.ipynb · data/simulados/quejas.csv (simulación declarada)"
+    }
+  }
+]
