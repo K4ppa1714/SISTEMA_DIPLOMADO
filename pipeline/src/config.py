@@ -17,3 +17,11 @@ COLUMNAS_PROHIBIDAS = {
     "propension_mora", "consumo_base",                          # parámetros del generador
     "tiene_fuga",                                               # etiqueta de validación
 }
+
+# Variables locales del pipeline (.env en la raíz, ignorado por git). Nunca se versionan llaves.
+try:
+    from dotenv import load_dotenv
+
+    load_dotenv(RAIZ / ".env")
+except ImportError:
+    pass

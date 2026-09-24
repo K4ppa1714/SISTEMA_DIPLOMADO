@@ -1,0 +1,161 @@
+[
+ {
+  "modulo": "estadistica",
+  "clave": "pruebas_hipotesis",
+  "version": "v1",
+  "payload": {
+   "tipo": "tabla",
+   "titulo": "Pruebas de hipótesis (α = 0.05)",
+   "filas": [
+    {
+     "hipotesis": "H1: el consumo doméstico difiere entre privadas",
+     "prueba": "Kruskal-Wallis (promedio por toma)",
+     "estadistico": 9.718,
+     "gl": 9,
+     "p_valor": 0.373811,
+     "efecto": "ε² = 0.002",
+     "decision": "no se rechaza H0"
+    },
+    {
+     "hipotesis": "H2: pagar tarde depende de estar domiciliado",
+     "prueba": "chi² de independencia",
+     "estadistico": 541.033,
+     "gl": 1,
+     "p_valor": 1.12401e-119,
+     "efecto": "V de Cramér = 0.201",
+     "decision": "se rechaza H0"
+    }
+   ],
+   "conclusion": "H1: p = 0.374 (no se rechaza H0, ε² = 0.002). H2: p = 1.12e-119 (se rechaza H0, V = 0.201). Significancia no implica causalidad; el tamaño de efecto dice cuánto importa.",
+   "fuente": "pipeline/src/preprocessing/eda.py · pipeline/notebooks/02_eda_estadistica.ipynb"
+  }
+ },
+ {
+  "modulo": "estadistica",
+  "clave": "ic95_tardio",
+  "version": "v1",
+  "payload": {
+   "tipo": "tabla",
+   "titulo": "Tasa de pago tardío con IC 95 % (Wilson)",
+   "filas": [
+    {
+     "segmento": "tipo_tarifa=comercial",
+     "n": 1568,
+     "tasa": 0.2621,
+     "ic95_inf": 0.2409,
+     "ic95_sup": 0.2844
+    },
+    {
+     "segmento": "tipo_tarifa=domestico",
+     "n": 11200,
+     "tasa": 0.2402,
+     "ic95_inf": 0.2324,
+     "ic95_sup": 0.2482
+    },
+    {
+     "segmento": "tipo_tarifa=industrial",
+     "n": 252,
+     "tasa": 0.5595,
+     "ic95_inf": 0.4978,
+     "ic95_sup": 0.6195
+    },
+    {
+     "segmento": "tipo_tarifa=publico",
+     "n": 420,
+     "tasa": 0.2476,
+     "ic95_inf": 0.2088,
+     "ic95_sup": 0.2911
+    },
+    {
+     "segmento": "domiciliado=False",
+     "n": 11088,
+     "tasa": 0.289,
+     "ic95_inf": 0.2806,
+     "ic95_sup": 0.2975
+    },
+    {
+     "segmento": "domiciliado=True",
+     "n": 2352,
+     "tasa": 0.0604,
+     "ic95_inf": 0.0514,
+     "ic95_sup": 0.0707
+    }
+   ],
+   "conclusion": "El intervalo más ancho mide 12.2%: los segmentos pequeños (público, industrial) se interpretan con cautela.",
+   "fuente": "pipeline/src/preprocessing/eda.py · pipeline/notebooks/02_eda_estadistica.ipynb"
+  }
+ },
+ {
+  "modulo": "estadistica",
+  "clave": "correlacion_spearman",
+  "version": "v1",
+  "payload": {
+   "tipo": "tabla",
+   "titulo": "Correlación de Spearman por toma (n = 480)",
+   "filas": [
+    {
+     "variable_a": "consumo_medio",
+     "variable_b": "importe_medio",
+     "rho": 0.975,
+     "p_valor": 0.0
+    },
+    {
+     "variable_a": "consumo_medio",
+     "variable_b": "antiguedad_meses",
+     "rho": 0.005,
+     "p_valor": 0.907579
+    },
+    {
+     "variable_a": "consumo_medio",
+     "variable_b": "pct_lecturas_inconsistentes",
+     "rho": 0.042,
+     "p_valor": 0.362621
+    },
+    {
+     "variable_a": "consumo_medio",
+     "variable_b": "tasa_tardio",
+     "rho": 0.113,
+     "p_valor": 0.0128644
+    },
+    {
+     "variable_a": "importe_medio",
+     "variable_b": "antiguedad_meses",
+     "rho": 0.012,
+     "p_valor": 0.797066
+    },
+    {
+     "variable_a": "importe_medio",
+     "variable_b": "pct_lecturas_inconsistentes",
+     "rho": 0.06,
+     "p_valor": 0.186151
+    },
+    {
+     "variable_a": "importe_medio",
+     "variable_b": "tasa_tardio",
+     "rho": 0.116,
+     "p_valor": 0.0113143
+    },
+    {
+     "variable_a": "antiguedad_meses",
+     "variable_b": "pct_lecturas_inconsistentes",
+     "rho": -0.019,
+     "p_valor": 0.683127
+    },
+    {
+     "variable_a": "antiguedad_meses",
+     "variable_b": "tasa_tardio",
+     "rho": 0.082,
+     "p_valor": 0.0724108
+    },
+    {
+     "variable_a": "pct_lecturas_inconsistentes",
+     "variable_b": "tasa_tardio",
+     "rho": -0.07,
+     "p_valor": 0.128298
+    }
+   ],
+   "conclusion": "La variable más asociada a la tasa de pago tardío es importe_medio (ρ = 0.12, p = 0.011); consumo e importe correlacionan casi 1 por construcción de la tarifa.",
+   "fuente": "pipeline/src/preprocessing/eda.py · pipeline/notebooks/02_eda_estadistica.ipynb"
+  }
+ }
+]
