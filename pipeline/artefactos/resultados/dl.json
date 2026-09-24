@@ -1,0 +1,96 @@
+[
+ {
+  "modulo": "dl",
+  "clave": "mlp_vs_gb",
+  "version": "v1",
+  "payload": {
+   "tipo": "tabla",
+   "titulo": "Red neuronal (MLP) contra Gradient Boosting — misma prueba temporal",
+   "filas": [
+    {
+     "modelo": "MLP PyTorch (64-32)",
+     "pr_auc": 0.4251,
+     "roc_auc": 0.7233,
+     "umbral": 0.5,
+     "f1": 0.4874
+    },
+    {
+     "modelo": "Gradient Boosting",
+     "pr_auc": 0.4275,
+     "roc_auc": 0.7207,
+     "umbral": 0.47,
+     "f1": 0.4929
+    }
+   ],
+   "conclusion": "Gana Gradient Boosting por PR-AUC (0.425 MLP contra 0.427 GB). La red tiene 4,289 parámetros y entrenó 12 épocas con parada temprana. En datos tabulares de este tamaño no supera a los árboles; GB es más simple de explicar y mantener.",
+   "fuente": "pipeline/src/deep_learning/mlp.py · pipeline/notebooks/06_segmentos_dl.ipynb"
+  }
+ },
+ {
+  "modulo": "dl",
+  "clave": "mlp_curva_perdida",
+  "version": "v1",
+  "payload": {
+   "tipo": "linea",
+   "titulo": "Curva de pérdida del MLP (entrenamiento y validación)",
+   "x": {
+    "etiqueta": "Época",
+    "valores": [
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12"
+    ]
+   },
+   "y": {
+    "etiqueta": "BCE ponderada"
+   },
+   "series": [
+    {
+     "nombre": "entrenamiento",
+     "valores": [
+      1.00778,
+      0.93642,
+      0.92222,
+      0.91712,
+      0.91433,
+      0.91441,
+      0.914,
+      0.90732,
+      0.91009,
+      0.90726,
+      0.90124,
+      0.90603
+     ]
+    },
+    {
+     "nombre": "validación",
+     "valores": [
+      0.92697,
+      0.90103,
+      0.90457,
+      0.90832,
+      0.90895,
+      0.90785,
+      0.90868,
+      0.90748,
+      0.9063,
+      0.90876,
+      0.90946,
+      0.9111
+     ]
+    }
+   ],
+   "conclusion": "La validación deja de mejorar en la época 2; la parada temprana evita el sobreajuste que se ve cuando la pérdida de entrenamiento sigue bajando.",
+   "fuente": "pipeline/src/deep_learning/mlp.py · pipeline/notebooks/06_segmentos_dl.ipynb"
+  }
+ }
+]
