@@ -296,5 +296,296 @@
    "conclusion": "423 de 960 recibos por vencer quedan marcados en riesgo de pago tardío; la lista está en analitica.predicciones_pago.",
    "fuente": "pipeline/src/ml/modelos.py · pipeline/notebooks/04_modelos.ipynb"
   }
+ },
+ {
+  "modulo": "ml",
+  "clave": "curva_umbral",
+  "version": "v1",
+  "payload": {
+   "tipo": "linea",
+   "titulo": "Precisión, recall y F1 según el umbral — regresion_logistica (prueba)",
+   "x": {
+    "etiqueta": "Umbral",
+    "valores": [
+     "0.20",
+     "0.25",
+     "0.30",
+     "0.35",
+     "0.40",
+     "0.45",
+     "0.50",
+     "0.55",
+     "0.60",
+     "0.65",
+     "0.70",
+     "0.75",
+     "0.80"
+    ]
+   },
+   "y": {
+    "etiqueta": "Métrica"
+   },
+   "series": [
+    {
+     "nombre": "precision",
+     "valores": [
+      0.2855,
+      0.2863,
+      0.2904,
+      0.3156,
+      0.3428,
+      0.3676,
+      0.3963,
+      0.4309,
+      0.4403,
+      0.4529,
+      0.5167,
+      0.5625,
+      0.5918
+     ]
+    },
+    {
+     "nombre": "recall",
+     "valores": [
+      0.9664,
+      0.9601,
+      0.9517,
+      0.9118,
+      0.8361,
+      0.7437,
+      0.6303,
+      0.5105,
+      0.3718,
+      0.2626,
+      0.1954,
+      0.1324,
+      0.0609
+     ]
+    },
+    {
+     "nombre": "f1",
+     "valores": [
+      0.4408,
+      0.4411,
+      0.445,
+      0.4689,
+      0.4863,
+      0.492,
+      0.4866,
+      0.4673,
+      0.4032,
+      0.3324,
+      0.2835,
+      0.2143,
+      0.1105
+     ]
+    }
+   ],
+   "filas": [
+    {
+     "umbral": 0.2,
+     "precision": 0.285537,
+     "recall": 0.966387,
+     "f1": 0.440824,
+     "recibos_marcados": 1611
+    },
+    {
+     "umbral": 0.25,
+     "precision": 0.286341,
+     "recall": 0.960084,
+     "f1": 0.44112,
+     "recibos_marcados": 1596
+    },
+    {
+     "umbral": 0.3,
+     "precision": 0.290385,
+     "recall": 0.951681,
+     "f1": 0.44499,
+     "recibos_marcados": 1560
+    },
+    {
+     "umbral": 0.35,
+     "precision": 0.315636,
+     "recall": 0.911765,
+     "f1": 0.468936,
+     "recibos_marcados": 1375
+    },
+    {
+     "umbral": 0.4,
+     "precision": 0.342808,
+     "recall": 0.836134,
+     "f1": 0.486255,
+     "recibos_marcados": 1161
+    },
+    {
+     "umbral": 0.45,
+     "precision": 0.367601,
+     "recall": 0.743697,
+     "f1": 0.492008,
+     "recibos_marcados": 963
+    },
+    {
+     "umbral": 0.5,
+     "precision": 0.396301,
+     "recall": 0.630252,
+     "f1": 0.486618,
+     "recibos_marcados": 757
+    },
+    {
+     "umbral": 0.55,
+     "precision": 0.430851,
+     "recall": 0.510504,
+     "f1": 0.467308,
+     "recibos_marcados": 564
+    },
+    {
+     "umbral": 0.6,
+     "precision": 0.440299,
+     "recall": 0.371849,
+     "f1": 0.403189,
+     "recibos_marcados": 402
+    },
+    {
+     "umbral": 0.65,
+     "precision": 0.452899,
+     "recall": 0.262605,
+     "f1": 0.332447,
+     "recibos_marcados": 276
+    },
+    {
+     "umbral": 0.7,
+     "precision": 0.516667,
+     "recall": 0.195378,
+     "f1": 0.283537,
+     "recibos_marcados": 180
+    },
+    {
+     "umbral": 0.75,
+     "precision": 0.5625,
+     "recall": 0.132353,
+     "f1": 0.214286,
+     "recibos_marcados": 112
+    },
+    {
+     "umbral": 0.8,
+     "precision": 0.591837,
+     "recall": 0.0609244,
+     "f1": 0.110476,
+     "recibos_marcados": 49
+    }
+   ],
+   "conclusion": "Con el umbral elegido en CV (0.48) se marcan 837 recibos. Subir el umbral reduce falsas alarmas pero deja escapar más tardíos: la decisión depende de cuántas llamadas de cobranza puede hacer Operaguas.",
+   "fuente": "pipeline/src/ml/errores.py · pipeline/notebooks/05_errores.ipynb"
+  }
+ },
+ {
+  "modulo": "ml",
+  "clave": "calibracion",
+  "version": "v1",
+  "payload": {
+   "tipo": "linea",
+   "titulo": "Calibración: probabilidad predicha contra tasa real por decil (prueba)",
+   "x": {
+    "etiqueta": "Decil de riesgo",
+    "valores": [
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10"
+    ]
+   },
+   "y": {
+    "etiqueta": "Proporción"
+   },
+   "series": [
+    {
+     "nombre": "predicha",
+     "valores": [
+      0.1057,
+      0.1995,
+      0.3367,
+      0.3797,
+      0.4275,
+      0.4744,
+      0.5223,
+      0.5756,
+      0.6446,
+      0.7717
+     ]
+    },
+    {
+     "nombre": "real",
+     "valores": [
+      0.0208,
+      0.1042,
+      0.1146,
+      0.1771,
+      0.224,
+      0.2656,
+      0.3021,
+      0.375,
+      0.3906,
+      0.5052
+     ]
+    }
+   ],
+   "conclusion": "La probabilidad predicha excede a la real en +0.20 en promedio (efecto de class_weight='balanced'). El ORDEN sí sirve: la tasa real crece de 2% en el decil más bajo a 51% en el más alto; se usa como puntaje de riesgo, no como probabilidad literal.",
+   "fuente": "pipeline/src/ml/errores.py · pipeline/notebooks/05_errores.ipynb"
+  }
+ },
+ {
+  "modulo": "ml",
+  "clave": "perfil_errores",
+  "version": "v1",
+  "payload": {
+   "tipo": "tabla",
+   "titulo": "Perfil de aciertos y errores (promedios en prueba)",
+   "filas": [
+    {
+     "grupo": "a tiempo correcto",
+     "n": 928,
+     "domiciliado": 0.334,
+     "tasa_tardio_historica": 0.119,
+     "tardio_anterior": 0.069,
+     "total_pagar": 1092.24,
+     "medidor_mudo": 0.045
+    },
+    {
+     "grupo": "falsa alarma",
+     "n": 516,
+     "domiciliado": 0.002,
+     "tasa_tardio_historica": 0.391,
+     "tardio_anterior": 0.413,
+     "total_pagar": 1856.44,
+     "medidor_mudo": 0.054
+    },
+    {
+     "grupo": "tardío NO detectado",
+     "n": 155,
+     "domiciliado": 0.161,
+     "tasa_tardio_historica": 0.19,
+     "tardio_anterior": 0.187,
+     "total_pagar": 1235.67,
+     "medidor_mudo": 0.039
+    },
+    {
+     "grupo": "tardío detectado",
+     "n": 321,
+     "domiciliado": 0.0,
+     "tasa_tardio_historica": 0.426,
+     "tardio_anterior": 0.536,
+     "total_pagar": 1971.35,
+     "medidor_mudo": 0.069
+    }
+   ],
+   "conclusion": "Los tardíos no detectados tienen historial de atraso de 19% contra 43% de los detectados: el modelo falla con quien casi nunca se atrasaba (atrasos 'nuevos'), algo que ninguna variable disponible al emitir el recibo anticipa.",
+   "fuente": "pipeline/src/ml/errores.py · pipeline/notebooks/05_errores.ipynb"
+  }
  }
 ]

@@ -41,10 +41,11 @@ def paso_t05() -> None:
 def paso_t07() -> None:
     from pipeline.src.config import ARTEFACTOS
     from pipeline.src.data.publicar import guardar, subir
+    from pipeline.src.ml import errores
     from pipeline.src.ml.modelos import ejecutar, payloads, sql_predicciones
 
     res = ejecutar()
-    subir(guardar("ml", payloads(res)))
+    subir(guardar("ml", payloads(res) + errores.ejecutar(res)))  # T-07 + T-09
     pred = res["predicciones"]
     pred.to_csv(ARTEFACTOS / "predicciones_pago.csv", index=False)
     (ARTEFACTOS / "resultados" / "predicciones_pago.sql").write_text(sql_predicciones(pred), encoding="utf-8")
