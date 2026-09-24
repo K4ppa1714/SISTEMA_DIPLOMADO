@@ -15,4 +15,4 @@
 - Nunca como variables: `fecha_pago`, `dias_atraso`, `pagado`, `saldo_pendiente`, `propension_mora`, `consumo_base`, `tiene_fuga` (ver `pipeline/src/config.py`).
 - Quejas: separar entrenamiento y prueba por **texto único** (331 textos distintos en 1,400 quejas).
 - Recibos vencidos y sin pagar cuentan como tardíos; periodos con vencimiento posterior a `FECHA_CORTE` quedan fuera del entrenamiento.
-- Pendiente: agregar el generador `generar_datos.py` (lo tiene Andrés) para que la simulación sea reproducible y documentar sus supuestos.
+- T-00c: el generador `generar_datos.py` no se conservó (se buscó en los equipos de Emilio y Andrés, su Drive y el historial de ambos repos). La simulación no se regenera tal cual: la semilla declarada es 20260923 y la reproducibilidad parte de estos CSV versionados y de `python -m pipeline.run_all` (confirmado por Andrés en #49).

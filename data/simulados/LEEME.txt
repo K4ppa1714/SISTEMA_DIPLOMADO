@@ -1,11 +1,11 @@
 DATOS DEL PROYECTO FINAL — SIMULACION DECLARADA
 ================================================
 
-NO SON EL PADRON REAL DE HUIMILPAN. Son datos generados por
-src/data/generar_datos.py con semilla fija (20260923), asi que se
-regeneran identicos con:
-
-    python src/data/generar_datos.py
+NO SON EL PADRON REAL DE HUIMILPAN. Son datos generados con un
+script de simulacion (semilla declarada 20260923) que NO se conservo:
+la simulacion no se puede regenerar tal cual. La reproducibilidad del
+proyecto parte de estos CSV versionados y de `python -m pipeline.run_all`
+(decision T-00c; los supuestos se documentan en data/README.md).
 
 La ESTRUCTURA reproduce la del sistema en produccion (tarifas por tipo
 de ocupante, privadas, ciclo mensual de lectura y facturacion,
