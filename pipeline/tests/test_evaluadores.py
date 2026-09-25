@@ -56,3 +56,20 @@ def test_calibrar_umbral_separa_con_y_sin_evidencia():
     assert 0.47 < cal["umbral_calibrado"] <= 0.52      # cualquier valor del hueco separa perfecto
     assert cal["exactitud_balanceada"] == 1.0 and cal["falsa_abstencion"] == 0.0
     assert 0.0 <= cal["exactitud_loo"] <= 1.0 and len(cal["barrido"]) == 61
+
+
+def test_embeber_con_espera_reintenta_429(monkeypatch):
+    from api._lib.llm import ErrorLLM
+    from pipeline.src.rag import evaluar
+    monkeypatch.setattr("time.sleep", lambda s: None)
+    llamadas = []
+
+    class Emb:
+        def embeber(self, textos):
+            llamadas.append(len(textos))
+            if len(llamadas) < 3:
+                raise ErrorLLM("el proveedor de LLM respondió HTTP 429")
+            return [[1.0]] * len(textos)
+
+    assert evaluar._embeber_con_espera(Emb(), ["a", "b"]) == [[1.0], [1.0]]
+    assert llamadas == [2, 2, 2]  # un lote por intento, no una llamada por pregunta

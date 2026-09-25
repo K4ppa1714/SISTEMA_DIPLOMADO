@@ -134,6 +134,21 @@ def payloads(m: dict, detalle: list[dict], exploratorio: bool, cal: dict | None 
             "fuente": FUENTE}}] if cal else [])
 
 
+def _embeber_con_espera(emb, textos: list[str], intentos: int = 5, espera_s: float = 30.0) -> list[list[float]]:
+    """Una sola llamada por lote (no una por pregunta); si el plan gratuito responde 429, espera y reintenta."""
+    import time
+    from api._lib.llm import ErrorLLM
+    for i in range(intentos):
+        try:
+            return emb.embeber(textos)
+        except ErrorLLM as e:
+            if "429" not in str(e) or i == intentos - 1:
+                raise
+            print(f"Gemini respondió 429 (límite gratuito); espero {espera_s:.0f} s y reintento ({i + 1}/{intentos - 1})", flush=True)
+            time.sleep(espera_s)
+    raise RuntimeError("inalcanzable")
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--subir", action="store_true")
@@ -152,7 +167,9 @@ def main() -> None:
     preguntas = cargar_preguntas(incluir_sin_validar=a.incluir_sin_validar)
     if not preguntas:
         raise SystemExit("No hay preguntas validadas (columna validado_por).")
-    m, detalle = calcular(preguntas, lambda q: buscar(emb.embeber([q])[0], max(KS)), UMBRAL_SIMILITUD)
+    vectores = _embeber_con_espera(emb, [p["pregunta"] for p in preguntas])
+    por_pregunta = dict(zip((p["pregunta"] for p in preguntas), vectores))
+    m, detalle = calcular(preguntas, lambda q: buscar(por_pregunta[q], max(KS)), UMBRAL_SIMILITUD)
     cal = calibrar(detalle)
     for d in sorted(detalle, key=lambda d: d["similitud_max"]):
         print(f"{d['similitud_max']:.4f}  {'CON' if d['con_evidencia'] else 'SIN'}  pos={d['posicion']}  {d['pregunta'][:70]}")
