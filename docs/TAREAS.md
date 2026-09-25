@@ -45,15 +45,15 @@ Responsables: **E** = Emilio · **A** = Andrés · **C-E** = Claude-E ·
 | T-08 | K-means (silhouette) + PCA; MLP en PyTorch comparado con Gradient Boosting | G, I | C-E | T-07 | E | en revisión (rama e/T-08-segmentos-dl; la ejecuta Codex con torch) |
 | T-14 | TF-IDF + regresión logística para la categoría de queja; embeddings para quejas similares; comparación precision@5 | J, K | C-A | T-04 | A | en revisión (a/T-14-nlp-quejas; Sentence-Transformers pendiente de correr con acceso a Hugging Face) |
 | T-15 | Agente: 5 herramientas, dispatcher con validación, registro en `agente.log`, límite de 5 pasos, tarea de varios pasos | N | C-A | T-03, T-07, T-11 | A | en revisión (a/T-15-agente: /api/agente con 5 herramientas validadas por Pydantic, dispatcher, límite de 5 pasos, bitácora en agente.log, 15 pruebas; en api/_lib/agente/ porque api/agente/ se publicaría como función) |
-| T-16a | Borrador de 30–50 preguntas de RAG con documento esperado | M | C-E borrador · **E valida** | T-11 | E | borrador listo (docs/eval/rag_preguntas_borrador.csv; falta validación de Emilio) |
-| T-16b | Borrador de 30–50 consultas del agente con herramientas esperadas | N | C-A borrador · **A valida** | T-15 | A | en revisión (docs/eval/agente_casos_borrador.csv: 30 casos, 10 multipaso; falta que Andrés llene validado_por) |
+| T-16a | Borrador de 30–50 preguntas de RAG con documento esperado | M | C-E borrador · **E valida** | T-11 | E | validado (40 preguntas, 7 de abstención; validado_por = Andrés por delegación de Emilio, D-13) |
+| T-16b | Borrador de 30–50 consultas del agente con herramientas esperadas | N | C-A borrador · **A valida** | T-15 | A | validado (30 casos, 10 multipaso; validado_por = Andrés) |
 
 ## Fase 4 — Jueves 24, 08:00–16:00
 
 | ID | Tarea | Bloques | Resp. | Depende de | Valida | Estado |
 |---|---|---|---|---|---|---|
 | T-09 | Análisis de errores, interpretación y profundidad de los bloques de C-E | F, G, I | C-E | T-07, T-08 | E | en revisión (rama e/T-09-16a; resultados v1 en analitica.ml) |
-| T-16 | Recall@k y MRR del RAG; Tool Selection Accuracy y éxito de tareas del agente (solo casos validados) | M, N | C-A | T-16a, T-16b | E, A | pendiente |
+| T-16 | Recall@k y MRR del RAG; Tool Selection Accuracy y éxito de tareas del agente (solo casos validados) | M, N | C-A | T-16a, T-16b | E, A | en curso (a/T-16-validados: casos validados; Andrés corre indexar y los evaluadores con --subir) |
 | T-17 | Páginas Modelos (con prueba de predicción), Asistente IA (RAG, triage, agente con sus pasos) y Resultados | UI | C-A | T-13 | A | en curso (a/T-10-esqueleto: páginas Modelos, Quejas y Asistente con triage y RAG; falta consulta de predicción por toma y el agente) |
 
 ## Fase 5 — Jueves 24, 16:00–23:59

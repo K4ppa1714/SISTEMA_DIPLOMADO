@@ -184,6 +184,17 @@ def test_evaluador_calcula_tsa_y_exito_con_api_simulada():
     assert "EXPLORATORIO" in p[0]["payload"]["titulo"]
 
 
-def test_sin_casos_validados_no_se_calcula():
+def test_sin_casos_validados_no_se_calcula(tmp_path):
     from pipeline.src.agents.evaluar import cargar_casos
-    assert cargar_casos() == []  # el borrador aún no tiene validado_por
+    csv_ = tmp_path / "casos.csv"
+    csv_.write_text("consulta,herramientas_esperadas,multipaso,nota,validado_por\n"
+                    "¿Cuánto debe la toma T1?,estado_cuenta,false,,\n", encoding="utf-8")
+    assert cargar_casos(csv_) == []  # sin validado_por no entra a la métrica
+    assert len(cargar_casos(csv_, incluir_sin_validar=True)) == 1
+
+
+def test_casos_del_agente_validados_por_andres():
+    from pipeline.src.agents.evaluar import cargar_casos
+    casos = cargar_casos()
+    assert len(casos) == 30 and sum(c["multipaso"] for c in casos) == 10
+    assert {c["validado_por"] for c in casos} == {"Andrés"}
