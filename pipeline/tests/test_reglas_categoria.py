@@ -38,3 +38,12 @@ def test_reglas_no_cambian_ninguna_prediccion_del_conjunto_simulado():
 
 def test_prioridad_de_fuga_calle_es_al_menos_alta():
     assert calcular_prioridad("fuga_calle", "fuga en la calle")[0] >= 2
+
+
+def test_sale_mucha_agua_frente_a_mi_casa_es_fuga_calle():
+    # Caso límite reportado en producción (#86): "sale mucha agua" no coincidía con "sale agua".
+    from api._lib.prioridad import corregir_categoria
+    cat, motivo = corregir_categoria("fuga_toma", "Sale mucha agua de la banqueta frente a mi casa desde ayer")
+    assert cat == "fuga_calle" and motivo
+    # Dentro del predio no cambia aunque use la misma construcción.
+    assert corregir_categoria("fuga_toma", "Sale mucha agua de mi medidor en la banqueta")[0] == "fuga_toma"

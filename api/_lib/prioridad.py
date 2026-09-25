@@ -11,6 +11,8 @@ VALIDAR: Andrés (dueño de la regla de negocio). Escala del contrato §3:
 """
 from __future__ import annotations
 
+import re
+
 from .texto import normalizar
 
 NOMBRES = {0: "baja", 1: "normal", 2: "alta", 3: "urgente"}
@@ -71,10 +73,20 @@ def _contiene(texto: str, frases: tuple[str, ...]) -> list[str]:
     return [f for f in frases if f" {f} " in t]
 
 
+# "sale mucha agua", "salen litros de agua": verbo de salida con hasta 3 palabras antes de "agua".
+_SALE_AGUA_RE = re.compile(r"\b(sale|salen|brota|brotan|tira|tiran|escurre)\b(?: \w+){0,3} agua\b")
+
+
+def _sale_agua(texto: str) -> list[str]:
+    frases = _contiene(texto, _SALE_AGUA)
+    m = _SALE_AGUA_RE.search(texto)
+    return frases or ([m.group(0)] if m else [])
+
+
 def corregir_categoria(categoria: str, texto: str) -> tuple[str, str | None]:
     """Devuelve (categoría final, motivo de la regla o None si no se aplicó)."""
     t = normalizar(texto)
-    via, agua = _contiene(t, _VIA_PUBLICA), _contiene(t, _SALE_AGUA)
+    via, agua = _contiene(t, _VIA_PUBLICA), _sale_agua(t)
     # Solo corrige confusiones entre categorías de agua; nunca toca drenaje, facturación, etc.
     if via and agua and not _contiene(t, _DENTRO) and categoria == "fuga_toma":
         return "fuga_calle", f"regla vía pública: {via[0]} + {agua[0]} → fuga_calle (el modelo dijo {categoria})"
