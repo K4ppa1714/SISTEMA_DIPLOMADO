@@ -1,0 +1,654 @@
+{
+ "documentos": [
+  {
+   "documento_id": "2472d9de-639d-5b92-af58-0ed0890b49b0",
+   "titulo": "Tarifario CEA 2026-T3: Beneficencia",
+   "tipo": "tarifa",
+   "fuente": "api/_lib/tarifas_cea.csv",
+   "url": null
+  },
+  {
+   "documento_id": "6a046381-5fc8-5fee-8ea6-11b0504ffdb7",
+   "titulo": "Tarifario CEA 2026-T3: Comercial",
+   "tipo": "tarifa",
+   "fuente": "api/_lib/tarifas_cea.csv",
+   "url": null
+  },
+  {
+   "documento_id": "d9a00b15-2c4a-5d47-969d-eb2e79825e9b",
+   "titulo": "Tarifario CEA 2026-T3: Doméstica alta",
+   "tipo": "tarifa",
+   "fuente": "api/_lib/tarifas_cea.csv",
+   "url": null
+  },
+  {
+   "documento_id": "5b50bd2a-dd03-5757-9597-850f2e9d0d68",
+   "titulo": "Tarifario CEA 2026-T3: Doméstica de apoyo",
+   "tipo": "tarifa",
+   "fuente": "api/_lib/tarifas_cea.csv",
+   "url": null
+  },
+  {
+   "documento_id": "5ad0fc4c-5ed5-54c0-a6a3-279b3b98a576",
+   "titulo": "Tarifario CEA 2026-T3: Doméstica económica",
+   "tipo": "tarifa",
+   "fuente": "api/_lib/tarifas_cea.csv",
+   "url": null
+  },
+  {
+   "documento_id": "0bafa18c-d841-58bb-9485-47bbd9938a86",
+   "titulo": "Tarifario CEA 2026-T3: Doméstica media",
+   "tipo": "tarifa",
+   "fuente": "api/_lib/tarifas_cea.csv",
+   "url": null
+  },
+  {
+   "documento_id": "98ee3d1d-138d-591e-b812-67e45b634857",
+   "titulo": "Tarifario CEA 2026-T3: Doméstica rural",
+   "tipo": "tarifa",
+   "fuente": "api/_lib/tarifas_cea.csv",
+   "url": null
+  },
+  {
+   "documento_id": "27f99778-b79a-5ffe-8aac-d8b7561ccac5",
+   "titulo": "Tarifario CEA 2026-T3: Industrial",
+   "tipo": "tarifa",
+   "fuente": "api/_lib/tarifas_cea.csv",
+   "url": null
+  },
+  {
+   "documento_id": "dce275f5-78c6-564b-8c03-e6a7c820f4dd",
+   "titulo": "Tarifario CEA 2026-T3: pecuaria",
+   "tipo": "tarifa",
+   "fuente": "api/_lib/tarifas_cea.csv",
+   "url": null
+  },
+  {
+   "documento_id": "d538fd90-f05d-5fe7-8512-949541c59347",
+   "titulo": "Tarifario CEA 2026-T3: publico_concesionado",
+   "tipo": "tarifa",
+   "fuente": "api/_lib/tarifas_cea.csv",
+   "url": null
+  },
+  {
+   "documento_id": "4cbecfb6-cb6c-5772-b369-c399049a60ea",
+   "titulo": "Tarifario CEA 2026-T3: Pública u oficial",
+   "tipo": "tarifa",
+   "fuente": "api/_lib/tarifas_cea.csv",
+   "url": null
+  },
+  {
+   "documento_id": "5e1223aa-978c-5b0c-bd69-2a28119058c6",
+   "titulo": "Reglas de cálculo del recibo de agua",
+   "tipo": "regla",
+   "fuente": "api/_lib/tarifas.py",
+   "url": null
+  },
+  {
+   "documento_id": "1413c5f3-deca-513c-857e-eb2c9ee1c895",
+   "titulo": "Descripción de los datos simulados",
+   "tipo": "datos",
+   "fuente": "data/simulados/LEEME.txt",
+   "url": null
+  },
+  {
+   "documento_id": "67aa0ebb-db82-5c4f-aae9-cffbba4690ab",
+   "titulo": "Reglas de uso de los datos simulados",
+   "tipo": "datos",
+   "fuente": "data/README.md",
+   "url": null
+  }
+ ],
+ "fragmentos": [
+  {
+   "fragmento_id": "5d25a090-9f25-5893-9204-7cd0e6a02f34",
+   "documento_id": "2472d9de-639d-5b92-af58-0ed0890b49b0",
+   "orden": 0,
+   "contenido": "Tarifa Beneficencia (beneficencia), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 0 a 9 m³: 0 m³ = $49.77; 1 m³ = $75.67; 2 m³ = $88.45; 3 m³ = $101.51; 4 m³ = $114.89; 5 m³ = $128.59; 6 m³ = $142.58; 7 m³ = $156.88; 8 m³ = $171.51; 9 m³ = $193.85.\n\nTarifa Beneficencia (beneficencia), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 10 a 19 m³: 10 m³ = $209.71; 11 m³ = $225.86; 12 m³ = $244.28; 13 m³ = $265.83; 14 m³ = $285.70; 15 m³ = $306.20; 16 m³ = $327.36; 17 m³ = $350.82; 18 m³ = $373.37; 19 m³ = $396.59.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 597
+   }
+  },
+  {
+   "fragmento_id": "31df1403-deb6-5796-92c8-59ab64cf57a4",
+   "documento_id": "2472d9de-639d-5b92-af58-0ed0890b49b0",
+   "orden": 1,
+   "contenido": "m³ = $225.86; 12 m³ = $244.28; 13 m³ = $265.83; 14 m³ = $285.70; 15 m³ = $306.20; 16 m³ = $327.36; 17 m³ = $350.82; 18 m³ = $373.37; 19 m³ = $396.59.\n\nTarifa Beneficencia (beneficencia), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 20 a 29 m³: 20 m³ = $420.42; 21 m³ = $446.20; 22 m³ = $471.41; 23 m³ = $497.28; 24 m³ = $523.81; 25 m³ = $553.07; 26 m³ = $581.00; 27 m³ = $609.58; 28 m³ = $638.82; 29 m³ = $670.59.\n\nTarifa Beneficencia (beneficencia), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 30 a 39 m³: 30 m³ = $701.22; 31 m³ = $732.52; 32 m³ = $764.45; 33 m³ = $799.31; 34 m³ = $832.64; 35 m³ = $866.64; 36 m³ = $901.29; 37 m³ = $940.13; 38 m³ = $976.23; 39 m³ = $1,013.00.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 765
+   }
+  },
+  {
+   "fragmento_id": "eb7bccb8-a73f-5d8a-9172-7f90cf94391b",
+   "documento_id": "2472d9de-639d-5b92-af58-0ed0890b49b0",
+   "orden": 2,
+   "contenido": "= $732.52; 32 m³ = $764.45; 33 m³ = $799.31; 34 m³ = $832.64; 35 m³ = $866.64; 36 m³ = $901.29; 37 m³ = $940.13; 38 m³ = $976.23; 39 m³ = $1,013.00.\n\nTarifa Beneficencia (beneficencia), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 40 a 49 m³: 40 m³ = $1,050.44; 41 m³ = $1,091.56; 42 m³ = $1,130.41; 43 m³ = $1,169.91; 44 m³ = $1,210.08; 45 m³ = $1,254.43; 46 m³ = $1,296.04; 47 m³ = $1,333.60; 48 m³ = $1,371.15; 49 m³ = $1,413.94.\n\nTarifa Beneficencia (beneficencia), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 50 a 59 m³: 50 m³ = $1,451.63; 51 m³ = $1,489.33; 52 m³ = $1,527.03; 53 m³ = $1,569.06; 54 m³ = $1,606.87; 55 m³ = $1,644.66; 56 m³ = $1,682.47; 57 m³ = $1,725.02; 58 m³ = $1,762.93; 59 m³ = $1,800.84.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 802
+   }
+  },
+  {
+   "fragmento_id": "0c7bdd93-0425-5c35-b97f-14e2e8361ec4",
+   "documento_id": "2472d9de-639d-5b92-af58-0ed0890b49b0",
+   "orden": 3,
+   "contenido": "m³ = $1,527.03; 53 m³ = $1,569.06; 54 m³ = $1,606.87; 55 m³ = $1,644.66; 56 m³ = $1,682.47; 57 m³ = $1,725.02; 58 m³ = $1,762.93; 59 m³ = $1,800.84.\n\nSi el consumo de la tarifa Beneficencia supera 59 m³ se cobra el importe de 59 m³ ($1,800.84), según api/_lib/tarifas.py.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 271
+   }
+  },
+  {
+   "fragmento_id": "51ed7a29-3fac-5e4f-9c47-74a9dd5c7174",
+   "documento_id": "6a046381-5fc8-5fee-8ea6-11b0504ffdb7",
+   "orden": 0,
+   "contenido": "Tarifa Comercial (comercial), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 0 a 9 m³: 0 m³ = $287.99; 1 m³ = $327.04; 2 m³ = $367.63; 3 m³ = $409.76; 4 m³ = $453.45; 5 m³ = $501.83; 6 m³ = $553.17; 7 m³ = $605.41; 8 m³ = $651.78; 9 m³ = $729.00.\n\nTarifa Comercial (comercial), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 10 a 19 m³: 10 m³ = $781.18; 11 m³ = $834.39; 12 m³ = $888.63; 13 m³ = $952.96; 14 m³ = $1,009.79; 15 m³ = $1,067.64; 16 m³ = $1,126.54; 17 m³ = $1,192.11; 18 m³ = $1,253.37; 19 m³ = $1,315.67.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 600
+   }
+  },
+  {
+   "fragmento_id": "f08b0282-7249-50a9-9b49-8dc05bf83a12",
+   "documento_id": "6a046381-5fc8-5fee-8ea6-11b0504ffdb7",
+   "orden": 1,
+   "contenido": "12 m³ = $888.63; 13 m³ = $952.96; 14 m³ = $1,009.79; 15 m³ = $1,067.64; 16 m³ = $1,126.54; 17 m³ = $1,192.11; 18 m³ = $1,253.37; 19 m³ = $1,315.67.\n\nTarifa Comercial (comercial), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 20 a 29 m³: 20 m³ = $1,379.00; 21 m³ = $1,447.48; 22 m³ = $1,519.95; 23 m³ = $1,594.11; 24 m³ = $1,669.93; 25 m³ = $1,754.03; 26 m³ = $1,833.49; 27 m³ = $1,914.61; 28 m³ = $1,997.42; 29 m³ = $2,087.79.\n\nTarifa Comercial (comercial), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 30 a 39 m³: 30 m³ = $2,174.19; 31 m³ = $2,284.45; 32 m³ = $2,375.09; 33 m³ = $2,474.37; 34 m³ = $2,568.67; 35 m³ = $2,664.68; 36 m³ = $2,762.37; 37 m³ = $2,872.48; 38 m³ = $2,973.97; 39 m³ = $3,077.16.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 789
+   }
+  },
+  {
+   "fragmento_id": "09b6b3d6-172b-512c-a99e-948de3134a20",
+   "documento_id": "6a046381-5fc8-5fee-8ea6-11b0504ffdb7",
+   "orden": 2,
+   "contenido": "m³ = $2,375.09; 33 m³ = $2,474.37; 34 m³ = $2,568.67; 35 m³ = $2,664.68; 36 m³ = $2,762.37; 37 m³ = $2,872.48; 38 m³ = $2,973.97; 39 m³ = $3,077.16.\n\nTarifa Comercial (comercial), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 40 a 49 m³: 40 m³ = $3,182.05; 41 m³ = $3,297.86; 42 m³ = $3,424.44; 43 m³ = $3,553.60; 44 m³ = $3,685.33; 45 m³ = $3,830.28; 46 m³ = $3,967.52; 47 m³ = $4,107.34; 48 m³ = $4,249.74; 49 m³ = $4,411.01.\n\nTarifa Comercial (comercial), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 50 a 59 m³: 50 m³ = $4,559.11; 51 m³ = $4,755.52; 52 m³ = $4,910.27; 53 m³ = $5,081.67; 54 m³ = $5,242.09; 55 m³ = $5,405.12; 56 m³ = $5,570.77; 57 m³ = $5,754.90; 58 m³ = $5,926.26; 59 m³ = $6,100.24.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 790
+   }
+  },
+  {
+   "fragmento_id": "b324a07d-8850-5191-8842-d73dc9b2a1e0",
+   "documento_id": "6a046381-5fc8-5fee-8ea6-11b0504ffdb7",
+   "orden": 3,
+   "contenido": "m³ = $4,910.27; 53 m³ = $5,081.67; 54 m³ = $5,242.09; 55 m³ = $5,405.12; 56 m³ = $5,570.77; 57 m³ = $5,754.90; 58 m³ = $5,926.26; 59 m³ = $6,100.24.\n\nSi el consumo de la tarifa Comercial supera 59 m³ se cobra el importe de 59 m³ ($6,100.24), según api/_lib/tarifas.py.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 268
+   }
+  },
+  {
+   "fragmento_id": "b1342b09-e521-5381-b575-28eebea25d6e",
+   "documento_id": "d9a00b15-2c4a-5d47-969d-eb2e79825e9b",
+   "orden": 0,
+   "contenido": "Tarifa Doméstica alta (domestico_alto), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 0 a 9 m³: 0 m³ = $286.06; 1 m³ = $302.88; 2 m³ = $320.25; 3 m³ = $338.21; 4 m³ = $356.78; 5 m³ = $376.00; 6 m³ = $395.87; 7 m³ = $417.67; 8 m³ = $439.91; 9 m³ = $481.64.\n\nTarifa Doméstica alta (domestico_alto), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 10 a 19 m³: 10 m³ = $506.80; 11 m³ = $531.25; 12 m³ = $556.44; 13 m³ = $588.00; 14 m³ = $614.96; 15 m³ = $642.78; 16 m³ = $669.63; 17 m³ = $700.41; 18 m³ = $728.62; 19 m³ = $757.44.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 608
+   }
+  },
+  {
+   "fragmento_id": "7e1404d6-08ea-55e4-8f85-274fb52728cc",
+   "documento_id": "d9a00b15-2c4a-5d47-969d-eb2e79825e9b",
+   "orden": 1,
+   "contenido": "m³ = $531.25; 12 m³ = $556.44; 13 m³ = $588.00; 14 m³ = $614.96; 15 m³ = $642.78; 16 m³ = $669.63; 17 m³ = $700.41; 18 m³ = $728.62; 19 m³ = $757.44.\n\nTarifa Doméstica alta (domestico_alto), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 20 a 29 m³: 20 m³ = $786.93; 21 m³ = $819.41; 22 m³ = $850.31; 23 m³ = $882.13; 24 m³ = $938.22; 25 m³ = $1,000.66; 26 m³ = $1,062.13; 27 m³ = $1,126.20; 28 m³ = $1,192.85; 29 m³ = $1,265.66.\n\nTarifa Doméstica alta (domestico_alto), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 30 a 39 m³: 30 m³ = $1,337.69; 31 m³ = $1,412.31; 32 m³ = $1,486.05; 33 m³ = $1,555.86; 34 m³ = $1,624.32; 35 m³ = $1,695.72; 36 m³ = $1,770.13; 37 m³ = $1,854.61; 38 m³ = $1,935.70; 39 m³ = $2,020.13.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 801
+   }
+  },
+  {
+   "fragmento_id": "69f0062e-1c8f-56e4-b93d-e36395c9cbef",
+   "documento_id": "d9a00b15-2c4a-5d47-969d-eb2e79825e9b",
+   "orden": 2,
+   "contenido": "m³ = $1,486.05; 33 m³ = $1,555.86; 34 m³ = $1,624.32; 35 m³ = $1,695.72; 36 m³ = $1,770.13; 37 m³ = $1,854.61; 38 m³ = $1,935.70; 39 m³ = $2,020.13.\n\nTarifa Doméstica alta (domestico_alto), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 40 a 49 m³: 40 m³ = $2,107.99; 41 m³ = $2,203.75; 42 m³ = $2,272.90; 43 m³ = $2,343.15; 44 m³ = $2,414.47; 45 m³ = $2,493.83; 46 m³ = $2,567.53; 47 m³ = $2,642.33; 48 m³ = $2,718.23; 49 m³ = $2,805.60.\n\nTarifa Doméstica alta (domestico_alto), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 50 a 59 m³: 50 m³ = $2,883.98; 51 m³ = $3,214.30; 52 m³ = $3,299.79; 53 m³ = $3,395.77; 54 m³ = $3,483.70; 55 m³ = $3,548.52; 56 m³ = $3,619.72; 57 m³ = $3,701.57; 58 m³ = $3,773.84; 59 m³ = $3,846.57.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 810
+   }
+  },
+  {
+   "fragmento_id": "e57f90c5-135c-546a-9fda-9e635e8bc75d",
+   "documento_id": "d9a00b15-2c4a-5d47-969d-eb2e79825e9b",
+   "orden": 3,
+   "contenido": "m³ = $3,299.79; 53 m³ = $3,395.77; 54 m³ = $3,483.70; 55 m³ = $3,548.52; 56 m³ = $3,619.72; 57 m³ = $3,701.57; 58 m³ = $3,773.84; 59 m³ = $3,846.57.\n\nSi el consumo de la tarifa Doméstica alta supera 59 m³ se cobra el importe de 59 m³ ($3,846.57), según api/_lib/tarifas.py.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 273
+   }
+  },
+  {
+   "fragmento_id": "6ecb078c-5b55-5f2e-8391-b4a7514183b2",
+   "documento_id": "5b50bd2a-dd03-5757-9597-850f2e9d0d68",
+   "orden": 0,
+   "contenido": "Tarifa Doméstica de apoyo (domestico_apoyo), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 0 a 9 m³: 0 m³ = $50.71; 1 m³ = $61.57; 2 m³ = $72.62; 3 m³ = $83.88; 4 m³ = $95.34; 5 m³ = $107.00; 6 m³ = $118.87; 7 m³ = $130.94; 8 m³ = $143.21; 9 m³ = $161.91.\n\nTarifa Doméstica de apoyo (domestico_apoyo), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 10 a 19 m³: 10 m³ = $175.10; 11 m³ = $188.50; 12 m³ = $202.10; 13 m³ = $218.00; 14 m³ = $232.16; 15 m³ = $246.54; 16 m³ = $261.13; 17 m³ = $277.25; 18 m³ = $292.34; 19 m³ = $307.63.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 613
+   }
+  },
+  {
+   "fragmento_id": "691d8dc3-34f4-520b-98c2-02e235fd922e",
+   "documento_id": "5b50bd2a-dd03-5757-9597-850f2e9d0d68",
+   "orden": 1,
+   "contenido": "m³ = $188.50; 12 m³ = $202.10; 13 m³ = $218.00; 14 m³ = $232.16; 15 m³ = $246.54; 16 m³ = $261.13; 17 m³ = $277.25; 18 m³ = $292.34; 19 m³ = $307.63.\n\nTarifa Doméstica de apoyo (domestico_apoyo), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 20 a 29 m³: 20 m³ = $323.15; 21 m³ = $369.15; 22 m³ = $393.60; 23 m³ = $418.93; 24 m³ = $445.11; 25 m³ = $473.95; 26 m³ = $501.95; 27 m³ = $530.82; 28 m³ = $560.55; 29 m³ = $592.80.\n\nTarifa Doméstica de apoyo (domestico_apoyo), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 30 a 39 m³: 30 m³ = $624.35; 31 m³ = $656.75; 32 m³ = $683.11; 33 m³ = $711.90; 34 m³ = $739.20; 35 m³ = $766.92; 36 m³ = $795.09; 37 m³ = $826.77; 38 m³ = $855.91; 39 m³ = $885.49.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 781
+   }
+  },
+  {
+   "fragmento_id": "f965b7d4-23b4-5b40-9658-d1310ba7b8fd",
+   "documento_id": "5b50bd2a-dd03-5757-9597-850f2e9d0d68",
+   "orden": 2,
+   "contenido": "m³ = $656.75; 32 m³ = $683.11; 33 m³ = $711.90; 34 m³ = $739.20; 35 m³ = $766.92; 36 m³ = $795.09; 37 m³ = $826.77; 38 m³ = $855.91; 39 m³ = $885.49.\n\nTarifa Doméstica de apoyo (domestico_apoyo), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 40 a 49 m³: 40 m³ = $915.49; 41 m³ = $948.59; 42 m³ = $979.55; 43 m³ = $1,010.95; 44 m³ = $1,042.79; 45 m³ = $1,078.06; 46 m³ = $1,110.87; 47 m³ = $1,144.11; 48 m³ = $1,177.78; 49 m³ = $1,216.39.\n\nTarifa Doméstica de apoyo (domestico_apoyo), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 50 a 59 m³: 50 m³ = $1,251.07; 51 m³ = $1,286.18; 52 m³ = $1,321.75; 53 m³ = $1,361.51; 54 m³ = $1,398.05; 55 m³ = $1,435.02; 56 m³ = $1,472.43; 57 m³ = $1,514.46; 58 m³ = $1,591.27; 59 m³ = $1,650.31.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 815
+   }
+  },
+  {
+   "fragmento_id": "fa266a3b-9c75-51bf-8ca2-6bcba1739a43",
+   "documento_id": "5b50bd2a-dd03-5757-9597-850f2e9d0d68",
+   "orden": 3,
+   "contenido": "m³ = $1,321.75; 53 m³ = $1,361.51; 54 m³ = $1,398.05; 55 m³ = $1,435.02; 56 m³ = $1,472.43; 57 m³ = $1,514.46; 58 m³ = $1,591.27; 59 m³ = $1,650.31.\n\nSi el consumo de la tarifa Doméstica de apoyo supera 59 m³ se cobra el importe de 59 m³ ($1,650.31), según api/_lib/tarifas.py.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 277
+   }
+  },
+  {
+   "fragmento_id": "2a0e6b56-ba7d-5e0d-a5f7-6dfd7188a2a2",
+   "documento_id": "5ad0fc4c-5ed5-54c0-a6a3-279b3b98a576",
+   "orden": 0,
+   "contenido": "Tarifa Doméstica económica (domestico_economico), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 0 a 9 m³: 0 m³ = $68.56; 1 m³ = $85.37; 2 m³ = $102.75; 3 m³ = $120.71; 4 m³ = $139.28; 5 m³ = $158.49; 6 m³ = $178.36; 7 m³ = $200.17; 8 m³ = $222.41; 9 m³ = $255.43.\n\nTarifa Doméstica económica (domestico_economico), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 10 a 19 m³: 10 m³ = $280.59; 11 m³ = $305.05; 12 m³ = $330.24; 13 m³ = $359.62; 14 m³ = $386.59; 15 m³ = $414.40; 16 m³ = $441.26; 17 m³ = $470.94; 18 m³ = $499.15; 19 m³ = $527.98.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 626
+   }
+  },
+  {
+   "fragmento_id": "f9e010dc-e031-50d6-af93-0c5883632427",
+   "documento_id": "5ad0fc4c-5ed5-54c0-a6a3-279b3b98a576",
+   "orden": 1,
+   "contenido": "m³ = $305.05; 12 m³ = $330.24; 13 m³ = $359.62; 14 m³ = $386.59; 15 m³ = $414.40; 16 m³ = $441.26; 17 m³ = $470.94; 18 m³ = $499.15; 19 m³ = $527.98.\n\nTarifa Doméstica económica (domestico_economico), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 20 a 29 m³: 20 m³ = $557.47; 21 m³ = $589.29; 22 m³ = $620.20; 23 m³ = $652.00; 24 m³ = $708.10; 25 m³ = $769.68; 26 m³ = $831.14; 27 m³ = $895.20; 28 m³ = $961.86; 29 m³ = $1,034.01.\n\nTarifa Doméstica económica (domestico_economico), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 30 a 39 m³: 30 m³ = $1,106.04; 31 m³ = $1,180.66; 32 m³ = $1,254.42; 33 m³ = $1,323.58; 34 m³ = $1,392.04; 35 m³ = $1,463.42; 36 m³ = $1,537.83; 37 m³ = $1,621.44; 38 m³ = $1,702.53; 39 m³ = $1,786.98.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 813
+   }
+  },
+  {
+   "fragmento_id": "623a3da6-2fa9-52e0-a2fb-b2e0c7682b42",
+   "documento_id": "5ad0fc4c-5ed5-54c0-a6a3-279b3b98a576",
+   "orden": 2,
+   "contenido": "m³ = $1,254.42; 33 m³ = $1,323.58; 34 m³ = $1,392.04; 35 m³ = $1,463.42; 36 m³ = $1,537.83; 37 m³ = $1,621.44; 38 m³ = $1,702.53; 39 m³ = $1,786.98.\n\nTarifa Doméstica económica (domestico_economico), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 40 a 49 m³: 40 m³ = $1,874.83; 41 m³ = $1,969.94; 42 m³ = $2,039.09; 43 m³ = $2,109.32; 44 m³ = $2,180.66; 45 m³ = $2,259.37; 46 m³ = $2,333.05; 47 m³ = $2,407.87; 48 m³ = $2,483.77; 49 m³ = $2,570.26.\n\nTarifa Doméstica económica (domestico_economico), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 50 a 59 m³: 50 m³ = $2,648.65; 51 m³ = $2,978.97; 52 m³ = $3,064.46; 53 m³ = $3,159.78; 54 m³ = $3,247.71; 55 m³ = $3,312.53; 56 m³ = $3,383.73; 57 m³ = $3,464.92; 58 m³ = $3,537.20; 59 m³ = $3,609.93.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 830
+   }
+  },
+  {
+   "fragmento_id": "e7a2230a-5d6f-59c9-9e10-96f648bc23c2",
+   "documento_id": "5ad0fc4c-5ed5-54c0-a6a3-279b3b98a576",
+   "orden": 3,
+   "contenido": "m³ = $3,064.46; 53 m³ = $3,159.78; 54 m³ = $3,247.71; 55 m³ = $3,312.53; 56 m³ = $3,383.73; 57 m³ = $3,464.92; 58 m³ = $3,537.20; 59 m³ = $3,609.93.\n\nSi el consumo de la tarifa Doméstica económica supera 59 m³ se cobra el importe de 59 m³ ($3,609.93), según api/_lib/tarifas.py.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 278
+   }
+  },
+  {
+   "fragmento_id": "f127ec29-b8ca-52ce-9e9f-67c3a4896aaf",
+   "documento_id": "0bafa18c-d841-58bb-9485-47bbd9938a86",
+   "orden": 0,
+   "contenido": "Tarifa Doméstica media (domestico_medio), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 0 a 9 m³: 0 m³ = $228.08; 1 m³ = $244.89; 2 m³ = $262.27; 3 m³ = $280.22; 4 m³ = $298.80; 5 m³ = $318.01; 6 m³ = $337.88; 7 m³ = $359.68; 8 m³ = $381.93; 9 m³ = $421.33.\n\nTarifa Doméstica media (domestico_medio), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 10 a 19 m³: 10 m³ = $446.49; 11 m³ = $470.95; 12 m³ = $496.14; 13 m³ = $527.11; 14 m³ = $554.08; 15 m³ = $581.89; 16 m³ = $608.75; 17 m³ = $639.23; 18 m³ = $667.44; 19 m³ = $696.27.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 612
+   }
+  },
+  {
+   "fragmento_id": "660c7ad7-ea84-5d8c-9b87-de7063babfc3",
+   "documento_id": "0bafa18c-d841-58bb-9485-47bbd9938a86",
+   "orden": 1,
+   "contenido": "m³ = $470.95; 12 m³ = $496.14; 13 m³ = $527.11; 14 m³ = $554.08; 15 m³ = $581.89; 16 m³ = $608.75; 17 m³ = $639.23; 18 m³ = $667.44; 19 m³ = $696.27.\n\nTarifa Doméstica media (domestico_medio), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 20 a 29 m³: 20 m³ = $725.76; 21 m³ = $758.06; 22 m³ = $788.97; 23 m³ = $820.77; 24 m³ = $876.87; 25 m³ = $939.09; 26 m³ = $1,000.54; 27 m³ = $1,064.62; 28 m³ = $1,131.27; 29 m³ = $1,203.91.\n\nTarifa Doméstica media (domestico_medio), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 30 a 39 m³: 30 m³ = $1,275.92; 31 m³ = $1,350.54; 32 m³ = $1,424.30; 33 m³ = $1,493.94; 34 m³ = $1,562.40; 35 m³ = $1,633.78; 36 m³ = $1,708.20; 37 m³ = $1,792.44; 38 m³ = $1,873.53; 39 m³ = $1,957.98.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 803
+   }
+  },
+  {
+   "fragmento_id": "7d8a608c-7d6a-5c37-8b19-5c269f03b550",
+   "documento_id": "0bafa18c-d841-58bb-9485-47bbd9938a86",
+   "orden": 2,
+   "contenido": "m³ = $1,424.30; 33 m³ = $1,493.94; 34 m³ = $1,562.40; 35 m³ = $1,633.78; 36 m³ = $1,708.20; 37 m³ = $1,792.44; 38 m³ = $1,873.53; 39 m³ = $1,957.98.\n\nTarifa Doméstica media (domestico_medio), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 40 a 49 m³: 40 m³ = $2,045.83; 41 m³ = $2,141.42; 42 m³ = $2,210.57; 43 m³ = $2,280.80; 44 m³ = $2,352.14; 45 m³ = $2,431.32; 46 m³ = $2,505.01; 47 m³ = $2,579.82; 48 m³ = $2,655.73; 49 m³ = $2,742.86.\n\nTarifa Doméstica media (domestico_medio), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 50 a 59 m³: 50 m³ = $2,821.24; 51 m³ = $3,151.57; 52 m³ = $3,237.06; 53 m³ = $3,332.86; 54 m³ = $3,420.78; 55 m³ = $3,485.61; 56 m³ = $3,556.81; 57 m³ = $3,638.48; 58 m³ = $3,710.76; 59 m³ = $3,783.48.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 814
+   }
+  },
+  {
+   "fragmento_id": "f9d32371-4ce7-53bb-9c67-01aa5cad6104",
+   "documento_id": "0bafa18c-d841-58bb-9485-47bbd9938a86",
+   "orden": 3,
+   "contenido": "m³ = $3,237.06; 53 m³ = $3,332.86; 54 m³ = $3,420.78; 55 m³ = $3,485.61; 56 m³ = $3,556.81; 57 m³ = $3,638.48; 58 m³ = $3,710.76; 59 m³ = $3,783.48.\n\nSi el consumo de la tarifa Doméstica media supera 59 m³ se cobra el importe de 59 m³ ($3,783.48), según api/_lib/tarifas.py.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 274
+   }
+  },
+  {
+   "fragmento_id": "f017095a-ab81-5e2e-9734-f9eca681276d",
+   "documento_id": "98ee3d1d-138d-591e-b812-67e45b634857",
+   "orden": 0,
+   "contenido": "Tarifa Doméstica rural (domestico_rural), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 0 a 9 m³: 0 m³ = $41.58; 1 m³ = $51.00; 2 m³ = $60.48; 3 m³ = $70.03; 4 m³ = $79.63; 5 m³ = $89.29; 6 m³ = $99.01; 7 m³ = $109.33; 8 m³ = $120.41; 9 m³ = $137.02.\n\nTarifa Doméstica rural (domestico_rural), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 10 a 19 m³: 10 m³ = $149.08; 11 m³ = $160.63; 12 m³ = $172.63; 13 m³ = $186.67; 14 m³ = $199.27; 15 m³ = $212.15; 16 m³ = $225.28; 17 m³ = $239.78; 18 m³ = $253.49; 19 m³ = $267.45.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 605
+   }
+  },
+  {
+   "fragmento_id": "852786aa-bf60-5544-aa7a-39b870d1262d",
+   "documento_id": "98ee3d1d-138d-591e-b812-67e45b634857",
+   "orden": 1,
+   "contenido": "m³ = $160.63; 12 m³ = $172.63; 13 m³ = $186.67; 14 m³ = $199.27; 15 m³ = $212.15; 16 m³ = $225.28; 17 m³ = $239.78; 18 m³ = $253.49; 19 m³ = $267.45.\n\nTarifa Doméstica rural (domestico_rural), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 20 a 29 m³: 20 m³ = $281.67; 21 m³ = $296.98; 22 m³ = $311.53; 23 m³ = $326.29; 24 m³ = $341.30; 25 m³ = $357.89; 26 m³ = $373.41; 27 m³ = $389.17; 28 m³ = $405.19; 29 m³ = $422.60.\n\nTarifa Doméstica rural (domestico_rural), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 30 a 39 m³: 30 m³ = $439.12; 31 m³ = $455.88; 32 m³ = $472.87; 33 m³ = $491.47; 34 m³ = $508.99; 35 m³ = $526.72; 36 m³ = $544.71; 37 m³ = $565.04; 38 m³ = $592.58; 39 m³ = $620.81.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 775
+   }
+  },
+  {
+   "fragmento_id": "ce839fbc-33be-5efa-9b24-8011de8427b1",
+   "documento_id": "98ee3d1d-138d-591e-b812-67e45b634857",
+   "orden": 2,
+   "contenido": "m³ = $455.88; 32 m³ = $472.87; 33 m³ = $491.47; 34 m³ = $508.99; 35 m³ = $526.72; 36 m³ = $544.71; 37 m³ = $565.04; 38 m³ = $592.58; 39 m³ = $620.81.\n\nTarifa Doméstica rural (domestico_rural), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 40 a 49 m³: 40 m³ = $649.78; 41 m³ = $681.36; 42 m³ = $706.83; 43 m³ = $732.77; 44 m³ = $759.21; 45 m³ = $788.29; 46 m³ = $815.75; 47 m³ = $843.67; 48 m³ = $872.09; 49 m³ = $904.31.\n\nTarifa Doméstica rural (domestico_rural), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 50 a 59 m³: 50 m³ = $933.78; 51 m³ = $963.72; 52 m³ = $1,043.95; 53 m³ = $1,129.68; 54 m³ = $1,214.93; 55 m³ = $1,302.57; 56 m³ = $1,392.62; 57 m³ = $1,489.18; 58 m³ = $1,584.27; 59 m³ = $1,681.80.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 791
+   }
+  },
+  {
+   "fragmento_id": "659a7b6d-a74e-5862-bc20-41d29b327fdb",
+   "documento_id": "98ee3d1d-138d-591e-b812-67e45b634857",
+   "orden": 3,
+   "contenido": "m³ = $1,043.95; 53 m³ = $1,129.68; 54 m³ = $1,214.93; 55 m³ = $1,302.57; 56 m³ = $1,392.62; 57 m³ = $1,489.18; 58 m³ = $1,584.27; 59 m³ = $1,681.80.\n\nSi el consumo de la tarifa Doméstica rural supera 59 m³ se cobra el importe de 59 m³ ($1,681.80), según api/_lib/tarifas.py.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 274
+   }
+  },
+  {
+   "fragmento_id": "9e5a98a6-001d-5346-af02-bc3c9e50ab24",
+   "documento_id": "27f99778-b79a-5ffe-8aac-d8b7561ccac5",
+   "orden": 0,
+   "contenido": "Tarifa Industrial (industrial), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 0 a 9 m³: 0 m³ = $390.36; 1 m³ = $440.91; 2 m³ = $493.03; 3 m³ = $546.74; 4 m³ = $602.02; 5 m³ = $658.88; 6 m³ = $717.31; 7 m³ = $775.25; 8 m³ = $834.18; 9 m³ = $929.86.\n\nTarifa Industrial (industrial), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 10 a 19 m³: 10 m³ = $993.19; 11 m³ = $1,057.56; 12 m³ = $1,122.95; 13 m³ = $1,200.79; 14 m³ = $1,268.87; 15 m³ = $1,347.09; 16 m³ = $1,417.93; 17 m³ = $1,496.92; 18 m³ = $1,570.19; 19 m³ = $1,644.52.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 610
+   }
+  },
+  {
+   "fragmento_id": "63b506d1-68c7-5ab8-acfe-51bc3079046b",
+   "documento_id": "27f99778-b79a-5ffe-8aac-d8b7561ccac5",
+   "orden": 1,
+   "contenido": "m³ = $1,122.95; 13 m³ = $1,200.79; 14 m³ = $1,268.87; 15 m³ = $1,347.09; 16 m³ = $1,417.93; 17 m³ = $1,496.92; 18 m³ = $1,570.19; 19 m³ = $1,644.52.\n\nTarifa Industrial (industrial), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 20 a 29 m³: 20 m³ = $1,719.91; 21 m³ = $1,801.45; 22 m³ = $1,883.79; 23 m³ = $1,967.59; 24 m³ = $2,052.88; 25 m³ = $2,147.73; 26 m³ = $2,236.29; 27 m³ = $2,326.33; 28 m³ = $2,417.86; 29 m³ = $2,517.97.\n\nTarifa Industrial (industrial), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 30 a 39 m³: 30 m³ = $2,612.72; 31 m³ = $2,679.55; 32 m³ = $2,783.78; 33 m³ = $2,898.10; 34 m³ = $3,006.56; 35 m³ = $3,116.95; 36 m³ = $3,229.30; 37 m³ = $3,356.12; 38 m³ = $3,472.85; 39 m³ = $3,591.51.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 794
+   }
+  },
+  {
+   "fragmento_id": "37fc557f-d6d0-5a54-9cba-ab0937f1e643",
+   "documento_id": "27f99778-b79a-5ffe-8aac-d8b7561ccac5",
+   "orden": 2,
+   "contenido": "m³ = $2,783.78; 33 m³ = $2,898.10; 34 m³ = $3,006.56; 35 m³ = $3,116.95; 36 m³ = $3,229.30; 37 m³ = $3,356.12; 38 m³ = $3,472.85; 39 m³ = $3,591.51.\n\nTarifa Industrial (industrial), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 40 a 49 m³: 40 m³ = $3,712.13; 41 m³ = $3,845.44; 42 m³ = $3,991.04; 43 m³ = $4,139.57; 44 m³ = $4,291.04; 45 m³ = $4,457.89; 46 m³ = $4,615.73; 47 m³ = $4,776.52; 48 m³ = $4,940.27; 49 m³ = $5,125.92.\n\nTarifa Industrial (industrial), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 50 a 59 m³: 50 m³ = $5,296.25; 51 m³ = $5,518.53; 52 m³ = $5,696.49; 53 m³ = $5,893.74; 54 m³ = $6,078.23; 55 m³ = $6,265.72; 56 m³ = $6,456.21; 57 m³ = $6,668.10; 58 m³ = $6,865.17; 59 m³ = $7,065.23.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 794
+   }
+  },
+  {
+   "fragmento_id": "04ac1c2e-039c-5c67-a243-32e311e1f13d",
+   "documento_id": "27f99778-b79a-5ffe-8aac-d8b7561ccac5",
+   "orden": 3,
+   "contenido": "m³ = $5,696.49; 53 m³ = $5,893.74; 54 m³ = $6,078.23; 55 m³ = $6,265.72; 56 m³ = $6,456.21; 57 m³ = $6,668.10; 58 m³ = $6,865.17; 59 m³ = $7,065.23.\n\nSi el consumo de la tarifa Industrial supera 59 m³ se cobra el importe de 59 m³ ($7,065.23), según api/_lib/tarifas.py.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 269
+   }
+  },
+  {
+   "fragmento_id": "59edceef-81fd-550b-b30e-bcf27c6cb899",
+   "documento_id": "dce275f5-78c6-564b-8c03-e6a7c820f4dd",
+   "orden": 0,
+   "contenido": "Tarifa pecuaria (pecuaria), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 0 a 9 m³: 0 m³ = $74.66; 1 m³ = $90.64; 2 m³ = $106.91; 3 m³ = $123.49; 4 m³ = $140.36; 5 m³ = $157.52; 6 m³ = $175.00; 7 m³ = $192.76; 8 m³ = $210.83; 9 m³ = $238.37.\n\nTarifa pecuaria (pecuaria), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 10 a 19 m³: 10 m³ = $257.77; 11 m³ = $277.50; 12 m³ = $297.53; 13 m³ = $320.93; 14 m³ = $341.78; 15 m³ = $362.94; 16 m³ = $384.41; 17 m³ = $408.15; 18 m³ = $430.37; 19 m³ = $452.90.\n\nTarifa pecuaria (pecuaria), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 20 a 29 m³: 20 m³ = $475.74; 21 m³ = $543.44; 22 m³ = $579.45; 23 m³ = $616.71; 24 m³ = $655.27; 25 m³ = $697.70; 26 m³ = $738.94; 27 m³ = $781.42; 28 m³ = $825.19; 29 m³ = $872.71.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 881
+   }
+  },
+  {
+   "fragmento_id": "4191a38b-25a5-5bae-be79-c656ef5ccb6c",
+   "documento_id": "dce275f5-78c6-564b-8c03-e6a7c820f4dd",
+   "orden": 1,
+   "contenido": "m³ = $543.44; 22 m³ = $579.45; 23 m³ = $616.71; 24 m³ = $655.27; 25 m³ = $697.70; 26 m³ = $738.94; 27 m³ = $781.42; 28 m³ = $825.19; 29 m³ = $872.71.\n\nTarifa pecuaria (pecuaria), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 30 a 39 m³: 30 m³ = $919.13; 31 m³ = $966.84; 32 m³ = $1,005.64; 33 m³ = $1,048.01; 34 m³ = $1,088.19; 35 m³ = $1,129.01; 36 m³ = $1,170.47; 37 m³ = $1,217.12; 38 m³ = $1,260.02; 39 m³ = $1,303.55.\n\nTarifa pecuaria (pecuaria), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 40 a 49 m³: 40 m³ = $1,347.74; 41 m³ = $1,396.46; 42 m³ = $1,442.03; 43 m³ = $1,488.27; 44 m³ = $1,535.14; 45 m³ = $1,587.05; 46 m³ = $1,635.35; 47 m³ = $1,684.27; 48 m³ = $1,733.84; 49 m³ = $1,790.70.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 783
+   }
+  },
+  {
+   "fragmento_id": "7ab814f6-d05f-5c3c-a88f-7c51c54e0c96",
+   "documento_id": "dce275f5-78c6-564b-8c03-e6a7c820f4dd",
+   "orden": 2,
+   "contenido": "m³ = $1,442.03; 43 m³ = $1,488.27; 44 m³ = $1,535.14; 45 m³ = $1,587.05; 46 m³ = $1,635.35; 47 m³ = $1,684.27; 48 m³ = $1,733.84; 49 m³ = $1,790.70.\n\nTarifa pecuaria (pecuaria), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 50 a 59 m³: 50 m³ = $1,841.73; 51 m³ = $1,893.44; 52 m³ = $1,945.79; 53 m³ = $2,004.33; 54 m³ = $2,058.11; 55 m³ = $2,112.53; 56 m³ = $2,167.61; 57 m³ = $2,229.49; 58 m³ = $2,342.56; 59 m³ = $2,429.47.\n\nSi el consumo de la tarifa pecuaria supera 59 m³ se cobra el importe de 59 m³ ($2,429.47), según api/_lib/tarifas.py.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 586
+   }
+  },
+  {
+   "fragmento_id": "4a570dea-32f6-58c9-99af-8398913c2b11",
+   "documento_id": "d538fd90-f05d-5fe7-8512-949541c59347",
+   "orden": 0,
+   "contenido": "Tarifa publico_concesionado (publico_concesionado), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 0 a 9 m³: 0 m³ = $276.73; 1 m³ = $301.41; 2 m³ = $327.69; 3 m³ = $355.56; 4 m³ = $385.03; 5 m³ = $416.08; 6 m³ = $448.73; 7 m³ = $482.98; 8 m³ = $518.81; 9 m³ = $578.48.\n\nTarifa publico_concesionado (publico_concesionado), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 10 a 19 m³: 10 m³ = $619.06; 11 m³ = $661.31; 12 m³ = $698.99; 13 m³ = $744.39; 14 m³ = $783.68; 15 m³ = $823.60; 16 m³ = $864.17; 17 m³ = $909.65; 18 m³ = $951.66; 19 m³ = $994.29.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 632
+   }
+  },
+  {
+   "fragmento_id": "4d1c4c09-694a-5b42-a19e-025bf44767a6",
+   "documento_id": "d538fd90-f05d-5fe7-8512-949541c59347",
+   "orden": 1,
+   "contenido": "m³ = $661.31; 12 m³ = $698.99; 13 m³ = $744.39; 14 m³ = $783.68; 15 m³ = $823.60; 16 m³ = $864.17; 17 m³ = $909.65; 18 m³ = $951.66; 19 m³ = $994.29.\n\nTarifa publico_concesionado (publico_concesionado), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 20 a 29 m³: 20 m³ = $1,037.57; 21 m³ = $1,084.54; 22 m³ = $1,129.18; 23 m³ = $1,174.48; 24 m³ = $1,227.97; 25 m³ = $1,287.58; 26 m³ = $1,343.83; 27 m³ = $1,407.04; 28 m³ = $1,471.95; 29 m³ = $1,542.89.\n\nTarifa publico_concesionado (publico_concesionado), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 30 a 39 m³: 30 m³ = $1,611.37; 31 m³ = $1,681.56; 32 m³ = $1,746.65; 33 m³ = $1,818.12; 34 m³ = $1,885.95; 35 m³ = $1,955.05; 36 m³ = $2,025.42; 37 m³ = $2,104.94; 38 m³ = $2,178.13; 39 m³ = $2,252.61.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 835
+   }
+  },
+  {
+   "fragmento_id": "df1f777b-234d-5e35-8bf6-937f48500c0b",
+   "documento_id": "d538fd90-f05d-5fe7-8512-949541c59347",
+   "orden": 2,
+   "contenido": "m³ = $1,746.65; 33 m³ = $1,818.12; 34 m³ = $1,885.95; 35 m³ = $1,955.05; 36 m³ = $2,025.42; 37 m³ = $2,104.94; 38 m³ = $2,178.13; 39 m³ = $2,252.61.\n\nTarifa publico_concesionado (publico_concesionado), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 40 a 49 m³: 40 m³ = $2,328.38; 41 m³ = $2,412.15; 42 m³ = $2,486.21; 43 m³ = $2,561.32; 44 m³ = $2,637.52; 45 m³ = $2,722.35; 46 m³ = $2,800.90; 47 m³ = $2,880.51; 48 m³ = $2,961.21; 49 m³ = $3,054.27.\n\nTarifa publico_concesionado (publico_concesionado), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 50 a 59 m³: 50 m³ = $3,137.41; 51 m³ = $3,221.64; 52 m³ = $3,306.94; 53 m³ = $3,402.73; 54 m³ = $3,490.43; 55 m³ = $3,579.20; 56 m³ = $3,669.07; 57 m³ = $3,770.40; 58 m³ = $3,862.67; 59 m³ = $3,956.02.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 834
+   }
+  },
+  {
+   "fragmento_id": "e760497e-27ef-58c9-9274-a7a82a8ed3cd",
+   "documento_id": "d538fd90-f05d-5fe7-8512-949541c59347",
+   "orden": 3,
+   "contenido": "m³ = $3,306.94; 53 m³ = $3,402.73; 54 m³ = $3,490.43; 55 m³ = $3,579.20; 56 m³ = $3,669.07; 57 m³ = $3,770.40; 58 m³ = $3,862.67; 59 m³ = $3,956.02.\n\nSi el consumo de la tarifa publico_concesionado supera 59 m³ se cobra el importe de 59 m³ ($3,956.02), según api/_lib/tarifas.py.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 279
+   }
+  },
+  {
+   "fragmento_id": "6dc5866e-7008-5955-9524-f7ad070fb154",
+   "documento_id": "4cbecfb6-cb6c-5772-b369-c399049a60ea",
+   "orden": 0,
+   "contenido": "Tarifa Pública u oficial (publico_oficial), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 0 a 9 m³: 0 m³ = $209.04; 1 m³ = $232.13; 2 m³ = $255.62; 3 m³ = $279.51; 4 m³ = $303.80; 5 m³ = $328.49; 6 m³ = $353.57; 7 m³ = $379.75; 8 m³ = $406.53; 9 m³ = $451.26.\n\nTarifa Pública u oficial (publico_oficial), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 10 a 19 m³: 10 m³ = $480.35; 11 m³ = $510.06; 12 m³ = $541.63; 13 m³ = $579.55; 14 m³ = $613.11; 15 m³ = $647.49; 16 m³ = $682.71; 17 m³ = $722.20; 18 m³ = $759.26; 19 m³ = $797.18.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 616
+   }
+  },
+  {
+   "fragmento_id": "c1c91959-2ee3-5586-ba61-57937ab7588d",
+   "documento_id": "4cbecfb6-cb6c-5772-b369-c399049a60ea",
+   "orden": 1,
+   "contenido": "m³ = $510.06; 12 m³ = $541.63; 13 m³ = $579.55; 14 m³ = $613.11; 15 m³ = $647.49; 16 m³ = $682.71; 17 m³ = $722.20; 18 m³ = $759.26; 19 m³ = $797.18.\n\nTarifa Pública u oficial (publico_oficial), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 20 a 29 m³: 20 m³ = $835.93; 21 m³ = $878.01; 22 m³ = $932.46; 23 m³ = $989.01; 24 m³ = $1,047.67; 25 m³ = $1,112.63; 26 m³ = $1,175.74; 27 m³ = $1,240.96; 28 m³ = $1,308.31; 29 m³ = $1,381.66.\n\nTarifa Pública u oficial (publico_oficial), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 30 a 39 m³: 30 m³ = $1,453.43; 31 m³ = $1,527.31; 32 m³ = $1,603.32; 33 m³ = $1,686.19; 34 m³ = $1,766.67; 35 m³ = $1,849.27; 36 m³ = $1,933.99; 37 m³ = $2,000.78; 38 m³ = $2,081.24; 39 m³ = $2,163.41.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 811
+   }
+  },
+  {
+   "fragmento_id": "c448e464-ae4e-583f-99c7-d60160d8a022",
+   "documento_id": "4cbecfb6-cb6c-5772-b369-c399049a60ea",
+   "orden": 2,
+   "contenido": "m³ = $1,603.32; 33 m³ = $1,686.19; 34 m³ = $1,766.67; 35 m³ = $1,849.27; 36 m³ = $1,933.99; 37 m³ = $2,000.78; 38 m³ = $2,081.24; 39 m³ = $2,163.41.\n\nTarifa Pública u oficial (publico_oficial), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 40 a 49 m³: 40 m³ = $2,247.28; 41 m³ = $2,339.40; 42 m³ = $2,413.44; 43 m³ = $2,488.56; 44 m³ = $2,564.75; 45 m³ = $2,649.38; 46 m³ = $2,727.93; 47 m³ = $2,807.54; 48 m³ = $2,888.24; 49 m³ = $2,981.03.\n\nTarifa Pública u oficial (publico_oficial), periodo 2026-T3, importe de agua potable antes de alcantarillado, saneamiento e IVA, de 50 a 59 m³: 50 m³ = $3,064.18; 51 m³ = $3,148.41; 52 m³ = $3,233.70; 53 m³ = $3,329.28; 54 m³ = $3,416.98; 55 m³ = $3,505.77; 56 m³ = $3,595.63; 57 m³ = $3,696.75; 58 m³ = $3,782.75; 59 m³ = $3,869.60.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 818
+   }
+  },
+  {
+   "fragmento_id": "f9caaab6-0122-54ae-8682-c295ca65180b",
+   "documento_id": "4cbecfb6-cb6c-5772-b369-c399049a60ea",
+   "orden": 3,
+   "contenido": "m³ = $3,233.70; 53 m³ = $3,329.28; 54 m³ = $3,416.98; 55 m³ = $3,505.77; 56 m³ = $3,595.63; 57 m³ = $3,696.75; 58 m³ = $3,782.75; 59 m³ = $3,869.60.\n\nSi el consumo de la tarifa Pública u oficial supera 59 m³ se cobra el importe de 59 m³ ($3,869.60), según api/_lib/tarifas.py.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas_cea.csv",
+    "tipo": "tarifa",
+    "caracteres": 276
+   }
+  },
+  {
+   "fragmento_id": "ba403a79-0f5f-5cf1-9348-830f08a884ae",
+   "documento_id": "5e1223aa-978c-5b0c-bd69-2a28119058c6",
+   "orden": 0,
+   "contenido": "Cálculo del importe de un recibo con el tarifario CEA Querétaro.\n\nPortado de Operaguas (Odoo): recibo/models/tarifa.py (importe_agua) y\nrecibo/models/recibo.py (_generar_linea_consumo, _compute_subtotal_iva).\nDueño: Claude-E (T-03). Contrato: docs/CONTRATOS.md §5.\n\nReglas:\n1. El consumo se factura redondeado al entero con redondeo tradicional\n   (medio hacia arriba: 5.5 → 6, 5.4 → 5).\n2. El importe de agua sale de la tabla CEA por tipo de tarifa y m³ del\n   periodo. Si el consumo excede la tabla, se usa el m³ más alto disponible.\n3. Cargo = agua + 10 % si la toma tiene alcantarillado + 12 % si tiene\n   saneamiento, redondeado a 2 decimales (igual que Odoo).\n4. IVA 16 % sobre el subtotal solo en tarifas NO domésticas; el agua de uso\n   doméstico va a tasa 0 % (LIVA 2-A II h).\n\nFunción pura: sin red y sin dependencias fuera de la biblioteca estándar.",
+   "metadata": {
+    "fuente": "api/_lib/tarifas.py",
+    "tipo": "regla",
+    "caracteres": 860
+   }
+  },
+  {
+   "fragmento_id": "df1e4eff-04db-58c4-9f3b-335fd5022dbf",
+   "documento_id": "1413c5f3-deca-513c-857e-eb2c9ee1c895",
+   "orden": 0,
+   "contenido": "DATOS DEL PROYECTO FINAL — SIMULACION DECLARADA\n================================================\n\nNO SON EL PADRON REAL DE HUIMILPAN. Son datos generados con un\nscript de simulacion (semilla declarada 20260923) que NO se conservo:\nla simulacion no se puede regenerar tal cual. La reproducibilidad del\nproyecto parte de estos CSV versionados y de `python -m pipeline.run_all`\n(decision T-00c; los supuestos se documentan en data/README.md).\n\nLa ESTRUCTURA reproduce la del sistema en produccion (tarifas por tipo\nde ocupante, privadas, ciclo mensual de lectura y facturacion,\ncatalogo de categorias de queja). Los VALORES son supuestos\ndeclarados en la cabecera del generador.",
+   "metadata": {
+    "fuente": "data/simulados/LEEME.txt",
+    "tipo": "datos",
+    "caracteres": 675
+   }
+  },
+  {
+   "fragmento_id": "ae33eba3-ea33-5cfa-b192-43a48d662f4f",
+   "documento_id": "1413c5f3-deca-513c-857e-eb2c9ee1c895",
+   "orden": 1,
+   "contenido": "ciclo mensual de lectura y facturacion,\ncatalogo de categorias de queja). Los VALORES son supuestos\ndeclarados en la cabecera del generador.\n\nARCHIVOS CRUDOS (lo que entra al pipeline)\n------------------------------------------\ntomas.csv        480 tomas: privada, tarifa, domiciliacion\nlecturas.csv     14486 lecturas mensuales (trae suciedad a proposito:\n                 86 duplicados, 57 retrocesos de medidor, 115 nulos)\nrecibos.csv      14400 recibos con fecha de emision, vencimiento y pago\ntelemetria.csv   115200 horas de volumen para 40 tomas (bloques O y P)\nquejas.csv       1400 quejas con texto libre y categoria",
+   "metadata": {
+    "fuente": "data/simulados/LEEME.txt",
+    "tipo": "datos",
+    "caracteres": 625
+   }
+  },
+  {
+   "fragmento_id": "8eab1cf5-a84d-523b-b148-95cf28ba1f46",
+   "documento_id": "1413c5f3-deca-513c-857e-eb2c9ee1c895",
+   "orden": 2,
+   "contenido": "vencimiento y pago\ntelemetria.csv   115200 horas de volumen para 40 tomas (bloques O y P)\nquejas.csv       1400 quejas con texto libre y categoria\n\nPROCESADOS (lo que sale del pipeline)\n-------------------------------------\ndataset_final.csv     14400 x 31 — una fila por (toma, periodo).\n                      Es la tabla de analisis. Empieza por aqui.\nquejas_limpias.csv    texto normalizado + categoria agrupada\ninforme_calidad.csv   que hizo cada paso de limpieza\n\nCOLUMNAS QUE NO DEBEN ENTRAR AL MODELO DE MORA\n----------------------------------------------\nPredecir el pago tardio usando estas seria fuga de datos, porque solo\nse conocen DESPUES de que el recibo se pago:\n\nfecha_pago, dias_atraso, pagado, saldo_pendiente\n\nLa variable objetivo es `pago_tardio`.",
+   "metadata": {
+    "fuente": "data/simulados/LEEME.txt",
+    "tipo": "datos",
+    "caracteres": 767
+   }
+  },
+  {
+   "fragmento_id": "1b0541e8-76e1-5b87-a525-3075888208d3",
+   "documento_id": "1413c5f3-deca-513c-857e-eb2c9ee1c895",
+   "orden": 3,
+   "contenido": "porque solo\nse conocen DESPUES de que el recibo se pago:\n\nfecha_pago, dias_atraso, pagado, saldo_pendiente\n\nLa variable objetivo es `pago_tardio`.\n\nETIQUETAS DE VALIDACION (no son variables de entrada)\n-----------------------------------------------------\n`tiene_fuga` en lecturas.csv y telemetria.csv es la verdad conocida\npor ser simulacion. Sirve para MEDIR si el metodo de deteccion\nacierta, nunca para alimentarlo.",
+   "metadata": {
+    "fuente": "data/simulados/LEEME.txt",
+    "tipo": "datos",
+    "caracteres": 419
+   }
+  },
+  {
+   "fragmento_id": "23a21601-7186-5c54-8fa7-413cb9903ebd",
+   "documento_id": "67aa0ebb-db82-5c4f-aae9-cffbba4690ab",
+   "orden": 0,
+   "contenido": "# Datos\n\n`simulados/` contiene la **simulación declarada** de Andrés (ver `simulados/LEEME.txt`): reproduce la estructura del sistema de Operaguas, con valores supuestos. **No hay datos personales.**\n\n| Archivo | Filas | Uso |\n|---|---|---|\n| tomas.csv | 480 | Padrón: privada, tarifa, domiciliación |\n| lecturas.csv | 14,486 | Lecturas mensuales con suciedad a propósito |\n| recibos.csv | 14,400 | Emisión, vencimiento, pago; objetivo `pago_tardio` |\n| telemetria.csv | 115,200 | Volumen horario de 40 tomas (bloques O y P) |\n| quejas.csv | 1,400 | Texto libre y categoría (bloques J–L) |\n| dataset_final.csv | 14,400 | Tabla de análisis ya procesada |",
+   "metadata": {
+    "fuente": "data/README.md",
+    "tipo": "datos",
+    "caracteres": 653
+   }
+  },
+  {
+   "fragmento_id": "de0954fb-7aa2-51ba-89c7-3b1ec655e2ec",
+   "documento_id": "67aa0ebb-db82-5c4f-aae9-cffbba4690ab",
+   "orden": 1,
+   "contenido": "(bloques O y P) |\n| quejas.csv | 1,400 | Texto libre y categoría (bloques J–L) |\n| dataset_final.csv | 14,400 | Tabla de análisis ya procesada |\n\n**Reglas (propuesta #5):**\n- Nunca como variables: `fecha_pago`, `dias_atraso`, `pagado`, `saldo_pendiente`, `propension_mora`, `consumo_base`, `tiene_fuga` (ver `pipeline/src/config.py`).\n- Quejas: separar entrenamiento y prueba por **texto único** (331 textos distintos en 1,400 quejas).\n- Recibos vencidos y sin pagar cuentan como tardíos; periodos con vencimiento posterior a `FECHA_CORTE` quedan fuera del entrenamiento.\n- T-00c: el generador `generar_datos.py` no se conservó (se buscó en los equipos de Emilio y Andrés, su Drive y el historial de ambos repos). La simulación no se regenera tal cual: la semilla declarada es 20260923 y la reproducibilidad parte de estos CSV versionados y de `python -m pipeline.run_all` (confirmado por Andrés en #49).",
+   "metadata": {
+    "fuente": "data/README.md",
+    "tipo": "datos",
+    "caracteres": 904
+   }
+  }
+ ]
+}

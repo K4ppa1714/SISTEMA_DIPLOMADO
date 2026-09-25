@@ -1,0 +1,322 @@
+[
+ {
+  "modulo": "agente_eval",
+  "clave": "tool_selection",
+  "version": "v1",
+  "payload": {
+   "tipo": "metrica",
+   "titulo": "Agente: selección de herramientas y éxito de tareas",
+   "filas": [
+    {
+     "indicador": "casos evaluados",
+     "valor": 30
+    },
+    {
+     "indicador": "Tool Selection Accuracy",
+     "valor": 0.7
+    },
+    {
+     "indicador": "primera herramienta correcta",
+     "valor": 0.7667
+    },
+    {
+     "indicador": "éxito de tareas",
+     "valor": 0.7
+    },
+    {
+     "indicador": "éxito en tareas multipaso",
+     "valor": 0.5
+    },
+    {
+     "indicador": "pasos promedio",
+     "valor": 0.93
+    }
+   ],
+   "conclusion": "El agente eligió exactamente las herramientas esperadas en 70% de los casos y completó 70% de las tareas sin errores (50% en las de varios pasos).",
+   "fuente": "pipeline/src/agents/evaluar.py · docs/eval/agente_casos_borrador.csv · POST /api/agente"
+  }
+ },
+ {
+  "modulo": "agente_eval",
+  "clave": "casos",
+  "version": "v1",
+  "payload": {
+   "tipo": "tabla",
+   "titulo": "Agente: resultado por caso",
+   "filas": [
+    {
+     "consulta": "¿Cuánto debe la toma T95A557D58C?",
+     "esperadas": "estado_cuenta",
+     "usadas": "estado_cuenta",
+     "seleccion_correcta": true,
+     "exito": true,
+     "pasos": 1,
+     "ms": 2279
+    },
+    {
+     "consulta": "Muéstrame los últimos recibos de la toma T6BE1C12D07",
+     "esperadas": "estado_cuenta",
+     "usadas": "estado_cuenta",
+     "seleccion_correcta": true,
+     "exito": true,
+     "pasos": 1,
+     "ms": 1881
+    },
+    {
+     "consulta": "¿La toma TA014F1FF15 tiene recibos sin pagar?",
+     "esperadas": "estado_cuenta",
+     "usadas": "estado_cuenta",
+     "seleccion_correcta": true,
+     "exito": true,
+     "pasos": 1,
+     "ms": 1554
+    },
+    {
+     "consulta": "¿La toma T95A557D58C pagará tarde su recibo de 2026-09?",
+     "esperadas": "predecir_pago",
+     "usadas": "predecir_pago",
+     "seleccion_correcta": true,
+     "exito": true,
+     "pasos": 1,
+     "ms": 1502
+    },
+    {
+     "consulta": "¿Qué probabilidad de pago tardío tiene la toma T5825BB17FC?",
+     "esperadas": "predecir_pago",
+     "usadas": "predecir_pago",
+     "seleccion_correcta": true,
+     "exito": true,
+     "pasos": 1,
+     "ms": 2120
+    },
+    {
+     "consulta": "¿Está en riesgo de atraso la toma T81E3CAC404 en agosto de 2026?",
+     "esperadas": "predecir_pago",
+     "usadas": "predecir_pago",
+     "seleccion_correcta": true,
+     "exito": true,
+     "pasos": 1,
+     "ms": 3109
+    },
+    {
+     "consulta": "¿Cuánto paga una casa con tarifa doméstica media que consumió 15 m3 con alcantarillado y saneamiento?",
+     "esperadas": "calcular_importe",
+     "usadas": "calcular_importe",
+     "seleccion_correcta": true,
+     "exito": true,
+     "pasos": 1,
+     "ms": 1903
+    },
+    {
+     "consulta": "Calcula el recibo de un comercio que gastó 40 m3 sin alcantarillado",
+     "esperadas": "calcular_importe",
+     "usadas": "calcular_importe",
+     "seleccion_correcta": true,
+     "exito": true,
+     "pasos": 1,
+     "ms": 939
+    },
+    {
+     "consulta": "¿Cuánto costarían 25 m3 en tarifa industrial con saneamiento?",
+     "esperadas": "calcular_importe",
+     "usadas": "calcular_importe",
+     "seleccion_correcta": true,
+     "exito": true,
+     "pasos": 1,
+     "ms": 1185
+    },
+    {
+     "consulta": "Si una toma doméstica económica consume 8 m3 ¿cuánto paga?",
+     "esperadas": "calcular_importe",
+     "usadas": "calcular_importe",
+     "seleccion_correcta": true,
+     "exito": true,
+     "pasos": 1,
+     "ms": 1526
+    },
+    {
+     "consulta": "¿Qué porcentaje se cobra por alcantarillado?",
+     "esperadas": "buscar_documentos",
+     "usadas": "buscar_documentos",
+     "seleccion_correcta": true,
+     "exito": true,
+     "pasos": 1,
+     "ms": 1722
+    },
+    {
+     "consulta": "¿Cómo se redondea el consumo facturado?",
+     "esperadas": "buscar_documentos",
+     "usadas": "(ninguna)",
+     "seleccion_correcta": false,
+     "exito": false,
+     "pasos": 0,
+     "ms": 317
+    },
+    {
+     "consulta": "¿Las tarifas domésticas pagan IVA?",
+     "esperadas": "buscar_documentos",
+     "usadas": "buscar_documentos",
+     "seleccion_correcta": true,
+     "exito": true,
+     "pasos": 1,
+     "ms": 10980
+    },
+    {
+     "consulta": "¿De dónde vienen los datos del proyecto y tienen datos personales?",
+     "esperadas": "buscar_documentos",
+     "usadas": "(ninguna)",
+     "seleccion_correcta": false,
+     "exito": false,
+     "pasos": 0,
+     "ms": 366
+    },
+    {
+     "consulta": "¿Qué tarifario se usa para calcular los importes?",
+     "esperadas": "buscar_documentos",
+     "usadas": "buscar_documentos",
+     "seleccion_correcta": true,
+     "exito": true,
+     "pasos": 1,
+     "ms": 2592
+    },
+    {
+     "consulta": "¿Hay una tendencia o estacionalidad en el consumo?",
+     "esperadas": "analizar_serie",
+     "usadas": "(ninguna)",
+     "seleccion_correcta": false,
+     "exito": false,
+     "pasos": 0,
+     "ms": 333
+    },
+    {
+     "consulta": "¿Cuál es el ciclo dominante del consumo horario?",
+     "esperadas": "analizar_serie",
+     "usadas": "analizar_serie",
+     "seleccion_correcta": true,
+     "exito": true,
+     "pasos": 1,
+     "ms": 1550
+    },
+    {
+     "consulta": "¿Cómo se detectan las fugas con wavelets?",
+     "esperadas": "analizar_serie",
+     "usadas": "buscar_documentos|analizar_serie",
+     "seleccion_correcta": false,
+     "exito": false,
+     "pasos": 2,
+     "ms": 2862
+    },
+    {
+     "consulta": "¿El consumo cambió de nivel en algún momento del año?",
+     "esperadas": "analizar_serie",
+     "usadas": "analizar_serie",
+     "seleccion_correcta": true,
+     "exito": true,
+     "pasos": 1,
+     "ms": 1479
+    },
+    {
+     "consulta": "¿Qué periodicidad muestra el espectro del consumo?",
+     "esperadas": "analizar_serie",
+     "usadas": "analizar_serie",
+     "seleccion_correcta": true,
+     "exito": true,
+     "pasos": 1,
+     "ms": 2723
+    },
+    {
+     "consulta": "¿Cuánto debe la toma T95A557D58C y qué tan probable es que pague tarde en 2026-09?",
+     "esperadas": "estado_cuenta|predecir_pago",
+     "usadas": "estado_cuenta|predecir_pago",
+     "seleccion_correcta": true,
+     "exito": true,
+     "pasos": 2,
+     "ms": 2579
+    },
+    {
+     "consulta": "Revisa el estado de cuenta de T6BE1C12D07 y dime si seguirá atrasándose",
+     "esperadas": "estado_cuenta|predecir_pago",
+     "usadas": "(ninguna)",
+     "seleccion_correcta": false,
+     "exito": false,
+     "pasos": 0,
+     "ms": 347
+    },
+    {
+     "consulta": "Compara el riesgo de pago tardío de T95A557D58C y T5825BB17FC",
+     "esperadas": "predecir_pago|predecir_pago",
+     "usadas": "predecir_pago",
+     "seleccion_correcta": true,
+     "exito": true,
+     "pasos": 1,
+     "ms": 1269
+    },
+    {
+     "consulta": "¿Cuánto pagaría una casa de tarifa media con 20 m3 y por qué se cobra alcantarillado?",
+     "esperadas": "calcular_importe|buscar_documentos",
+     "usadas": "calcular_importe",
+     "seleccion_correcta": false,
+     "exito": false,
+     "pasos": 1,
+     "ms": 1570
+    },
+    {
+     "consulta": "Calcula el importe comercial de 30 m3 con saneamiento y explica si lleva IVA",
+     "esperadas": "calcular_importe|buscar_documentos",
+     "usadas": "(ninguna)",
+     "seleccion_correcta": false,
+     "exito": false,
+     "pasos": 0,
+     "ms": 342
+    },
+    {
+     "consulta": "¿Qué ciclos tiene el consumo y cómo se usan para encontrar fugas?",
+     "esperadas": "analizar_serie|analizar_serie",
+     "usadas": "analizar_serie",
+     "seleccion_correcta": true,
+     "exito": true,
+     "pasos": 1,
+     "ms": 1235
+    },
+    {
+     "consulta": "Dame el adeudo de TA014F1FF15 y calcula cuánto pagaría si consume 18 m3 en tarifa doméstica media con alcantarillado",
+     "esperadas": "estado_cuenta|calcular_importe",
+     "usadas": "estado_cuenta",
+     "seleccion_correcta": false,
+     "exito": false,
+     "pasos": 1,
+     "ms": 2117
+    },
+    {
+     "consulta": "¿La toma T81E3CAC404 está en riesgo y cuánto le costarían 12 m3 en tarifa doméstica económica?",
+     "esperadas": "predecir_pago|calcular_importe",
+     "usadas": "predecir_pago|calcular_importe",
+     "seleccion_correcta": true,
+     "exito": true,
+     "pasos": 2,
+     "ms": 2174
+    },
+    {
+     "consulta": "Explica qué modelo predice el pago tardío y dame la probabilidad de T997FF51E88",
+     "esperadas": "buscar_documentos|predecir_pago",
+     "usadas": "(ninguna)",
+     "seleccion_correcta": false,
+     "exito": false,
+     "pasos": 0,
+     "ms": 348
+    },
+    {
+     "consulta": "Resume la tendencia del consumo y el costo de 15 m3 en tarifa doméstica media",
+     "esperadas": "analizar_serie|calcular_importe",
+     "usadas": "calcular_importe|analizar_serie",
+     "seleccion_correcta": true,
+     "exito": true,
+     "pasos": 2,
+     "ms": 2139
+    }
+   ],
+   "conclusion": "Cada fila compara las herramientas esperadas (caso validado por una persona) con las que llamó el agente.",
+   "fuente": "pipeline/src/agents/evaluar.py · docs/eval/agente_casos_borrador.csv · POST /api/agente"
+  }
+ }
+]

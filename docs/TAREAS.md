@@ -53,7 +53,7 @@ Responsables: **E** = Emilio · **A** = Andrés · **C-E** = Claude-E ·
 | ID | Tarea | Bloques | Resp. | Depende de | Valida | Estado |
 |---|---|---|---|---|---|---|
 | T-09 | Análisis de errores, interpretación y profundidad de los bloques de C-E | F, G, I | C-E | T-07, T-08 | E | en revisión (rama e/T-09-16a; resultados v1 en analitica.ml) |
-| T-16 | Recall@k y MRR del RAG; Tool Selection Accuracy y éxito de tareas del agente (solo casos validados) | M, N | C-A | T-16a, T-16b | E, A | en curso (a/T-16-validados: casos validados; Andrés corre indexar y los evaluadores con --subir) |
+| T-16 | Recall@k y MRR del RAG; Tool Selection Accuracy y éxito de tareas del agente (solo casos validados) | M, N | C-A | T-16a, T-16b | E, A | en revisión (a/T-16-validados: índice de 50 fragmentos; evaluadores publicados en analitica.resultados — Recall@5 0.818, MRR 0.768, TSA 0.70, LLM 100 % JSON válido; umbral calibrado 0.63, valor de producción lo decide Emilio) |
 | T-17 | Páginas Modelos (con prueba de predicción), Asistente IA (RAG, triage, agente con sus pasos) y Resultados | UI | C-A | T-13 | A | en curso (a/T-10-esqueleto: páginas Modelos, Quejas y Asistente con triage y RAG; falta consulta de predicción por toma y el agente) |
 
 ## Fase 5 — Jueves 24, 16:00–23:59

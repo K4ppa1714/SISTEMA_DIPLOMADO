@@ -1,0 +1,647 @@
+[
+ {
+  "modulo": "rag_eval",
+  "clave": "recall_mrr",
+  "version": "v1",
+  "payload": {
+   "tipo": "barras",
+   "titulo": "RAG: Recall@k y MRR del retriever",
+   "x": {
+    "etiqueta": "Métrica",
+    "valores": [
+     "Recall@1",
+     "Recall@3",
+     "Recall@5",
+     "MRR"
+    ]
+   },
+   "y": {
+    "etiqueta": "Valor (0–1)"
+   },
+   "series": [
+    {
+     "nombre": "retriever",
+     "valores": [
+      0.7273,
+      0.8182,
+      0.8182,
+      0.7677
+     ]
+    }
+   ],
+   "filas": [
+    {
+     "indicador": "preguntas_con_evidencia",
+     "valor": 33
+    },
+    {
+     "indicador": "preguntas_sin_evidencia",
+     "valor": 7
+    },
+    {
+     "indicador": "umbral",
+     "valor": 0.6
+    },
+    {
+     "indicador": "recall@1",
+     "valor": 0.7273
+    },
+    {
+     "indicador": "recall@3",
+     "valor": 0.8182
+    },
+    {
+     "indicador": "recall@5",
+     "valor": 0.8182
+    },
+    {
+     "indicador": "mrr",
+     "valor": 0.7677
+    },
+    {
+     "indicador": "abstencion_correcta",
+     "valor": 0.4286
+    },
+    {
+     "indicador": "falsa_abstencion",
+     "valor": 0.2121
+    }
+   ],
+   "conclusion": "Con 33 preguntas, el documento correcto aparece en el Top-5 en 82% de los casos (MRR 0.77); con 7 preguntas sin respuesta en los documentos, se abstiene correctamente en 43%.",
+   "fuente": "pipeline/src/rag/evaluar.py · docs/eval/rag_preguntas_borrador.csv · rag.buscar_fragmentos"
+  }
+ },
+ {
+  "modulo": "rag_eval",
+  "clave": "preguntas",
+  "version": "v1",
+  "payload": {
+   "tipo": "tabla",
+   "titulo": "RAG: resultado por pregunta",
+   "filas": [
+    {
+     "pregunta": "¿Cuánto cuesta el agua para una toma doméstica media que consume 15 m³?",
+     "con_evidencia": true,
+     "posicion": 1,
+     "similitud_max": 0.731,
+     "abstiene": false
+    },
+    {
+     "pregunta": "¿Cuál es el importe de agua de la tarifa doméstica media con 0 m³ de consumo?",
+     "con_evidencia": true,
+     "posicion": 1,
+     "similitud_max": 0.7827,
+     "abstiene": false
+    },
+    {
+     "pregunta": "¿Qué importe tiene la tarifa comercial por 20 m³?",
+     "con_evidencia": true,
+     "posicion": 1,
+     "similitud_max": 0.7653,
+     "abstiene": false
+    },
+    {
+     "pregunta": "¿Cuánto paga una industria por 50 m³ de agua potable?",
+     "con_evidencia": true,
+     "posicion": 1,
+     "similitud_max": 0.7835,
+     "abstiene": false
+    },
+    {
+     "pregunta": "Precio del agua para beneficencia con 10 m³",
+     "con_evidencia": true,
+     "posicion": 1,
+     "similitud_max": 0.7127,
+     "abstiene": false
+    },
+    {
+     "pregunta": "¿Cuánto cuesta la tarifa doméstica de apoyo por 8 m³?",
+     "con_evidencia": true,
+     "posicion": 1,
+     "similitud_max": 0.6869,
+     "abstiene": false
+    },
+    {
+     "pregunta": "Importe de la tarifa doméstica económica para 12 m³",
+     "con_evidencia": true,
+     "posicion": 1,
+     "similitud_max": 0.6777,
+     "abstiene": false
+    },
+    {
+     "pregunta": "¿Qué cobra la tarifa doméstica alta por 30 m³?",
+     "con_evidencia": true,
+     "posicion": 1,
+     "similitud_max": 0.7606,
+     "abstiene": false
+    },
+    {
+     "pregunta": "¿Cuál es la tarifa doméstica rural para 5 m³?",
+     "con_evidencia": true,
+     "posicion": 1,
+     "similitud_max": 0.7527,
+     "abstiene": false
+    },
+    {
+     "pregunta": "¿Cuánto paga una oficina pública por 25 m³?",
+     "con_evidencia": true,
+     "posicion": 1,
+     "similitud_max": 0.7185,
+     "abstiene": false
+    },
+    {
+     "pregunta": "Tarifa para uso pecuario con 15 m³",
+     "con_evidencia": true,
+     "posicion": 1,
+     "similitud_max": 0.7229,
+     "abstiene": false
+    },
+    {
+     "pregunta": "¿Qué importe tiene la tarifa público concesionado por 40 m³?",
+     "con_evidencia": true,
+     "posicion": 1,
+     "similitud_max": 0.7857,
+     "abstiene": false
+    },
+    {
+     "pregunta": "¿Cómo se redondea el consumo antes de facturarlo?",
+     "con_evidencia": true,
+     "posicion": null,
+     "similitud_max": 0.6768,
+     "abstiene": false
+    },
+    {
+     "pregunta": "¿Cuánto se cobra adicional por alcantarillado?",
+     "con_evidencia": true,
+     "posicion": null,
+     "similitud_max": 0.6321,
+     "abstiene": false
+    },
+    {
+     "pregunta": "¿Qué porcentaje se agrega por saneamiento?",
+     "con_evidencia": true,
+     "posicion": 1,
+     "similitud_max": 0.6414,
+     "abstiene": false
+    },
+    {
+     "pregunta": "¿Las tomas domésticas pagan IVA?",
+     "con_evidencia": true,
+     "posicion": null,
+     "similitud_max": 0.5927,
+     "abstiene": true
+    },
+    {
+     "pregunta": "¿A qué tarifas se les aplica IVA del 16 %?",
+     "con_evidencia": true,
+     "posicion": 3,
+     "similitud_max": 0.5879,
+     "abstiene": true
+    },
+    {
+     "pregunta": "¿Qué pasa si el consumo excede la tabla de la tarifa?",
+     "con_evidencia": true,
+     "posicion": null,
+     "similitud_max": 0.6921,
+     "abstiene": false
+    },
+    {
+     "pregunta": "¿Sobre qué importe se calculan los porcentajes de alcantarillado y saneamiento?",
+     "con_evidencia": true,
+     "posicion": 1,
+     "similitud_max": 0.682,
+     "abstiene": false
+    },
+    {
+     "pregunta": "¿De dónde se portaron las reglas de cálculo del recibo?",
+     "con_evidencia": true,
+     "posicion": 1,
+     "similitud_max": 0.5885,
+     "abstiene": true
+    },
+    {
+     "pregunta": "¿Cuántas tomas tiene la simulación?",
+     "con_evidencia": true,
+     "posicion": 2,
+     "similitud_max": 0.5383,
+     "abstiene": true
+    },
+    {
+     "pregunta": "¿Cuántas horas de telemetría hay y de cuántas tomas?",
+     "con_evidencia": true,
+     "posicion": null,
+     "similitud_max": 0.5605,
+     "abstiene": true
+    },
+    {
+     "pregunta": "¿Qué suciedad trae a propósito el archivo de lecturas?",
+     "con_evidencia": true,
+     "posicion": 2,
+     "similitud_max": 0.6001,
+     "abstiene": false
+    },
+    {
+     "pregunta": "¿Cuál es la variable objetivo del modelo de mora?",
+     "con_evidencia": true,
+     "posicion": 1,
+     "similitud_max": 0.5873,
+     "abstiene": true
+    },
+    {
+     "pregunta": "¿Qué columnas no deben entrar al modelo de pago tardío?",
+     "con_evidencia": true,
+     "posicion": 1,
+     "similitud_max": 0.669,
+     "abstiene": false
+    },
+    {
+     "pregunta": "¿Para qué sirve la columna tiene_fuga?",
+     "con_evidencia": true,
+     "posicion": 1,
+     "similitud_max": 0.6411,
+     "abstiene": false
+    },
+    {
+     "pregunta": "¿Los datos son el padrón real de Huimilpan?",
+     "con_evidencia": true,
+     "posicion": 1,
+     "similitud_max": 0.6992,
+     "abstiene": false
+    },
+    {
+     "pregunta": "¿Qué reglas de la propuesta #5 aplican a los datos simulados?",
+     "con_evidencia": true,
+     "posicion": 1,
+     "similitud_max": 0.7197,
+     "abstiene": false
+    },
+    {
+     "pregunta": "¿Cómo se deben separar entrenamiento y prueba en las quejas?",
+     "con_evidencia": true,
+     "posicion": 1,
+     "similitud_max": 0.6039,
+     "abstiene": false
+    },
+    {
+     "pregunta": "¿Qué pasa con los recibos vencidos y sin pagar?",
+     "con_evidencia": true,
+     "posicion": null,
+     "similitud_max": 0.605,
+     "abstiene": false
+    },
+    {
+     "pregunta": "¿Qué recibos quedan fuera del entrenamiento?",
+     "con_evidencia": true,
+     "posicion": 1,
+     "similitud_max": 0.5458,
+     "abstiene": true
+    },
+    {
+     "pregunta": "¿Hay datos personales en la simulación?",
+     "con_evidencia": true,
+     "posicion": 1,
+     "similitud_max": 0.6837,
+     "abstiene": false
+    },
+    {
+     "pregunta": "¿Qué archivo contiene la tabla de análisis ya procesada?",
+     "con_evidencia": true,
+     "posicion": 1,
+     "similitud_max": 0.664,
+     "abstiene": false
+    },
+    {
+     "pregunta": "¿Cuál es el horario de atención de las oficinas de Operaguas?",
+     "con_evidencia": false,
+     "posicion": null,
+     "similitud_max": 0.6168,
+     "abstiene": false
+    },
+    {
+     "pregunta": "¿Cuánto cuesta la reconexión del servicio después de un corte?",
+     "con_evidencia": false,
+     "posicion": null,
+     "similitud_max": 0.6207,
+     "abstiene": false
+    },
+    {
+     "pregunta": "¿Qué dice la NOM-127 sobre el cloro residual?",
+     "con_evidencia": false,
+     "posicion": null,
+     "similitud_max": 0.6063,
+     "abstiene": false
+    },
+    {
+     "pregunta": "¿Quién es el director de la CEA?",
+     "con_evidencia": false,
+     "posicion": null,
+     "similitud_max": 0.501,
+     "abstiene": true
+    },
+    {
+     "pregunta": "¿Cuál es el pronóstico del clima para Huimilpan mañana?",
+     "con_evidencia": false,
+     "posicion": null,
+     "similitud_max": 0.5994,
+     "abstiene": true
+    },
+    {
+     "pregunta": "¿Qué requisitos necesito para contratar una toma nueva?",
+     "con_evidencia": false,
+     "posicion": null,
+     "similitud_max": 0.6103,
+     "abstiene": false
+    },
+    {
+     "pregunta": "¿Hay descuento para adultos mayores?",
+     "con_evidencia": false,
+     "posicion": null,
+     "similitud_max": 0.5892,
+     "abstiene": true
+    }
+   ],
+   "conclusion": "posicion = lugar del primer fragmento del documento esperado en el Top-5 (vacío si no aparece).",
+   "fuente": "pipeline/src/rag/evaluar.py · docs/eval/rag_preguntas_borrador.csv · rag.buscar_fragmentos"
+  }
+ },
+ {
+  "modulo": "rag_eval",
+  "clave": "umbral",
+  "version": "v1",
+  "payload": {
+   "tipo": "linea",
+   "titulo": "RAG: calibración del umbral de similitud",
+   "x": {
+    "etiqueta": "Umbral de similitud",
+    "valores": [
+     0.3,
+     0.31,
+     0.32,
+     0.33,
+     0.34,
+     0.35,
+     0.36,
+     0.37,
+     0.38,
+     0.39,
+     0.4,
+     0.41,
+     0.42,
+     0.43,
+     0.44,
+     0.45,
+     0.46,
+     0.47,
+     0.48,
+     0.49,
+     0.5,
+     0.51,
+     0.52,
+     0.53,
+     0.54,
+     0.55,
+     0.56,
+     0.57,
+     0.58,
+     0.59,
+     0.6,
+     0.61,
+     0.62,
+     0.63,
+     0.64,
+     0.65,
+     0.66,
+     0.67,
+     0.68,
+     0.69,
+     0.7,
+     0.71,
+     0.72,
+     0.73,
+     0.74,
+     0.75,
+     0.76,
+     0.77,
+     0.78,
+     0.79,
+     0.8,
+     0.81,
+     0.82,
+     0.83,
+     0.84,
+     0.85,
+     0.86,
+     0.87,
+     0.88,
+     0.89,
+     0.9
+    ]
+   },
+   "y": {
+    "etiqueta": "Proporción (0–1)"
+   },
+   "series": [
+    {
+     "nombre": "abstencion correcta",
+     "valores": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1429,
+      0.1429,
+      0.1429,
+      0.1429,
+      0.1429,
+      0.1429,
+      0.1429,
+      0.1429,
+      0.2857,
+      0.4286,
+      0.5714,
+      0.8571,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "nombre": "falsa abstencion",
+     "valores": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0303,
+      0.0606,
+      0.0606,
+      0.0909,
+      0.0909,
+      0.1818,
+      0.2121,
+      0.303,
+      0.303,
+      0.303,
+      0.3333,
+      0.3939,
+      0.3939,
+      0.4545,
+      0.5152,
+      0.6061,
+      0.6667,
+      0.6667,
+      0.7576,
+      0.7879,
+      0.8182,
+      0.8182,
+      0.8485,
+      0.9091,
+      0.9091,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "nombre": "exactitud balanceada",
+     "valores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5714,
+      0.5714,
+      0.5714,
+      0.5563,
+      0.5411,
+      0.5411,
+      0.526,
+      0.526,
+      0.5519,
+      0.6082,
+      0.6342,
+      0.7771,
+      0.8485,
+      0.8333,
+      0.803,
+      0.803,
+      0.7727,
+      0.7424,
+      0.697,
+      0.6667,
+      0.6667,
+      0.6212,
+      0.6061,
+      0.5909,
+      0.5909,
+      0.5758,
+      0.5455,
+      0.5455,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ]
+    }
+   ],
+   "conclusion": "El umbral 0.63 maximiza la exactitud balanceada (85%: abstención correcta 100%, falsa abstención 30%) frente a 0.60 declarado. Como se eligió con las mismas preguntas, la estimación honesta es la de dejar una fuera: 72%.",
+   "fuente": "pipeline/src/rag/evaluar.py · docs/eval/rag_preguntas_borrador.csv · rag.buscar_fragmentos"
+  }
+ }
+]
