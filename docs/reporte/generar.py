@@ -30,7 +30,7 @@ RAIZ = AQUI.parents[1]
 sys.path.insert(0, str(RAIZ))
 
 FIGURAS = AQUI / "figuras"
-URL_APP = os.environ.get("URL_APP", "(pendiente de despliegue)")
+URL_APP = os.environ.get("URL_APP", "https://operaguas-analitica.vercel.app")
 
 
 def cargar_resultados() -> dict[str, dict]:
