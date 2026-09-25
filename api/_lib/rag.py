@@ -5,7 +5,9 @@ Contrato §3: POST /api/rag {"pregunta", "k"} → {"respuesta", "evidencia", "fu
 Control de alucinaciones:
 1. Umbral de similitud: si ningún fragmento supera UMBRAL_SIMILITUD, evidencia=false y la
    respuesta es fija (no se llama al LLM, no se inventa). El umbral se calibra en T-16
-   con las preguntas validadas; 0.60 es un valor inicial DECLARADO, no medido.
+   con las preguntas validadas (0.63 por exactitud balanceada); en producción se usa 0.55
+   por decisión de producto de Emilio (D-14): menos «no encontré» a cambio de que el
+   prompt SIN_EVIDENCIA filtre casi todas las preguntas fuera del corpus.
 2. El LLM solo recibe los fragmentos y debe responder "SIN_EVIDENCIA" si no bastan.
 3. La salida del LLM se valida (Pydantic); debe citar al menos una fuente existente.
 4. Si el LLM falla, se responde con los fragmentos encontrados (extractivo) y se dice.
@@ -19,7 +21,7 @@ from pydantic import BaseModel, Field, ValidationError, field_validator
 
 from .llm import ErrorLLM
 
-UMBRAL_SIMILITUD = float(os.environ.get("RAG_UMBRAL", "0.60"))
+UMBRAL_SIMILITUD = float(os.environ.get("RAG_UMBRAL", "0.55"))
 K_MAX = 10
 SIN_EVIDENCIA = ("No encontré información sobre eso en los documentos disponibles "
                  "(tarifario CEA, reglas del recibo y documentación del proyecto).")
