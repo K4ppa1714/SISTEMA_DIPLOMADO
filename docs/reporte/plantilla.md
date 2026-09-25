@@ -167,7 +167,7 @@ MLP en PyTorch con las mismas variables y la misma separación temporal que el m
 {{t:nlp/prioridad_desde_texto}}
 {{f:embeddings/similitud_precision5}}
 
-**VALIDAR (Andrés):** el clasificador sirve para enrutar quejas; la métrica honesta es la de texto único. La prioridad
+**Validado por Andrés (24/09/2026):** el clasificador sirve para enrutar quejas; la métrica honesta es la de texto único. La prioridad
 debe venir de reglas de negocio o de una persona, no del texto.
 
 ## 15. LLM
@@ -267,7 +267,7 @@ resultados en Supabase. URL: {{var:url_app}}.
 
 ## 23. Conclusiones
 
-**Validado por Emilio (24/09/2026); VALIDAR (Andrés):** el valor del proyecto está en conectar cada método con una decisión de Operaguas:
+**Validado por Emilio y Andrés (24/09/2026):** el valor del proyecto está en conectar cada método con una decisión de Operaguas:
 a quién cobrar primero (modelo de pago), dónde revisar una fuga (flujo nocturno y wavelets) y cómo enrutar una
 queja (clasificador + triage). Las métricas se midieron con separación temporal o por texto único para no
 sobreestimarlas.
