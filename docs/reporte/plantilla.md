@@ -101,7 +101,7 @@ Hipótesis definidas antes de ver los resultados: **H1** el consumo doméstico d
 {{t:estadistica/correlacion_spearman}}
 
 **Validado por Emilio (24/09/2026):** la privada no explica el consumo doméstico (H1 no se rechaza), así que la zona no sirve para
-fijar metas de consumo; la domiciliación sí se asocia con puntualidad (H2), con un efecto moderado. Significancia no
+fijar metas de consumo; la domiciliación sí se asocia con puntualidad (H2), con un efecto entre pequeño y mediano (V = 0.20). Significancia no
 implica causalidad: es posible que quien domicilia ya fuera buen pagador.
 
 ## 10. Series temporales
