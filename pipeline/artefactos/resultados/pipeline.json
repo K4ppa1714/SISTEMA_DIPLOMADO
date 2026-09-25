@@ -1,0 +1,75 @@
+[
+ {
+  "modulo": "pipeline",
+  "clave": "informe_calidad",
+  "version": "v2",
+  "payload": {
+   "tipo": "tabla",
+   "titulo": "Pipeline de datos: qué hizo cada paso de limpieza",
+   "filas": [
+    {
+     "Paso": "Carga de tomas",
+     "Resultado": "480 filas x 10 columnas, 0 celdas nulas"
+    },
+    {
+     "Paso": "Carga de lecturas",
+     "Resultado": "14,486 filas x 8 columnas, 230 celdas nulas"
+    },
+    {
+     "Paso": "Carga de recibos",
+     "Resultado": "14,400 filas x 14 columnas, 1989 celdas nulas"
+    },
+    {
+     "Paso": "Carga de telemetria",
+     "Resultado": "115,200 filas x 4 columnas, 0 celdas nulas"
+    },
+    {
+     "Paso": "Carga de quejas",
+     "Resultado": "1,400 filas x 7 columnas, 0 celdas nulas"
+    },
+    {
+     "Paso": "Lecturas: duplicados por (toma, periodo)",
+     "Resultado": "86 filas eliminadas (se conserva la lectura más reciente)"
+    },
+    {
+     "Paso": "Lecturas: nulas",
+     "Resultado": "114 marcadas (no se imputan)"
+    },
+    {
+     "Paso": "Lecturas: retrocesos de medidor",
+     "Resultado": "57 marcados como inconsistentes"
+    },
+    {
+     "Paso": "Recibos: importes con tarifario CEA real",
+     "Resultado": "14400 recibos recalculados; total facturado 5,997,544 -> 19,405,612 MXN (mapeo {'domestico': 'domestico_medio', 'comercial': 'comercial', 'publico': 'publico_oficial', 'industrial': 'industrial'})"
+    },
+    {
+     "Paso": "Recibos: pagados sin fecha de pago",
+     "Resultado": "67 recibos; se conserva la etiqueta original (la fecha no se imputa)"
+    },
+    {
+     "Paso": "Recibos: vencidos y sin pagar a la fecha de corte",
+     "Resultado": "122 etiquetados como pago tardío"
+    },
+    {
+     "Paso": "Recibos: censura por fecha de corte",
+     "Resultado": "960 recibos con vencimiento posterior a 2026-09-01 quedan fuera del entrenamiento"
+    },
+    {
+     "Paso": "Objetivo pago_tardio",
+     "Resultado": "tasa 24.9% en 13440 recibos etiquetados"
+    },
+    {
+     "Paso": "Tabla de análisis",
+     "Resultado": "14400 filas x 33 columnas; 0 recibos sin lectura; sin consumo_base, propension_mora"
+    },
+    {
+     "Paso": "Quejas",
+     "Resultado": "1400 quejas, 331 textos únicos: la división entrenamiento/prueba debe hacerse por texto único"
+    }
+   ],
+   "conclusion": "Lecturas duplicadas: 86 filas eliminadas (se conserva la lectura más reciente); retrocesos: 57 marcados como inconsistentes; censura: 960 recibos con vencimiento posterior a 2026-09-01 quedan fuera del entrenamiento. Objetivo: tasa 24.9% en 13440 recibos etiquetados.",
+   "fuente": "pipeline/src/data/limpieza.py · pipeline/notebooks/01_pipeline_datos.ipynb"
+  }
+ }
+]

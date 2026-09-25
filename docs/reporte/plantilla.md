@@ -6,7 +6,7 @@
 
 > Este documento se genera con `python docs/reporte/generar.py`. Todo número viene de
 > `analitica.resultados` (o de `pipeline/artefactos/resultados/*.json`), producido por código con semilla 42.
-> Los párrafos marcados **VALIDAR** son interpretaciones que una persona del equipo confirmó.
+> Las interpretaciones marcadas **Validado por** fueron confirmadas por la persona indicada; las marcadas **VALIDAR** siguen pendientes de su revisión.
 
 ## 1. Resumen ejecutivo
 
@@ -87,7 +87,7 @@ entrenamiento (censura).
 {{f:eda/cartera_mensual}}
 {{f:eda/quejas_por_categoria}}
 
-**VALIDAR (Emilio):** la cartera tardía se concentra en tomas no domiciliadas; la domiciliación es la palanca de
+**Validado por Emilio (24/09/2026):** la cartera tardía se concentra en tomas no domiciliadas; la domiciliación es la palanca de
 cobranza más clara que muestran los datos. El consumo doméstico tiene estacionalidad anual visible, que se analiza
 en la sección 10.
 
@@ -100,8 +100,8 @@ Hipótesis definidas antes de ver los resultados: **H1** el consumo doméstico d
 {{t:estadistica/ic95_tardio}}
 {{t:estadistica/correlacion_spearman}}
 
-**VALIDAR (Emilio):** la privada no explica el consumo doméstico (H1 no se rechaza), así que la zona no sirve para
-fijar metas de consumo; la domiciliación sí se asocia con puntualidad (H2), con un efecto moderado. Significancia no
+**Validado por Emilio (24/09/2026):** la privada no explica el consumo doméstico (H1 no se rechaza), así que la zona no sirve para
+fijar metas de consumo; la domiciliación sí se asocia con puntualidad (H2), con un efecto entre pequeño y mediano (V = 0.20). Significancia no
 implica causalidad: es posible que quien domicilia ya fuera buen pagador.
 
 ## 10. Series temporales
@@ -137,7 +137,7 @@ Análisis de errores (T-09):
 {{t:ml/perfil_errores}}
 {{t:ml/predicciones_resumen}}
 
-**VALIDAR (Emilio):** el modelo sirve para ordenar la cobranza (el decil de mayor riesgo concentra la mayor tasa
+**Validado por Emilio (24/09/2026):** el modelo sirve para ordenar la cobranza (el decil de mayor riesgo concentra la mayor tasa
 real de atraso), no para anunciar una probabilidad exacta. Sus fallas son los "atrasos nuevos" de tomas sin
 historial de atraso; ninguna variable disponible al emitir el recibo los anticipa.
 
@@ -267,7 +267,7 @@ resultados en Supabase. URL: {{var:url_app}}.
 
 ## 23. Conclusiones
 
-**VALIDAR (Emilio y Andrés):** el valor del proyecto está en conectar cada método con una decisión de Operaguas:
+**Validado por Emilio (24/09/2026); VALIDAR (Andrés):** el valor del proyecto está en conectar cada método con una decisión de Operaguas:
 a quién cobrar primero (modelo de pago), dónde revisar una fuga (flujo nocturno y wavelets) y cómo enrutar una
 queja (clasificador + triage). Las métricas se midieron con separación temporal o por texto único para no
 sobreestimarlas.
