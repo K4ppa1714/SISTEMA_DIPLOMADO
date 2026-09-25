@@ -215,3 +215,15 @@ if __name__ == "__main__":
     tablas, informe = ejecutar()
     pd.set_option("display.max_colwidth", 120)
     print(informe.to_string(index=False))
+
+
+def payload_informe(informe: pd.DataFrame) -> list[dict]:
+    """Resultado `pipeline/informe_calidad` (CONTRATOS §2.4) a partir del informe de este módulo."""
+    filas = [{"Paso": f.Paso, "Resultado": f.Resultado} for f in informe.itertuples()]
+    buscar = lambda texto: next((f["Resultado"] for f in filas if texto in f["Paso"]), "")
+    return [{"clave": "informe_calidad", "payload": {
+        "tipo": "tabla", "titulo": "Pipeline de datos: qué hizo cada paso de limpieza",
+        "filas": filas,
+        "conclusion": (f"Lecturas duplicadas: {buscar('duplicados')}; retrocesos: {buscar('retrocesos')}; "
+                       f"censura: {buscar('censura')}. Objetivo: {buscar('Objetivo')}."),
+        "fuente": "pipeline/src/data/limpieza.py · pipeline/notebooks/01_pipeline_datos.ipynb"}}]
