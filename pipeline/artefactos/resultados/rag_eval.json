@@ -40,7 +40,7 @@
     },
     {
      "indicador": "umbral",
-     "valor": 0.6
+     "valor": 0.55
     },
     {
      "indicador": "recall@1",
@@ -60,14 +60,14 @@
     },
     {
      "indicador": "abstencion_correcta",
-     "valor": 0.4286
+     "valor": 0.1429
     },
     {
      "indicador": "falsa_abstencion",
-     "valor": 0.2121
+     "valor": 0.0606
     }
    ],
-   "conclusion": "Con 33 preguntas, el documento correcto aparece en el Top-5 en 82% de los casos (MRR 0.77); con 7 preguntas sin respuesta en los documentos, se abstiene correctamente en 43%.",
+   "conclusion": "Con 33 preguntas, el documento correcto aparece en el Top-5 en 82% de los casos (MRR 0.77); con 7 preguntas sin respuesta en los documentos, se abstiene correctamente en 14%.",
    "fuente": "pipeline/src/rag/evaluar.py · docs/eval/rag_preguntas_borrador.csv · rag.buscar_fragmentos"
   }
  },
@@ -189,14 +189,14 @@
      "con_evidencia": true,
      "posicion": null,
      "similitud_max": 0.5927,
-     "abstiene": true
+     "abstiene": false
     },
     {
      "pregunta": "¿A qué tarifas se les aplica IVA del 16 %?",
      "con_evidencia": true,
      "posicion": 3,
      "similitud_max": 0.5879,
-     "abstiene": true
+     "abstiene": false
     },
     {
      "pregunta": "¿Qué pasa si el consumo excede la tabla de la tarifa?",
@@ -217,7 +217,7 @@
      "con_evidencia": true,
      "posicion": 1,
      "similitud_max": 0.5885,
-     "abstiene": true
+     "abstiene": false
     },
     {
      "pregunta": "¿Cuántas tomas tiene la simulación?",
@@ -231,7 +231,7 @@
      "con_evidencia": true,
      "posicion": null,
      "similitud_max": 0.5605,
-     "abstiene": true
+     "abstiene": false
     },
     {
      "pregunta": "¿Qué suciedad trae a propósito el archivo de lecturas?",
@@ -245,7 +245,7 @@
      "con_evidencia": true,
      "posicion": 1,
      "similitud_max": 0.5873,
-     "abstiene": true
+     "abstiene": false
     },
     {
      "pregunta": "¿Qué columnas no deben entrar al modelo de pago tardío?",
@@ -343,7 +343,7 @@
      "con_evidencia": false,
      "posicion": null,
      "similitud_max": 0.5994,
-     "abstiene": true
+     "abstiene": false
     },
     {
      "pregunta": "¿Qué requisitos necesito para contratar una toma nueva?",
@@ -357,7 +357,7 @@
      "con_evidencia": false,
      "posicion": null,
      "similitud_max": 0.5892,
-     "abstiene": true
+     "abstiene": false
     }
    ],
    "conclusion": "posicion = lugar del primer fragmento del documento esperado en el Top-5 (vacío si no aparece).",
@@ -640,7 +640,7 @@
      ]
     }
    ],
-   "conclusion": "El umbral 0.63 maximiza la exactitud balanceada (85%: abstención correcta 100%, falsa abstención 30%) frente a 0.60 declarado. Como se eligió con las mismas preguntas, la estimación honesta es la de dejar una fuera: 72%.",
+   "conclusion": "El umbral 0.63 maximiza la exactitud balanceada (85%: abstención correcta 100%, falsa abstención 30%) frente a 0.55 declarado. Como se eligió con las mismas preguntas, la estimación honesta es la de dejar una fuera: 72%.",
    "fuente": "pipeline/src/rag/evaluar.py · docs/eval/rag_preguntas_borrador.csv · rag.buscar_fragmentos"
   }
  }
