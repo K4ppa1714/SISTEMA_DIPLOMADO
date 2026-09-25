@@ -1,31 +1,31 @@
 consulta,herramientas_esperadas,multipaso,nota,validado_por
-¿Cuánto debe la toma T95A557D58C?,estado_cuenta,false,adeudo de una toma,
-Muéstrame los últimos recibos de la toma T6BE1C12D07,estado_cuenta,false,historial de recibos,
-¿La toma TA014F1FF15 tiene recibos sin pagar?,estado_cuenta,false,recibos pendientes,
-¿La toma T95A557D58C pagará tarde su recibo de 2026-09?,predecir_pago,false,predicción de un periodo,
-¿Qué probabilidad de pago tardío tiene la toma T5825BB17FC?,predecir_pago,false,predicción sin periodo,
-¿Está en riesgo de atraso la toma T81E3CAC404 en agosto de 2026?,predecir_pago,false,periodo en lenguaje natural,
-¿Cuánto paga una casa con tarifa doméstica media que consumió 15 m3 con alcantarillado y saneamiento?,calcular_importe,false,importe doméstico,
-Calcula el recibo de un comercio que gastó 40 m3 sin alcantarillado,calcular_importe,false,importe comercial con IVA,
-¿Cuánto costarían 25 m3 en tarifa industrial con saneamiento?,calcular_importe,false,importe industrial,
-Si una toma doméstica económica consume 8 m3 ¿cuánto paga?,calcular_importe,false,tarifa económica,
-¿Qué porcentaje se cobra por alcantarillado?,buscar_documentos,false,regla del recibo,
-¿Cómo se redondea el consumo facturado?,buscar_documentos,false,regla de redondeo,
-¿Las tarifas domésticas pagan IVA?,buscar_documentos,false,regla de IVA,
-¿De dónde vienen los datos del proyecto y tienen datos personales?,buscar_documentos,false,documentación del proyecto,
-¿Qué tarifario se usa para calcular los importes?,buscar_documentos,false,fuente del tarifario,
-¿Hay una tendencia o estacionalidad en el consumo?,analizar_serie,false,serie de tiempo,
-¿Cuál es el ciclo dominante del consumo horario?,analizar_serie,false,Fourier,
-¿Cómo se detectan las fugas con wavelets?,analizar_serie,false,Wavelets,
-¿El consumo cambió de nivel en algún momento del año?,analizar_serie,false,cambio de régimen,
-¿Qué periodicidad muestra el espectro del consumo?,analizar_serie,false,Fourier,
-¿Cuánto debe la toma T95A557D58C y qué tan probable es que pague tarde en 2026-09?,estado_cuenta|predecir_pago,true,adeudo + riesgo,
-Revisa el estado de cuenta de T6BE1C12D07 y dime si seguirá atrasándose,estado_cuenta|predecir_pago,true,historial + predicción,
-Compara el riesgo de pago tardío de T95A557D58C y T5825BB17FC,predecir_pago|predecir_pago,true,dos tomas,
-¿Cuánto pagaría una casa de tarifa media con 20 m3 y por qué se cobra alcantarillado?,calcular_importe|buscar_documentos,true,importe + regla,
-Calcula el importe comercial de 30 m3 con saneamiento y explica si lleva IVA,calcular_importe|buscar_documentos,true,importe + IVA,
-¿Qué ciclos tiene el consumo y cómo se usan para encontrar fugas?,analizar_serie|analizar_serie,true,Fourier + wavelets,
-Dame el adeudo de TA014F1FF15 y calcula cuánto pagaría si consume 18 m3 en tarifa doméstica media con alcantarillado,estado_cuenta|calcular_importe,true,adeudo + simulación,
-¿La toma T81E3CAC404 está en riesgo y cuánto le costarían 12 m3 en tarifa doméstica económica?,predecir_pago|calcular_importe,true,riesgo + importe,
-Explica qué modelo predice el pago tardío y dame la probabilidad de T997FF51E88,buscar_documentos|predecir_pago,true,documentación + predicción,
-Resume la tendencia del consumo y el costo de 15 m3 en tarifa doméstica media,analizar_serie|calcular_importe,true,serie + importe,
+¿Cuánto debe la toma T95A557D58C?,estado_cuenta,false,adeudo de una toma,Andrés
+Muéstrame los últimos recibos de la toma T6BE1C12D07,estado_cuenta,false,historial de recibos,Andrés
+¿La toma TA014F1FF15 tiene recibos sin pagar?,estado_cuenta,false,recibos pendientes,Andrés
+¿La toma T95A557D58C pagará tarde su recibo de 2026-09?,predecir_pago,false,predicción de un periodo,Andrés
+¿Qué probabilidad de pago tardío tiene la toma T5825BB17FC?,predecir_pago,false,predicción sin periodo,Andrés
+¿Está en riesgo de atraso la toma T81E3CAC404 en agosto de 2026?,predecir_pago,false,periodo en lenguaje natural,Andrés
+¿Cuánto paga una casa con tarifa doméstica media que consumió 15 m3 con alcantarillado y saneamiento?,calcular_importe,false,importe doméstico,Andrés
+Calcula el recibo de un comercio que gastó 40 m3 sin alcantarillado,calcular_importe,false,importe comercial con IVA,Andrés
+¿Cuánto costarían 25 m3 en tarifa industrial con saneamiento?,calcular_importe,false,importe industrial,Andrés
+Si una toma doméstica económica consume 8 m3 ¿cuánto paga?,calcular_importe,false,tarifa económica,Andrés
+¿Qué porcentaje se cobra por alcantarillado?,buscar_documentos,false,regla del recibo,Andrés
+¿Cómo se redondea el consumo facturado?,buscar_documentos,false,regla de redondeo,Andrés
+¿Las tarifas domésticas pagan IVA?,buscar_documentos,false,regla de IVA,Andrés
+¿De dónde vienen los datos del proyecto y tienen datos personales?,buscar_documentos,false,documentación del proyecto,Andrés
+¿Qué tarifario se usa para calcular los importes?,buscar_documentos,false,fuente del tarifario,Andrés
+¿Hay una tendencia o estacionalidad en el consumo?,analizar_serie,false,serie de tiempo,Andrés
+¿Cuál es el ciclo dominante del consumo horario?,analizar_serie,false,Fourier,Andrés
+¿Cómo se detectan las fugas con wavelets?,analizar_serie,false,Wavelets,Andrés
+¿El consumo cambió de nivel en algún momento del año?,analizar_serie,false,cambio de régimen,Andrés
+¿Qué periodicidad muestra el espectro del consumo?,analizar_serie,false,Fourier,Andrés
+¿Cuánto debe la toma T95A557D58C y qué tan probable es que pague tarde en 2026-09?,estado_cuenta|predecir_pago,true,adeudo + riesgo,Andrés
+Revisa el estado de cuenta de T6BE1C12D07 y dime si seguirá atrasándose,estado_cuenta|predecir_pago,true,historial + predicción,Andrés
+Compara el riesgo de pago tardío de T95A557D58C y T5825BB17FC,predecir_pago|predecir_pago,true,dos tomas,Andrés
+¿Cuánto pagaría una casa de tarifa media con 20 m3 y por qué se cobra alcantarillado?,calcular_importe|buscar_documentos,true,importe + regla,Andrés
+Calcula el importe comercial de 30 m3 con saneamiento y explica si lleva IVA,calcular_importe|buscar_documentos,true,importe + IVA,Andrés
+¿Qué ciclos tiene el consumo y cómo se usan para encontrar fugas?,analizar_serie|analizar_serie,true,Fourier + wavelets,Andrés
+Dame el adeudo de TA014F1FF15 y calcula cuánto pagaría si consume 18 m3 en tarifa doméstica media con alcantarillado,estado_cuenta|calcular_importe,true,adeudo + simulación,Andrés
+¿La toma T81E3CAC404 está en riesgo y cuánto le costarían 12 m3 en tarifa doméstica económica?,predecir_pago|calcular_importe,true,riesgo + importe,Andrés
+Explica qué modelo predice el pago tardío y dame la probabilidad de T997FF51E88,buscar_documentos|predecir_pago,true,documentación + predicción,Andrés
+Resume la tendencia del consumo y el costo de 15 m3 en tarifa doméstica media,analizar_serie|calcular_importe,true,serie + importe,Andrés
