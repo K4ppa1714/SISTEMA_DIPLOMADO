@@ -34,7 +34,7 @@ Responsables: **E** = Emilio · **A** = Andrés · **C-E** = Claude-E ·
 | T-05 | EDA (distribuciones, segmentos, cartera, quejas) y estadística (H1 Kruskal-Wallis, H2 chi², IC 95 %, correlación) | B, C | C-E | T-04 | E | en revisión (rama e/T-05-eda-modelos; resultados v1 en analitica) |
 | T-06 | Serie diaria, tendencia, estacionalidad, rolling, rezagos, cambio de régimen; FFT; DWT (db4) con energía por nivel y reconstrucción; anomalías vs. quejas | D, O, P | C-A (reasignada: sesión de C-E sin tokens) | T-04 | E | en revisión (rama a/T-06-temporal) |
 | T-11 | Migraciones `rag`/`agente`/`eval`; corpus, chunking, embeddings, pgvector; `/api/rag` con fuentes y respuesta sin evidencia | M | C-A | T-10, decisión LLM | A | en revisión (lógica en main; ruta POST /api/rag cableada en a/T-10-esqueleto; falta migración 0005 aplicada, llave, indexar y exponer `rag`) |
-| T-12 | `/api/triage`: resumen, categoría y prioridad en JSON validado con Pydantic | L | C-A | T-10 | A | en revisión (lógica en main; ruta POST /api/triage cableada en a/T-10-esqueleto; falta la llave del LLM en Vercel) |
+| T-12 | `/api/triage`: resumen, categoría y prioridad en JSON validado con Pydantic | L | C-A | T-10 | A | en revisión (ruta en main; a/T-17-modelos-y-triage: reglas de corrección vía pública → fuga_calle y sin servicio → sin_agua, sin cambios sobre los 331 textos simulados; faltan métricas de L) |
 | T-13 | Componente único que dibuja `payload`; páginas Inicio, Datos/EDA y Temporal/Espectral | B, UI | C-A | T-10 | A | en revisión (a/T-10-esqueleto: componente único Resultado.tsx + páginas Inicio, Datos/EDA y Temporal) |
 
 ## Fase 3 — Miércoles 23, 20:00–24:00 → versión 1 completa
@@ -44,9 +44,9 @@ Responsables: **E** = Emilio · **A** = Andrés · **C-E** = Claude-E ·
 | T-07 | Features justificadas; baseline; regresión logística, Random Forest y Gradient Boosting en `Pipeline` + `TimeSeriesSplit`; predicción por lotes a Supabase | E, F, H | C-E | T-04 | E | en revisión (rama e/T-05-eda-modelos; resultados v1 en analitica) |
 | T-08 | K-means (silhouette) + PCA; MLP en PyTorch comparado con Gradient Boosting | G, I | C-E | T-07 | E | en revisión (rama e/T-08-segmentos-dl; la ejecuta Codex con torch) |
 | T-14 | TF-IDF + regresión logística para la categoría de queja; embeddings para quejas similares; comparación precision@5 | J, K | C-A | T-04 | A | en revisión (a/T-14-nlp-quejas; Sentence-Transformers pendiente de correr con acceso a Hugging Face) |
-| T-15 | Agente: 5 herramientas, dispatcher con validación, registro en `agente.log`, límite de 5 pasos, tarea de varios pasos | N | C-A | T-03, T-07, T-11 | A | pendiente |
+| T-15 | Agente: 5 herramientas, dispatcher con validación, registro en `agente.log`, límite de 5 pasos, tarea de varios pasos | N | C-A | T-03, T-07, T-11 | A | en revisión (a/T-15-agente: /api/agente con 5 herramientas validadas por Pydantic, dispatcher, límite de 5 pasos, bitácora en agente.log, 15 pruebas; en api/_lib/agente/ porque api/agente/ se publicaría como función) |
 | T-16a | Borrador de 30–50 preguntas de RAG con documento esperado | M | C-E borrador · **E valida** | T-11 | E | borrador listo (docs/eval/rag_preguntas_borrador.csv; falta validación de Emilio) |
-| T-16b | Borrador de 30–50 consultas del agente con herramientas esperadas | N | C-A borrador · **A valida** | T-15 | A | pendiente |
+| T-16b | Borrador de 30–50 consultas del agente con herramientas esperadas | N | C-A borrador · **A valida** | T-15 | A | en revisión (docs/eval/agente_casos_borrador.csv: 30 casos, 10 multipaso; falta que Andrés llene validado_por) |
 
 ## Fase 4 — Jueves 24, 08:00–16:00
 
@@ -61,7 +61,7 @@ Responsables: **E** = Emilio · **A** = Andrés · **C-E** = Claude-E ·
 | ID | Tarea | Bloques | Resp. | Depende de | Valida | Estado |
 |---|---|---|---|---|---|---|
 | T-20 | Reporte técnico (24 secciones) y tabla de trazabilidad | Doc. | C-E | todas | E | pendiente |
-| T-21 | README de 18 puntos con sección "Uso de IA", diagrama de arquitectura, mensajes de error claros | Doc., Arq. | C-A | todas | A | pendiente |
+| T-21 | README de 18 puntos con sección "Uso de IA", diagrama de arquitectura, mensajes de error claros | Doc., Arq. | C-A | todas | A | en revisión (a/T-21-cierre: README de 18 puntos con diagrama mermaid, capturas de producción y "Uso de IA"; docs/arquitectura.md y docs/trazabilidad.md; página /resultados con glosario de métricas) |
 | T-19 | Prueba completa desde otra computadora e incógnito | Despliegue | A | T-17 | — | pendiente |
 | — | **23:59 congelar código, tag `v1.0`** | | E | T-19 | — | pendiente |
 

@@ -1,7 +1,7 @@
 # Operaguas Analítica — Reporte técnico
 
 **Diplomado de Python y Análisis de Datos · Universidad Marista · 2026**
-**Equipo:** Emilio Rico Hernández y Andrés. **Entrega:** 25 de septiembre de 2026.
+**Equipo:** Emilio Rico Hernández y Andrés Rodríguez Morales. **Entrega:** 25 de septiembre de 2026.
 **URL pública:** {{var:url_app}} · **Repositorio:** https://github.com/K4ppa1714/SISTEMA_DIPLOMADO
 
 > Este documento se genera con `python docs/reporte/generar.py`. Todo número viene de
@@ -141,9 +141,22 @@ Análisis de errores (T-09):
 real de atraso), no para anunciar una probabilidad exacta. Sus fallas son los "atrasos nuevos" de tomas sin
 historial de atraso; ninguna variable disponible al emitir el recibo los anticipa.
 
+### Aprendizaje no supervisado (segmentación de tomas)
+
+K-means sobre el comportamiento de consumo y pago de cada toma, con PCA para visualizarlo
+(`pipeline/src/ml/segmentos.py`). Utilidad: separar a quién conviene ofrecer domiciliación o recordatorios.
+
+{{f:clustering/silhouette}}
+{{f:clustering/pca_segmentos}}
+{{t:clustering/segmentos_perfil}}
+
 ## 13. Deep learning
 
-{{var:pendiente_T08}}
+MLP en PyTorch con las mismas variables y la misma separación temporal que el modelo clásico
+(`pipeline/src/deep_learning/mlp.py`); se compara contra gradient boosting. No tiene que ganar: se reporta tal cual.
+
+{{t:dl/mlp_vs_gb}}
+{{f:dl/mlp_curva_perdida}}
 
 ## 14. NLP y embeddings
 
@@ -159,15 +172,54 @@ debe venir de reglas de negocio o de una persona, no del texto.
 
 ## 15. LLM
 
-{{var:pendiente_T12}}
+**Tarea real:** triage de quejas (`POST /api/triage`, `api/_lib/triage.py`).
+
+- **Categoría:** la da el clasificador de la sección 14, exportado a Python puro (sin scikit-learn en Vercel).
+  Dos reglas declaradas corrigen confusiones observadas fuera de la simulación (fuga en vía pública →
+  `fuga_calle`; "no hay agua" sin fuga → `sin_agua`); sobre los 331 textos simulados no cambian ninguna predicción.
+- **Prioridad:** reglas de negocio declaradas (`api/_lib/prioridad.py`), porque el texto no predice la prioridad
+  (tabla `nlp/prioridad_desde_texto`). El LLM solo puede subirla un nivel si señala riesgo.
+- **LLM:** redacta el resumen y señala riesgo. **Control de prompt:** instrucciones fijas con el catálogo de
+  categorías. **Formato:** JSON validado con Pydantic. **Errores:** 1 reintento ante salida inválida; respaldo
+  Groq ante falla del proveedor; si todo falla, el triage responde con `valido: false` y un resumen extractivo.
+  **Alucinaciones:** el resumen no puede agregar información; la categoría final nunca la decide el LLM.
+  **Privacidad:** correos y números largos se ocultan antes de enviar el texto.
+
+{{t:llm/triage_validacion}}
 
 ## 16. RAG
 
-{{var:pendiente_T11_T16}}
+**Documentos:** tarifario CEA 2026-T3, reglas de cálculo del recibo portadas de Odoo y documentación de los datos
+simulados (`pipeline/src/rag/corpus.py`). **Chunking:** párrafos agrupados hasta 900 caracteres con solape de 150.
+**Embeddings:** Gemini de 768 dimensiones, el mismo modelo para indexar y consultar. **Índice:** pgvector en
+`rag.fragmentos`, consulta `rag.buscar_fragmentos` (coseno, Top-k). **Respuesta:** el LLM recibe solo los
+fragmentos y debe citarlos; la app muestra título, fragmento y similitud de cada fuente. **Sin evidencia:** si
+ninguna similitud supera el umbral, responde que no encontró información **sin llamar al LLM**.
+
+Métrica del retriever (`pipeline/src/rag/evaluar.py`, solo preguntas validadas por Emilio):
+
+{{f:rag_eval/recall_mrr}}
 
 ## 17. Agentes
 
-{{var:pendiente_T15}}
+`POST /api/agente` (`api/_lib/agente/`): en cada turno el LLM elige **una** herramienta con argumentos en JSON; el
+dispatcher valida la decisión y los argumentos (Pydantic), ejecuta, mide el tiempo y devuelve la observación. Un
+argumento inválido, un dato inexistente o una herramienta que no existe vuelven al LLM como observación, sin romper
+la respuesta. **Límite:** 5 pasos. **Logging:** cada paso en `agente.log` (sesión, paso, herramienta, argumentos,
+resultado o error, milisegundos).
+
+| Herramienta | Argumentos | Fuente |
+|---|---|---|
+| estado_cuenta | id_toma | raw.recibos |
+| calcular_importe | tipo_tarifa, consumo_m3, alcantarillado, saneamiento | api/_lib/tarifas.py |
+| predecir_pago | id_toma, periodo opcional | analitica.predicciones_pago |
+| buscar_documentos | pregunta, k | RAG (sección 16) |
+| analizar_serie | tendencia, fourier o wavelets | analitica.resultados |
+
+Evaluación (`pipeline/src/agents/evaluar.py`, 30 casos con herramientas esperadas, 10 de varios pasos; solo
+los validados por Andrés):
+
+{{t:agente_eval/tool_selection}}
 
 ## 18. Fourier
 
@@ -193,8 +245,11 @@ Un pico espectral indica una periodicidad de la señal, no su causa.
 | Fugas | precisión / recall por toma | {{c:wavelets/deteccion_fugas}} |
 | Quejas | F1 macro por texto único | {{c:nlp/clasificacion_metricas}} |
 | Similitud | precision@5 | {{c:embeddings/similitud_precision5}} |
-| RAG | Recall@k y MRR (solo casos validados) | {{c:rag_eval/metricas}} |
-| Agente | Tool Selection Accuracy y éxito de tareas | {{c:agente_eval/metricas}} |
+| Segmentación | silhouette | {{c:clustering/silhouette}} |
+| Deep learning | PR-AUC MLP contra GB | {{c:dl/mlp_vs_gb}} |
+| LLM (triage) | formato válido y acuerdo con el modelo | {{c:llm/triage_validacion}} |
+| RAG | Recall@k y MRR (solo casos validados) | {{c:rag_eval/recall_mrr}} |
+| Agente | Tool Selection Accuracy y éxito de tareas | {{c:agente_eval/tool_selection}} |
 
 ## 21. Despliegue
 

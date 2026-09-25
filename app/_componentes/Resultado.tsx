@@ -12,6 +12,7 @@ import {
   type Payload,
   type Resultado as FilaResultado,
   type SerieCaja,
+  type SerieDispersion,
   type SerieXY,
 } from "../_lib/payload.ts";
 
@@ -81,7 +82,7 @@ function Cuerpo({ p }: { p: Payload }) {
     case "linea":
       return <Lineas x={p.x.valores ?? []} series={p.series} etiquetaX={p.x.etiqueta} etiquetaY={p.y.etiqueta} titulo={p.titulo} />;
     case "dispersion":
-      return <Lineas x={p.x.valores ?? []} series={p.series} etiquetaX={p.x.etiqueta} etiquetaY={p.y.etiqueta} titulo={p.titulo} soloPuntos />;
+      return <Dispersion series={p.series} etiquetaX={p.x.etiqueta} etiquetaY={p.y.etiqueta} titulo={p.titulo} />;
     case "barras":
       return <BarrasHorizontales x={p.x.valores ?? []} series={p.series} etiquetaY={p.y.etiqueta} titulo={p.titulo} />;
     case "histograma":
@@ -154,6 +155,47 @@ function indicesEtiqueta(n: number, max = 6): number[] {
   if (n <= max) return Array.from({ length: n }, (_, i) => i);
   const paso = (n - 1) / (max - 1);
   return Array.from({ length: max }, (_, i) => Math.round(i * paso));
+}
+
+function Dispersion({ series, etiquetaX, etiquetaY, titulo }: { series: SerieDispersion[]; etiquetaX?: string; etiquetaY?: string; titulo: string }) {
+  const alto = 320;
+  const xs = series.flatMap((s) => s.x), ys = series.flatMap((s) => s.valores);
+  const tx = marcas(Math.min(...xs), Math.max(...xs)), ty = marcas(Math.min(...ys), Math.max(...ys));
+  const [x0, x1, y0, y1] = [tx[0], tx[tx.length - 1], ty[0], ty[ty.length - 1]];
+  const px = (v: number) => M.izquierda + ((v - x0) / (x1 - x0 || 1)) * (W - M.izquierda - M.derecha);
+  const py = (v: number) => alto - M.abajo - ((v - y0) / (y1 - y0 || 1)) * (alto - M.arriba - M.abajo);
+  return (
+    <>
+      <Svg alto={alto} titulo={titulo}>
+        <EjeY ticks={ty} y={py} x0={M.izquierda} x1={W - M.derecha} etiqueta={etiquetaY} alto={alto} />
+        <g className="eje">
+          {tx.map((t) => (
+            <g key={t}>
+              <line x1={px(t)} x2={px(t)} y1={M.arriba} y2={alto - M.abajo} className="rejilla" />
+              <text x={px(t)} y={alto - M.abajo + 18} textAnchor="middle">
+                {formatearEje(t)}
+              </text>
+            </g>
+          ))}
+          {etiquetaX ? (
+            <text className="titulo-eje" x={(M.izquierda + W - M.derecha) / 2} y={alto - 8} textAnchor="middle">
+              {etiquetaX}
+            </text>
+          ) : null}
+        </g>
+        {series.map((s, si) => (
+          <g key={s.nombre + si} className={`serie c${(si % COLORES) + 1}`}>
+            {s.valores.map((v, i) => (
+              <circle key={i} cx={px(s.x[i])} cy={py(v)} r={3} className="punto punto-disp">
+                <title>{`${legible(s.nombre)}: (${formatear(s.x[i])}, ${formatear(v)})`}</title>
+              </circle>
+            ))}
+          </g>
+        ))}
+      </Svg>
+      <Leyenda nombres={series.map((s) => `${s.nombre} (n = ${s.valores.length})`)} />
+    </>
+  );
 }
 
 function Lineas({ x, series, etiquetaX, etiquetaY, titulo, soloPuntos = false }: {

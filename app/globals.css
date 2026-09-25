@@ -124,6 +124,7 @@ h1, h2, h3 { line-height: 1.25; }
 .serie .bigote, .serie .mediana { stroke-width: 1.5; }
 .serie .mediana { stroke-width: 3; }
 .serie .atipico { fill-opacity: 0.45; }
+.serie .punto-disp { fill-opacity: 0.55; }
 .c1 { --c: var(--c1); } .c2 { --c: var(--c2); } .c3 { --c: var(--c3); }
 .c4 { --c: var(--c4); } .c5 { --c: var(--c5); } .c6 { --c: var(--c6); }
 .serie .trazo, .serie .bigote, .serie .mediana, .serie .caja { stroke: var(--c); }
@@ -201,3 +202,12 @@ div.respuesta-api { display: block; }
   .grafica text, .grafica .etiqueta-cat, .grafica .titulo-eje { font-size: 16px; }
   .grafica .valor-barra { font-size: 14px; }
 }
+.pasos-agente { padding-left: 1.2em; }
+.pasos-agente pre { background: var(--superficie-2); border-radius: 6px; padding: 8px; font-size: 0.78rem; overflow-x: auto; max-height: 280px; }
+.principal { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.pregunta-resultado { margin: 0; font-weight: 600; }
+.pregunta-resultado .bloque { margin-right: 4px; font-weight: 400; }
+.glosario { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); gap: 10px; }
+.glosario > div { background: var(--superficie); border: 1px solid var(--borde); border-radius: 8px; padding: 10px 12px; }
+.glosario dt { font-weight: 700; }
+.glosario dd { margin: 4px 0 0; color: var(--texto-2); font-size: 0.92rem; }

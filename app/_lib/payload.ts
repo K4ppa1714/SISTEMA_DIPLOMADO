@@ -19,6 +19,13 @@ export interface SerieXY {
   valores: (number | null)[];
 }
 
+/** Dispersión: cada serie trae sus propios x (p. ej. PC1) y valores (PC2). */
+export interface SerieDispersion {
+  nombre: string;
+  x: number[];
+  valores: number[];
+}
+
 export interface SerieCaja {
   nombre: string;
   n?: number;
@@ -38,7 +45,8 @@ interface Base {
 }
 
 export type Payload =
-  | (Base & { tipo: "linea" | "barras" | "histograma" | "dispersion"; x: Eje; y: Eje; series: SerieXY[] })
+  | (Base & { tipo: "linea" | "barras" | "histograma"; x: Eje; y: Eje; series: SerieXY[] })
+  | (Base & { tipo: "dispersion"; x: Eje; y: Eje; series: SerieDispersion[] })
   | (Base & { tipo: "caja"; y: Eje; series: SerieCaja[] })
   | (Base & { tipo: "tabla"; filas: Fila[] })
   | (Base & { tipo: "metrica"; filas: { indicador: string; valor: Valor }[] })
@@ -75,10 +83,24 @@ export function validarPayload(p: unknown): Validacion {
   if (p.filas !== undefined && !filasValidas(p.filas)) return { ok: false, motivo: "«filas» debe ser una lista de objetos" };
 
   switch (tipo as Tipo) {
+    case "dispersion": {
+      // Dos formas: series[].x propio (resultado clustering/pca_segmentos) o x.valores numérico común.
+      if (!Array.isArray(p.series) || p.series.length === 0) return { ok: false, motivo: "falta «series»" };
+      const comun = esObjeto(p.x) && Array.isArray(p.x.valores) ? p.x.valores : null;
+      const series: SerieDispersion[] = [];
+      for (const s of p.series) {
+        if (!esObjeto(s) || !Array.isArray(s.valores)) return { ok: false, motivo: "cada serie necesita «valores»" };
+        const xs = Array.isArray(s.x) ? s.x : comun;
+        if (!xs) return { ok: false, motivo: `la serie «${String(s.nombre)}» no trae «x»` };
+        if (xs.length !== s.valores.length) return { ok: false, motivo: `la serie «${String(s.nombre)}» tiene x y valores de distinto largo` };
+        if (!xs.every(esNumero) || !s.valores.every(esNumero)) return { ok: false, motivo: `la serie «${String(s.nombre)}» tiene valores no numéricos` };
+        series.push({ nombre: String(s.nombre ?? "serie"), x: xs as number[], valores: s.valores as number[] });
+      }
+      return { ok: true, payload: { ...(p as object), x: esObjeto(p.x) ? p.x : {}, y: esObjeto(p.y) ? p.y : {}, series } as unknown as Payload };
+    }
     case "linea":
     case "barras":
-    case "histograma":
-    case "dispersion": {
+    case "histograma": {
       const x = p.x, series = p.series;
       if (!esObjeto(x) || !Array.isArray(x.valores) || x.valores.length === 0) return { ok: false, motivo: "falta x.valores" };
       if (!Array.isArray(series) || series.length === 0) return { ok: false, motivo: "falta «series»" };

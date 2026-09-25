@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-import { FormRag, FormTriage } from "../_componentes/Asistente.tsx";
+import { FormAgente, FormRag, FormTriage } from "../_componentes/Asistente.tsx";
 import PaginaModulos from "../_componentes/PaginaModulos.tsx";
 
 export const revalidate = 300;
@@ -13,9 +13,10 @@ export default function Pagina() {
       titulo="Asistente IA"
       intro={
         <p>
-          Dos herramientas sobre la API de Python: el <strong>triage</strong> resume y prioriza una queja (el LLM solo redacta; la
+          Tres herramientas sobre la API de Python: el <strong>triage</strong> resume y prioriza una queja (el LLM solo redacta; la
           categoría la da el modelo de NLP y la prioridad, reglas declaradas) y el <strong>asistente de documentos</strong> (RAG)
-          responde con fuentes o dice que no encontró evidencia, sin inventar.
+          responde con fuentes o dice que no encontró evidencia, sin inventar. El <strong>agente</strong> decide qué herramientas usar
+          (hasta 5 pasos) y muestra cada paso.
         </p>
       }
     >
@@ -32,6 +33,13 @@ export default function Pagina() {
           <span className="bloque">POST /api/rag</span>
         </div>
         <FormRag />
+      </section>
+      <section className="modulo" aria-labelledby="t-agente">
+        <div className="modulo-cabecera">
+          <h2 id="t-agente">Agente con herramientas</h2>
+          <span className="bloque">POST /api/agente · Bloque N</span>
+        </div>
+        <FormAgente />
       </section>
     </PaginaModulos>
   );
