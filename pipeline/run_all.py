@@ -24,6 +24,10 @@ def paso_t04() -> None:
     ARTEFACTOS.mkdir(parents=True, exist_ok=True)
     tablas["dataset"].to_csv(ARTEFACTOS / "dataset_limpio.csv", index=False)
     informe.to_csv(ARTEFACTOS / "informe_calidad.csv", index=False)
+    from pipeline.src.data.limpieza import payload_informe
+    from pipeline.src.data.publicar import guardar, subir
+
+    subir(guardar("pipeline", payload_informe(informe), version="v2"))
     print(informe.to_string(index=False))
 
 
