@@ -12,6 +12,13 @@ Preguntas: docs/eval/rag_preguntas_borrador.csv. Solo cuentan las que tienen
   de 1/posición del primer fragmento correcto (0 si no aparece en el Top-5).
 - Sin evidencia esperada: abstención correcta si la mayor similitud queda por
   debajo del umbral de api/_lib/rag.py (así /api/rag responde evidencia=false sin LLM).
+- Calibración del umbral (#91 de Claude-E): con las mismas similitudes máximas (sin
+  llamadas extra) se barre el umbral de 0.30 a 0.90 y se elige el que maximiza la
+  exactitud balanceada = (abstención correcta + (1 − falsa abstención)) / 2; si varios
+  empatan se toma la mediana del empate (el punto más alejado de ambos errores).
+  Como se calibra con las mismas 40 preguntas, se reporta además una estimación
+  honesta por validación dejando una fuera (LOO): cada pregunta se juzga con el umbral
+  elegido sin ella.
 """
 from __future__ import annotations
 
@@ -61,7 +68,41 @@ def calcular(preguntas: list[dict], recuperar, umbral: float) -> tuple[dict, lis
     return m, detalle
 
 
-def payloads(m: dict, detalle: list[dict], exploratorio: bool) -> list[dict]:
+UMBRALES = tuple(round(0.30 + 0.01 * i, 2) for i in range(61))
+
+
+def _barrido(detalle: list[dict], umbrales=UMBRALES) -> list[dict]:
+    con = [d["similitud_max"] for d in detalle if d["con_evidencia"]]
+    sin = [d["similitud_max"] for d in detalle if not d["con_evidencia"]]
+    filas = []
+    for u in umbrales:
+        ac = sum(s < u for s in sin) / len(sin) if sin else 0.0
+        fa = sum(s < u for s in con) / len(con) if con else 0.0
+        filas.append({"umbral": u, "abstencion_correcta": round(ac, 4), "falsa_abstencion": round(fa, 4),
+                      "exactitud_balanceada": round((ac + 1 - fa) / 2, 4)})
+    return filas
+
+
+def _elegir(filas: list[dict]) -> float:
+    mejor = max(f["exactitud_balanceada"] for f in filas)
+    empate = [f["umbral"] for f in filas if f["exactitud_balanceada"] == mejor]
+    return empate[len(empate) // 2]
+
+
+def calibrar(detalle: list[dict]) -> dict:
+    """Umbral que mejor separa preguntas con y sin evidencia, y su estimación LOO."""
+    filas = _barrido(detalle)
+    umbral = _elegir(filas)
+    aciertos_loo = 0
+    for i, d in enumerate(detalle):
+        u = _elegir(_barrido(detalle[:i] + detalle[i + 1:]))
+        aciertos_loo += (d["similitud_max"] >= u) if d["con_evidencia"] else (d["similitud_max"] < u)
+    fila = next(f for f in filas if f["umbral"] == umbral)
+    return {"umbral_calibrado": umbral, **{k: v for k, v in fila.items() if k != "umbral"},
+            "exactitud_loo": round(aciertos_loo / len(detalle), 4), "barrido": filas}
+
+
+def payloads(m: dict, detalle: list[dict], exploratorio: bool, cal: dict | None = None) -> list[dict]:
     nota = " (EXPLORATORIO: incluye preguntas sin validar)" if exploratorio else ""
     return [
         {"clave": "recall_mrr", "payload": {
@@ -79,7 +120,33 @@ def payloads(m: dict, detalle: list[dict], exploratorio: bool) -> list[dict]:
             "tipo": "tabla", "titulo": "RAG: resultado por pregunta" + nota, "filas": detalle,
             "conclusion": "posicion = lugar del primer fragmento del documento esperado en el Top-5 (vacío si no aparece).",
             "fuente": FUENTE}},
-    ]
+    ] + ([{"clave": "umbral", "payload": {
+            "tipo": "linea", "titulo": "RAG: calibración del umbral de similitud" + nota,
+            "x": {"etiqueta": "Umbral de similitud", "valores": [f["umbral"] for f in cal["barrido"]]},
+            "y": {"etiqueta": "Proporción (0–1)"},
+            "series": [{"nombre": k.replace("_", " "), "valores": [f[k] for f in cal["barrido"]]}
+                       for k in ("abstencion_correcta", "falsa_abstencion", "exactitud_balanceada")],
+            "conclusion": (f"El umbral {cal['umbral_calibrado']:.2f} maximiza la exactitud balanceada "
+                           f"({cal['exactitud_balanceada']:.0%}: abstención correcta {cal['abstencion_correcta']:.0%}, "
+                           f"falsa abstención {cal['falsa_abstencion']:.0%}) frente a {m['umbral']:.2f} declarado. Como se "
+                           f"eligió con las mismas preguntas, la estimación honesta es la de dejar una fuera: "
+                           f"{cal['exactitud_loo']:.0%}."),
+            "fuente": FUENTE}}] if cal else [])
+
+
+def _embeber_con_espera(emb, textos: list[str], intentos: int = 5, espera_s: float = 30.0) -> list[list[float]]:
+    """Una sola llamada por lote (no una por pregunta); si el plan gratuito responde 429, espera y reintenta."""
+    import time
+    from api._lib.llm import ErrorLLM
+    for i in range(intentos):
+        try:
+            return emb.embeber(textos)
+        except ErrorLLM as e:
+            if "429" not in str(e) or i == intentos - 1:
+                raise
+            print(f"Gemini respondió 429 (límite gratuito); espero {espera_s:.0f} s y reintento ({i + 1}/{intentos - 1})", flush=True)
+            time.sleep(espera_s)
+    raise RuntimeError("inalcanzable")
 
 
 def main() -> None:
@@ -87,6 +154,7 @@ def main() -> None:
     ap.add_argument("--subir", action="store_true")
     ap.add_argument("--incluir-sin-validar", action="store_true")
     a = ap.parse_args()
+    import pipeline.src.config  # noqa: F401  carga el .env de la raíz antes de leer el entorno
     from api._lib.embeddings import crear_embeddings
     from api._lib.rag import UMBRAL_SIMILITUD, buscar_en_supabase
     from supabase import create_client
@@ -99,9 +167,15 @@ def main() -> None:
     preguntas = cargar_preguntas(incluir_sin_validar=a.incluir_sin_validar)
     if not preguntas:
         raise SystemExit("No hay preguntas validadas (columna validado_por).")
-    m, detalle = calcular(preguntas, lambda q: buscar(emb.embeber([q])[0], max(KS)), UMBRAL_SIMILITUD)
+    vectores = _embeber_con_espera(emb, [p["pregunta"] for p in preguntas])
+    por_pregunta = dict(zip((p["pregunta"] for p in preguntas), vectores))
+    m, detalle = calcular(preguntas, lambda q: buscar(por_pregunta[q], max(KS)), UMBRAL_SIMILITUD)
+    cal = calibrar(detalle)
+    for d in sorted(detalle, key=lambda d: d["similitud_max"]):
+        print(f"{d['similitud_max']:.4f}  {'CON' if d['con_evidencia'] else 'SIN'}  pos={d['posicion']}  {d['pregunta'][:70]}")
+    print("CALIBRACION:", {k: v for k, v in cal.items() if k != "barrido"})
     from pipeline.src.data.publicar import guardar, subir
-    ruta = guardar("rag_eval", payloads(m, detalle, a.incluir_sin_validar))
+    ruta = guardar("rag_eval", payloads(m, detalle, a.incluir_sin_validar, cal))
     print(m, "→", ruta)
     if a.subir:
         subir(ruta)

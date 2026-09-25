@@ -1,0 +1,55 @@
+[
+ {
+  "modulo": "llm",
+  "clave": "triage_validacion",
+  "version": "v1",
+  "payload": {
+   "tipo": "metrica",
+   "titulo": "LLM en el triage: formato, acuerdo con el modelo y latencia",
+   "filas": [
+    {
+     "indicador": "textos",
+     "valor": 83
+    },
+    {
+     "indicador": "formato valido",
+     "valor": 1.0
+    },
+    {
+     "indicador": "reintentos promedio",
+     "valor": 0.0
+    },
+    {
+     "indicador": "acuerdo llm modelo",
+     "valor": 0.9639
+    },
+    {
+     "indicador": "exactitud llm",
+     "valor": 0.9639
+    },
+    {
+     "indicador": "exactitud sistema",
+     "valor": 1.0
+    },
+    {
+     "indicador": "salida marcada valida",
+     "valor": 0.9639
+    },
+    {
+     "indicador": "latencia p50 ms",
+     "valor": 1107
+    },
+    {
+     "indicador": "latencia p95 ms",
+     "valor": 20759
+    },
+    {
+     "indicador": "proveedores",
+     "valor": "gemini: 12, groq: 71"
+    }
+   ],
+   "conclusion": "Sobre 83 textos de prueba, el LLM devolvió JSON válido en 100% y coincidió con el clasificador en 96%; la categoría final la da el clasificador y el LLM solo redacta el resumen y señala riesgo.",
+   "fuente": "pipeline/src/nlp/evaluar_llm.py · api/_lib/triage.py · textos de prueba de T-14"
+  }
+ }
+]

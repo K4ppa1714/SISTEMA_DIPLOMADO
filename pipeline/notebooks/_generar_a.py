@@ -129,6 +129,15 @@ if p:
     dibujar(p)
 else:
     print("PENDIENTE: aún no se corre `python -m pipeline.src.rag.evaluar` (requiere el índice en rag.fragmentos y preguntas validadas).")"""),
+        md("""## Calibración del umbral de similitud
+
+Con las mismas similitudes máximas de las preguntas validadas se barre el umbral de 0.30 a 0.90 y se elige el que
+maximiza la exactitud balanceada. Como se calibra con las mismas preguntas, la estimación honesta es la de dejar una fuera."""),
+        code("""u = resultado("rag_eval", "umbral")
+if u:
+    dibujar(u)
+else:
+    print("PENDIENTE: la calibración sale de `python -m pipeline.src.rag.evaluar` con el índice cargado.")"""),
         md("## Conclusiones"),
         code("""print(f"1. El corpus tiene {len(docs)} documentos y {resumen['fragmentos'].sum()} fragmentos; cada fragmento guarda fuente, tipo y tamaño para citarlo.")
 print(f"2. El umbral de evidencia ({UMBRAL_SIMILITUD}) hace que una pregunta fuera del corpus responda sin evidencia sin llamar al LLM.")
@@ -136,7 +145,8 @@ if p:
     print("3. " + p["conclusion"])
 else:
     print(f"3. La métrica del retriever está pendiente: faltan el índice y la validación de {len(todas)} preguntas; no se reporta un número sin correrla.")
-print("4. La app muestra las fuentes de cada respuesta (título, fragmento y similitud) en la página Asistente IA.")"""),
+print("4. " + (u["conclusion"] if u else "La calibración del umbral está pendiente de correr el evaluador."))
+print("5. La app muestra las fuentes de cada respuesta (título, fragmento y similitud) en la página Asistente IA.")"""),
     ],
     "10_agente_evaluacion.ipynb": [
         md("""# 10 · Agente con herramientas: diseño, validación y evaluación (T-15 y T-16, bloque N)
