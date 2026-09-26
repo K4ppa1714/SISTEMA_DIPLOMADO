@@ -8,11 +8,6 @@ tarde, detecta consumos anómalos (fugas) y acelera la atención de quejas.
 **App desplegada:** https://operaguas-analitica.vercel.app ·
 **Estado de la API:** https://operaguas-analitica.vercel.app/api/salud ·
 **Documentación de la API:** https://operaguas-analitica.vercel.app/api/docs
-
-> Las cifras no se copian en este README (regla del proyecto: ninguna métrica se escribe a
-> mano). Cada resultado vive en `analitica.resultados_vigentes` (Supabase), se genera con
-> código y semilla 42, y se ve en la app con su conclusión y su fuente.
-
 ---
 
 ## 1. Nombre
