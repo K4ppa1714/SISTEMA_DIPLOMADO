@@ -5,11 +5,6 @@ tarde, detecta consumos anómalos (fugas) y acelera la atención de quejas.
 
 **Proyecto final del Diplomado de Python y Análisis de Datos — Universidad Marista, 2026.**
 
-**App desplegada:** https://operaguas-analitica.vercel.app ·
-**Estado de la API:** https://operaguas-analitica.vercel.app/api/salud ·
-**Documentación de la API:** https://operaguas-analitica.vercel.app/api/docs
----
-
 ## 1. Nombre
 
 **Operaguas Analítica.**
